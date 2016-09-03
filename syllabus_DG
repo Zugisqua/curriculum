@@ -1,0 +1,28 @@
+教材
+Bo-Yu Hou and Bo-yuan Hou, Differential Geometry for Physicists, World Scientific,1997. 及其中文版：物理学家用微分几何，科学出版社。
+
+主要内容
+
+第一章 微分流形和微分形式—-流形上的分析学简介（12课时）
+（1） 平面上平行线相交于无穷远点和 RP2，射影空间， 拓扑结构和拓扑空间，拓扑流形和局部坐标系，微分流形的基本概念， Grassmann 流形等， 微分同胚群，光滑函数环； 
+（2）对偶空间，张量代数和外代数； （3）切空间和余切空间，切矢量丛和余切矢量丛及其截面空间简介，微分形式，流形间映射及其各种诱导映射，矢量场李代数； 
+（4）外微分算子及其性质，De Rham 上同调群； （5）流形的定向，单位分解和积分，Stokes定理； （6）微分形式理论在理论力学、热力学、电动力学中的应用。
+
+第二章 Frobenius定理和李导数 （8课时）
+（1） 对合分布，积分子流形，Frobenius 定理的几种表示形式， （2）微分方程的可积性；物理学中的可积性系统； （3）单参数变换群和李导数， 物理量的无穷小变分； 
+（4）一些重要公式的推导。
+
+第三章 仿射联络和协变微分（8课时）
+（1） 活动标架，仿射联络，曲率形式和协变微分； （2）曲率张量，挠率张量，协变外微分； （3）Bianchi恒等式，结构方程； （4）平行移动，和乐群（Holonomy 
+group），量子物理中Berry phase的几何解释。
+
+第四章 黎曼流形（12课时）
+（1）度规张量场及其局部构造，指标的提升与下降，Hodge算子，余微分，黎曼联络，（2）黎曼曲率和挠率，Wely 张量， 
+一些几何量的无穷小形变，Bianchi恒等式和黎曼几何的结构方程； （3）等距变换群，共形变换群，Killing矢量场和Kinging方程等； 
+（4）引力场的作用量和Einstein场方程，自旋联络，Killing旋量场， （5） 矢量场的奇点，Gauss-Bonnet 定理 （6）Rn 中的子流形，非线性σ-model及其它物理应用。
+
+
+参考文献
+B.A. Dubrovin, A.T. Fomenko, Sergeĭ Petrovich Novikov , Modern Geometry - Methods and Applications:, Part Ⅰ(1984), Part II（1985), Springer-Verlag.
+S.Kobayashi, etc. Foundations of Differential Geometry, Vol.I(1963),II(1969),
+New York,Interscience. 
