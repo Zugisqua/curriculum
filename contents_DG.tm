@@ -311,7 +311,9 @@
 
   \;
 
-  <with|font-series|bold|\<#5207\>\<#5411\>\<#91CF\>\<#FF1A\>>\<#8FD9\>\<#91CC\>\<#5B9A\>\<#4E49\>\<#5FAE\>\<#5206\>\<#7B97\>\<#5B50\>\<#FF0C\><math|X=<frac|\<mathd\>|\<mathd\>t>>\<#FF0C\>\<#5B83\>\<#662F\>\<#4E00\>\<#4E2A\><math|I\<rightarrow\>\<bbb-R\>\<#FF0C\>I\<in\>\<bbb-R\>>\<#7684\>\<#4E00\>\<#4E2A\>\<#6620\>\<#5C04\>
+  <with|font-series|bold|\<#5207\>\<#5411\>\<#91CF\>\<#FF1A\>>\<#6309\>\<#7167\>\<#6559\>\<#6750\>\<#4E2D\>\<#FF0C\>\<#5B83\>\<#7684\>\<#5F15\>\<#5165\>\<#6E90\>\<#4E8E\>\<#53EF\>\<#80FD\>\<#8FD9\>\<#6837\>\<#7684\>\<#4E00\>\<#4E2A\>\<#53E4\>\<#602A\>\<#7684\>\<#60F3\>\<#6CD5\>\<#FF1A\><new-line>\<#5982\>\<#4E00\>\<#4E2A\>\<#4E1C\>\<#897F\>\<#5B83\>\<#662F\>\<#4E00\>\<#4E2A\>\<#77E2\>\<#91CF\>\<#FF0C\>\<#90A3\>\<#4E48\>\<#5BF9\>\<#4E00\>\<#5B9A\>\<#5B58\>\<#5728\>\<#5BF9\>\<#4EFB\>\<#610F\>\<#51FD\>\<#6570\>\<#5728\>\<#8FD9\>\<#65B9\>\<#5411\>\<#4E0A\>\<#7684\>\<#65B9\>\<#5411\>\<#5BFC\>\<#6570\>\<#FF0C\>\<#4E8E\>\<#662F\>\<#5C31\>\<#627E\>\<#5230\>\<#4E86\>\<#4E00\>\<#4E2A\>\<#53C2\>\<#6570\>\<#76F4\>\<#7EBF\><new-line>\<#76F4\>\<#63A5\>\<#5BF9\>\<#53C2\>\<#6570\>\<#6C42\>\<#5BFC\>\<#FF0C\>\<#8FD9\>\<#4E2A\>\<#80FD\>\<#4FDD\>\<#8BC1\>\<#6C42\>\<#5BFC\>\<#7ED3\>\<#679C\>\<#7684\>\Q\<#4E00\>\<#534A\>\Q\<#662F\>\<#8FD9\>\<#4E2A\>\<#53C2\>\<#6570\>\<#53D8\>\<#5316\>\<#65B9\>\<#5411\>\<#77E2\>\<#91CF\>\<#7684\>\<#4FE1\>\<#606F\>\<#3002\>
+
+  \<#5177\>\<#4F53\>\<#5730\>\<#FF0C\>\<#8FD9\>\<#91CC\>\<#5B9A\>\<#4E49\>\<#5FAE\>\<#5206\>\<#7B97\>\<#5B50\>\<#FF0C\><math|X=<frac|\<mathd\>|\<mathd\>t>>\<#FF0C\>\<#5B83\>\<#662F\>\<#4E00\>\<#4E2A\><math|I\<rightarrow\>\<bbb-R\>\<#FF0C\>I\<in\>\<bbb-R\>>\<#7684\>\<#4E00\>\<#4E2A\>\<#6620\>\<#5C04\>
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|X<rsub|p>f>|<cell|=>|<cell|<around*|\<nobracket\>|<frac|\<mathd\>|\<mathd\>t>f<around*|(|C<around*|(|t|)>|)>|\|><rsub|t=0>>>|<row|<cell|>|<cell|>|<cell|\<#5176\>\<#4E2D\>\<#8BB0\>\<#FF0C\>x<around*|(|0|)>=p,\<#4E3A\>\<#6D41\>\<#5F62\>\<#4E0A\>\<#7684\>\<#70B9\>>>>>
@@ -326,9 +328,7 @@
     <tformat|<table|<row|<cell|X<rsub|p> f>|<cell|=>|<cell|<around*|\<nobracket\>|<big|sum><rsup|n><rsub|i=1><frac|\<mathd\>|\<mathd\>t>f<around*|(|\<varphi\><rsup|-1><around*|(|x<rsup|0><around*|(|t|)>,x<rsup|1><around*|(|t|)>,\<ldots\>,x<rsup|n><around*|(|t|)>|)>|)>|\|><rsub|t=0>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<nobracket\>|<big|sum><rsup|n><rsub|i=1><frac|\<mathd\>|\<mathd\>t><around*|(|f\<circ\>\<varphi\><rsup|-1>|)><around*|(|x<rsup|0><around*|(|t|)>,x<rsup|1><around*|(|t|)>,\<ldots\>,x<rsup|n><around*|(|t|)>|)>|\|><rsub|t=0>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<nobracket\>|<big|sum><rsup|n><rsub|i=1><frac|\<partial\><around*|(|f\<circ\>\<varphi\><rsup|-1>|)>|\<partial\>x<rsup|i>><frac|\<mathd\>x<rsup|i>|\<mathd\>t>|\|><rsub|t=0>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<nobracket\>|<big|sum><rsup|n><rsub|i=1><frac|\<mathd\>x<rsup|i><around*|(|t|)>|\<mathd\>t><frac|\<partial\>|\<partial\>x<rsup|i>><around*|(|f\<circ\>\<varphi\><rsup|-1>|)>|\|><rsub|t=0>>>>>
   </eqnarray*>
 
-  \<#53EF\>\<#4EE5\>\<#770B\>\<#5230\><math|<frac|\<partial\>|\<partial\>x<rsup|i>><around*|(|f\<circ\>\<varphi\><rsup|-1>|)>>\<#662F\>\<#4E00\>\<#4E2A\>\<#4E0E\>\<#66F2\>\<#7EBF\><math|x<around*|(|t|)>>\<#65E0\>\<#5173\>\<#7684\>\<#91CF\>\<#3002\>
-
-  \<#53E6\>\<#5916\>\<#FF0C\>\<#867D\>\<#7136\>\<#8FD9\>\<#91CC\>\<#4E3A\>\<#4EFB\>\<#610F\>\<#51FD\>\<#6570\>\<#6709\>\<#4E00\>\<#4E9B\>\<#4E0D\>\<#7406\>\<#89E3\>\<#FF0C\>\<#4F46\>\<#662F\><math|<frac|\<mathd\>x<rsup|i><around*|(|t|)>|\<mathd\>t>>\<#7684\>\<#786E\>\<#662F\>\<#6211\>\<#4EEC\>\<#719F\>\<#77E5\>\<#7684\>\<#5207\>\<#77E2\>\<#91CF\>\<#7684\>\<#5206\>\<#91CF\>
+  \<#53EF\>\<#4EE5\>\<#770B\>\<#5230\><math|<frac|\<partial\>|\<partial\>x<rsup|i>><around*|(|f\<circ\>\<varphi\><rsup|-1>|)>>\<#662F\>\<#4E00\>\<#4E2A\>\<#4E0E\>\<#66F2\>\<#7EBF\><math|x<around*|(|t|)>>\<#65E0\>\<#5173\>\<#7684\>\<#91CF\>\<#3002\><math|<frac|\<mathd\>x<rsup|i><around*|(|t|)>|\<mathd\>t>>\<#7684\>\<#786E\>\<#662F\>\<#6211\>\<#4EEC\>\<#719F\>\<#77E5\>\<#7684\>\<#5207\>\<#77E2\>\<#91CF\>\<#7684\>\<#5206\>\<#91CF\>
 
   \;
 
@@ -451,7 +451,11 @@
       <no-break><pageref|auto-1><vspace|0.5fn>
 
       <with|par-left|<quote|1tab>|1.1<space|2spc>\<#5C04\>\<#5F71\>\<#51E0\>\<#4F55\><assign|footnote-nr|1><hidden|<tuple>><\float|footnote|>
+<<<<<<< Updated upstream
         <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%441F4B0-42FDBA0>|<link|hyperlink|<id|%441F4B0-42FDBA0>|<url|#footnr-1>>|1>.
+=======
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%4F0C380-4D31530>|<link|hyperlink|<id|%4F0C380-4D31530>|<url|#footnr-1>>|1>.
+>>>>>>> Stashed changes
         |<hidden|<tuple|footnote-1>><htab|0fn|first>>
           \<#6570\>\<#5B66\>\<#6307\>\<#5357\>-\<#5B9E\>\<#7528\>\<#6570\>\<#5B66\>\<#624B\>\<#518C\>
         </surround>>>
@@ -473,7 +477,11 @@
       <no-break><pageref|auto-5>>
 
       <with|par-left|<quote|1tab>|1.2<space|2spc>\<#62D3\>\<#6251\>\<#57FA\>\<#7840\><assign|footnote-nr|4><hidden|<tuple>><\float|footnote|>
+<<<<<<< Updated upstream
         <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%441F4B0-43DB970>|<link|hyperlink|<id|%441F4B0-43DB970>|<url|#footnr-4>>|4>.
+=======
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%4F0C380-4F77210>|<link|hyperlink|<id|%4F0C380-4F77210>|<url|#footnr-4>>|4>.
+>>>>>>> Stashed changes
         |<hidden|<tuple|footnote-4>><htab|0fn|first>>
           \<#7269\>\<#7406\>\<#5B66\>\<#4E2D\>\<#7684\>\<#51E0\>\<#4F55\>\<#65B9\>\<#6CD5\>-\<#4F59\>\<#626C\>\<#653F\>
         </surround>>>
