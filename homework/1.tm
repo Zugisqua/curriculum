@@ -12,28 +12,24 @@
   (a)
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|R\<otimes\>R>|<cell|=>|<cell|<around*|(|<tabular*|<tformat|<table|<row|<cell|1R>|<cell|>>|<row|<cell|>|<cell|-1R>>>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|1>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|-1>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|1>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|-1>>>>>>>>>
+    <tformat|<table|<row|<cell|R\<otimes\>R>|<cell|=>|<cell|<around*|(|<tabular*|<tformat|<table|<row|<cell|1R>|<cell|>>|<row|<cell|>|<cell|-1R>>>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|1>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|-1>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|-1>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|1>>>>>>>|<row|<cell|>|<cell|\<sim\>>|<cell|C<rsup|-1><rsub|43><matrix|<tformat|<table|<row|<cell|1>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|-1>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|-1>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|1>>>>>C<rsub|43>>>|<row|<cell|>|<cell|=>|<cell|C<rsub|43><matrix|<tformat|<table|<row|<cell|1>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|-1>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|0>|<cell|-1>>|<row|<cell|>|<cell|>|<cell|1>|<cell|0>>>>>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|1>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|-1>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|1>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|-1>>>>>>>>>
   </eqnarray*>
 
-  \<#53EF\>\<#4EE5\>\<#770B\>\<#5230\>\<#6211\>\<#4EEC\>\<#9700\>\<#8981\>\<#627E\>\<#7684\>\<#76F8\>\<#4F3C\>\<#77E9\>\<#9635\>\<#5C31\>\<#662F\>\<#5355\>\<#4F4D\>\<#77E9\>\<#9635\><math|X=\<bbb-I\>>
+  \;
+
+  \<#56E0\>\<#6B64\>\<#8FD9\>\<#91CC\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|X>|<cell|=>|<cell|C<rsub|43>=<matrix|<tformat|<table|<row|<cell|1>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|1>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|1>>|<row|<cell|>|<cell|>|<cell|1>|<cell|>>>>>>>>>
+  </eqnarray*>
 
   (b)
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|S\<otimes\>S>|<cell|=>|<cell|<frac|1|2><matrix|<tformat|<table|<row|<cell|-1\<nospace\>S>|<cell|-<sqrt|3>S>>|<row|<cell|<sqrt|3>S>|<cell|-1S>>>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<times\><frac|1|2><around*|(|<tabular*|<tformat|<table|<row|<cell|-1\<times\><around*|(|-1|)>>|<cell|-1\<times\><around*|(|-<sqrt|3>|)>>|<cell|-<sqrt|3>\<times\><around*|(|-1|)>>|<cell|-<sqrt|3>\<times\><around*|(|-<sqrt|3>|)>>>|<row|<cell|-1\<times\><sqrt|3>>|<cell|-1\<times\><around*|(|-1|)>>|<cell|-<sqrt|3>\<times\><sqrt|3>>|<cell|-<sqrt|3>\<times\><around*|(|-1|)>>>|<row|<cell|<sqrt|3>\<times\><around*|(|-1|)>>|<cell|<sqrt|3>\<times\><around*|(|-<sqrt|3>|)>>|<cell|-1\<times\><around*|(|-1|)>>|<cell|-1\<times\><around*|(|-<sqrt|3>|)>>>|<row|<cell|<sqrt|3>\<times\><sqrt|3>>|<cell|<sqrt|3>\<times\><around*|(|-1|)>>|<cell|-1\<times\><sqrt|3>>|<cell|-1\<times\><around*|(|-1|)>>>>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4><around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|<sqrt|3>>|<cell|<sqrt|3>>|<cell|3>>|<row|<cell|-<sqrt|3>>|<cell|1>|<cell|-3>|<cell|<sqrt|3>>>|<row|<cell|-<sqrt|3>>|<cell|-3>|<cell|1>|<cell|<sqrt|3>>>|<row|<cell|3>|<cell|-<sqrt|3>>|<cell|-<sqrt|3>>|<cell|1>>>>>|)>>>|<row|<cell|>|<cell|\<sim\>>|<cell|<frac|1|4>C<rsup|-1><rsub|31><around*|(|<sqrt|3>|)>C<rsup|-1><rsub|42><around*|(|<sqrt|3>|)><around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|<sqrt|3>>|<cell|<sqrt|3>>|<cell|3>>|<row|<cell|-<sqrt|3>>|<cell|1>|<cell|-3>|<cell|<sqrt|3>>>|<row|<cell|-<sqrt|3>>|<cell|-3>|<cell|1>|<cell|<sqrt|3>>>|<row|<cell|3>|<cell|-<sqrt|3>>|<cell|-<sqrt|3>>|<cell|1>>>>>|)>C<rsub|42><around*|(|<sqrt|3>|)>C<rsub|31><around*|(|<sqrt|3>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>C<rsub|31><around*|(|-<sqrt|3>|)>C<rsub|42><around*|(|-<sqrt|3>|)><matrix|<tformat|<table|<row|<cell|4>|<cell|4<sqrt|3>>|<cell|<sqrt|3>>|<cell|3>>|<row|<cell|-4<sqrt|3>>|<cell|4>|<cell|-3>|<cell|<sqrt|3>>>|<row|<cell|0>|<cell|0>|<cell|1>|<cell|<sqrt|3>>>|<row|<cell|0>|<cell|0>|<cell|-<sqrt|3>>|<cell|1>>>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4><matrix|<tformat|<table|<row|<cell|4>|<cell|4<sqrt|3>>|<cell|>|<cell|>>|<row|<cell|-4<sqrt|3>>|<cell|4>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|1>|<cell|<sqrt|3>>>|<row|<cell|>|<cell|>|<cell|-<sqrt|3>>|<cell|1>>>>>>>|<row|<cell|>|<cell|\<sim\>>|<cell|<frac|1|4>C<rsub|21><rsup|-1><around*|(|<sqrt|3>|)><matrix|<tformat|<table|<row|<cell|4>|<cell|4<sqrt|3>>|<cell|>|<cell|>>|<row|<cell|-4<sqrt|3>>|<cell|4>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|1>|<cell|<sqrt|3>>>|<row|<cell|>|<cell|>|<cell|-<sqrt|3>>|<cell|1>>>>>C<rsub|21><around*|(|<sqrt|3>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4><matrix|<tformat|<table|<row|<cell|16>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|4>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|1>|<cell|<sqrt|3>>>|<row|<cell|>|<cell|>|<cell|-<sqrt|3>>|<cell|1>>>>>>>>>
+    <tformat|<table|<row|<cell|S\<otimes\>S>|<cell|=>|<cell|<frac|1|2><matrix|<tformat|<table|<row|<cell|-1\<nospace\>S>|<cell|-<sqrt|3>S>>|<row|<cell|<sqrt|3>S>|<cell|-1S>>>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<times\><frac|1|2><around*|(|<tabular*|<tformat|<table|<row|<cell|-1\<times\><around*|(|-1|)>>|<cell|-1\<times\><around*|(|-<sqrt|3>|)>>|<cell|-<sqrt|3>\<times\><around*|(|-1|)>>|<cell|-<sqrt|3>\<times\><around*|(|-<sqrt|3>|)>>>|<row|<cell|-1\<times\><sqrt|3>>|<cell|-1\<times\><around*|(|-1|)>>|<cell|-<sqrt|3>\<times\><sqrt|3>>|<cell|-<sqrt|3>\<times\><around*|(|-1|)>>>|<row|<cell|<sqrt|3>\<times\><around*|(|-1|)>>|<cell|<sqrt|3>\<times\><around*|(|-<sqrt|3>|)>>|<cell|-1\<times\><around*|(|-1|)>>|<cell|-1\<times\><around*|(|-<sqrt|3>|)>>>|<row|<cell|<sqrt|3>\<times\><sqrt|3>>|<cell|<sqrt|3>\<times\><around*|(|-1|)>>|<cell|-1\<times\><sqrt|3>>|<cell|-1\<times\><around*|(|-1|)>>>>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4><around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|<sqrt|3>>|<cell|<sqrt|3>>|<cell|3>>|<row|<cell|-<sqrt|3>>|<cell|1>|<cell|-3>|<cell|<sqrt|3>>>|<row|<cell|-<sqrt|3>>|<cell|-3>|<cell|1>|<cell|<sqrt|3>>>|<row|<cell|3>|<cell|-<sqrt|3>>|<cell|-<sqrt|3>>|<cell|1>>>>>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>>>
   </eqnarray*>
 
-  \<#8BBE\>
-
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|X>|<cell|=>|<cell|A\<otimes\>B>>>>
-  </eqnarray*>
-
-  \<#5219\>
-
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|<around*|(|A\<otimes\>B|)><rsup|-1><around*|(|S\<otimes\>S|)><around*|(|A\<otimes\>B|)>>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|\<bbb-I\>>|<cell|>>|<row|<cell|>|<cell|S>>>>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|A<rsup|-1>\<otimes\>B<rsup|-1>|)><around*|(|<around*|(|S\<nospace\>A|)>\<otimes\><around*|(|S\<nospace\>B|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|A<rsup|-1>S\<nospace\>A|)>\<otimes\><around*|(|B<rsup|-1>S\<nospace\>B<rsup|-1>|)>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|<around*|(|A<rsup|-1>S\<nospace\>A|)><rsub|11><around*|(|B<rsup|-1>S\<nospace\>B<rsup|-1>|)>>|<cell|<around*|(|A<rsup|-1>S\<nospace\>A|)><rsub|12><around*|(|B<rsup|-1>S\<nospace\>B<rsup|-1>|)>>>|<row|<cell|<around*|(|A<rsup|-1>S\<nospace\>A|)><rsub|21><around*|(|B<rsup|-1>S\<nospace\>B<rsup|-1>|)>>|<cell|<around*|(|A<rsup|-1>S\<nospace\>A|)><rsub|22><around*|(|B<rsup|-1>S\<nospace\>B<rsup|-1>|)>>>>>>>>>>
-  </eqnarray*>
+  \;
 
   <paragraph|2.>
 
@@ -68,7 +64,7 @@
     <tformat|<table|<row|<cell|O>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|\<pm\><frac|1|<sqrt|1+r<rsup|2>>>>|<cell|\<mp\><frac|r|<sqrt|1+r<rsup|2>>>>>|<row|<cell|\<pm\><frac|r|<sqrt|1+r<rsup|2>>>>|<cell|\<pm\><frac|1|<sqrt|1+r<rsup|2>>>>>>>>or<matrix|<tformat|<table|<row|<cell|\<pm\><frac|1|<sqrt|1+r<rsup|2>>>>|<cell|\<mp\><frac|r|<sqrt|1+r<rsup|2>>>>>|<row|<cell|\<pm\><frac|r|<sqrt|1+r<rsup|2>>>>|<cell|\<pm\><frac|1|<sqrt|1+r<rsup|2>>>>>>>>>>>>
   </eqnarray*>
 
-  \<#53EF\>\<#4EE5\>\<#770B\>\<#5230\>\<#6B63\>\<#4EA4\>\<#77E9\>\<#9635\>\<#53EA\>\<#6709\>\<#4E00\>\<#4E2A\>\<#72EC\>\<#7ACB\>\<#5B9E\>\<#53C2\>\<#6570\>\<#3002\>
+  \<#53EF\>\<#4EE5\>\<#770B\>\<#5230\>\<#6B63\>\<#4EA4\>\<#77E9\>\<#9635\>\<#53EA\>\<#6709\>\<#4E00\>\<#4E2A\>\<#72EC\>\<#7ACB\>\<#5B9E\>\<#53C2\>\<#6570\><math|r>\<#3002\>
 </body>
 
 <initial|<\collection>
@@ -91,6 +87,9 @@
 
       <with|par-left|<quote|4tab>|1. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|2. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
