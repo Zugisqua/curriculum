@@ -150,7 +150,98 @@
 
   it's not very good-looking.
 
-  \;
+  <paragraph|6.4>
+
+  (a) I don't know how to,can't understand the instruction
+
+  (b)
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>x>|<cell|=>|<cell|\<mathd\>\<phi\>>>|<row|<cell|\<mathd\>y>|<cell|=>|<cell|<frac|<around*|(|<frac|<around|cos|<frac|\<theta\>|2>|>|<around|sin|<frac|\<theta\>|2>|>>|)><rprime|'>|cot\<nospace\><frac|\<theta\>|2>><frac|1|2>\<mathd\>\<theta\>=<frac|<frac|-<around|sin|<rsup|2><frac|\<theta\>|2>-<around|cos|<rsup|2><frac|\<theta\>|2>|>|>|<around|sin|<rsup|2><frac|\<theta\>|2>|>>|<frac|<around|cos|<frac|\<theta\>|2>|>|<around|sin|<frac|\<theta\>|2>|>>><frac|1|2>\<mathd\>\<theta\>>>|<row|<cell|>|<cell|=>|<cell|<frac|-\<mathd\>\<theta\>|2<around|cos|<frac|\<theta\>|2>|><around|sin|<frac|\<theta\>|2>|>>=-<frac|1|<around|sin|\<theta\>|>>\<mathd\>\<theta\>>>>>
+  </eqnarray*>
+
+  then
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|\<mathd\>x<rsup|2>+\<mathd\>y<rsup|2>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>\<phi\><rsup|2>+<frac|\<mathd\>\<theta\><rsup|2>|<around|sin|<rsup|2>\<theta\>|>>>>>>
+  </eqnarray*>
+
+  (c)I think it need the based of (a)
+
+  <paragraph|6.5>
+
+  set linear transformation
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<matrix|<tformat|<table|<row|<cell|x>>|<row|<cell|y>>|<row|<cell|z>>>>>>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|x<rsub|1>>|<cell|x<rsub|2>>>|<row|<cell|y<rsub|1>>|<cell|y<rsub|2>>>|<row|<cell|z<rsub|1>>|<cell|z<rsub|2>>>>>><matrix|<tformat|<table|<row|<cell|\<zeta\>>>|<row|<cell|\<eta\>>>>>>>>>>
+  </eqnarray*>
+
+  then
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|<around*|(|x<rsub|1>\<mathd\>\<zeta\>+x<rsub|2>\<mathd\>\<eta\>|)><rsup|2>+<around*|(|y<rsub|1>\<mathd\>\<zeta\>+y<rsub|2>\<mathd\>\<eta\>|)><rsup|2>+*<around*|(|z<rsub|1>\<mathd\>\<zeta\>+z<rsub|2>\<mathd\>\<eta\>|)><rsup|2><new-line>-<around*|(|<frac|3|13><around*|(|x<rsub|1>\<mathd\>\<zeta\>+x<rsub|2>\<mathd\>\<eta\>|)>+<frac|4|13><around*|(|y<rsub|1>\<mathd\>\<zeta\>+y<rsub|2>\<mathd\>\<eta\>|)>+<frac|12|13><around*|(|z<rsub|1>\<mathd\>\<zeta\>+z<rsub|1>\<mathd\>\<eta\>|)>|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|x<rsub|1><rsup|2>+y<rsub|1><rsup|2>+z<rsub|1><rsup|2>|)>\<mathd\>\<zeta\><rsup|2>+<around*|(|x<rsub|2><rsup|2>+y<rsub|2><rsup|2>+z<rsub|2><rsup|2>|)>\<mathd\>\<eta\><rsup|2>+2<around*|(|x<rsub|1>x<rsub|2>+y<rsub|1>y<rsub|2>+z<rsub|1>z<rsub|2>|)>\<mathd\>\<zeta\>\<mathd\>\<eta\><new-line>-<around*|(|<frac|3x<rsub|1>+4y<rsub|1>+12z<rsub|1>|13>\<mathd\>\<zeta\>+<frac|3x<rsub|2>+4y<rsub|2>+12z<rsub|2>|13>\<mathd\>\<eta\>|)><rsup|2>>>>>
+  </eqnarray*>
+
+  a simple case is
+
+  <\equation*>
+    <choice|<tformat|<cwith|1|1|1|1|cell-halign|r>|<cwith|2|2|1|1|cell-halign|r>|<cwith|3|3|1|1|cell-halign|r>|<cwith|4|4|1|1|cell-halign|r>|<cwith|5|5|1|1|cell-halign|r>|<table|<row|<cell|x<rsub|1><rsup|2>+y<rsub|1><rsup|2>+z<rsub|1><rsup|2>>|<cell|=>|<cell|1>>|<row|<cell|x<rsub|2><rsup|2>+y<rsub|2><rsup|2>+z<rsup|2><rsub|2>>|<cell|=>|<cell|1>>|<row|<cell|x<rsub|1>x<rsub|2>+y<rsub|1>y<rsub|2>+z<rsub|1>z<rsub|2>>|<cell|=>|<cell|0>>|<row|<cell|3x<rsub|1>+4y<rsub|1>+12z<rsub|1>>|<cell|=>|<cell|0>>|<row|<cell|3x<rsub|2>+4y<rsub|2>+12z<rsub|2>>|<cell|=>|<cell|0>>>>>
+  </equation*>
+
+  that's for two unit vector <math|<wide|u|\<vect\>><space|1.5spc>and<space|1.5spc><wide|\<upsilon\>|\<vect\>>>
+  which are orthogonal wih each other,and orthogonal with
+  <math|<wide|w|\<vect\>>=<around*|(|3,4,12|)>> here choose
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<wide|u|\<vect\>>=<around*|(|x<rsub|1>,y<rsub|1>,z<rsub|1>|)>>|<cell|=>|<cell|<around*|(|<frac|4|5>,-<frac|3|5>,0|)>>>>>
+  </eqnarray*>
+
+  then
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|h<rsup|><wide|\<upsilon\>|\<vect\>>>|<cell|=>|<cell|<wide|u|\<vect\>>\<times\><wide|w|\<vect\>>>>|<row|<cell|<wide|\<upsilon\>|\<vect\>>>|<cell|=>|<cell|h<rsup|-1><det|<tformat|<table|<row|<cell|<embold|i>>|<cell|<embold|j>>|<cell|<embold|k>>>|<row|<cell|4>|<cell|-3>|<cell|0>>|<row|<cell|3>|<cell|4>|<cell|12>>>>>>>|<row|<cell|>|<cell|=>|<cell|h<rsup|-1><around*|(|<around*|(|-36|)><embold|i>-48<embold|j>+25<embold|k>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4225><around*|(|-36,-48,25|)>>>>>
+  </eqnarray*>
+
+  then we knew the transformation ,could make metric
+  <math|\<mathd\>s<rsup|2>=\<mathd\>\<zeta\><rsup|2>+\<mathd\>\<eta\><rsup|2>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<matrix|<tformat|<table|<row|<cell|x>>|<row|<cell|y>>|<row|<cell|z>>>>>>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|<frac|4|5>>|<cell|-<frac|36|4225>>>|<row|<cell|-<frac|3|5>>|<cell|-<frac|48|4225>>>|<row|<cell|0>|<cell|<frac|1|169>>>>>><matrix|<tformat|<table|<row|<cell|\<zeta\>>>|<row|<cell|\<eta\>>>>>>>>>>
+  </eqnarray*>
+
+  <paragraph|6.6>
+
+  projection tensor
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|P<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|g<rsub|\<mu\>\<nu\>>+u<rsub|\<mu\>>u<rsub|\<nu\>>>>>>
+  </eqnarray*>
+
+  for an abitary vector <math|V<rsup|\<mu\>>> constraction <new-line>check it
+  orthogonal or not
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|u<rsup|\<nu\>>V<rsup|\<mu\>>P<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|u<rsup|\<nu\>>V<rsup|\<mu\>><around*|(|g<rsub|\<mu\>\<nu\>>+u<rsub|\<mu\>>u<rsub|\<nu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|u<rsup|\<nu\>>V<rsup|\<mu\>>g<rsub|\<mu\>\<nu\>>+V<rsup|\<mu\>>u<rsub|\<mu\>>u<rsup|\<nu\>>u<rsub|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|V<rsup|\<mu\>>u<rsub|\<mu\>>+V<rsup|\<mu\>>u<rsub|\<mu\>><around*|(|-1|)>>>|<row|<cell|>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  that's is true
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|n<rsup|\<nu\>>V<rsup|\<mu\>>P<rsub|\<mu\>\<nu\>><rprime|'>>|<cell|=>|<cell|n<rsup|\<nu\>>V<rsup|\<mu\>><around*|(|g<rsub|\<mu\>\<nu\>>-n<rsub|\<nu\>>n<rsub|\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|V<rsup|\<mu\>>n<rsub|\<mu\>>-V<rsup|\<mu\>>n<rsub|\<mu\>>n<rsup|\<nu\>>n<rsub|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|V<rsup|\<mu\>>n<rsub|\<mu\>>-V<rsup|\<mu\>>n<rsub|\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  at last, the null vector.
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<lambda\><rsup|\<nu\>>V<rsup|\<mu\>>P<rprime|''><rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|\<lambda\><rsup|\<nu\>>V<rsup|\<mu\>><around*|(|g<rsub|\<mu\>\<nu\>>-\<lambda\><rsub|\<mu\>>\<lambda\><rsub|\<nu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|V<rsup|\<mu\>>\<lambda\><rsub|\<mu\>>-V<rsup|\<mu\>>\<lambda\><rsub|\<mu\>>\<lambda\><rsup|\<nu\>>\<lambda\><rsub|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|V<rsup|\<mu\>>\<lambda\><rsub|\<mu\>>>>>>
+  </eqnarray*>
+
+  <paragraph|6.7>it's a interesting problem,<new-line>only find their basis
+  preserve angles, is will be ok. but I fail to do it
+
+  <paragraph|6.8>I can't understand the problem statement.
+
+  next ,they're dry stuff
 </body>
 
 <initial|<\collection>
@@ -161,15 +252,25 @@
     <associate|auto-1|<tuple|1|?>>
     <associate|auto-2|<tuple|2|?>>
     <associate|auto-3|<tuple|3|?>>
+    <associate|auto-4|<tuple|4|?>>
+    <associate|auto-5|<tuple|5|?>>
+    <associate|auto-6|<tuple|6|?>>
+    <associate|auto-7|<tuple|7|?>>
+    <associate|auto-8|<tuple|8|?>>
   </collection>
 </references>
 
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>\<#6881\>\<#707F\>\<#5F6C\>>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-1><vspace|0.5fn>
+      <with|par-left|<quote|4tab>|6.1 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-1><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|6.2 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|6.3 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
