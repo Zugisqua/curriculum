@@ -164,6 +164,36 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|Q>|<cell|=>|<cell|<big|int>\<mathd\><rsup|3>x<frac|i|2><big|int><frac|\<mathd\><rsup|3>k|2<around*|(|2\<pi\>|)><rsup|3>><big|int><frac|\<mathd\><rsup|3>k<rprime|'>|2<around*|(|2\<pi\>|)><rsup|3>><around*|{|<frac|1|w<rsub|<embold|k>>><around*|(|a<rprime|\<dag\>><around*|(|<embold|k>|)>e<rsup|i\<nospace\>k\<nospace\>x>+b<around*|(|<embold|k>|)>e<rsup|-i\<nospace\>k\<nospace\>x>|)><around*|(|a<around*|(|<embold|k<rprime|'>>|)>e<rsup|-i\<nospace\>k<rprime|'>\<nospace\>x>-b<rprime|\<dag\>><around*|(|<embold|k<rprime|'>>|)>e<rsup|i\<nospace\>k<rprime|'>\<nospace\>x>|)><new-line>-<around*|(|a<rprime|\<dag\>><around*|(|<embold|k<rprime|'>>|)>e<rsup|i\<nospace\>k<rprime|'>\<nospace\>x>-b<around*|(|<embold|k<rprime|'>>|)>e\<nospace\><rsup|-i\<nospace\>k\<nospace\><rprime|'>x>|)><frac|1|w<rsub|<embold|k>>><around*|(|a<around*|(|<embold|k>|)>e<rsup|-\<nospace\>i\<nospace\>k\<nospace\>x>+b<rprime|\<dag\>><around*|(|<embold|k>|)>e<rsup|i\<nospace\>k\<nospace\>x>|)>|}>>>|<row|<cell|>|<cell|>|<cell|t=0>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|i\<mathd\><rsup|3>x\<mathd\><rsup|3>k\<mathd\><rsup|3>k<rprime|'>|8<around*|(|2\<pi\>|)><rsup|6>w<rsub|<embold|k>>><around*|{|a<rprime|\<dag\>><around*|(|<embold|k>|)>a<around*|(|<embold|k<rprime|'>>|)>e<rsup|i<around*|(|<embold|k>-<embold|k<rprime|'>>|)><embold|x>>-a<rprime|\<dag\>><around*|(|<embold|k>|)>b<rprime|\<dag\>><around*|(|<embold|k<rprime|'>>|)>e<rsup|i<around*|(|<embold|k>+<embold|k<rprime|'>>|)><embold|x>>+b<around*|(|<embold|k>|)>a<around*|(|<embold|k<rprime|'>>|)>e<rsup|-i<around*|(|<embold|k>+<embold|k>|)><embold|x>><new-line>-b<around*|(|<embold|k>|)>b<rprime|\<dag\>><around*|(|<embold|k<rprime|'>>|)>e<rsup|-i<around*|(|<embold|k>-<embold|k<rprime|'>>|)><embold|x>>-a<rprime|\<dag\>><around*|(|<embold|k<rprime|'>>|)>a<around*|(|<embold|k>|)>e<rsup|-i<around*|(|<embold|k-k<rprime|'>>|)><embold|x>>-a<rprime|\<dag\>><around*|(|<embold|k<rprime|'>>|)>b<rprime|\<dag\>><around*|(|<embold|k>|)>e<rsup|i<around*|(|<embold|k<rprime|'>>+<embold|k>|)><embold|x>><new-line>+b<around*|(|<embold|k<rprime|'>>|)>a<around*|(|<embold|k>|)>e<rsup|-i<around*|(|<embold|k<rprime|'>>+<embold|k>|)><embold|x>>+b<around*|(|<embold|k<rprime|'>>|)>b<rprime|\<dag\>><around*|(|<embold|k>|)>e<rsup|-i<around*|(|<embold|k<rprime|'>>-<embold|k>|)><embold|x>>|}>>>|<row|<cell|>|<cell|=>|<cell|i<big|int><frac|\<mathd\><rsup|3>k|8<around*|(|2\<pi\>|)><rsup|3>w<rsub|<embold|k>>><around*|{|a<rprime|\<dag\>><around*|(|<embold|k>|)>a<around*|(|<embold|k>|)>-a<rprime|\<dag\>><around*|(|<embold|k>|)>b<rprime|\<dag\>><around*|(|-<embold|k>|)>+b<around*|(|<embold|k>|)>a<around*|(|-<embold|k>|)>-b<around*|(|<embold|k>|)>b<rprime|\<dag\>><around*|(|<embold|k>|)>-a<rprime|\<dag\>><around*|(|<embold|k>|)>a<around*|(|<embold|k>|)>-a<rprime|\<dag\>><around*|(|-<embold|k>|)>b<rprime|\<dag\>><around*|(|<embold|k>|)><new-line>+b<around*|(|-<embold|k>|)>a<around*|(|<embold|k>|)>+b<around*|(|<embold|k>|)>b<rprime|\<dag\>><around*|(|<embold|k>|)>|}>>>|<row|<cell|>|<cell|=>|<cell|i<big|int><frac|\<mathd\><rsup|3>k|8<around*|(|2\<pi\>|)><rsup|3>w<rsub|<embold|k>>><around*|{|-a<rprime|\<dag\>><around*|(|<embold|k>|)>b<rprime|\<dag\>><around*|(|-<embold|k>|)>+b<around*|(|<embold|k>|)>a<around*|(|-<embold|k>|)>-a<rprime|\<dag\>><around*|(|-<embold|k>|)>b<rprime|\<dag\>><around*|(|<embold|k>|)>+b<around*|(|-<embold|k>|)>a<around*|(|<embold|k>|)>|}>>>|<row|<cell|>|<cell|=>|<cell|i<big|int>\<mathd\>>>>>
   </eqnarray*>
+
+  <chapter|Voja>
+
+  <paragraph|2.1>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|\<box\>\<nospace\>+m<rsup|2>|)>\<phi\>=<around*|(|\<eta\><rsup|\<mu\>\<nu\>>\<partial\><rsub|\<mu\>>\<partial\><rsub|\<nu\>>+m<rsup|2>|)>\<phi\><around*|(|x|)>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  \<#8003\>\<#8651\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|<frac|\<mathd\><rsup|2>|\<mathd\>t<rsup|2>>+m<rsup|2>|)>\<phi\><around*|(|x|)>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  \<#8BBE\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<phi\><around*|(|x|)>>|<cell|=>|<cell|A\<nospace\>e<rsup|\<alpha\>x>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|<frac|\<mathd\><rsup|2>|\<mathd\>t<rsup|2>>+m<rsup|2>|)>A\<nospace\>e<rsup|\<alpha\>x>>|<cell|=>|<cell|0>>|<row|<cell|<around*|(|\<alpha\><rsup|2>+m<rsup|2>|)>e<rsup|\<alpha\>x>>|<cell|=>|<cell|0>>|<row|<cell|\<alpha\>>|<cell|=>|<cell|\<pm\>i\<nospace\>\<alpha\>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<phi\><around*|(|x|)>>|<cell|=>|<cell|C<rsub|1>e<rsup|i\<alpha\>x>+C<rsub|2>e<rsup|-i\<alpha\>x>>>>>
+  </eqnarray*>
+
+  \;
 </body>
 
 <initial|<\collection>
@@ -174,6 +204,8 @@
     <associate|auto-1|<tuple|1|?>>
     <associate|auto-2|<tuple|1|?>>
     <associate|auto-3|<tuple|2|?>>
+    <associate|auto-4|<tuple|2|?>>
+    <associate|auto-5|<tuple|3|?>>
   </collection>
 </references>
 
