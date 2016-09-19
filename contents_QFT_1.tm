@@ -481,6 +481,30 @@
 
   \<#5F53\>\<#7136\>\<#6211\>\<#4EEC\>\<#53EF\>\<#4EE5\>\<#7EE7\>\<#7EED\>\<#63A2\>\<#8BA8\>\<#8FD9\>\<#7EC4\>\<#54C8\>\<#5BC6\>\<#987F\>\<#65B9\>\<#7A0B\>\<#7684\>\<#5BC6\>\<#5EA6\>\<#5F62\>\<#5F0F\>\<#3002\>
 
+  <with|font-series|bold|\<#6CCA\>\<#677E\>\<#62EC\>\<#53F7\>\<#FF1A\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|{|F,G|}><rsub|PB>>|<cell|=>|<cell|<big|int>\<mathd\><rsup|3>x<around*|{|<frac|\<delta\>F|\<delta\>\<phi\><around*|(|x|)>><frac|\<delta\>G|\<delta\>\<pi\><around*|(|x|)>>-<frac|\<delta\>F|\<delta\>\<pi\><around*|(|x|)>><frac|\<delta\>G|\<delta\>\<phi\><around*|(|x|)>>|}>>>>>
+  </eqnarray*>
+
+  \<#4EE5\>\<#6B64\>\<#5199\>\<#51FA\>\<#6D77\>\<#68EE\>\<#5821\>\<#8FD0\>\<#52A8\>\<#65B9\>\<#7A0B\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<wide|F|\<dot\>><around*|(|t|)>>|<cell|=>|<cell|<around*|{|F,H|}><rsub|PB>>>>>
+  </eqnarray*>
+
+  \<#53EF\>\<#4EE5\>\<#770B\>\<#5230\>\<#FF0C\>\<#8FD9\>\<#91CC\>\<#4E5F\>\<#6709\>\<#5173\>\<#4E8E\>\<#6CCA\>\<#677E\>\<#62EC\>\<#53F7\>\<#7684\>\<#5BF9\>\<#6613\>\<#5173\>\<#7CFB\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|{|\<phi\><around*|(|<embold|x>,t|)>,\<pi\><around*|(|<embold|x><rprime|'>,t|)>|}>>|<cell|=>|<cell|\<delta\><around*|(|<embold|x>-<embold|x<rprime|'>>|)>>>|<row|<cell|\<#5176\>\<#4ED6\>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  <subsubsection|\<#7ECF\>\<#5178\>\<#573A\>\<#8BBA\>\U\<#7535\>\<#52A8\>\<#529B\>\<#5B66\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<cal-L\>>|<cell|=>|<cell|-<frac|1|4>F<rsub|\<mu\>\<nu\>>F<rsup|\<mu\>\<nu\>>-j<rsub|\<mu\>>A<rsup|\<mu\>>>>>>
+  </eqnarray*>
+
   \<#4EE5\>\<#4E0A\>\<#53C2\>\<#8003\>Walter Greiner 1996
 
   <section|\<#7B2C\>\<#4E8C\>\<#7AE0\> \<#573A\>\<#7684\>\<#6B63\>\<#5219\>\<#91CF\>\<#5B50\>\<#5316\>>
@@ -705,12 +729,13 @@
     <associate|auto-15|<tuple|1.2.3|8>>
     <associate|auto-16|<tuple|1.2.3.1|8>>
     <associate|auto-17|<tuple|1.2.3.2|9>>
-    <associate|auto-18|<tuple|2|9>>
-    <associate|auto-19|<tuple|2.1|9>>
+    <associate|auto-18|<tuple|1.2.4|9>>
+    <associate|auto-19|<tuple|2|9>>
     <associate|auto-2|<tuple|1.1|1>>
-    <associate|auto-20|<tuple|2.1.1|9>>
-    <associate|auto-21|<tuple|2.1.2|11>>
-    <associate|auto-22|<tuple|2.1.3|12>>
+    <associate|auto-20|<tuple|2.1|9>>
+    <associate|auto-21|<tuple|2.1.1|11>>
+    <associate|auto-22|<tuple|2.1.2|12>>
+    <associate|auto-23|<tuple|2.1.3|?>>
     <associate|auto-3|<tuple|1.1.1|1>>
     <associate|auto-4|<tuple|1.1.2|1>>
     <associate|auto-5|<tuple|1.1.3|2>>
@@ -802,7 +827,7 @@
       <no-break><pageref|auto-18><vspace|0.5fn>
 
       <with|par-left|<quote|1tab>|2.1<space|2spc>Klein-Golden\<#573A\><assign|footnote-nr|1><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%2D73C70-3274890>|<link|hyperlink|<id|%2D73C70-3274890>|<url|#footnr-1>>|1>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%3DAF180-3E1AF90>|<link|hyperlink|<id|%3DAF180-3E1AF90>|<url|#footnr-1>>|1>.
         |<hidden|<tuple|footnote-1>><htab|0fn|first>>
           Mandl F. ,Shaw G. Quantum field theory
         </surround>>>
