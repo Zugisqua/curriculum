@@ -5,6 +5,27 @@
 <\body>
   A.P.Lightman[1979]
 
+  <paragraph|3.1>
+
+  (I) two point <math|p<rsub|1>=<around*|(|t<rsub|1>,x<rsub|1>,y<rsub|1>,z<rsub|1>|)>,p<rsub|2>=<around*|(|t<rsub|2>,x<rsub|2>,y<rsub|2>,z<rsub|2>|)>>
+  then
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<eta\><rsub|\<mu\>\<nu\>>p<rsub|1><rsup|\<mu\>>p<rsub|2><rsup|\<nu\>>>|<cell|=>|<cell|-t<rsub|1>t<rsub|2>+x<rsub|1>x<rsub|2>+y<rsub|1>y<rsub|2>+z<rsub|1>z<rsub|2>\<gtr\>0>>>>
+  </eqnarray*>
+
+  now choose a lorentz fransformation for simple case
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<Lambda\><rsup|\<nospace\>0><rsub|<space|1.5spc>0>=\<gamma\>>|<cell|>|<cell|\<Lambda\><rsup|0><rsub|<space|1.5spc>1>=\<beta\>\<gamma\>>>|<row|<cell|\<Lambda\><rsup|1><rsub|<space|1.5spc>0>=\<beta\>\<gamma\>>|<cell|>|<cell|\<Lambda\><rsup|1><rsub|<space|1.5spc>1>=\<gamma\>>>|<row|<cell|\<Lambda\><rsup|2><rsub|<space|1.5spc>2>=1>|<cell|>|<cell|\<Lambda\><rsup|3><rsub|<space|1.5spc>3>=1>>>>
+  </eqnarray*>
+
+  therefore
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<eta\><rsub|\<sigma\>\<rho\>><rprime|'>\<Lambda\><rsup|\<sigma\>><rsub|<space|1.5spc>\<mu\>>p<rsup|\<mu\>><rsub|1>\<Lambda\><rsup|\<rho\>><rsub|<space|1.5spc>\<nu\>>p<rsup|\<nu\>><rsub|2>>|<cell|=>|<cell|-\<Lambda\><rsup|0><rsub|<space|1.5spc>\<mu\>>\<Lambda\><rsup|0><rsub|<space|1.5spc>\<nu\>>p<rsup|\<mu\>><rsub|1>p<rsub|2><rsup|\<nu\>>+\<Lambda\><rsup|1><rsub|<space|1.5spc>\<mu\>>\<Lambda\><rsup|1><rsub|<space|1.5spc>\<nu\>>p<rsup|\<mu\>><rsub|1>p<rsup|\<nu\>><rsub|2>+\<Lambda\><rsup|2><rsub|<space|1.5spc>\<mu\>>\<Lambda\><rsup|2><rsub|<space|1.5spc>\<nu\>>p<rsup|\<mu\>><rsub|1>p<rsup|\<nu\>><rsub|2>+\<Lambda\><rsup|3><rsub|<space|1.5spc>\<mu\>>\<Lambda\><rsup|3><rsub|<space|1.5spc>\<nu\>>p<rsup|\<mu\>><rsub|1>p<rsup|\<nu\>><rsub|2>>>|<row|<cell|>|<cell|=>|<cell|-\<gamma\><around*|(|p<rsup|0><rsub|1>p<rsup|0><rsub|2>+\<beta\><rsup|2>p<rsup|1><rsub|1>p<rsup|2><rsub|2>+\<beta\>p<rsup|1><rsub|1>p<rsup|0><rsub|2>+\<beta\>p<rsub|1><rsup|0>p<rsup|1><rsub|2>|)><new-line>+\<gamma\><around*|(|p|)>>>>>
+  </eqnarray*>
+
   <paragraph|6.1>
 
   (a)find a transformation which transform the coordiante
@@ -249,28 +270,47 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|?>>
-    <associate|auto-2|<tuple|2|?>>
-    <associate|auto-3|<tuple|3|?>>
-    <associate|auto-4|<tuple|4|?>>
-    <associate|auto-5|<tuple|5|?>>
-    <associate|auto-6|<tuple|6|?>>
-    <associate|auto-7|<tuple|7|?>>
-    <associate|auto-8|<tuple|8|?>>
+    <associate|auto-1|<tuple|1|?|exercise_GR.tm~>>
+    <associate|auto-2|<tuple|2|?|exercise_GR.tm~>>
+    <associate|auto-3|<tuple|3|?|exercise_GR.tm~>>
+    <associate|auto-4|<tuple|4|?|exercise_GR.tm~>>
+    <associate|auto-5|<tuple|5|?|exercise_GR.tm~>>
+    <associate|auto-6|<tuple|6|?|exercise_GR.tm~>>
+    <associate|auto-7|<tuple|7|?|exercise_GR.tm~>>
+    <associate|auto-8|<tuple|8|?|exercise_GR.tm~>>
+    <associate|auto-9|<tuple|9|?|exercise_GR.tm~>>
   </collection>
 </references>
 
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <with|par-left|<quote|4tab>|6.1 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|4tab>|3.1 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.15fn>>
 
-      <with|par-left|<quote|4tab>|6.2 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|4tab>|6.1 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.15fn>>
 
-      <with|par-left|<quote|4tab>|6.3 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|4tab>|6.2 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|6.3 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-4><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|6.4 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-5><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|6.5 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-6><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|6.6 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-7><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|6.7 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-8><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|6.8 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-9><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
