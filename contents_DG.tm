@@ -464,6 +464,12 @@
 
   \<#5C06\>\<#8FD9\>\<#91CC\>\<#7684\>\<#6620\>\<#5C04\>\<#5173\>\<#7CFB\>\<#5B9A\>\<#4E49\>\<#4E3A\><math|\<cal-T\><rsub|\<ast\>>>
 
+  \<#66F4\>\<#4E66\>\<#9762\>\<#7684\>\<#5B9A\>\<#4E49\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<cal-T\><rsub|\<ast\>>X\<cal-F\>>|<cell|=>|<cell|<frac|\<mathd\>|\<mathd\>t><around*|(|\<cal-F\>\<circ\>\<varphi\><rsub|y><rsup|-1>\<circ\>\<varphi\><rsub|z>\<circ\>\<cal-T\>\<circ\>\<varphi\><rsub|x><rsup|-1>\<circ\>\<varphi\><rsub|x>\<circ\>C<around*|(|t|)>|)>>>|<row|<cell|>|<cell|=>|<cell|\<cal-T\><rsub|\<ast\>><around*|(|<frac|\<mathd\>|\<mathd\>t><around*|(|\<cal-F\>\<circ\>\<varphi\><rsub|x><rsup|-1>\<circ\>\<varphi\><rsub|x>\<circ\>C<around*|(|t|)>|)>|)>>>>>
+  </eqnarray*>
+
   <\with|color|brown>
     \<#95EE\>\<#9898\>\<#FF1A\><math|M<above|\<rightarrow\>|f>N<above|\<rightarrow\>|g>P,\<#5BF9\>\<#5E94\>T\<nospace\><rsub|p><around*|(|M|)><above|\<rightarrow\>|f<rsub|*\<ast\>>>T<rsub|q><around*|(|N|)><above|\<rightarrow\>|g<rsub|\<ast\>>>T<rsub|n><around*|(|P|)>,\<#8BA1\>\<#7B97\><around*|(|g\<circ\>f|)><rsub|\<ast\>>=g<rsub|\<ast\>>\<circ\>f<rsub|\<ast\>>\<#6210\>\<#7ACB\>\<#FF0C\>\<#5E76\>\<#7ED9\>\<#51FA\>>
 
@@ -471,6 +477,12 @@
       <tformat|<table|<row|<cell|f<rsub|\<ast\>><around*|(|<frac|\<partial\>|\<partial\>x<rsub|i>>|)>>|<cell|=>|<cell|<frac|\<partial\>y<rsub|j>|\<partial\>x<rsub|i>><frac|\<partial\>|\<partial\>y<rsub|j>><space|3spc>\<#5DF2\>\<#8BC1\>>>|<row|<cell|f<rsub|\<ast\>><around*|(|a<rsub|i><frac|\<partial\>|\<partial\>x<rsub|i>>|)>>|<cell|=>|<cell|a\<nospace\><rsub|i>f<rsub|\<ast\>><around*|(|<frac|\<partial\>|\<partial\>x<rsub|i>>|)>>>>>
     </eqnarray*>
   </with>
+
+  \<#8FD9\>\<#91CC\>\<#5982\>\<#679C\>\<#5229\>\<#7528\>\<#4E0A\>\<#9762\>\<#7684\>\<#65B9\>\<#6CD5\>\<#8FDB\>\<#884C\>\<#8BA1\>\<#7B97\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|X<rsub|p>\<cal-F\>>|<cell|=>|<cell|<around*|\<nobracket\>|<frac|\<mathd\>|\<mathd\>t>\<cal-F\><around*|(|C<rsub|P><around*|(|t|)>|)>|\|><rsub|p>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<nobracket\>|<frac|\<mathd\>|\<mathd\>t>\<cal-F\><around*|(|g\<circ\>f<around*|(|C<rsub|M><around*|(|t|)>|)>|)>|\|><rsub|m>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<nobracket\>|<frac|\<mathd\>|\<mathd\>t>\<cal-F\><around*|(|g\<circ\>f\<circ\>\<varphi\><rsub|x><rsup|-1>\<circ\>\<varphi\><rsub|x><around*|(|C<rsub|M><around*|(|t|)>|)>|)>|\|><rsub|m>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<nobracket\>|<frac|\<mathd\>|\<mathd\>t>\<cal-F\><around*|(|g\<circ\>f\<circ\>\<varphi\><rsub|x><rsup|-1><around*|(|x<rsup|\<mu\>><around*|(|t|)>|)>|)>|\|><rsub|m>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<nobracket\>|<frac|\<mathd\>|\<mathd\>t><around*|(|\<cal-F\>\<circ\>g\<circ\>f\<circ\>\<varphi\><rsub|x><rsup|-1>|)><around*|(|x<rsup|\<mu\>>|)>|\|><rsub|m>>>|<row|<cell|>|<cell|<long-arrow|\<rubber-equal\>|1|>>|<cell|<frac|\<mathd\>|\<mathd\>t><around*|(|\<cal-F\>\<circ\>\<varphi\><rsub|z><rsup|-1>\<circ\>\<varphi\><rsub|z>\<circ\><around*|(|g\<circ\>f|)>\<circ\>\<varphi\><rsub|x><rsup|-1>|)><around*|(|x<rsup|\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|g\<circ\>f|)><rsub|\<ast\>><frac|\<mathd\>|\<mathd\>t><around*|(|\<cal-F\>\<circ\>\<varphi\><rsub|x><rsup|-1><around*|(|x<rsup|\<mu\>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|g\<circ\>f|)><rsub|\<ast\>>X<rsub|p>\<nospace\>\<nospace\>\<cal-F\>>>|<row|<cell|>|<cell|<long-arrow|\<rubber-equal\>|2|>>|<cell|<frac|\<mathd\>|\<mathd\>t><around*|(|\<cal-F\>\<circ\>\<varphi\><rsub|z><rsup|-1>\<circ\>\<varphi\><rsub|z>\<circ\>g\<circ\>\<varphi\><rsup|-1><rsub|y>\<circ\>\<varphi\><rsub|y>\<circ\>f\<circ\>\<varphi\><rsub|x><rsup|-1>|)><around*|(|x<rsup|\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|g<rsub|\<ast\>><around*|(|<frac|\<mathd\>|\<mathd\>t><around*|(|\<cal-F\>\<circ\>\<varphi\><rsub|y><rsup|-1>\<circ\>\<varphi\><rsub|y>\<circ\>f\<circ\>\<varphi\><rsub|x><rsup|-1>|)><around*|(|x<rsup|\<mu\>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|g<rsub|\<ast\>><around*|(|f<rsub|\<ast\>><around*|(|<frac|\<mathd\>|\<mathd\>t><around*|(|\<cal-F\>\<circ\>\<varphi\><rsub|x><rsup|-1>|)>x<rsup|\<mu\>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|g<rsub|\<ast\>>\<circ\>f<rsub|\<ast\>>X<rsub|p>\<nospace\>\<cal-F\>>>>>
+  </eqnarray*>
 
   <with|font-series|bold|\<#5207\>\<#7A7A\>\<#95F4\>\<#FF1A\>><math|T<rsub|p><around*|(|M|)>>\<#4E3A\>\<#6D41\>\<#5F62\><math|M\<#8FC7\>p>\<#70B9\>\<#6240\>\<#6709\>\<#5207\>\<#5411\>\<#91CF\>\<#6240\>\<#5F20\>\<#6210\>\<#7684\>\<#5411\>\<#91CF\>\<#7A7A\>\<#95F4\>\<#3002\>
 
@@ -924,7 +936,7 @@
       <no-break><pageref|auto-1><vspace|0.5fn>
 
       <with|par-left|<quote|1tab>|1.1<space|2spc>\<#5C04\>\<#5F71\>\<#51E0\>\<#4F55\><assign|footnote-nr|1><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%2FB0F20-39DAAF0>|<link|hyperlink|<id|%2FB0F20-39DAAF0>|<url|#footnr-1>>|1>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%3995010-34E6820>|<link|hyperlink|<id|%3995010-34E6820>|<url|#footnr-1>>|1>.
         |<hidden|<tuple|footnote-1>><htab|0fn|first>>
           \<#6570\>\<#5B66\>\<#6307\>\<#5357\>-\<#5B9E\>\<#7528\>\<#6570\>\<#5B66\>\<#624B\>\<#518C\>
         </surround>>>
@@ -946,7 +958,7 @@
       <no-break><pageref|auto-5>>
 
       <with|par-left|<quote|1tab>|1.2<space|2spc>\<#62D3\>\<#6251\>\<#57FA\>\<#7840\><assign|footnote-nr|4><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%2FB0F20-37EC5D0>|<link|hyperlink|<id|%2FB0F20-37EC5D0>|<url|#footnr-4>>|4>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%3995010-41DFDF0>|<link|hyperlink|<id|%3995010-41DFDF0>|<url|#footnr-4>>|4>.
         |<hidden|<tuple|footnote-4>><htab|0fn|first>>
           \<#7269\>\<#7406\>\<#5B66\>\<#4E2D\>\<#7684\>\<#51E0\>\<#4F55\>\<#65B9\>\<#6CD5\>-\<#4F59\>\<#626C\>\<#653F\>
         </surround>>>
