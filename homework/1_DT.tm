@@ -7,7 +7,7 @@
 
   <paragraph|\<#8BFE\>\<#5802\>\<#5E03\>\<#7F6E\>>
 
-  <paragraph|1.>
+  <paragraph|1-1.>
 
   \<#8BBE\> <math|M,N,P> \<#4E0A\>\<#9009\>\<#53D6\>\<#7684\>\<#5750\>\<#6807\>\<#5361\>\<#5206\>\<#522B\>\<#7528\><math|x<rsup|\<mu\>>,y<rsup|\<mu\>>,z<rsup|\<mu\>>>
   \<#8868\>\<#793A\>
@@ -26,7 +26,7 @@
     <tformat|<table|<row|<cell|g<rsub|\<ast\>>\<circ\>f<rsub|\<ast\>>>|<cell|=>|<cell|<around*|(|g\<circ\>f|)><rsub|\<ast\>>>>>>
   </eqnarray*>
 
-  <paragraph|2.>
+  <paragraph|1-2.>
 
   \<#5E0C\>\<#671B\>\<#627E\>\<#5230\>\<#4E00\>\<#4E2A\>\<#5173\>\<#4E8E\>\<#57FA\><math|<around*|{|\<theta\><rsup|i>|}>>\<#7EBF\>\<#6027\>\<#7EC4\>\<#5408\>\<#FF0C\>\<#4F7F\>\<#5F97\>
 
@@ -39,6 +39,20 @@
   </eqnarray*>
 
   <math|\<#5373\>\<#53EA\>\<#6709\>\<#5F53\>a<rsub|j>\<#5168\>\<#4E3A\>\<#96F6\>\<#65F6\>\<#5019\>\<theta\><rsup|i>\<#7684\>\<#7EBF\>\<#6027\>\<#7EC4\>\<#5408\>\<#624D\>\<#4E3A\>0>\<#FF0C\>\<#56E0\>\<#6B64\><math|<around*|{|\<theta\><rsup|i>|}>>\<#4E4B\>\<#95F4\>\<#7EBF\>\<#6027\>\<#72EC\>\<#7ACB\>
+
+  <paragraph|2-1.>\<#5DF2\>\<#77E5\><math|<around*|\<langle\>|e<rprime|\<asterisk\>><rprime|'><rsup|i>,e<rprime|'><rsub|j>|\<rangle\>>=\<delta\><rsup|i><rsub|j>,<around*|\<langle\>|e<rprime|\<asterisk\>><rsup|i>,e<rsub|j>|\<rangle\>>=\<delta\><rsup|i><rsub|j>,\<#800C\>\<#4E14\>e<rprime|\<asterisk\>><rprime|'><rsup|i>=B<rsup|i><rsub|j>e<rprime|\<asterisk\>><rsup|j>,\<#6C42\>B<rsup|i><rsub|j>>
+
+  <\equation*>
+    <\equation*>
+      <stack|<tformat|<cwith|1|1|2|2|cell-halign|r>|<cwith|2|2|4|4|cell-halign|l>|<cwith|1|1|4|4|cell-halign|l>|<cwith|4|4|2|2|cell-halign|r>|<cwith|4|4|4|4|cell-halign|l>|<table|<row|<cell|>|<cell|e<rprime|\<asterisk\>'><rsup|i>>|<cell|=>|<cell|B<rsup|i><rsub|j>e<rprime|\<asterisk\>><rsup|j>>>|<row|<cell|\<Rightarrow\>>|<cell|<around*|\<langle\>|e<rprime|\<asterisk\>'><rsup|i>,e<rsub|k>|\<rangle\>>>|<cell|=>|<cell|<around*|\<langle\>|B<rsup|i><rsub|j>e<rprime|\<asterisk\>><rsup|j>,e<rsub|k>|\<rangle\>>>>|<row|<cell|\<Rightarrow\>>|<cell|<around*|\<langle\>|e<rprime|\<asterisk\>'><rsup|i>,e<rsub|k>|\<rangle\>>>|<cell|=>|<cell|B<rsup|i><rsub|j><around*|\<langle\>|e<rprime|\<asterisk\>><rsup|j>,e<rsub|k>|\<rangle\>>=B<rsup|i><rsub|j>\<delta\><rsup|j><rsub|k>>>|<row|<cell|\<Rightarrow\>>|<cell|B<rsup|i><rsub|k>>|<cell|=>|<cell|<around*|\<langle\>|e<rprime|\<asterisk\>'><rsup|i>,e<rsub|k>|\<rangle\>>>>>>>
+    </equation*>
+  </equation*>
+
+  <paragraph|2-2.>\<#8BC1\>\<#660E\>\<#5916\>\<#79EF\>\<#8FD0\>\<#7B97\>\<#7684\>\<#659C\>\<#4EA4\>\<#6362\>\<#5F8B\>
+
+  <\equation*>
+    <tformat|<table|<row|<cell|\<alpha\>\<wedge\>\<beta\>>|<cell|=>|<cell|<around*|(|\<alpha\><rsub|i<rsub|1>\<ldots\>i<rsub|p>>\<beta\><rsub|k<rsub|1>\<ldots\>k<rsub|q>>|)><around*|(|\<mathd\>x<rsup|i<rsub|1>>\<wedge\>\<ldots\>\<wedge\>\<mathd\>x<rsup|i<rsub|p>>|)>\<wedge\><around*|(|\<mathd\>x<rsup|k<rsub|1>>\<wedge\>\<ldots\>\<wedge\>\<mathd\>x<rsup|k<rsub|q>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<alpha\><rsub|i<rsub|1>\<ldots\>i<rsub|p>>\<beta\><rsub|k<rsub|1>\<ldots\>k<rsub|q>>|)><around*|(|-1|)><rsup|p>\<mathd\>x<rsup|k<rsub|1>>\<wedge\><around*|(|\<mathd\>x<rsup|i<rsub|1>>\<wedge\>\<ldots\>\<wedge\>\<mathd\>x<rsup|i<rsub|p>>|)>\<wedge\><around*|(|\<mathd\>x<rsup|k<rsub|2>>\<wedge\>\<ldots\>\<wedge\>\<mathd\>x<rsup|k<rsub|q>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<alpha\><rsub|i<rsub|1>\<ldots\>i<rsub|p>>\<beta\><rsub|k<rsub|1>\<ldots\>k<rsub|q>>|)><around*|(|-1|)><rsup|2p>\<mathd\>x<rsup|k<rsub|1>>\<wedge\>\<mathd\>x<rsup|k<rsub|2>><around*|(|\<mathd\>x<rsup|i<rsub|1>>\<wedge\>\<ldots\>\<wedge\>\<mathd\>x<rsup|i<rsub|p>>|)>\<wedge\><around*|(|\<mathd\>x<rsup|k<rsub|3>>\<wedge\>\<ldots\>\<wedge\>\<mathd\>x<rsup|k<rsub|q>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<alpha\><rsub|i<rsub|1>\<ldots\>i<rsub|p>>\<beta\><rsub|k<rsub|1>\<ldots\>k<rsub|q>>|)><around*|(|-1|)><rsup|p\<nospace\>q><around*|(|\<mathd\>x<rsup|k<rsub|1>>\<wedge\>\<ldots\>\<wedge\>\<mathd\>x<rsup|k<rsub|q>>|)>\<wedge\><around*|(|\<mathd\>x<rsup|i<rsub|1>>\<wedge\>\<ldots\>\<wedge\>\<mathd\>x<rsup|i<rsub|p>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|-1|)><rsup|p\<nospace\>q><around*|(|\<beta\><rsub|k<rsub|1>\<ldots\>k<rsub|q>>\<mathd\>x<rsup|k<rsub|1>>\<wedge\>\<ldots\>\<wedge\>\<mathd\>x<rsup|k<rsub|q>>|)>\<wedge\><around*|(|\<alpha\><rsub|i<rsub|1>\<ldots\>i<rsub|p>>\<mathd\>x<rsup|i<rsub|1>>\<wedge\>\<ldots\>\<wedge\>\<mathd\>x<rsup|i<rsub|p>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|-1|)><rsup|p\<nospace\>q>\<beta\>\<wedge\>\<alpha\>>>>>
+  </equation*>
 
   <paragraph|\<#8BFE\>\<#540E\>\<#4E60\>\<#9898\>>
 
@@ -87,6 +101,8 @@
     <associate|auto-4|<tuple|4|?>>
     <associate|auto-5|<tuple|5|?>>
     <associate|auto-6|<tuple|6|?>>
+    <associate|auto-7|<tuple|7|?>>
+    <associate|auto-8|<tuple|8|?>>
   </collection>
 </references>
 
