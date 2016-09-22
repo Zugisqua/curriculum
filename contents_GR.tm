@@ -432,7 +432,7 @@
   </eqnarray*>
 
   <\with|color|brown>
-    \<#4F5C\>\<#4E1A\>2-3\<#FF1A\>\<#5DF2\>\<#77E5\>\<#8054\>\<#7EDC\>\<#7684\>\<#53D8\>\<#6362\>\<#6027\>\<#8D28\>\<#FF0C\>\<#9A8C\>\<#8BC1\>\<#5E73\>\<#79FB\>\<#64CD\>\<#4F5C\>\<#4FDD\>\<#6301\>\<#FF0C\>\<#9A8C\>\<#8BC1\>
+    \<#4F5C\>\<#4E1A\>2-3\<#FF1A\>\<#5DF2\>\<#77E5\>\<#8054\>\<#7EDC\>\<#7684\>\<#53D8\>\<#6362\>\<#6027\>\<#8D28\>\<#FF0C\>\<#9A8C\>\<#8BC1\>\<#5E73\>\<#79FB\>\<#64CD\>\<#4F5C\>\<#4FDD\>\<#6301\><math|B<rsup|\<lambda\>>>\<#7684\>\<#9006\>\<#53D8\>\<#6027\>\<#8D28\>
 
     <\eqnarray*>
       <tformat|<table|<row|<cell|B<rsup|\<lambda\>><around*|(|Q|)>-B<rsup|\<lambda\>><around*|(|P|)>>|<cell|=>|<cell|\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<nu\>><around*|(|P|)>B<rsup|\<mu\>><around*|(|P|)>\<mathd\>x<rsup|\<mu\>>>>>>
