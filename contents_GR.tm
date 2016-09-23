@@ -416,7 +416,7 @@
   \<#7531\>\<#8981\>\<#6C42\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|A<rsub|\<mu\>><rprime|'><around*|(|y+\<mathd\>y|)>>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<nu\>><around*|(|y+\<mathd\>y|)>|\<partial\>y<rsup|\<mu\>>>A<rsub|\<nu\>><around*|(|x+\<mathd\>x|)>>>>>
+    <tformat|<table|<row|<cell|A<rsub|\<mu\>><rprime|'><around*|(|y+\<delta\>y|)>>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<nu\>><around*|(|y+\<mathd\>y|)>|\<partial\>y<rsup|\<mu\>>>A<rsub|\<nu\>><around*|(|x+\<delta\>x|)>>>>>
   </eqnarray*>
 
   \<#63A5\>\<#4E0B\>\<#6765\>\<#8BA1\>\<#7B97\>
