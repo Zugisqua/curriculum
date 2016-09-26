@@ -639,11 +639,13 @@
 
   <subsubsection|\<#540C\>\<#6001\>>
 
-  <with|font-series|bold|\<#6982\>\<#5FF5\>\<#FF1A\>>\<#5982\>\<#679C\>\<#628A\>\<#540C\>\<#6784\>\<#6BD4\>\<#4F5C\>\<#5168\>\<#7B49\>\<#FF0C\>\<#90A3\>\<#4E48\>\<#8FD9\>\<#91CC\>\<#7684\>\<#540C\>\<#6001\>\<#5C31\>\<#662F\>\<#76F8\>\<#4F3C\>\<#FF1A\><new-line>\<#5177\>\<#4F53\>\<#5730\>\<#FF0C\>\<#8FD9\>\<#91CC\>\<#4ECE\>\<#4E00\>\<#4E00\>\<#5BF9\>\<#5E94\>\<#51CF\>\<#5F31\>\<#4E3A\>\<#5141\>\<#8BB8\>\<#4E00\>\<#5BF9\>\<#591A\>
+  <with|font-series|bold|\<#6982\>\<#5FF5\>\<#FF1A\>>\<#5982\>\<#679C\>\<#628A\>\<#540C\>\<#6784\>\<#6BD4\>\<#4F5C\>\<#5168\>\<#7B49\>\<#FF0C\>\<#90A3\>\<#4E48\>\<#8FD9\>\<#91CC\>\<#7684\>\<#540C\>\<#6001\>\<#5C31\>\<#662F\>\<#76F8\>\<#4F3C\>\<#FF1A\><new-line>\<#5177\>\<#4F53\>\<#5730\>\<#FF0C\>\<#8FD9\>\<#91CC\>\<#4ECE\>\<#4E00\>\<#4E00\>\<#5BF9\>\<#5E94\>\<#51CF\>\<#5F31\>\<#4E3A\>\<#5141\>\<#8BB8\>\<#4E00\>\<#5BF9\>\<#591A\>\<#FF0C\>\<#540C\>\<#6784\>\<#662F\>\<#4E00\>\<#79CD\>\<#7279\>\<#522B\>\<#7684\>\<#540C\>\<#6001\>
 
-  <with|font-series|bold|\<#6027\>\<#8D28\>\<#FF1A\>><new-line>1\<#FF09\>\<#5982\>\<#679C\><math|G\<sim\>G<rprime|'>>\<#FF0C\>\<#5176\>\<#4E2D\><math|G<rprime|'>>\<#7684\>\<#9636\>\<#66F4\>\<#9AD8\>\<#FF0C\>\<#90A3\>\<#4E48\><math|G\<approx\><frac|G<rprime|'>|H>>\<#FF0C\>\<#90A3\>\<#4E48\>\<#5B58\>\<#5728\><math|H>\<#4E3A\><math|G<rprime|'>>\<#7684\>\<#4E00\>\<#4E2A\>\<#4E0D\>\<#53D8\>\<#5B50\>\<#7FA4\>
+  <with|font-series|bold|\<#540C\>\<#6001\>\<#57FA\>\<#672C\>\<#5B9A\>\<#7406\>\<#FF1A\>\<#FF1F\>>\<#5982\>\<#679C\><math|G\<sim\>G<rprime|'>>\<#FF0C\>\<#5176\>\<#4E2D\><math|G<rprime|'>>\<#7684\>\<#9636\>\<#66F4\>\<#9AD8\>\<#FF0C\>\<#5219\><math|G\<approx\><frac|G<rprime|'>|H>>\<#FF0C\><new-line>\<#8FD9\>\<#91CC\>\<#7684\><math|H>\<#4E3A\>\<#53D8\>\<#6362\>\<#5B50\>\<#7FA4\>\<#FF0C\>\<#79F0\><math|G<rprime|'>>\<#7684\>\<#540C\>\<#6001\>\<#5BF9\>\<#5E94\>\<#7684\>\<#6838\>
 
-  \;
+  <subsubsection|\<#7FA4\>\<#7684\>\<#76F4\>\<#79EF\>>
+
+  <with|font-series|bold|\<#6982\>\<#5FF5\>\<#FF1A\>>\<#5BF9\>\<#4E8E\>\<#4E24\>\<#4E2A\>\<#7FA4\>\<#FF0C\>
 </body>
 
 <initial|<\collection>
@@ -668,6 +670,7 @@
     <associate|auto-22|<tuple|2.2.4|?>>
     <associate|auto-23|<tuple|2.3|?>>
     <associate|auto-24|<tuple|2.3.1|?>>
+    <associate|auto-25|<tuple|2.3.2|?>>
     <associate|auto-3|<tuple|1.2|?>>
     <associate|auto-4|<tuple|1.2.1|?>>
     <associate|auto-5|<tuple|1.2.2|?>>
@@ -694,7 +697,7 @@
       <no-break><pageref|auto-1><vspace|0.5fn>
 
       <with|par-left|<quote|1tab>|1.1<space|2spc>\<#96C6\>\<#5408\>\<#8BBA\><assign|footnote-nr|1><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%428F980-4C3AB80>|<link|hyperlink|<id|%428F980-4C3AB80>|<url|#footnr-1>>|1>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%468DA20-521C810>|<link|hyperlink|<id|%468DA20-521C810>|<url|#footnr-1>>|1>.
         |<hidden|<tuple|footnote-1>><htab|0fn|first>>
           \<#4EE3\>\<#6570\>\<#5B66\>\<#5F15\>\<#8BBA\>\<#4E0A\>\<#518C\>
         </surround>>>
@@ -719,7 +722,7 @@
       <no-break><pageref|auto-6>>
 
       <with|par-left|<quote|1tab>|1.3<space|2spc>\<#7EBF\>\<#6027\>\<#4EE3\>\<#6570\><assign|footnote-nr|4><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%428F980-4C7DE00>|<link|hyperlink|<id|%428F980-4C7DE00>|<url|#footnr-4>>|4>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%468DA20-47D9F30>|<link|hyperlink|<id|%468DA20-47D9F30>|<url|#footnr-4>>|4>.
         |<hidden|<tuple|footnote-4>><htab|0fn|first>>
           \<#7EBF\>\<#6027\>\<#4EE3\>\<#6570\>\<#5E94\>\<#8BE5\>\<#8FD9\>\<#6837\>\<#5B66\>
         </surround>>>
