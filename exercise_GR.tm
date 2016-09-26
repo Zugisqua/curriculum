@@ -283,6 +283,46 @@
   </eqnarray*>
 
   that's it ,done
+
+  <paragraph|7.2>
+
+  in 2-D polar coordinate metric
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|\<mathd\>r<rsup|2>+r<rsup|2>\<mathd\>\<theta\><rsup|2>>>>>
+  </eqnarray*>
+
+  the transformation between Discart-coord and polar coord
+
+  <\equation*>
+    <choice|<tformat|<table|<row|<cell|x>|<cell|=>|<cell|r<around|cos|\<theta\>|>>>|<row|<cell|y>|<cell|=>|<cell|r<around|sin|\<theta\>|>>>>>>
+  </equation*>
+
+  then
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>x>|<cell|=>|<cell|<around|cos|\<theta\>|>\<mathd\>r-r<around|sin|\<theta\>|>\<mathd\>\<theta\>>>|<row|<cell|\<mathd\>y>|<cell|=>|<cell|<around|sin|\<theta\>|>\<mathd\>r+r<around|cos|\<theta\>|>\<mathd\>\<theta\>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>x<rsup|1>>|<cell|=>|<cell|T<rsup|1><rsub|1>\<mathd\>\<rho\><rsup|1>+T<rsup|1><rsub|2>\<mathd\>\<rho\><rsup|2>>>|<row|<cell|\<mathd\>x<rsup|2>>|<cell|=>|<cell|T<rsup|2><rsub|1>\<mathd\>\<rho\><rsup|1>+T<rsup|2><rsub|2>\<mathd\>\<rho\><rsup|2>>>|<row|<cell|>|<cell|>|<cell|\<Rightarrow\><choice|<tformat|<table|<row|<cell|T<rsup|1><rsub|1>>|<cell|=>|<cell|<around|cos|\<theta\>|>>>|<row|<cell|T<rsup|1><rsub|2>>|<cell|=>|<cell|-r<around|sin|\<theta\>|>>>|<row|<cell|T<rsup|1><rsub|2>>|<cell|=>|<cell|<around|sin|\<theta\>|>>>|<row|<cell|T<rsup|2><rsub|2>>|<cell|=>|<cell|r<around|cos|\<theta\>|>>>>>>>>>>
+  </eqnarray*>
+
+  (a)for the straight line
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<mathd\><rsup|2>x<rsup|\<mu\>>|\<mathd\>s<rsup|2>>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  <math|\<Longrightarrow\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<mathd\>|\<mathd\>s><around*|(|<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>s>|)>>|<cell|=>|<cell|<frac|\<mathd\>|\<mathd\>s><around*|(|<frac|T<rsup|\<mu\>><rsub|\<nu\>>\<mathd\>\<rho\><rsup|\<nu\>>|\<mathd\>s>|)>>>|<row|<cell|T<rsup|\<mu\>><rsub|\<nu\>><frac|\<mathd\><rsup|2>\<rho\><rsup|\<nu\>>|\<mathd\>s<rsup|2>>+<frac|\<mathd\>T<rsup|\<mu\>><rsub|\<nu\>>|\<mathd\>s><frac|\<mathd\>\<rho\><rsup|\<nu\>>|\<mathd\>s>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>\<rho\><rsup|\<nu\>>><frac|\<mathd\><rsup|2>\<rho\><rsup|\<nu\>>|\<mathd\>s<rsup|2>>+<frac|\<mathd\>|\<mathd\>s><around*|(|<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>\<rho\><rsup|\<nu\>>>|)><frac|\<mathd\>\<rho\><rsup|\<nu\>>|\<mathd\>s>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<partial\>\<rho\><rsup|\<sigma\>>|\<partial\>x<rsup|\<mu\>>><frac|\<partial\>x<rsup|\<mu\>>|\<partial\>\<rho\><rsup|\<nu\>>><frac|\<mathd\><rsup|2>\<rho\><rsup|\<nu\>>|\<mathd\>s<rsup|2>>+<frac|\<partial\>\<rho\><rsup|\<sigma\>>|\<partial\>x<rsup|\<mu\>>><frac|\<partial\><rsup|2>x<rsup|\<mu\>>|\<partial\>\<rho\><rsup|\<lambda\>>\<partial\>\<rho\><rsup|\<nu\>>><frac|\<mathd\>\<rho\><rsup|\<lambda\>>|\<mathd\>s><frac|\<mathd\>\<rho\><rsup|\<nu\>>|\<mathd\>s>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>\<rho\><rsup|\<sigma\>>|\<mathd\>s<rsup|2>>+<frac|\<mathd\>\<rho\><rsup|\<lambda\>>|\<mathd\>s><frac|\<mathd\>\<rho\><rsup|\<nu\>>|\<mathd\>s><frac|\<partial\>\<rho\><rsup|\<sigma\>>|\<partial\>x<rsup|\<mu\>>><frac|\<partial\><rsup|2>x<rsup|\<mu\>>|\<partial\>\<rho\><rsup|\<lambda\>>\<partial\>\<rho\><rsup|\<nu\>>>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  find the connection coefficients <math|\<Gamma\><rsup|\<sigma\>><rsub|\<lambda\>\<nu\>>=<frac|\<partial\>\<rho\><rsup|\<sigma\>>|\<partial\>x<rsup|\<mu\>>><frac|\<partial\><rsup|2>x<rsup|\<mu\>>|\<partial\>\<rho\><rsup|\<lambda\>>\<partial\>\<rho\><rsup|\<nu\>>>>
+
+  (b)
 </body>
 
 <initial|<\collection>
@@ -292,6 +332,7 @@
   <\collection>
     <associate|auto-1|<tuple|1|?>>
     <associate|auto-10|<tuple|10|?>>
+    <associate|auto-11|<tuple|11|?>>
     <associate|auto-2|<tuple|2|?>>
     <associate|auto-3|<tuple|3|?>>
     <associate|auto-4|<tuple|4|?>>
