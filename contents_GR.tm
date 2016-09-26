@@ -507,11 +507,25 @@
     <tformat|<table|<row|<cell|R<rsup|\<lambda\>><rsub|<space|1.5spc>\<mu\>\<nu\>\<kappa\>>>|<cell|=>|<cell|<frac|\<partial\>\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<nu\>>|\<partial\>x<rsup|\<kappa\>>>-<frac|\<partial\>\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<kappa\>>|\<partial\>x<rsup|\<nu\>>>+\<Gamma\><rsup|\<sigma\>><rsub|\<mu\>\<nu\>>\<Gamma\><rsup|\<lambda\>><rsub|\<kappa\>\<sigma\>>-\<Gamma\><rsup|\<sigma\>><rsub|\<mu\>\<kappa\>>\<Gamma\><rsup|\<lambda\>><rsub|\<nu\>\<sigma\>>>>>>
   </eqnarray*>
 
-  \<#611F\>\<#89C9\>\<#5206\>\<#6790\>\<#518D\>\<#591A\>\<#7684\>\<#52A8\>\<#673A\>\<#90FD\>\<#4E0D\>\<#592A\>\<#597D\>\<#3002\>\<#5B83\>\<#662F\>\<#552F\>\<#4E00\>\<#4E2A\>\<#4F5C\>\<#4E3A\>\<#5EA6\>\<#89C4\>\<#4E8C\>\<#9636\>\<#5BFC\>\<#6784\>\<#6210\>\<#7684\>\<#5F20\>\<#91CF\>[\<#8BC1\>\<#660E\>\<#6709\>\<#70B9\>\<#770B\>\<#4E0D\>\<#660E\>\<#767D\>]
+  \<#611F\>\<#89C9\>\<#5206\>\<#6790\>\<#518D\>\<#591A\>\<#7684\>\<#52A8\>\<#673A\>\<#90FD\>\<#4E0D\>\<#592A\>\<#597D\>\<#3002\>\<#5B83\>\<#662F\>\<#552F\>\<#4E00\>\<#4E2A\>\<#4F5C\>\<#4E3A\>\<#5EA6\>\<#89C4\>\<#4E8C\>\<#9636\>\<#5BFC\>\<#6784\>\<#6210\>\<#7684\>\<#5F20\>\<#91CF\>[\<#8BC1\>\<#660E\>\<#6709\>\<#70B9\>\<#770B\>\<#4E0D\>\<#660E\>\<#767D\>]<new-line>\<#8FD9\>\<#91CC\>\<#4F3C\>\<#4E4E\>\<#662F\>\<#5047\>\<#88C5\>\<#7528\>\<#8054\>\<#7EDC\>\<#7684\>\<#4E00\>\<#9636\>\<#5BFC\>\<#6570\>\<#6784\>\<#9020\>\<#4E00\>\<#4E2A\>\<#6D1B\>\<#4F26\>\<#5179\>\<#534F\>\<#53D8\>\<#91CF\>\<#3002\>
 
   <with|font-series|bold|\<#66F2\>\<#7387\>\<#7684\>\<#5BF9\>\<#79F0\>\<#6027\>\<#FF1A\>>
 
-  \;
+  <with|font-series|bold|\<#7231\>\<#56E0\>\<#65AF\>\<#5766\>\<#5F20\>\<#91CF\>\<#FF1A\>><math|G<rsub|\<mu\>\<nu\>>=R<rsub|\<mu\>\<nu\>>-<frac|1|2>g<rsub|\<mu\>\<nu\>>R>
+
+  <subsection|\<#7231\>\<#56E0\>\<#65AF\>\<#5766\>\<#573A\>\<#65B9\>\<#7A0B\>>
+
+  \<#5F62\>\<#5F0F\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>>-<frac|1|2>g<rsub|\<mu\>\<nu\>>R>|<cell|=>|<cell|-8\<pi\>G\<nospace\>T<rsub|\<mu\>\<nu\>>>>>>
+  </eqnarray*>
+
+  <subsubsection|Schwarzschild\<#89E3\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|-<around*|(|1-<frac|2G\<nospace\>M|r>|)>\<mathd\>t<rsup|2>+<frac|\<mathd\>r<rsup|2>|1-<frac|2G\<nospace\>M|r>>+r<rsup|2><around*|(|\<mathd\>\<theta\><rsup|2>+<around|sin|<rsup|2>\<theta\>|>\<mathd\>\<phi\>|)>>>>>
+  </eqnarray*>
 </body>
 
 <initial|<\collection>
@@ -535,6 +549,8 @@
     <associate|auto-21|<tuple|3.1.7|?>>
     <associate|auto-22|<tuple|3.1.8|?>>
     <associate|auto-23|<tuple|3.1.9|?>>
+    <associate|auto-24|<tuple|3.2|?>>
+    <associate|auto-25|<tuple|3.2.1|?>>
     <associate|auto-3|<tuple|1.1.1|?>>
     <associate|auto-4|<tuple|1.1.2|?>>
     <associate|auto-5|<tuple|1.1.3|?>>
