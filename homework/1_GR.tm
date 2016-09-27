@@ -26,7 +26,7 @@
   </eqnarray*>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|-c<rsup|2><around*|(|<frac|1|2\<nospace\>c>\<mathd\>\<upsilon\>+<frac|1|2c>\<mathd\>u|)><rsup|2>+<around*|(|<frac|1|2>\<mathd\>\<upsilon\>-<frac|1|2>\<mathd\>u|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|4><around*|(|\<mathd\>\<upsilon\><rsup|2>+\<mathd\>u<rsup|2>+2\<mathd\>u\<mathd\>\<upsilon\>|)>+<frac|1|4><around*|(|\<mathd\>\<upsilon\><rsup|2>+\<mathd\>u<rsup|2>-2\<mathd\>u\<mathd\>\<upsilon\>|)>>>|<row|<cell|>|<cell|=>|<cell|-\<mathd\>u\<mathd\>u>>>>
+    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|-c<rsup|2><around*|(|<frac|1|2\<nospace\>c>\<mathd\>\<upsilon\>+<frac|1|2c>\<mathd\>u|)><rsup|2>+<around*|(|<frac|1|2>\<mathd\>\<upsilon\>-<frac|1|2>\<mathd\>u|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|4><around*|(|\<mathd\>\<upsilon\><rsup|2>+\<mathd\>u<rsup|2>+2\<mathd\>u\<mathd\>\<upsilon\>|)>+<frac|1|4><around*|(|\<mathd\>\<upsilon\><rsup|2>+\<mathd\>u<rsup|2>-2\<mathd\>u\<mathd\>\<upsilon\>|)>>>|<row|<cell|>|<cell|=>|<cell|-\<mathd\>u\<mathd\>\<upsilon\>>>>>
   </eqnarray*>
 
   <paragraph|20160921>
