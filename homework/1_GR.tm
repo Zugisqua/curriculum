@@ -50,7 +50,7 @@
   \<#53E6\>\<#5916\>\<#4E00\>\<#65B9\>\<#9762\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|A<rprime|'><rsup|\<mu\>>>|<cell|=>|<cell|B<rprime|'><rsup|\<mu\>><rsub|\<alpha\>>C<rprime|'><rsup|\<alpha\>>=B<rprime|'><rsup|\<mu\>><rsub|\<alpha\>>C<rprime|'><rsup|\<alpha\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>x<rprime|'><rsup|\<mu\>>|\<partial\>x<rsup|\<sigma\>>><frac|\<partial\>x<rsup|\<rho\>>|\<partial\>x<rsup|\<alpha\>>>B<rsup|\<sigma\>><rsub|\<rho\>>C<rprime|'><rsup|\<alpha\>>>>>>
+    <tformat|<table|<row|<cell|A<rprime|'><rsup|\<mu\>>>|<cell|=>|<cell|B<rprime|'><rsup|\<mu\>><rsub|\<alpha\>>C<rprime|'><rsup|\<alpha\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>x<rprime|'><rsup|\<mu\>>|\<partial\>x<rsup|\<sigma\>>><frac|\<partial\>x<rsup|\<rho\>>|\<partial\>x<rsup|\<alpha\>>>B<rsup|\<sigma\>><rsub|\<rho\>>C<rprime|'><rsup|\<alpha\>>>>>>
   </eqnarray*>
 
   \<#8054\>\<#7CFB\>\<#4E0A\>\<#4E24\>\<#5F0F\>
