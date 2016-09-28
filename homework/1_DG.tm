@@ -139,6 +139,10 @@
     <tformat|<table|<row|<cell|i<rsub|X>a<rsub|r>>|<cell|=>|<cell|<around*|\<langle\>|\<xi\><rsup|j>\<partial\><rsub|j>,<frac|1|r!>f<rsub|i<rsub|1>\<ldots\>i<rsub|r>>\<theta\><rsup|i<rsub|1>>\<wedge\>\<ldots\>\<wedge\>\<theta\><rsup|i<rsub|r>>|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<xi\><rsup|j>f<rsub|i<rsub|1>\<ldots\>i<rsub|r>>|r!><around*|\<langle\>|\<partial\><rsub|j>,\<theta\><rsup|i<rsub|1>>\<wedge\>\<ldots\>\<wedge\>\<theta\><rsup|i<rsub|r>>|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<xi\><rsup|j>f<rsub|i<rsub|1>\<ldots\>i<rsub|r>>|r!>\<delta\><rsup|i<rsub|1>\<ldots\>i<rsub|r>><rsub|k<rsub|1>\<ldots\>k<rsub|r>><around*|\<langle\>|\<partial\><rsub|j>,\<theta\><rsup|k<rsub|1>>\<otimes\>\<ldots\>\<otimes\>\<theta\><rsup|k<rsub|r>>|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<xi\><rsup|j>f<rsub|i<rsub|1>\<ldots\>i<rsub|r>>|r!>\<delta\><rsup|i<rsub|1>\<ldots\>i<rsub|r>><rsub|k<rsub|1>\<ldots\>k<rsub|r>>\<delta\><rsup|k<rsub|1>><rsub|j>\<theta\><rsup|k<rsub|2>>\<otimes\>\<ldots\>\<otimes\>\<theta\><rsup|k<rsub|r>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<xi\><rsup|j>f<rsub|i<rsub|1>\<ldots\>i<rsub|r>>|r!>\<delta\><rsup|i<rsub|1>\<ldots\>i<rsub|r>><rsub|j\<nospace\>k<rsub|2>\<ldots\>k<rsub|r>>\<theta\><rsup|k<rsub|2>>\<otimes\>\<ldots\>\<otimes\>\<theta\><rsup|k<rsub|r>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<xi\><rsup|j>f<rsub|i<rsub|1>\<ldots\>i<rsub|r>>|r!>r\<delta\><rsup|i<rsub|1>><rsub|j>\<delta\><rsup|i<rsub|2>\<ldots\>i<rsub|2>><rsub|k<rsub|2>\<ldots\>k<rsub|3>>\<theta\><rsup|k<rsub|2>>\<otimes\>\<ldots\>\<otimes\>\<theta\><rsup|k<rsub|r>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<xi\><rsup|i<rsub|1>>f<rsub|i<rsub|1>\<ldots\>i<rsub|r>>|<around*|(|r-1|)>!>\<theta\><rsup|i<rsub|2>>\<wedge\>\<ldots\>\<wedge\>\<theta\><rsup|i<rsub|r>>>>>>
   </eqnarray*>
 
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|i<rsub|X>\<alpha\><rsub|r>>|<cell|=>|<cell|<around*|\<langle\>|\<alpha\><rsub|r>,X|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|r!>f<rsub|i<rsub|1>\<ldots\>i<rsub|r>>\<xi\><rsup|j><around*|\<langle\>|\<theta\><rsup|i<rsub|1>>\<wedge\>\<ldots\>\<wedge\>\<theta\><rsup|i<rsub|r>>,\<partial\><rsub|j>|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|r!>f<rsub|i<rsub|1>\<ldots\>i<rsub|r>>\<xi\><rsup|j>\<delta\>>>>>
+  </eqnarray*>
+
   \<#770B\>\<#8D77\>\<#6765\>\<#5F88\>\<#6709\>\<#9053\>\<#7406\>\<#7684\>\<#6837\>\<#5B50\>\<#FF0C\>\<#5B9E\>\<#9645\>\<#4E0A\>\<#662F\>\<#5957\>\<#7684\>\<#8BC1\>\<#660E\>\<#7ED3\>\<#8BBA\>\<#3002\>\<#4E3B\>\<#8981\>\<#8FD8\>\<#662F\>kronecker\<#7B26\>\<#53F7\>\<#4E0D\>\<#719F\>\<#6089\>
 
   <paragraph|9.>
@@ -268,6 +272,18 @@
 
       <with|par-left|<quote|4tab>|8. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-14><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|9. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-15><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|10. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-16><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|11. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-17><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|12. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-18><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
