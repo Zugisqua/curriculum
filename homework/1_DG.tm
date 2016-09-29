@@ -148,7 +148,7 @@
   <paragraph|9.>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|i<rsub|X><around*|(|a<rsub|p>\<wedge\>\<beta\><rsub|q>|)>>|<cell|=>|<cell|<frac|1|>>>>>
+    <tformat|<table|<row|<cell|i<rsub|X><around*|(|a\<wedge\>\<beta\>|)>>|<cell|=>|<cell|<around*|\<langle\>|a\<wedge\>\<beta\>,X|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<langle\>|a<rsub|I>\<mathd\>x<rsup|I>\<wedge\>\<beta\><rsub|J>\<mathd\>x<rsup|J>,X|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|a<rsub|I>\<beta\><rsub|J>\<xi\><rsup|k><around*|\<langle\>|\<mathd\>x<rsup|I\<nospace\>J>,\<partial\><rsub|k>|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|\<alpha\><rsub|I>\<beta\><rsub|J>\<xi\><rsup|k><around*|(||)>>>>>
   </eqnarray*>
 
   <paragraph|10.>
@@ -197,6 +197,34 @@
     <tformat|<table|<row|<cell|F<rsub|i\<nospace\>j>>|<cell|=>|<cell|\<partial\><rsub|j>A<rsub|i>-\<partial\><rsub|i>A<rsub|j>>>>>
   </eqnarray*>
 
+  <paragraph|13.>
+
+  (1)
+
+  <\eqnarray*>
+    <tformat|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|A>|<cell|=>|<cell|<frac|q|r><frac|1|z\<pm\>r><around*|(|x\<mathd\>y-y\<mathd\>x|)>>>|<row|<cell|\<Rightarrow\>>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|A<rsub|x>>|<cell|=>|<cell|-<frac|q\<nospace\>y\<nospace\>|r<around*|(|z\<pm\>r|)>>>>|<row|<cell|A<rsub|y>>|<cell|=>|<cell|<frac|q\<nospace\>x\<nospace\>|r<around*|(|z\<pm\>r|)>>>>|<row|<cell|A<rsub|z>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  (2)
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F>|<cell|=>|<cell|\<mathd\>A>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<mu\>><around*|(|<frac|q\<nospace\>x|r<around*|(|z\<pm\>r|)>>|)>\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>y-\<partial\><rsub|\<mu\>><around*|(|<frac|q\<nospace\>y|r<around*|(|z\<pm\>r|)>>|)>\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>x>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|q|r<around*|(|z\<pm\>r|)>>-<frac|q\<nospace\>x<rsup|2>|r<around*|(|z\<pm\>r|)>>-<frac|q\<nospace\>x<rsup|2>|<around*|(|z\<pm\>r|)><rsup|2>>|)>\<mathd\>x\<wedge\>\<mathd\>y+<around*|(|-<frac|q\<nospace\>y\<nospace\>z<around*|(|z\<pm\>r+r|)>|r<around*|(|z\<pm\>r|)><rsup|2>>-<frac|q\<nospace\>y|r<around*|(|z\<pm\>r|)><rsup|2>>|)>\<mathd\>z\<wedge\>\<mathd\>y<new-line>-<around*|(|<frac|q|r<around*|(|z\<pm\>r|)>>-<frac|q\<nospace\>y<rsup|2>|r<around*|(|z\<pm\>r|)>>-<frac|q\<nospace\>y<rsup|2>|<around*|(|z\<pm\>r|)><rsup|2>>|)>\<mathd\>y\<wedge\>\<mathd\>x-<around*|(|-<frac|q\<nospace\>x\<nospace\>z<around*|(|z\<pm\>r+r|)>|r<around*|(|z\<pm\>r|)><rsup|2>>-<frac|q\<nospace\>x|r<around*|(|z\<pm\>r|)><rsup|2>>|)>\<mathd\>z\<wedge\>\<mathd\>x>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|2\<nospace\>q|r<around*|(|z\<pm\>r|)>>-<frac|q\<nospace\><around*|(|x<rsup|2>+y<rsup|2>|)>|r<around*|(|z\<pm\>r|)>>-<frac|q<around*|(|x<rsup|2>+y<rsup|2>|)>|<around*|(|z\<pm\>r|)><rsup|2>>|)>\<mathd\>x\<wedge\>\<mathd\>y<new-line>+<around*|(|-<frac|q\<nospace\>y\<nospace\>z<around*|(|z\<pm\>r+r|)>|r<around*|(|z\<pm\>r|)><rsup|2>>-<frac|q\<nospace\>y|r<around*|(|z\<pm\>r|)><rsup|2>>|)>\<mathd\>z\<wedge\>\<mathd\>y+<around*|(|-<frac|q\<nospace\>x\<nospace\>z<around*|(|z\<pm\>r+r|)>|r<around*|(|z\<pm\>r|)><rsup|2>>-<frac|q\<nospace\>x|r<around*|(|z\<pm\>r|)><rsup|2>>|)>\<mathd\>x\<wedge\>\<mathd\>y>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<partial\><rsub|x><around*|(|<frac|q\<nospace\>x|r<around*|(|z\<pm\>r|)>>|)>>|<cell|=>|<cell|q<around*|(|<frac|1|r<around*|(|z\<pm\>r|)>>+x\<partial\><rsub|x><around*|(|<frac|1|r<around*|(|z\<pm\>r|)>>|)>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|=>|<cell|<frac|q|r<around*|(|z\<pm\>r|)>>-<frac|q\<nospace\>x<rsup|2><around*|(|z\<pm\>r+r|)>|r<around*|(|z\<pm\>r|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|q|r<around*|(|z\<pm\>r|)>>-<frac|q\<nospace\>x<rsup|2>|r<around*|(|z\<pm\>r|)>>-<frac|q\<nospace\>x<rsup|2>|<around*|(|z\<pm\>r|)><rsup|2>>>>|<row|<cell|\<partial\><rsub|z><around*|(|<frac|q\<nospace\>y|r<around*|(|z\<pm\>r|)>>|)>>|<cell|=>|<cell|q\<nospace\>y<around*|(|-<frac|\<partial\><rsub|z>r<around*|(|z\<pm\>r|)>+r<around*|(|1\<pm\>\<partial\><rsub|z>r|)>|r<rsup|2><around*|(|z\<pm\>r|)><rsup|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|-q\<nospace\>y<around*|(|<frac|<around*|(|z\<pm\>r+r|)>\<partial\><rsub|z>r|r<rsup|2><around*|(|z\<pm\>r|)><rsup|2>>+<frac|1|r<around*|(|z\<pm\>r|)><rsup|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|q\<nospace\>y\<nospace\>z<around*|(|z\<pm\>r+r|)>|r<around*|(|z\<pm\>r|)><rsup|2>>-<frac|q\<nospace\>y|r<around*|(|z\<pm\>r|)><rsup|2>>>>|<row|<cell|\<partial\><rsub|y><around*|(|<frac|q\<nospace\>y|r<around*|(|z\<pm\>r|)>>|)>>|<cell|=>|<cell|<frac|q|r<around*|(|z\<pm\>r|)>>-<frac|q\<nospace\>y<rsup|2>|r<around*|(|z\<pm\>r|)>>-<frac|q\<nospace\>y<rsup|2>|<around*|(|z\<pm\>r|)><rsup|2>>>>|<row|<cell|\<partial\><rsub|z><around*|(|<frac|q\<nospace\>x|r<around*|(|z\<pm\>r|)>>|)>>|<cell|=>|<cell|-<frac|q\<nospace\>x\<nospace\>z<around*|(|z\<pm\>r+r|)>|r<around*|(|z\<pm\>r|)><rsup|2>>-<frac|q\<nospace\>x|r<around*|(|z\<pm\>r|)><rsup|2>>>>>>
+  </eqnarray*>
+
+  \<#5206\>\<#91CF\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<rsub|12>=-F<rsub|21>>|<cell|=>|<cell|<frac|1|2><around*|(|<frac|2\<nospace\>q|r<around*|(|z\<pm\>r|)>>-<frac|q\<nospace\><around*|(|x<rsup|2>+y<rsup|2>|)>|r<around*|(|z\<pm\>r|)>>-<frac|q<around*|(|x<rsup|2>+y<rsup|2>|)>|<around*|(|z\<pm\>r|)><rsup|2>>|)>>>|<row|<cell|F<rsub|32>=-F<rsub|23>>|<cell|=>|<cell|-<frac|1|2><around*|(|<frac|q\<nospace\>y\<nospace\>z<around*|(|z\<pm\>r+r|)>|r<around*|(|z\<pm\>r|)><rsup|2>>+<frac|q\<nospace\>y|r<around*|(|z\<pm\>r|)><rsup|2>>|)>>>|<row|<cell|F<rsub|12>=-F<rsub|21>>|<cell|=>|<cell|-<frac|1|2><around*|(|-<frac|q\<nospace\>x\<nospace\>z<around*|(|z\<pm\>r+r|)>|r<around*|(|z\<pm\>r|)><rsup|2>>-<frac|q\<nospace\>x|r<around*|(|z\<pm\>r|)><rsup|2>>|)>>>>>
+  </eqnarray*>
+
   \;
 </body>
 
@@ -215,6 +243,7 @@
     <associate|auto-16|<tuple|16|?>>
     <associate|auto-17|<tuple|17|?>>
     <associate|auto-18|<tuple|18|?>>
+    <associate|auto-19|<tuple|19|?>>
     <associate|auto-2|<tuple|2|?>>
     <associate|auto-3|<tuple|3|?>>
     <associate|auto-4|<tuple|4|?>>
