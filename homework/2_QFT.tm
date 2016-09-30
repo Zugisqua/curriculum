@@ -56,6 +56,33 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|<big|sum><rsup|\<infty\>><rsub|k=0><around*|(|-\<partial\>|)><rsup|k><frac|\<partial\>\<cal-L\>|\<partial\><around*|(|\<partial\><rsup|k>\<phi\>|)>>>|<cell|=>|<cell|0>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  \;
+
+  \;
+
+  \;
+
+  HW1\ 
+
+  \<#5BF9\>\<#4E8E\><math|\<cal-L\>=<frac|1|2>\<partial\><rsub|\<mu\>>\<phi\>\<eta\><rsup|\<mu\>\<nu\>>\<partial\><rsub|\<nu\>>\<phi\>-<frac|\<lambda\>|4!>\<phi\><rsup|4>>
+
+  (1)\<#8BA1\>\<#7B97\>\<#80FD\>\<#52A8\>\<#5F20\>\<#91CF\>
+
+  (2)\<#8003\>\<#8651\>\<#4E00\>\<#4E2A\>dialation\<#53D8\>\<#6362\>\<#FF0C\><math|\<delta\>x<rsup|\<mu\>>=\<alpha\>x<rsup|\<mu\>>,\<delta\>\<phi\>=-\<alpha\>\<phi\>>,\<#63A8\>\<#5BFC\>Noether
+  \<#6D41\>
+
+  (3)\<#5982\>\<#679C\>\<#5728\><math|\<cal-L\><rprime|'>=\<cal-L\>+\<cal-L\><rsub|0>,where\<cal-L\><rsub|0>=-<frac|1|2>m<rsup|2>\<phi\><rsup|2>>\<#8FD8\>\<#662F\>\<#5426\>\<#6EE1\>\<#8DB3\>\<#8FD9\>\<#4E2A\>dialation\<#5BF9\>\<#79F0\>\<#6027\>
+
+  \;
+
+  HW2
+
+  \;
 </body>
 
 <initial|<\collection>
@@ -66,3 +93,12 @@
     <associate|auto-1|<tuple|1|?>>
   </collection>
 </references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|toc>
+      <with|par-left|<quote|4tab>|3.1 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-1><vspace|0.15fn>>
+    </associate>
+  </collection>
+</auxiliary>
