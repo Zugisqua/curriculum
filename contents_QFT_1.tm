@@ -581,8 +581,17 @@
 
   <\with|color|brown>
     <with|font-series|bold|PS\<#FF1A\>><with|color|brown| \ 1.
-    \<#5728\>\<#8BFA\>\<#7279\>\<#5B9A\>\<#7406\>\<#8003\>\<#8651\>\<#7684\>\<#5168\>\<#7A7A\>\<#95F4\>\<#8FB9\>\<#754C\>\<#79EF\>\<#5206\>\<#4E0D\>\<#4E3A\>0,\<#5373\><math|<big|int>\<mathd\><rsup|4>x\<partial\><rsub|\<mu\>><around*|{|**\<cdots\>*|}>\<neq\>0>><new-line><space|3em>2.
-    Noether\<#5B9A\>\<#7406\>\<#53EA\>\<#80FD\>\<#8FD0\>\<#7528\>\<#4E8E\>\<#8FDE\>\<#7EED\>\<#7684\>\<#5BF9\>\<#79F0\>\<#6027\>\<#53D8\>\<#5316\>\<#3002\>\<#56E0\>\<#4E3A\>\<#8981\>\<#5BF9\>\<#8FD9\>\<#91CC\>\<#7684\>\<#53C2\>\<#6570\>\<#6C42\>\<#53D8\>\<#5206\>\<#3002\><new-line><space|3em>3.
+    \<#5728\>\<#8BFA\>\<#7279\>\<#5B9A\>\<#7406\>\<#8003\>\<#8651\>\<#7684\>\<#5168\>\<#7A7A\>\<#95F4\>\<#8FB9\>\<#754C\>\<#79EF\>\<#5206\>\<#4E0D\>\<#4E3A\>0,\<#5373\><math|<big|int>\<mathd\><rsup|4>x\<partial\><rsub|\<mu\>><around*|{|**\<cdots\>*|}>\<neq\>0>>
+
+    <\with|color|black>
+      \<#8FD9\>\<#91CC\>\<#5177\>\<#4F53\>\<#5730\>\<#8BB2\>\<#FF0C\>\<#8FD9\>\<#91CC\>\<#4E0E\>\<#8FD0\>\<#52A8\>\<#65B9\>\<#7A0B\>\<#63A8\>\<#5BFC\>\<#4E0D\>\<#540C\>\<#7684\>\<#5730\>\<#65B9\>\<#662F\>\<#FF1A\>\<#8FD9\>\<#91CC\>\<#4E0D\>\<#8981\>\<#6C42\>\<#5728\>\<#8FB9\>\<#754C\>\<#521D\><math|\<delta\>\<phi\>=0><new-line>\<#66F4\>\<#591A\>\<#4E0D\>\<#540C\>\<#5982\>\<#4E0B\>
+
+      <\equation*>
+        <block|<tformat|<cwith|1|1|2|2|cell-halign|c>|<cwith|1|1|3|3|cell-halign|c>|<cwith|3|3|1|1|cell-halign|c>|<table|<row|<cell|>|<cell|Noether\<#5B9A\>\<#7406\>>|<cell|\<#8FD0\>\<#52A8\>\<#65B9\>\<#7A0B\>>>|<row|<cell|\<delta\>\<phi\>=\<phi\><rprime|'><around*|(|x|)>-\<phi\><around*|(|x|)>>|<cell|<tabular*|<tformat|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|\<#7279\>\<#5B9A\>\<#7684\>\<#FF0C\>\<#6709\>\<#5BF9\>\<#79F0\>\<#6027\>\<#786E\>\<#5B9A\>>>|<row|<cell|\<#53EF\>\<#7531\>\<#53C2\>\<#6570\>\<#63CF\>\<#8FF0\>>>>>>>|<cell|<tabular*|<tformat|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|\<#5728\>\<#786E\>\<#5B9A\>\<#8FB9\>\<#754C\>\<#6761\>\<#4EF6\>\<#4E0B\>>>|<row|<cell|\<#4EFB\>\<#610F\>\<#9009\>\<#53D6\>>>>>>>>|<row|<cell|\<delta\>S>|<cell|<tabular*|<tformat|<cwith|2|2|1|1|cell-halign|l>|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|\<#5728\>\<phi\><around*|(|x|)>\<#5F62\>\<#5F0F\>\<#5DF2\>\<#7ECF\>\<#53EF\>\<#4EE5\>\<#786E\>\<#5B9A\>\<#540E\>>>|<row|<cell|\<#540C\>\<#6837\>\<#7684\>S\<#7684\>\<#5BF9\>\<#5E94\>\<#591A\>\<#79CD\>\<phi\><around*|(|x|)>\<#5F62\>\<#5F0F\>>>>>>>|<cell|<tabular*|<tformat|<cwith|2|2|1|1|cell-halign|l>|<cwith|3|3|1|1|cell-halign|l>|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|\<#6BCF\>\<#4E00\>\<#4E2A\>\<#51FD\>\<#6570\>\<phi\><around*|(|x|)>\<#5F62\>\<#5F0F\>>>|<row|<cell|\<#5BF9\>\<#5E94\>\<#4E00\>\<#4E2A\>S>>|<row|<cell|\<#7269\>\<#7406\>\<#7684\>\<phi\><around*|(|x|)>\<#5BF9\>\<#5E94\>\<#53D6\>\<#6781\>\<#503C\>\<#7684\>S>>>>>>>>>>
+      </equation*>
+    </with>
+
+    <space|3em>2. Noether\<#5B9A\>\<#7406\>\<#53EA\>\<#80FD\>\<#8FD0\>\<#7528\>\<#4E8E\>\<#8FDE\>\<#7EED\>\<#7684\>\<#5BF9\>\<#79F0\>\<#6027\>\<#53D8\>\<#5316\>\<#3002\>\<#56E0\>\<#4E3A\>\<#8981\>\<#5BF9\>\<#8FD9\>\<#91CC\>\<#7684\>\<#53C2\>\<#6570\>\<#6C42\>\<#53D8\>\<#5206\>\<#3002\><new-line><space|3em>3.
     \<#5B83\>\<#7814\>\<#7A76\>\<#5927\>\<#591A\>\<#7814\>\<#7A76\>\<#5168\>\<#5C40\>\<#5BF9\>\<#79F0\>\<#6027\>\V\<#8BA1\>\<#7B97\>\<#8FC7\>\<#7A0B\>\<#4E2D\>\<#9700\>\<#8981\>\<#5C06\>\<#53D8\>\<#6362\>\<#53C2\>\<#6570\>\<#4E0E\>\<#7A7A\>\<#95F4\>\<#504F\>\<#5FAE\>\<#5206\>\<#7684\>\<#5BF9\>\<#6613\>
   </with>
 
@@ -1220,7 +1229,7 @@
       <no-break><pageref|auto-25><vspace|0.5fn>
 
       <with|par-left|<quote|1tab>|3.1<space|2spc>Klein-Golden\<#573A\><assign|footnote-nr|1><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%3DB3A80-32A2400>|<link|hyperlink|<id|%3DB3A80-32A2400>|<url|#footnr-1>>|1>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%538D090-4FDA7F0>|<link|hyperlink|<id|%538D090-4FDA7F0>|<url|#footnr-1>>|1>.
         |<hidden|<tuple|footnote-1>><htab|0fn|first>>
           Mandl F. ,Shaw G. Quantum field theory
         </surround>>>
