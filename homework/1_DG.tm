@@ -148,7 +148,11 @@
   <paragraph|9.>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|i<rsub|X><around*|(|a\<wedge\>\<beta\>|)>>|<cell|=>|<cell|<around*|\<langle\>|a\<wedge\>\<beta\>,X|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<langle\>|a<rsub|I>\<mathd\>x<rsup|I>\<wedge\>\<beta\><rsub|J>\<mathd\>x<rsup|J>,X|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|a<rsub|I>\<beta\><rsub|J>\<xi\><rsup|k><around*|\<langle\>|\<mathd\>x<rsup|I\<nospace\>J>,\<partial\><rsub|k>|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|\<alpha\><rsub|I>\<beta\><rsub|J>\<xi\><rsup|k><around*|(||)>>>>>
+    <tformat|<table|<row|<cell|i<rsub|X><around*|(|\<alpha\>\<wedge\>\<beta\>|)>>|<cell|=>|<cell|<around*|\<langle\>|\<alpha\>\<wedge\>\<beta\>,X|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|\<#5728\>\<#4E66\>\<#4E0A\>\<#6709\>\<#8BC1\>\<#660E\>\<#8FC7\>\<#7A0B\>\<#FF0C\>\<#7136\>\<#800C\>\<#8FD8\>\<#662F\>\<#770B\>\<#4E0D\>\<#61C2\>-\<nospace\>->>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|>>>>
   </eqnarray*>
 
   <paragraph|10.>
@@ -313,6 +317,9 @@
 
       <with|par-left|<quote|4tab>|12. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-18><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|13. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-19><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
