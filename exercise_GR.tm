@@ -360,7 +360,103 @@
 
   done no minus!
 
+  <paragraph|8.2>already known
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|e<rsub|<wide|r|^>>>|<cell|=>|<cell|\<partial\><rsub|r>>>|<row|<cell|e<rsub|<wide|\<theta\>|^>>>|<cell|=>|<cell|<frac|1|r>\<partial\><rsub|\<theta\>>>>>>
+  </eqnarray*>
+
+  construct
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|\<langle\>|w<rsup|<wide|i|^>>,e<rsub|<wide|j|^>>|\<rangle\>>>|<cell|=>|<cell|\<delta\><rsup|i><rsub|j>>>>>
+  </eqnarray*>
+
+  then
+
+  <\equation*>
+    <choice|<tformat|<table|<row|<cell|<around*|\<langle\>|w<rsup|<wide|r|^>>,\<partial\><rsub|r>|\<rangle\>>>|<cell|=>|<cell|1>>|<row|<cell|<around*|\<langle\>|w<rsup|<wide|r|^>>,<frac|\<partial\><rsub|\<theta\>>|r>|\<rangle\>>>|<cell|=>|<cell|0>>|<row|<cell|<around*|\<langle\>|w<rsup|<wide|\<theta\>|^>>,\<partial\><rsub|r>|\<rangle\>>>|<cell|=>|<cell|0>>|<row|<cell|<around*|\<langle\>|w<rsup|<wide|\<theta\>|^>>,<frac|\<partial\><rsub|\<theta\>>|r>|\<rangle\>>>|<cell|=>|<cell|1>>>>>\<Rightarrow\><choice|<tformat|<table|<row|<cell|w<rsup|<wide|r|^>>>|<cell|=>|<cell|\<mathd\>r>>|<row|<cell|w<rsup|<wide|\<theta\>|^>>>|<cell|=>|<cell|r\<mathd\>\<theta\>>>>>>
+  </equation*>
+
+  could see here ,<math|f=r>
+
+  if there is a function <math|g> that <math|\<mathd\>g=w<rsup|<wide|\<theta\>|^>>>,then
+  it will be <math|\<mathd\><rsup|2>g\<equiv\>0>,namely
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\><rsup|2>g>|<cell|=>|<cell|\<mathd\><around*|(|r\<mathd\>\<theta\>|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|r>r\<mathd\>r\<wedge\>\<mathd\>\<theta\>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>r\<wedge\>\<mathd\>\<theta\>\<neq\>0>>>>
+  </eqnarray*>
+
+  this kind of <math|g> is not exist.
+
+  <paragraph|8.3>
+
+  just <math|\<mathd\>\<sigma\>=0>
+
+  <paragraph|8.6->
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<beta\>>|<cell|=>|<cell|<around*|(|x<rsup|1><big|int><rsub|0><rsup|1>f<around*|(|\<xi\>x<rsup|1>,x<rsup|2>,\<ldots\>,x<rsup|n>|)>\<mathd\>\<xi\>|)>\<mathd\>x<rsup|2>>>>>
+  </eqnarray*>
+
+  calculate
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>\<beta\>>|<cell|=>|<cell|\<mathd\><around*|(|<around*|(|x<rsup|1><big|int><rsub|0><rsup|1>f<around*|(|\<xi\>x<rsup|1>,x<rsup|2>,\<ldots\>,x<rsup|n>|)>\<mathd\>\<xi\>|)>\<mathd\>x<rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\><around*|(|x<rsup|1><big|int><rsub|0><rsup|1>f<around*|(|\<xi\>x<rsup|1>,x<rsup|2>,\<ldots\>,x<rsup|n>|)>\<mathd\>\<xi\>|)>\<mathd\>x<rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<big|int><rsub|0><rsup|1>f<around*|(|\<xi\>x<rsup|1>,x<rsup|2>,\<ldots\>,x<rsup|n>|)>\<mathd\>\<xi\>|)>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>+<around*|(|x<rsup|1><big|int><rsup|1><rsub|0>\<mathd\>f<around*|(|\<xi\>x<rsup|1>,x<rsup|2>,\<ldots\>,x<rsup|n>|)>\<mathd\>\<xi\>|)>\<mathd\>x<rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<big|int><rsub|0><rsup|1>f<around*|(|\<xi\>x<rsup|1>,x<rsup|2>,\<ldots\>,x<rsup|n>|)>\<mathd\>\<xi\>|)>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>+<around*|(|x<rsup|1><big|int><rsup|1><rsub|0>\<mathd\>\<xi\><around*|{|<frac|\<partial\>f|\<partial\>x<rsup|1>>\<xi\>\<mathd\>x<rsup|1>+<frac|\<partial\>f|\<partial\>x<rsup|2>>\<mathd\>x<rsup|2>+\<ldots\>|}>|)>\<mathd\>x<rsup|2>>>>>
+  </eqnarray*>
+
+  then
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\><rsup|2>\<beta\>>|<cell|=>|<cell|\<mathd\><around*|(|<big|int><rsup|1><rsub|0>f<around*|(|\<xi\>x<rsup|1>,x<rsup|2>,\<ldots\>,x<rsup|n>|)>\<mathd\>\<xi\>|)>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>+\<mathd\><around*|(|x<rsup|1>\<mathd\><around*|(|<big|int><rsub|0><rsup|1>f\<mathd\>\<xi\>|)>|)>\<mathd\>x<rsup|2>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\><around*|(|<big|int><rsup|1><rsub|0>f\<mathd\>\<xi\>|)>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>+\<mathd\><around*|(|<big|int><rsub|0><rsup|1>f\<mathd\>\<xi\>|)>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|2<big|int><rsup|1><rsub|0>\<mathd\>f\<mathd\>\<xi\>|)>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>=0>>>>
+  </eqnarray*>
+
+  I still don't know how to say <math|\<alpha\>=\<mathd\>\<beta\>>
+
   \;
+
+  <paragraph|8.13>
+
+  here two conclusions contribute<new-line>1.
+  <math|L<rsub|X>u<rsup|\<mu\>>=X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>u<rsup|\<mu\>>-u<rsup|\<nu\>>\<partial\><rsub|\<nu\>>X<rsup|\<mu\>>><new-line>2.
+  <math|L<rsub|X>f=X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>f>
+
+  but where do they come from?
+
+  in geometry meaning, they are both direction derivative. it's easy to learn
+  the second conclusion,but how about the direction derivative of a vector?
+
+  <\eqnarray*>
+    <tformat|<cwith|7|7|1|1|cell-halign|l>|<table|<row|<cell|L<rsub|X>Y\<nospace\>f>|<cell|=>|<cell|<around*|[|X,Y|]>f>>|<row|<cell|>|<cell|=>|<cell|X<around*|(|Y\<nospace\>f|)>-Y<around*|(|X\<nospace\>f|)>>>|<row|<cell|>|<cell|=>|<cell|X<around*|(|Y<rsup|\<mu\>>\<partial\><rsub|\<mu\>>f|)>-Y<around*|(|X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>f|)>>>|<row|<cell|>|<cell|=>|<cell|X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>Y<rsup|\<mu\>>\<partial\><rsub|\<mu\>>f+X<rsup|\<nu\>>Y<rsup|\<mu\>>\<partial\><rsub|\<nu\>>\<partial\><rsub|\<mu\>>f-Y<rsup|\<mu\>>\<partial\><rsub|\<mu\>>X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>f-Y<rsup|\<mu\>>X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>\<partial\><rsub|\<mu\>>f>>|<row|<cell|>|<cell|=>|<cell|X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>Y<rsup|\<mu\>>\<partial\><rsub|\<mu\>>-Y<rsup|\<mu\>>\<partial\><rsub|\<mu\>>X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>f>>|<row|<cell|>|<cell|=>|<cell|<around*|(|X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>Y<rsup|\<mu\>>-Y<rsup|\<nu\>>\<partial\><rsub|\<nu\>>X<rsup|\<mu\>>|)>\<partial\><rsub|\<mu\>>f>>|<row|<cell|that<rprime|'>s\<nospace\><space|1.5spc>all>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|L<rsub|X>Y>|<cell|=>|<cell|*<around*|(|X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>Y<rsup|\<mu\>>-Y<rsup|\<nu\>>\<partial\><rsub|\<nu\>>X<rsup|\<mu\>>|)>\<partial\><rsub|\<nu\>>>>|<row|<cell|L<rsub|X>Y<rsup|\<mu\>>>|<cell|=>|<cell|X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>Y<rsup|\<mu\>>-Y<rsup|\<nu\>>\<partial\><rsub|\<nu\>>X<rsup|\<mu\>>>>>>
+  </eqnarray*>
+
+  they are all from the <math|L<rsub|X>f=X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>f>
+
+  (a)
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|L<rsub|X><around*|(|u<rsup|\<mu\>>w<rsub|\<mu\>>|)>=u<rsup|\<mu\>>L<rsub|X>w<rsub|\<mu\>>+w<rsub|\<mu\>>L<rsub|X>u<rsup|\<mu\>>>|<cell|=>|<cell|X<rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|u<rsup|\<mu\>>w<rsub|\<mu\>>|)>>>|<row|<cell|u<rsup|\<mu\>>L<rsub|X>w<rsub|\<mu\>>>|<cell|=>|<cell|X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>u<rsup|\<mu\>>w<rsub|\<mu\>>+X<rsup|\<nu\>>u<rsup|\<mu\>>\<partial\><rsub|\<nu\>>w<rsub|\<mu\>>-w<rsub|\<mu\>>L<rsub|X>u<rsup|\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|u<rsup|\<mu\>>X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>w<rsub|\<mu\>>+X<rsup|\<nu\>>w<rsub|\<mu\>>\<partial\><rsub|\<nu\>>u<rsup|\<mu\>>-w<rsub|\<mu\>><around*|(|X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>u<rsup|\<mu\>>-u<rsup|\<nu\>>\<partial\><rsub|\<nu\>>X<rsup|\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|u<rsup|\<mu\>>X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>w<rsub|\<mu\>>+u<rsup|\<mu\>>w<rsub|\<nu\>>\<partial\><rsub|\<mu\>>X<rsup|\<nu\>>+w<rsub|\<mu\>>X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>u<rsup|\<mu\>>-w<rsub|\<mu\>>X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>u<rsup|\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|u<rsup|\<mu\>><around*|(|X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>w<rsub|\<mu\>>+w<rsub|\<nu\>>\<partial\><rsub|\<mu\>>X<rsup|\<nu\>>|)>>>>>
+  </eqnarray*>
+
+  therefore
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|L<rsub|X>w<rsub|\<mu\>>>|<cell|=>|<cell|X<rsup|\<nu\>>\<partial\><rsub|\<nu\>>w<rsub|\<mu\>>+w<rsub|\<nu\>>\<partial\><rsub|\<mu\>>X<rsup|\<nu\>>>>>>
+  </eqnarray*>
+
+  (b)
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|L<rsub|X><around*|(|u<rsup|\<mu\>>T<rsup|\<nu\>><rsub|\<mu\>>w<rsub|\<nu\>>|)>=T<rsup|\<nu\>><rsub|\<mu\>>w<rsub|\<nu\>>L<rsub|X>u<rsup|\<mu\>>+u<rsup|\<mu\>>w<rsub|\<nu\>>L<rsub|X>T<rsup|\<nu\>><rsub|\<mu\>>+u<rsup|\<mu\>>T<rsup|\<nu\>><rsub|\<mu\>>L<rsub|X>w<rsub|\<nu\>>>|<cell|=>|<cell|X<rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|u<rsup|\<mu\>>T<rsup|\<nu\>><rsub|\<mu\>>w<rsub|\<nu\>>|)>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|u<rsup|\<mu\>>w<rsub|\<nu\>>L<rsub|X>T<rsup|\<nu\>><rsub|\<mu\>>>|<cell|=>|<cell|X<rsup|\<sigma\>>\<partial\><rsub|\<sigma\>><around*|(|u<rsup|\<mu\>>T<rsup|\<nu\>><rsub|\<mu\>>w<rsub|\<nu\>>|)>-T<rsup|\<nu\>><rsub|\<mu\>>w<rsub|\<nu\>>L<rsub|X>u<rsup|\<mu\>>-u<rsup|\<mu\>>T<rsup|\<nu\>><rsub|\<mu\>>L<rsub|X>w<rsub|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|X<rsup|\<sigma\>>\<partial\><rsub|\<sigma\>>u<rsup|\<mu\>>T<rsup|\<nu\>><rsub|\<mu\>>w<rsub|\<nu\>>+X<rsup|\<sigma\>>u<rsup|\<mu\>>\<partial\><rsub|\<sigma\>>T<rsup|\<nu\>><rsub|\<mu\>>w<rsub|\<nu\>>+X<rsup|\<sigma\>>u<rsup|\<mu\>>T<rsup|\<nu\>><rsub|\<mu\>>\<partial\><rsub|\<sigma\>>w<rsub|\<nu\>>-T<rsup|\<nu\>><rsub|\<mu\>>w<rsub|\<nu\>>X<rsup|\<sigma\>>\<partial\><rsub|\<sigma\>>u<rsup|\<mu\>>-T<rsup|\<nu\>><rsub|\<mu\>>w<rsub|\<nu\>>u<rsup|\<sigma\>>\<partial\><rsub|\<sigma\>>X<rsup|\<mu\>><new-line>-u<rsup|\<mu\>>T<rsup|\<nu\>><rsub|\<mu\>>X<rsup|\<sigma\>>\<partial\><rsub|\<sigma\>>w<rsub|\<nu\>>-u<rsup|\<mu\>>T<rsup|\<nu\>><rsub|\<mu\>>w<rsub|\<sigma\>>\<partial\><rsub|\<nu\>>X<rsup|\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|u<rsup|\<mu\>>w<rsub|\<nu\>><around*|(|X<rsup|\<sigma\>>\<partial\><rsub|\<sigma\>>T<rsup|\<nu\>><rsub|\<mu\>>-T<rsup|\<nu\>><rsub|\<sigma\>>\<partial\><rsub|\<mu\>>X<rsup|\<sigma\>>-T<rsup|\<sigma\>><rsub|\<mu\>>\<partial\><rsub|\<sigma\>>X<rsup|\<nu\>>|)>+X<rsup|\<sigma\>>T<rsup|\<nu\>><rsub|\<mu\>>w<rsub|\<nu\>>\<partial\><rsub|\<sigma\>>u<rsup|\<mu\>>-X<rsup|\<sigma\>>T<rsup|\<nu\>><rsub|\<mu\>>w<rsub|\<nu\>>\<partial\><rsub|\<sigma\>>u<rsup|\<mu\>><new-line>+X<rsup|\<sigma\>>u<rsup|\<mu\>>T<rsup|\<nu\>><rsub|\<mu\>>\<partial\><rsub|\<sigma\>>w<rsub|\<nu\>>-u<rsup|\<mu\>>T<rsup|\<nu\>><rsub|\<mu\>>X<rsup|\<sigma\>>\<partial\><rsub|\<sigma\>>w<rsub|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|u<rsup|\<mu\>>w<rsub|\<nu\>><around*|(|X<rsup|\<sigma\>>\<partial\><rsub|\<sigma\>>T<rsup|\<nu\>><rsub|\<mu\>>-T<rsup|\<nu\>><rsub|\<sigma\>>\<partial\><rsub|\<mu\>>X<rsup|\<sigma\>>-T<rsup|\<sigma\>><rsub|\<mu\>>\<partial\><rsub|\<sigma\>>X<rsup|\<nu\>>|)>>>|<row|<cell|therefore>|<cell|>|<cell|>>|<row|<cell|L<rsub|X>T<rsup|\<nu\>><rsub|\<mu\>>>|<cell|=>|<cell|X<rsup|\<sigma\>>\<partial\><rsub|\<sigma\>>T<rsup|\<nu\>><rsub|\<mu\>>-T<rsup|\<nu\>><rsub|\<sigma\>>\<partial\><rsub|\<mu\>>X<rsup|\<sigma\>>-T<rsup|\<sigma\>><rsub|\<mu\>>\<partial\><rsub|\<sigma\>>X<rsup|\<nu\>>>>>>
+  </eqnarray*>
 </body>
 
 <initial|<\collection>
@@ -371,6 +467,10 @@
     <associate|auto-1|<tuple|1|?>>
     <associate|auto-10|<tuple|10|?>>
     <associate|auto-11|<tuple|11|?>>
+    <associate|auto-12|<tuple|12|?>>
+    <associate|auto-13|<tuple|13|?>>
+    <associate|auto-14|<tuple|14|?>>
+    <associate|auto-15|<tuple|15|?>>
     <associate|auto-2|<tuple|2|?>>
     <associate|auto-3|<tuple|3|?>>
     <associate|auto-4|<tuple|4|?>>
