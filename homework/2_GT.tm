@@ -59,7 +59,7 @@
 
   (1)<math|<tabular*|<tformat|<table|<row|<cell|A<rsup|-1>=A>|<cell|B<rsup|-1>=F>|<cell|C<rsup|-1>=I>|<cell|D<rsup|-1>=J>|<cell|K<rsup|-1>=L>|<cell|M<rsup|-1>=N>>>>>>
 
-  (2)<math|<tabular*|<tformat|<table|<row|<cell|E>|<cell|A>|<cell|N>>>>>>
+  (2)<math|<tabular*|<tformat|<table|<row|<cell|E>|<cell|A>>>>>>
 
   (3)
 
@@ -73,11 +73,11 @@
 
   (5)\<#4E0D\>\<#53D8\>\<#5B50\>\<#7FA4\>
 
-  <math|<tabular*|<tformat|<cwith|3|3|4|4|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<cwith|3|3|2|2|cell-halign|l>|<cwith|2|2|2|2|cell-halign|l>|<cwith|2|2|1|1|cell-halign|l>|<cwith|1|1|1|1|cell-halign|l>|<cwith|3|3|1|1|cell-halign|l>|<table|<row|<cell|<around*|{|E,A|}>>|<cell|>|<cell|>|<cell|>>|<row|<cell|<around*|{|E,K,L|}>>|<cell|<around*|{|E,M,N|}>>|<cell|>|<cell|>>|<row|<cell|<around*|{|E,B,C\<nospace\>,D|}>>|<cell|<around*|{|E,A,K,L|}>>|<cell|<around*|{|E,A,M,N|}>>|<cell|<around*|{|E,F,I,J|}>>>|<row|<cell|<around*|{|E,B,C,D,K,L|}>>|<cell|<around*|{|E,B,C,D,M,N|}>>|<cell|<around*|{|E,F,I,J,K,L|}>>|<cell|<around*|{|E,F,I,J,M,N|}>>>>>>>
+  <math|<tabular*|<tformat|<cwith|2|2|1|1|cell-halign|l>|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<around*|{|E,A|}>>>|<row|<cell|<around*|{|E,M,N|}>>>|<row|<cell|3>>>>>>
 
   <math|<tabular*|<tformat|<table|<row|<cell|A<rsup|-1>=A>|<cell|B<rsup|-1>=F>|<cell|C<rsup|-1>=I>|<cell|D<rsup|-1>=J>|<cell|K<rsup|-1>=L>|<cell|M<rsup|-1>=N>>>>>>
 
-  <math|<block*|<tformat|<table|<row|<cell|\<#5B50\>\<#7FA4\>,\<#8BB0\>H>|<cell|\<#966A\>\<#96C6\>>|<cell|\<#540C\>\<#6784\>\<#7FA4\>>>|<row|<cell|<around*|{|E,A|}>>|<cell|B\<nospace\>H,C\<nospace\>H,D\<nospace\>H,K\<nospace\>H,L\<nospace\>H>|<cell|>>|<row|<cell|<around*|{|E,K,L|}>>|<cell|A\<nospace\>H,B\<nospace\>H,C\<nospace\>H>|<cell|>>>>>>
+  <math|<block*|<tformat|<table|<row|<cell|\<#5B50\>\<#7FA4\>,\<#8BB0\>H>|<cell|\<#966A\>\<#96C6\>>|<cell|\<#540C\>\<#6784\>\<#7FA4\>>>|<row|<cell|<around*|{|E,A|}>>|<cell|B\<nospace\>H,C\<nospace\>H,D\<nospace\>H,K\<nospace\>H,L\<nospace\>H>|<cell|>>|<row|<cell|<around*|{|E,K,L|}>>|<cell|A\<nospace\>H,B\<nospace\>H,\<nospace\>H>|<cell|>>>>>>
 
   (6)\<#90FD\>\<#4E0D\>\<#540C\>\<#6784\>\<#FF0C\>\<#4E0D\>\<#53D8\>\<#5B50\>\<#7FA4\>\<#90FD\>\<#4E0D\>\<#4E00\>\<#6837\>
 </body>
