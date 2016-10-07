@@ -73,7 +73,7 @@
   (1)\<#6839\>\<#636E\>\<#5DF2\>\<#7ECF\>\<#63A8\>\<#5BFC\>\<#7684\>\<#80FD\>\<#52A8\>\<#5F20\>\<#91CF\>\<#8BA1\>\<#7B97\>\<#516C\>\<#5F0F\>
 
   <\equation*>
-    <tformat|<cwith|1|1|1|3|color|black>|<table|<row|<cell|j<rsup|\<mu\>>>|<cell|=>|<cell|<frac|\<partial\>\<cal-L\>|\<partial\><rsub|\<mu\>>\<phi\>>\<delta\>\<phi\>+<around*|(|\<cal-L\>\<delta\><rsup|\<mu\>><rsub|\<nu\>>-<frac|\<partial\>\<cal-L\>|\<partial\><around*|(|\<partial\><rsub|\<mu\>>\<phi\>|)>>\<partial\><rsub|\<nu\>>\<phi\>|)>\<delta\>x<rsup|\<nu\>>>>>>
+    <tformat|<cwith|1|1|1|3|color|black>|<table|<row|<cell|j<rsup|\<mu\>>>|<cell|=>|<cell|<frac|\<partial\>\<cal-L\>|\<partial\><around*|(|\<partial\><rsub|\<mu\>>\<phi\>|)>>\<delta\>\<phi\>+<around*|(|\<cal-L\>\<delta\><rsup|\<mu\>><rsub|\<nu\>>-<frac|\<partial\>\<cal-L\>|\<partial\><around*|(|\<partial\><rsub|\<mu\>>\<phi\>|)>>\<partial\><rsub|\<nu\>>\<phi\>|)>\<delta\>x<rsup|\<nu\>>>>>>
   </equation*>
 
   <\eqnarray*>
@@ -83,7 +83,7 @@
   (2)\<#5E26\>\<#5165\>\<#5BF9\>\<#5E94\>\<#53D8\>\<#6362\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|j<rsup|\<sigma\>>>|<cell|=>|<cell|-\<eta\><rsup|\<sigma\>\<mu\>>\<alpha\>\<phi\>\<partial\><rsub|\<mu\>>\<phi\>-\<alpha\>\<eta\><rsup|\<sigma\>\<mu\>>x<rsup|\<rho\>>\<partial\><rsub|\<mu\>>\<phi\>\<partial\><rsub|\<rho\>>\<phi\>+\<alpha\>x<rsup|\<sigma\>>\<cal-L\>>>|<row|<cell|>|<cell|=>|<cell|\<alpha\><around*|(|x<rsup|\<sigma\>>\<cal-L\>-\<eta\><rsup|\<sigma\>\<mu\>>\<phi\>\<partial\><rsub|\<mu\>>\<phi\>-\<eta\><rsup|\<sigma\>\<mu\>>x<rsup|\<rho\>>\<partial\><rsub|\<mu\>>\<partial\><rsub|\<rho\>>\<phi\>|)>>>>>
+    <tformat|<table|<row|<cell|j<rsup|\<sigma\>>>|<cell|=>|<cell|-\<eta\><rsup|\<sigma\>\<mu\>><frac|\<partial\>\<phi\>|\<partial\>\<alpha\>>\<partial\><rsub|\<mu\>>\<phi\>-\<eta\><rsup|\<sigma\>\<mu\>><frac|\<partial\>x<rsup|\<rho\>>|\<partial\>\<alpha\>>\<partial\><rsub|\<mu\>>\<phi\>\<partial\><rsub|\<rho\>>\<phi\>+<frac|\<partial\>x<rsup|\<rho\>>|\<partial\>\<alpha\>>\<cal-L\>>>|<row|<cell|>|<cell|=>|<cell|x<rsup|\<sigma\>>\<cal-L\>-\<eta\><rsup|\<sigma\>\<mu\>>\<phi\>\<partial\><rsub|\<mu\>>\<phi\>-\<eta\><rsup|\<sigma\>\<mu\>>x<rsup|\<rho\>>\<partial\><rsub|\<mu\>>\<partial\><rsub|\<rho\>>\<phi\>>>>>
   </eqnarray*>
 
   (3)\<#4ECE\>\<#4E0A\>\<#9762\>\<#7684\>\<#8BA1\>\<#7B97\>\<#53EF\>\<#4EE5\>\<#770B\>\<#51FA\>\<#FF0C\>\<#5982\>\<#679C\><math|\<cal-L\><rprime|'>>\<#4ECD\>\<#7136\>\<#6EE1\>\<#8DB3\>\<#8FD0\>\<#52A8\>\<#65B9\>\<#7A0B\>\<#FF0C\>(2)\<#4E2D\>\<#7684\>\<#53D8\>\<#6362\>\<#540C\>\<#6837\>\<#4F7F\>\<#5F97\>\<#65B0\>\<#7684\>\<#4F5C\>\<#7528\>\<#91CF\>\<#4E0D\>\<#53D8\>\<#FF0C\>
