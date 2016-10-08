@@ -3,6 +3,8 @@
 <style|generic>
 
 <\body>
+  \;
+
   <\chapter>
     Peskin problems
   </chapter>
@@ -193,6 +195,20 @@
     <tformat|<table|<row|<cell|\<phi\><around*|(|x|)>>|<cell|=>|<cell|C<rsub|1>e<rsup|i\<alpha\>x>+C<rsub|2>e<rsup|-i\<alpha\>x>>>>>
   </eqnarray*>
 
+  <paragraph|2.5>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|j<rsub|\<mu\>>>|<cell|=>|<cell|-<frac|i|2><around*|(|\<phi\>\<partial\><rsub|\<mu\>>\<phi\><rprime|\<asterisk\>>-\<phi\><rprime|\<asterisk\>>\<partial\><rsub|\<mu\>>\<phi\>|)>>>>>
+  </eqnarray*>
+
+  check the <math|\<eta\><rsup|\<mu\>\<nu\>>\<partial\><rsub|\<nu\>>j<rsub|\<mu\>>=0>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<eta\><rsup|\<mu\>\<nu\>>\<partial\><rsub|\<nu\>>j<rsub|\<mu\>>>|<cell|=>|<cell|\<eta\><rsup|\<mu\>\<nu\>>\<partial\><rsub|\<nu\>><around*|(|-<frac|i|2><around*|(|\<phi\>\<partial\><rsub|\<mu\>>\<phi\><rprime|\<asterisk\>>-\<phi\><rprime|\<asterisk\>>\<partial\><rsub|\<mu\>>\<phi\>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|i|2>\<eta\><rsup|\<mu\>\<nu\>><around*|(|\<partial\><rsub|\<nu\>>\<phi\>\<partial\><rsub|\<mu\>>\<phi\><rprime|\<asterisk\>>+\<phi\>\<partial\><rsub|\<nu\>>\<partial\><rsub|\<mu\>>\<phi\><rprime|\<asterisk\>>-\<partial\><rsub|\<nu\>>\<phi\><rprime|\<asterisk\>>\<partial\><rsub|\<mu\>>\<phi\>-\<phi\><rprime|\<asterisk\>>\<partial\><rsub|\<nu\>>\<partial\><rsub|\<mu\>>\<phi\>|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|i|2><around*|(|\<phi\>\<eta\><rsup|\<mu\>\<nu\>>\<partial\><rsub|\<nu\>>\<partial\><rsub|\<mu\>>\<phi\><rprime|\<asterisk\>>-\<eta\><rsup|\<mu\>\<nu\>>\<phi\><rprime|\<asterisk\>>\<partial\><rsub|\<nu\>>\<partial\><rsub|\<mu\>>\<phi\>|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|i|2><around*|(|\<phi\>\<box\>\<phi\><rprime|\<asterisk\>>-\<phi\><rprime|\<asterisk\>>\<box\>\<phi\>|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|i|2><around*|(|\<phi\><around*|(|-m<rsup|2>\<phi\><rprime|\<asterisk\>>|)>-\<phi\><rprime|\<asterisk\>><around*|(|-m<rsup|2>\<phi\>|)>|)>=<frac|i|2>m<rsup|2><around*|(|\<phi\>\<phi\><rprime|\<asterisk\>>-\<phi\><rprime|\<asterisk\>>\<phi\>|)>>>|<row|<cell|>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  \;
+
   \;
 </body>
 
@@ -206,6 +222,8 @@
     <associate|auto-3|<tuple|2|?>>
     <associate|auto-4|<tuple|2|?>>
     <associate|auto-5|<tuple|3|?>>
+    <associate|auto-6|<tuple|4|?>>
+    <associate|auto-7|<tuple|3|?>>
   </collection>
 </references>
 
@@ -221,6 +239,16 @@
 
       <with|par-left|<quote|4tab>|2.2 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3><vspace|0.15fn>>
+
+      <vspace*|2fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|font-size|<quote|1.19>|2<space|2spc>Voja>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-4><vspace|1fn>
+
+      <with|par-left|<quote|4tab>|2.1 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-5><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|2.5 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-6><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
