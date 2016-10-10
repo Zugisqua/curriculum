@@ -1152,7 +1152,7 @@
   \;
 
   <\with|color|brown>
-    <section|>
+    <section|\<#6D41\>\<#5F62\>\<#7684\>\<#53D8\>\<#6362\>\<#53CA\>\<#5176\>\<#53EF\>\<#79EF\>\<#6027\>>
 
     \<#7ED9\>\<#5B9A\><space|1em><math|X\<in\>\<Gamma\><around*|(|M|)>,M\<#662F\>\<#7D27\>\<#81F4\>\<#7684\>>
 
@@ -1225,10 +1225,12 @@
     \<#800C\>\<#5BF9\>\<#4E8E\>\<#53D8\>\<#5316\>\<#7684\>\<#5FEB\>\<#6162\><math|>
 
     <\eqnarray*>
-      <tformat|<table|<row|<cell|L<rsub|x>w=<frac|\<mathd\>|\<mathd\>t>\<varphi\><rprime|\<asterisk\>><rsub|t>\<circ\>w<around*|(|p|)>>|<cell|=>|<cell|lim<rsub|t\<rightarrow\>0><frac|\<varphi\><rprime|\<asterisk\>><rsub|t>\<circ\>w<around*|(|p|)>-\<varphi\><rprime|\<asterisk\>><rsub|0>\<circ\>w|t>>>>>
+      <tformat|<table|<row|<cell|L<rsub|x>w=<frac|\<mathd\>|\<mathd\>t>\<varphi\><rprime|\<asterisk\>><rsub|t>\<circ\>w<around*|(|p|)>>|<cell|=>|<cell|lim<rsub|t\<rightarrow\>0><frac|\<varphi\><rprime|\<asterisk\>><rsub|t>\<circ\>w<around*|(|p|)>-\<varphi\><rprime|\<asterisk\>><rsub|0>\<circ\>w<around*|(|p|)>|t>>>>>
     </eqnarray*>
 
     <with|color|red|\<#4F5C\>\<#4E1A\>\<#FF1A\>\<#8BA1\>\<#7B97\><math|L<rsub|X><around*|(|\<alpha\>\<otimes\>\<beta\>|)>>\<#FF0C\><math|L<rsub|X><around*|(|\<alpha\>\<wedge\>\<beta\>|)>,L<rsub|X+Y>,L<rsub|<around*|[|X,Y|]>>>>
+
+    16-10-10.
 
     \;
   </with>
