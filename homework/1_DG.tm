@@ -178,13 +178,13 @@
   \<#5219\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<gamma\>>|<cell|=>|<cell|\<alpha\>\<wedge\>\<beta\>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|1|2>f<rsub|i\<nospace\>j>\<mathd\>x<rsup|i>\<wedge\>\<mathd\>x<rsup|j>|)>\<wedge\><around*|(|g<rsub|k>\<mathd\>x<rsup|k>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>f<rsub|i\<nospace\>j>g<rsub|k>\<mathd\>x<rsup|i>\<wedge\>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|k>>>>>
+    <tformat|<table|<row|<cell|\<gamma\>>|<cell|=>|<cell|\<alpha\>\<wedge\>\<beta\>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|1|2>f<rsub|i\<nospace\>j>\<mathd\>x<rsup|i>\<wedge\>\<mathd\>x<rsup|j>|)>\<wedge\><around*|(|g<rsub|k>\<mathd\>x<rsup|k>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>f<rsub|i\<nospace\>j>g<rsub|k>\<mathd\>x<rsup|i>\<wedge\>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|k>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2\<times\>3!><around*|(|f<rsub|<around*|[|i\<nospace\>j|\<nobracket\>>>g<rsub|k<around*|\<nobracket\>||]>>|)>\<mathd\>x<rsup|i>\<wedge\>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|k>>>>>
   </eqnarray*>
 
   \<#56E0\>\<#6B64\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|h<rsub|i\<nospace\>j\<nospace\>k>>|<cell|=>|<cell|3f<rsub|i\<nospace\>j>g<rsub|k>>>>>
+    <tformat|<table|<row|<cell|h<rsub|i\<nospace\>j\<nospace\>k>>|<cell|=>|<cell|3f<rsub|i\<nospace\>j>g<rsub|k>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>f<rsub|<around*|[|i\<nospace\>j|\<nobracket\>>>g<rsub|k<around*|\<nobracket\>||]>>>>>>
   </eqnarray*>
 
   <paragraph|12.>
