@@ -1394,7 +1394,13 @@
 
   <subsection|\<#79EF\>\<#5206\>\<#5B50\>\<#6D41\>\<#5F62\>>
 
-  \;
+  \<#8FD9\>\<#91CC\>\<#65E0\>\<#8BBA\>\<#5982\>\<#4F55\>\<#90FD\>\<#611F\>\<#89C9\>\<#770B\>\<#4E0D\>\<#8FDB\>\<#53BB\>
+
+  <with|font-series|bold|Frobenius\<#5B9A\>\<#7406\>\<#FF1A\>>\<#4E0D\>\<#6284\>\<#4E86\>
+
+  <subsection|\<#5FAE\>\<#5206\>\<#65B9\>\<#7A0B\>\<#7684\>\<#53EF\>\<#79EF\>\<#6761\>\<#4EF6\>>
+
+  \<#8FD9\>\<#91CC\>\<#8BF4\>\<#7684\>\<#662F\>Frobenius\<#5B9A\>\<#7406\>\<#7684\>\<#5FAE\>\<#5206\>\<#5F62\>\<#5F0F\>\<#66F4\>\<#52A0\>\<#76F4\>\<#63A5\>
 
   \;
 
@@ -1431,6 +1437,7 @@
     <associate|auto-28|<tuple|3.2.3|?>>
     <associate|auto-29|<tuple|3.3|?>>
     <associate|auto-3|<tuple|1.1.1|1>>
+    <associate|auto-30|<tuple|3.4|?>>
     <associate|auto-4|<tuple|1.1.2|1>>
     <associate|auto-5|<tuple|1.1.3|3>>
     <associate|auto-6|<tuple|1.2|3>>
