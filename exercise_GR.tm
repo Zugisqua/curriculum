@@ -3,7 +3,7 @@
 <style|generic>
 
 <\body>
-  A.P.Lightman[1979]
+  <rsub|>A.P.Lightman[1979]
 
   <paragraph|3.1>
 
@@ -360,6 +360,98 @@
 
   done no minus!
 
+  <paragraph|7.3>
+
+  consider the metric
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|\<mathd\>r<rsup|2>+r<rsup|2>\<mathd\>\<theta\><rsup|2>>>>>
+  </eqnarray*>
+
+  (a) calculate the connection
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<Gamma\><rsup|1><rsub|11>>|<cell|=>|<cell|<frac|1|2>g<rsup|11><around*|(|\<partial\><rsub|1>g<rsub|11>+\<partial\><rsub|1>g<rsub|11>-\<partial\><rsub|1>g<rsub|11>|)>=0>>|<row|<cell|\<Gamma\><rsup|1><rsub|12>>|<cell|=>|<cell|<frac|1|2>g<rsup|11><around*|(|\<partial\><rsub|1>g<rsub|12>+\<partial\><rsub|2>g<rsub|11>-\<partial\><rsub|1>g<rsub|12>|)>=0>>|<row|<cell|\<Gamma\><rsup|1><rsub|22>>|<cell|=>|<cell|<frac|1|2>g<rsup|11><around*|(|\<partial\><rsub|2>g<rsub|21>+\<partial\><rsub|2>g<rsub|21>-\<partial\><rsub|1>g<rsub|22>|)>=<frac|1|2><around*|(|-\<partial\><rsub|r>r<rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|-r>>|<row|<cell|\<Gamma\><rsup|2><rsub|11>>|<cell|=>|<cell|<frac|1|2>g<rsup|22><around*|(|\<partial\><rsub|1>g<rsub|12>+\<partial\><rsub|1>g<rsub|12>-\<partial\><rsub|2>g<rsub|11>|)>=0>>|<row|<cell|\<Gamma\><rsup|2><rsub|12>>|<cell|=>|<cell|<frac|1|2>g<rsup|22><around*|(|\<partial\><rsub|1>g<rsub|22>+\<partial\><rsub|2>g<rsub|12>-\<partial\><rsub|2>g<rsub|12>|)>=<frac|1|r>>>|<row|<cell|\<Gamma\><rsup|2><rsub|22>>|<cell|=>|<cell|<frac|1|2>g<rsup|22><around*|(|\<partial\><rsub|2>g<rsub|22>+\<partial\><rsub|2>g<rsub|22>-\<partial\><rsub|2>g<rsub|22>|)>=0>>>>
+  </eqnarray*>
+
+  the geodesic equation
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<mathd\><rsup|2>x<rsup|\<mu\>>|\<mathd\>s<rsup|2>>+\<Gamma\><rsup|\<mu\>><rsub|\<alpha\>\<beta\>><frac|\<mathd\>x<rsup|\<alpha\>>|\<mathd\>s><frac|\<mathd\>x<rsup|\<beta\>>|\<mathd\>s>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  and then<new-line>the first
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<mathd\><rsup|2>r|\<mathd\>s<rsup|2>>+\<Gamma\><rsup|1><rsub|22><around*|(|<frac|\<mathd\>\<theta\>|\<mathd\>s>|)><rsup|2>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>r|\<mathd\>s<rsup|2>>-r<around*|(|<frac|\<mathd\>\<theta\>|\<mathd\>s>|)><rsup|2>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  the second
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<mathd\><rsup|2>\<theta\>|\<mathd\>s<rsup|2>>+2\<Gamma\><rsup|2><rsub|12><frac|\<mathd\>r|\<mathd\>s><frac|\<mathd\>\<theta\>|\<mathd\>s>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>\<theta\>|\<mathd\>s<rsup|2>>+<frac|2|r><frac|\<mathd\>r|\<mathd\>s><frac|\<mathd\>\<theta\>|\<mathd\>s>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  consider the equations
+
+  <\equation*>
+    <choice|<tformat|<cwith|1|1|1|1|cell-halign|r>|<table|<row|<cell|r<rsup|2><dfrac|\<mathd\>\<theta\>|\<mathd\>s>>|<cell|=>|<cell|R<rsub|0>>>|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>s>|)><rsup|2>+r<rsup|2><around*|(|<frac|\<mathd\>\<theta\>|\<mathd\>s>|)><rsup|2>>|<cell|=>|<cell|1>>>>>
+  </equation*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<mathd\>|\<mathd\>s><around*|(|r<rsup|2><frac|\<mathd\>\<theta\>|\<mathd\>s>|)>>|<cell|=>|<cell|0>>|<row|<cell|2r<frac|\<mathd\>r|\<mathd\>s><frac|\<mathd\>\<theta\>|\<mathd\>s>+r<rsup|2><frac|\<mathd\><rsup|2>\<theta\>|\<mathd\>s<rsup|2>>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>\<theta\>|\<mathd\>s<rsup|2>>+<frac|2|r><frac|\<mathd\>r|\<mathd\>s><frac|\<mathd\>\<theta\>|\<mathd\>s>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  the first equation is consisted
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<mathd\>|\<mathd\>s><around*|(|<around*|(|<frac|\<mathd\>r|\<mathd\>s>|)><rsup|2>+r<rsup|2><around*|(|<frac|\<mathd\>\<theta\>|\<mathd\>s>|)><rsup|2>|)>>|<cell|=>|<cell|0>>|<row|<cell|2<frac|\<mathd\>r|\<mathd\>s><frac|\<mathd\><rsup|2>r|\<mathd\>s<rsup|2>>+2r<frac|\<mathd\>r|\<mathd\>s><around*|(|<frac|\<mathd\>\<theta\>|\<mathd\>s>|)><rsup|2>+2r<rsup|2><frac|\<mathd\>\<theta\>|\<mathd\>s><frac|\<mathd\><rsup|2>\<theta\>|\<mathd\>s<rsup|2>>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\>r|\<mathd\>s><frac|\<mathd\><rsup|2>r|\<mathd\>s<rsup|2>>+r<frac|\<mathd\>r|\<mathd\>s><around*|(|<frac|\<mathd\>\<theta\>|\<mathd\>s>|)><rsup|2>+r<rsup|2><frac|\<mathd\>\<theta\>|\<mathd\>s><around*|(|-<frac|2|r><frac|\<mathd\>r|\<mathd\>s><frac|\<mathd\>\<theta\>|\<mathd\>s>|)>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>r|\<mathd\>s<rsup|2>>+r<around*|(|<frac|\<mathd\>\<theta\>|\<mathd\>s>|)><rsup|2>-2r<around*|(|<frac|\<mathd\>\<theta\>|\<mathd\>s>|)><rsup|2>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>r|\<mathd\>s<rsup|2>>-r<around*|(|<frac|\<mathd\>\<theta\>|\<mathd\>s>|)><rsup|2>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  done
+
+  (b)solve the equation below
+
+  <\equation*>
+    <choice|<tformat|<cwith|1|1|1|1|cell-halign|r>|<table|<row|<cell|r<rsup|2><dfrac|\<mathd\>\<theta\>|\<mathd\>s>>|<cell|=>|<cell|R<rsub|0>>>|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>s>|)><rsup|2>+r<rsup|2><around*|(|<frac|\<mathd\>\<theta\>|\<mathd\>s>|)><rsup|2>>|<cell|=>|<cell|1>>>>>
+  </equation*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>s>|)><rsup|2>+r<rsup|2><around*|(|<frac|R<rsub|0>|r<rsup|2>>|)><rsup|2>>|<cell|=>|<cell|1>>|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>s>|)><rsup|2>>|<cell|=>|<cell|1-<frac|R<rsub|0><rsup|2>|r<rsup|2>>>>|<row|<cell|<frac|\<mathd\>r|\<mathd\>s>>|<cell|=>|<cell|\<pm\><sqrt|1-<frac|R<rsub|0><rsup|2>|r<rsup|2>>>>>>>
+  </eqnarray*>
+
+  therefore
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<mathd\>r|\<mathd\>\<theta\>>>|<cell|=>|<cell|<frac|<frac|\<mathd\>r|\<mathd\>s>|<frac|\<mathd\>\<theta\>|\<mathd\>s>>=<frac|\<pm\><sqrt|1-<frac|R<rsub|0><rsup|2>|r<rsup|2>>>|<frac|R<rsub|0>|r<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|\<pm\>r<rsup|2><sqrt|<frac|1|R<rsub|0><rsup|2>>-<frac|1|r<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|\<pm\>r<sqrt|<frac|r|R<rsub|0>>-1>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<theta\>>|<cell|=>|<cell|\<pm\><big|int><rsup|r><rsub|r<rsub|0>><frac|\<mathd\>r|r<sqrt|<frac|r|R<rsub|0>>-1>>>>>>
+  </eqnarray*>
+
+  (c) straight line
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|y>|<cell|=>|<cell|x>>|<row|<cell|r<around|sin|\<theta\>|>>|<cell|=>|<cell|r<around|cos|\<theta\>|>>>>>
+  </eqnarray*>
+
+  the curve is
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around|tan|\<theta\>|>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  is a interesting problem
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
   <paragraph|8.2>already known
 
   <\eqnarray*>
@@ -518,6 +610,7 @@
     <associate|auto-16|<tuple|16|?>>
     <associate|auto-17|<tuple|17|?>>
     <associate|auto-18|<tuple|18|?>>
+    <associate|auto-19|<tuple|19|?>>
     <associate|auto-2|<tuple|2|?>>
     <associate|auto-3|<tuple|3|?>>
     <associate|auto-4|<tuple|4|?>>
@@ -576,6 +669,15 @@
 
       <with|par-left|<quote|4tab>|8.13 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-15><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|8.16 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-16><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|8.17 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-17><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|8.19 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-18><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
