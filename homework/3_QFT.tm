@@ -147,9 +147,34 @@
 
   \<#5F53\>\<#7136\>\<#4ECE\>\<#4E0A\>\<#9762\>\<#770B\>\<#8FD9\>\<#4E2A\>\<#7ED3\>\<#679C\>\<#4E0D\>\<#662F\>\<#552F\>\<#4E00\>\<#7684\>
 
+  \;
+
+  HW3
+
+  \<#7531\>
+
   <\eqnarray*>
-    <tformat|<table|<row|<cell|>|<cell|>|<cell|>>>>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|<choice|<tformat|<table|<row|<cell|<embold|\<sigma\>>\<cdot\><wide|<embold|p>|^>\<psi\><rsub|B>>|<cell|=>|<cell|<around*|(|E-m|)>\<psi\><rsub|A>>>|<row|<cell|<embold|\<sigma\>>\<cdot\><wide|<embold|p>|^>\<psi\><rsub|A>>|<cell|=>|<cell|<around*|(|E+m|)>\<psi\><rsub|B>>>>>>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<embold|\<sigma\>>\<cdot\><wide|<embold|p>|^><around*|(|<frac|<embold|\<sigma\>>\<cdot\><wide|<embold|p>|^>\<psi\><rsub|A>|E+m>|)>=<around*|(|E-m|)>\<psi\><rsub|A>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<frac|<around*|(|<embold|\<sigma\>>\<cdot\><wide|<embold|p>|^>|)><rsup|2>|E+m>\<psi\><rsub|A>=<around*|(|E-m|)>\<psi\><rsub|A>>>>>
   </eqnarray*>
+
+  \<#5728\>\<#975E\>\<#76F8\>\<#5BF9\>\<#7FA4\>\<#60C5\>\<#51B5\>\<#4E0B\><math|E\<approx\>m>
+  \<#5219\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|<around*|(|<embold|\<sigma\>>\<cdot\><wide|<embold|p>|^>|)><rsup|2>|2m>\<psi\><rsub|A>>|<cell|=>|<cell|E<rsub|NR>\<psi\><rsub|A>>>>>
+  </eqnarray*>
+
+  \<#8003\>\<#8651\>\<#6700\>\<#5C0F\>\<#7535\>\<#78C1\>\<#8026\>\<#5408\>
+  <math|<wide|<embold|p>|^>=<around*|(|<wide|<embold|p>|^>+e<embold|A>|)>>
+  <math|\<#5219\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|1|2\<nospace\>m><around*|(|<embold|\<sigma\>>\<cdot\><around*|(|<wide|<embold|p>|^>+e<embold|A>|)>|)><rsup|2>\<psi\><rsub|A>>|<cell|=>|<cell|<around*|(|E+e\<nospace\>A<rsup|0>-m|)>\<psi\><rsub|A>>>|<row|<cell|<frac|1|2\<nospace\>m><around*|(|\<sigma\><rsub|i><around*|(|p<rsup|i>+e\<nospace\>A<rsup|i>|)>|)><rsup|2>\<psi\><rsub|A>>|<cell|=>|<cell|<around*|(|E-m|)>\<psi\><rsub|A>+e\<nospace\>A<rsup|0>\<psi\><rsub|A>>>|<row|<cell|<frac|1|2\<nospace\>m><around*|(|\<sigma\><rsub|i>\<sigma\><rsub|j><around*|(|p<rsup|i>+e\<nospace\>A<rsup|i>|)><around*|(|p<rsup|j>+e\<nospace\>A<rsup|j>|)>|)>\<psi\><rsub|A>-e\<nospace\>A<rsup|0>\<psi\><rsub|A>>|<cell|=>|<cell|E<rsub|N\<nospace\>R>\<psi\><rsub|A>>>|<row|<cell|<frac|1|2m><around*|(|\<delta\><rsub|i\<nospace\>j><around*|(|p<rsup|i>+e\<nospace\>A<rsup|i>|)><around*|(|p<rsup|j>+e\<nospace\>A<rsup|j>|)>+i\<epsilon\><rsub|i\<nospace\>j\<nospace\>><rsup|<space|3spc>k>\<sigma\><rsub|k><around*|(|p<rsup|i>+e\<nospace\>A<rsup|i>|)><around*|(|p<rsup|j>+e\<nospace\>A<rsup|j>|)>-e\<nospace\>A<rsup|0>|)>\<psi\><rsub|A>>|<cell|=>|<cell|E<rsub|N\<nospace\>R>\<psi\><rsub|A>>>|<row|<cell|<frac|1|2m><around*|(|<around*|(|<wide|p|\<vect\>>+e\<nospace\><wide|A|\<vect\>>|)><rsup|2>+i\<sigma\><rsub|k>\<epsilon\><rsub|i\<nospace\>j><rsup|<space|3spc>k><around*|(|p<rsup|i\<nospace\>>p<rsup|j>+e<rsup|2>A<rsup|i>A<rsup|j>+e\<nospace\>p\<nospace\><rsup|i>A<rsup|j>+e\<nospace\>A<rsup|i>p<rsup|j>|)>-e\<nospace\>A<rsup|0>|)>\<psi\><rsub|A>>|<cell|=>|<cell|E<rsub|N\<nospace\>R>\<psi\><rsub|A>>>|<row|<cell|<frac|1|2\<nospace\>m><around*|(|<around*|(|<wide|p|\<vect\>>+e\<nospace\><wide|A|\<vect\>>|)><rsup|2>+i<wide|\<sigma\>|\<vect\>>\<cdot\><around*|(|e<wide|p|\<vect\>>\<times\><wide|A|\<vect\>>-e<wide|A|\<vect\>>\<times\><wide|p|\<vect\>>+<wide|p|\<vect\>>\<times\><wide|p|\<vect\>>+e<rsup|2><wide|A|\<vect\>>\<times\><wide|A|\<vect\>>|)>-e\<nospace\>A<rsup|0>|)>\<psi\><rsub|A>>|<cell|=>|<cell|E<rsub|N\<nospace\>R>\<psi\><rsub|A>>>|<row|<cell|<frac|1|2\<nospace\>m><around*|(|<around*|(|<wide|p|\<vect\>>+e\<nospace\><wide|A|\<vect\>>|)><rsup|2>+i<wide|\<sigma\>|\<vect\>>\<cdot\><around*|(|-i\<nospace\>e\<nabla\>\<times\>A|)>-e\<nospace\>A<rsup|0>|)>\<psi\><rsub|A>>|<cell|=>|<cell|E<rsub|N\<nospace\>R>\<psi\><rsub|A>>>|<row|<cell|<frac|1|2\<nospace\>m><around*|(|<around*|(|<wide|p|\<vect\>>+e\<nospace\><wide|A|\<vect\>>|)><rsup|2>+e<wide|\<sigma\>|\<vect\>>\<cdot\><wide|B|\<vect\>>-e\<nospace\>A<rsup|0>|)>\<psi\><rsub|A>>|<cell|=>|<cell|E<rsub|N\<nospace\>R>\<psi\><rsub|A>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
 </body>
 
 <initial|<\collection>
