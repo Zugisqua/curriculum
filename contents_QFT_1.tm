@@ -1667,8 +1667,16 @@
     <with|font-series|bold|\<#6B63\>\<#4EA4\>\<#5B8C\>\<#5907\>\<#57FA\>>
 
     <\eqnarray*>
-      <tformat|<table|<row|<cell|<wide|\<upsilon\>|\<bar\>><rsup|s><around*|(|p|)>\<upsilon\><rsup|s<rprime|'>><around*|(|p|)>>|<cell|=>|<cell|-2m\<delta\><rsub|s\<nospace\>s<rprime|'>><space|1.5spc><with|color|black|or=-\<delta\><rsub|s\<nospace\>s<rprime|'>>>>>|<row|<cell|\<upsilon\><rsup|s><rprime|\<dag\>><around*|(|p|)>\<upsilon\><rsup|s><rprime|'><around*|(|p|)>>|<cell|=>|<cell|2E\<delta\><rsub|s\<nospace\>s<rprime|'>><with|color|black|<space|1.5spc>or=<frac|E|m>\<delta\><rsub|s\<nospace\>s<rprime|'>>>>>|<row|<cell|<big|sum><rsup|2><rsub|s=1>\<upsilon\><rsup|s><around*|(|p|)><wide|\<upsilon\>|\<bar\>><rsup|s><around*|(|p|)>>|<cell|=>|<cell|<neg|p>-m\<nospace\><with|color|black|<space|1.5spc>or=<frac|p-m|2m>>>>>>
+      <tformat|<table|<row|<cell|<wide|\<upsilon\>|\<bar\>><rsup|s><rsub|\<alpha\>><around*|(|p|)>\<upsilon\><rsup|s<rprime|'>><rsub|\<alpha\>><around*|(|p|)>>|<cell|=>|<cell|-2m\<delta\><rsub|s\<nospace\>s<rprime|'>><space|1.5spc><with|color|black|or=-\<delta\><rsub|s\<nospace\>s<rprime|'>>>>>|<row|<cell|\<upsilon\><rsub|\<alpha\>><rsup|s><rprime|\<dag\>><around*|(|p|)>\<upsilon\><rsub|\<alpha\>><rsup|s><rprime|'><around*|(|p|)>>|<cell|=>|<cell|2E\<delta\><rsub|s\<nospace\>s<rprime|'>><with|color|black|<space|1.5spc>or=<frac|E|m>\<delta\><rsub|s\<nospace\>s<rprime|'>>>>>|<row|<cell|<big|sum><rsup|2><rsub|s=1>\<upsilon\><rsup|s><rsub|\<alpha\>><around*|(|p|)><wide|\<upsilon\>|\<bar\>><rsup|s><rsub|\<beta\>><around*|(|p|)>>|<cell|=>|<cell|<around*|(|<neg|p>-m|)>\<delta\><rsub|\<alpha\>\<beta\>>\<nospace\><with|color|black|<space|1.5spc>or=<around*|(|<frac|p-m|2m>|)>\<delta\><rsub|\<alpha\>\<beta\>>>>>>>
     </eqnarray*>
+
+    \<#6700\>\<#540E\>\<#662F\>\<#6B63\>\<#8D1F\>\<#9891\>\<#7387\>\<#4E4B\>\<#95F4\>\<#7684\>\<#5173\>\<#7CFB\>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|u<rsup|r><rprime|\<dag\>><rsub|\<alpha\>><around*|(|<embold|p>|)>\<upsilon\><rsup|s><rsub|\<alpha\>><around*|(|-<embold|p>|)>>|<cell|=>|<cell|0>>|<row|<cell|\<upsilon\><rsup|r><rprime|\<dag\>><rsub|\<alpha\>><around*|(|<embold|p>|)>u<rsup|s><rsub|\<alpha\>><around*|(|<embold|p>|)>>|<cell|=>|<cell|0>>>>
+    </eqnarray*>
+
+    \<#8FD9\>\<#4E2A\>\<#5728\>\<#5BF9\>\<#89D2\>\<#5316\>\<#7684\>\<#65F6\>\<#5019\>\<#7528\>\<#4E0A\>\<#4E86\>
 
     <subsubsection|Dirac\<#77E9\>\<#9635\>>
 
@@ -2131,7 +2139,7 @@
       <no-break><pageref|auto-25><vspace|0.5fn>
 
       <with|par-left|<quote|1tab>|3.1<space|2spc>Klein-Golden\<#573A\><assign|footnote-nr|1><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%37FFC30-301B0D0>|<link|hyperlink|<id|%37FFC30-301B0D0>|<url|#footnr-1>>|1>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%3834520-3E675C0>|<link|hyperlink|<id|%3834520-3E675C0>|<url|#footnr-1>>|1>.
         |<hidden|<tuple|footnote-1>><htab|0fn|first>>
           Mandl F. ,Shaw G. Quantum field theory
         </surround>>>
