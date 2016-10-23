@@ -18,7 +18,7 @@
   \<#FF08\>2\<#FF09\>\<#52A8\>\<#91CF\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|T<rsub|\<nu\>><rsup|\<mu\>>>|<cell|=>|<cell|<frac|\<partial\>\<cal-L\>|\<partial\><around*|(|\<partial\><rsub|\<mu\>>\<psi\>|)>>\<partial\><rsub|\<nu\>>\<psi\>+<frac|\<partial\>\<cal-L\>|\<partial\><around*|(|\<partial\><rsub|\<mu\>>\<psi\><rprime|\<dag\>>|)>>\<partial\><rsub|\<nu\>>\<psi\><rprime|\<dag\>>-\<delta\><rsup|\<mu\>><rsub|\<nu\>>\<cal-L\>>>|<row|<cell|>|<cell|=>|<cell|\<psi\><rprime|\<dag\>>\<gamma\><rsup|0>i\<gamma\><rsup|\<mu\>>\<partial\><rsub|\<nu\>>\<psi\>-\<delta\><rsup|\<mu\>><rsub|\<nu\>>\<psi\><rprime|\<dag\>>\<gamma\><rsup|0><around*|(|i\<gamma\><rsup|\<sigma\>>\<partial\><rsub|\<sigma\>>-m|)>\<psi\>>>|<row|<cell|>|<cell|=>|<cell|i<wide|\<psi\>|\<bar\>>\<gamma\><rsup|\<mu\>>\<partial\><rsub|\<nu\>>\<psi\>-\<delta\><rsup|\<mu\>><rsub|\<nu\>>\<cal-L\>>>>>
+    <tformat|<table|<row|<cell|T<rsub|\<nu\>><rsup|\<mu\>>>|<cell|=>|<cell|<frac|\<partial\>\<cal-L\>|\<partial\><around*|(|\<partial\><rsub|\<mu\>>\<psi\>|)>>\<partial\><rsub|\<nu\>>\<psi\>+\<partial\><rsub|\<nu\>>\<psi\><rprime|\<dag\>><frac|\<partial\>\<cal-L\>|\<partial\><around*|(|\<partial\><rsub|\<mu\>>\<psi\><rprime|\<dag\>>|)>>-\<delta\><rsup|\<mu\>><rsub|\<nu\>>\<cal-L\>>>|<row|<cell|>|<cell|=>|<cell|\<psi\><rprime|\<dag\>>\<gamma\><rsup|0>i\<gamma\><rsup|\<mu\>>\<partial\><rsub|\<nu\>>\<psi\>-\<delta\><rsup|\<mu\>><rsub|\<nu\>>\<psi\><rprime|\<dag\>>\<gamma\><rsup|0><around*|(|i\<gamma\><rsup|\<sigma\>>\<partial\><rsub|\<sigma\>>-m|)>\<psi\>>>|<row|<cell|>|<cell|=>|<cell|i<wide|\<psi\>|\<bar\>>\<gamma\><rsup|\<mu\>>\<partial\><rsub|\<nu\>>\<psi\>-\<delta\><rsup|\<mu\>><rsub|\<nu\>>\<cal-L\>>>>>
   </eqnarray*>
 
   <\eqnarray*>
