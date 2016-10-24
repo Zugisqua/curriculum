@@ -1837,9 +1837,52 @@
     <tformat|<table|<row|<cell|\<theta\>\<wedge\>\<mathd\>\<theta\>>|<cell|=>|<cell|-<around*|(|\<mathd\>y-f<rsub|k>\<mathd\>x<rsup|k>|)>\<wedge\><around*|(|<frac|\<partial\>f<rsub|i>|\<partial\>x<rsup|j>>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>+<frac|\<partial\>f<rsub|i>|\<partial\>y>\<mathd\>y\<wedge\>\<mathd\>x<rsup|i>|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|\<partial\>f<rsub|i>|\<partial\>x<rsup|j>>\<mathd\>y\<wedge\>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>+<frac|\<partial\>f<rsub|i>|\<partial\>x<rsup|j>>f<rsub|k>\<mathd\>x<rsup|k>\<wedge\>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>+<frac|\<partial\>f<rsub|i>|\<partial\>y>f<rsub|k>\<mathd\>x<rsup|k>\<wedge\>\<mathd\>y\<wedge\>\<mathd\>x<rsup|i>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|<frac|\<partial\>f<rsub|i>|\<partial\>x<rsup|j>>+<frac|\<partial\>f<rsub|i>|\<partial\>y>f<rsub|j>|)>\<mathd\>y\<wedge\>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>+<frac|\<partial\>f<rsub|i>|\<partial\>x<rsup|j>>f<rsub|k>\<mathd\>x<rsup|k>\<wedge\>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>>>>>
   </eqnarray*>
 
-  \<#4EC0\>\<#4E48\>\<#610F\>\<#601D\>\<#FF1F\><new-line>\<#8FD9\>\<#91CC\>\<#7684\>\<#7ED3\>\<#679C\>\<#4E0D\>\<#5BF9\>\<#52B2\>\<#662F\>\<#56E0\>\<#4E3A\>
+  \<#4EC0\>\<#4E48\>\<#610F\>\<#601D\>\<#FF1F\><new-line>\<#8FD9\>\<#91CC\>\<#7684\>\<#7ED3\>\<#679C\>\<#4E0D\>\<#5BF9\>\<#52B2\>\<#FF0C\>\<#7B80\>\<#76F4\>\<#5B8C\>\<#86CB\>
+
+  \<#4F8B\>\<#5B50\>.2b
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<theta\>>|<cell|=>|<cell|\<mathd\>y-f<rsub|1><around*|(|x<rsup|1>,x<rsup|2>,y|)>\<mathd\>x<rsup|1>-f<rsub|2><around*|(|x<rsup|1>,x<rsup|2>,y|)>\<mathd\>x<rsup|2>>>>>
+  </eqnarray*>
+
+  \<#8BA1\>\<#7B97\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>\<theta\>>|<cell|=>|<cell|-<frac|\<partial\>f<rsub|1>|\<partial\>x<rsup|2>>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|1>-<frac|\<partial\>f<rsub|1>|\<partial\>y>\<mathd\>y\<wedge\>\<mathd\>x<rsup|1>-<frac|\<partial\>f<rsub|2>|\<partial\>x<rsup|1>>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>-<frac|\<partial\>f<rsub|2>|\<partial\>y>\<mathd\>y\<wedge\>\<mathd\>x<rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|\<partial\>f<rsub|1>|\<partial\>x<rsup|2>>-<frac|\<partial\>f<rsub|2>|\<partial\>x<rsup|1>>|)>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>-<frac|\<partial\>f<rsub|1>|\<partial\>y>\<mathd\>y\<wedge\>\<mathd\>x<rsup|1>-<frac|\<partial\>f<rsub|2>|\<partial\>y>\<mathd\>y\<wedge\>\<mathd\>x<rsup|2>>>>>
+  </eqnarray*>
+
+  \<#7136\>\<#540E\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<theta\>\<wedge\>\<mathd\>\<theta\>>|<cell|=>|<cell|<around*|(|\<mathd\>y-f<rsub|1><around*|(|x<rsup|1>,x<rsup|2>,y|)>\<mathd\>x<rsup|1>-f<rsub|2><around*|(|x<rsup|1>,x<rsup|2>,y|)>\<mathd\>x<rsup|2>|)><new-line>\<wedge\><around*|(|<around*|(|<frac|\<partial\>f<rsub|1>|\<partial\>x<rsup|2>>-<frac|\<partial\>f<rsub|2>|\<partial\>x<rsup|1>>|)>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>-<frac|\<partial\>f<rsub|1>|\<partial\>y>\<mathd\>y\<wedge\>\<mathd\>x<rsup|1>-<frac|\<partial\>f<rsub|2>|\<partial\>y>\<mathd\>y\<wedge\>\<mathd\>x<rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|\<partial\>f<rsub|1>|\<partial\>x<rsup|2>>-<frac|\<partial\>f<rsub|2>|\<partial\>x<rsup|1>>|)>\<mathd\>y\<wedge\>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>-f<rsub|1><frac|\<partial\>f<rsub|2>|\<partial\>y>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>y\<wedge\>\<mathd\>x<rsup|2>-f<rsub|2><frac|\<partial\>f<rsub|1>|\<partial\>y>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>y\<wedge\>\<mathd\>x<rsup|1>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|\<partial\>f<rsub|1>|\<partial\>x<rsup|2>>+f<rsub|1><frac|\<partial\>f<rsub|2>|\<partial\>y>-<frac|\<partial\>f<rsub|2>|\<partial\>x<rsup|1>>-f<rsub|2><frac|\<partial\>f<rsub|1>|\<partial\>y>|)>\<mathd\>y\<wedge\>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>=0>>>>
+  </eqnarray*>
+
+  \<#8FD9\>\<#6B63\>\<#662F\>\<#60F3\>\<#8981\>\<#7684\>\<#FF01\>\<#4E8E\>\<#662F\>\<#6211\>\<#4EEC\>\<#79BB\>\<#4F8B\>\<#5B50\>.2
+  \<#66F4\>\<#8FDB\>\<#4E00\>\<#6B65\>\<#4E86\>
+
+  \;
 
   \<#4F8B\>\<#5B50\>.2c
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|w>|<cell|=>|<cell|\<mathd\>x<rsup|4>-a<rsub|i><around*|(|x|)>\<mathd\>x<rsup|i>,i=1,2,3>>>>
+  </eqnarray*>
+
+  \<#8BA1\>\<#7B97\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>w>|<cell|=>|<cell|-<frac|\<partial\>a<rsub|i>|\<partial\>x<rsup|j>>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>>>>>
+  </eqnarray*>
+
+  \<#7136\>\<#540E\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|w\<wedge\>\<mathd\>w>|<cell|=>|<cell|<around*|(|\<mathd\>x<rsup|4>-a<rsub|k>\<mathd\>x<rsup|k>|)>\<wedge\><around*|(|-<frac|\<partial\>a<rsub|i>|\<partial\>x<rsup|j>>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|\<partial\>a<rsub|i>|\<partial\>x<rsup|j>>\<mathd\>x<rsup|4>\<wedge\>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>+a<rsub|k><frac|\<partial\>a<rsub|i>|\<partial\>x<rsup|j>>\<mathd\>x<rsup|k>\<wedge\>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>>>>>
+  </eqnarray*>
+
+  \;
+
+  \<#4F8B\>\<#5B50\>.2d
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|w>|<cell|=>|<cell|\<mathd\>x<rsup|4>-a<rsub|1><around*|(|x<rsup|1>,x<rsup|2>,x<rsup|3>|)>\<mathd\>x<rsup|1>-a<rsub|2><around*|(|x<rsup|1>,x<rsup|2>,x<rsup|3>|)>\<mathd\>x<rsup|2>-a<rsub|3><around*|(|x<rsup|1>,x<rsup|2>,x<rsup|3>|)>\<mathd\>x<rsup|3>>>>>
@@ -1854,8 +1897,10 @@
   \<#518D\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|w\<wedge\>\<mathd\>w>|<cell|=>|<cell|<around*|(|\<mathd\>x<rsup|4>-a<rsub|1><around*|(|x<rsup|1>,x<rsup|2>,x<rsup|3>|)>\<mathd\>x<rsup|1>-a<rsub|2><around*|(|x<rsup|1>,x<rsup|2>,x<rsup|3>|)>\<mathd\>x<rsup|2>-a<rsub|3><around*|(|x<rsup|1>,x<rsup|2>,x<rsup|3>|)>\<mathd\>x<rsup|3>|)><new-line>\<wedge\><around*|(|<around*|(|<frac|\<partial\>a<rsub|1>|\<partial\>x<rsup|2>>-<frac|\<partial\>a<rsub|2>|\<partial\>x<rsup|1>>|)>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>-<around*|(|<frac|\<partial\>a<rsub|1>|\<partial\>x<rsup|3>>-<frac|\<partial\>a<rsub|3>|\<partial\>x<rsup|1>>|)>\<mathd\>x<rsup|3>\<wedge\>\<mathd\>x<rsup|1>+<around*|(|<frac|\<partial\>a<rsub|2>|\<partial\>x<rsup|3>>-<frac|\<partial\>a<rsub|3>|\<partial\>x<rsup|2>>|)>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|3>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|\<partial\>a<rsub|1>|\<partial\>x<rsup|2>>-<frac|\<partial\>a<rsub|2>|\<partial\>x<rsup|2>>|)>\<mathd\>x<rsup|4>\<wedge\>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>+a<rsub|3><around*|(|<frac|\<partial\>a<rsub|1>|\<partial\>x<rsup|2>>-<frac|\<partial\>a<rsub|2>|\<partial\>x<rsup|1>>|)>\<mathd\>x<rsup|3>\<wedge\>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2><new-line>-<around*|(|<frac|\<partial\>a<rsub|1>|\<partial\>x<rsup|3>>-<frac|\<partial\>a<rsub|3>|\<partial\>x<rsup|1>>|)>\<mathd\>x<rsup|4>\<wedge\>\<mathd\>x<rsup|3>\<wedge\>\<mathd\>x<rsup|1>-a<rsub|2><around*|(|<frac|\<partial\>a<rsub|1>|\<partial\>x<rsup|3>>-<frac|\<partial\>a<rsub|3>|\<partial\>x<rsup|1>>|)>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|3>\<wedge\>\<mathd\>x<rsup|1><new-line>+<around*|(|<frac|\<partial\>a<rsub|2>|\<partial\>x<rsup|3>>-<frac|\<partial\>a<rsub|3>|\<partial\>x<rsup|2>>|)>\<mathd\>x<rsup|4>\<wedge\>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|3>+a<rsub|1><around*|(|<frac|\<partial\>a<rsub|2>|\<partial\>x<rsup|3>>-<frac|\<partial\>a<rsub|3>|\<partial\>x<rsup|2>>|)>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|3>>>>>
+    <tformat|<table|<row|<cell|w\<wedge\>\<mathd\>w>|<cell|=>|<cell|<around*|(|\<mathd\>x<rsup|4>-a<rsub|1><around*|(|x<rsup|1>,x<rsup|2>,x<rsup|3>|)>\<mathd\>x<rsup|1>-a<rsub|2><around*|(|x<rsup|1>,x<rsup|2>,x<rsup|3>|)>\<mathd\>x<rsup|2>-a<rsub|3><around*|(|x<rsup|1>,x<rsup|2>,x<rsup|3>|)>\<mathd\>x<rsup|3>|)><new-line>\<wedge\><around*|(|<around*|(|<frac|\<partial\>a<rsub|1>|\<partial\>x<rsup|2>>-<frac|\<partial\>a<rsub|2>|\<partial\>x<rsup|1>>|)>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>-<around*|(|<frac|\<partial\>a<rsub|1>|\<partial\>x<rsup|3>>-<frac|\<partial\>a<rsub|3>|\<partial\>x<rsup|1>>|)>\<mathd\>x<rsup|3>\<wedge\>\<mathd\>x<rsup|1>+<around*|(|<frac|\<partial\>a<rsub|2>|\<partial\>x<rsup|3>>-<frac|\<partial\>a<rsub|3>|\<partial\>x<rsup|2>>|)>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|3>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|\<partial\>a<rsub|1>|\<partial\>x<rsup|2>>-<frac|\<partial\>a<rsub|2>|\<partial\>x<rsup|2>>|)>\<mathd\>x<rsup|4>\<wedge\>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>+a<rsub|3><around*|(|<frac|\<partial\>a<rsub|1>|\<partial\>x<rsup|2>>-<frac|\<partial\>a<rsub|2>|\<partial\>x<rsup|1>>|)>\<mathd\>x<rsup|3>\<wedge\>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2><new-line>-<around*|(|<frac|\<partial\>a<rsub|1>|\<partial\>x<rsup|3>>-<frac|\<partial\>a<rsub|3>|\<partial\>x<rsup|1>>|)>\<mathd\>x<rsup|4>\<wedge\>\<mathd\>x<rsup|3>\<wedge\>\<mathd\>x<rsup|1>-a<rsub|2><around*|(|<frac|\<partial\>a<rsub|1>|\<partial\>x<rsup|3>>-<frac|\<partial\>a<rsub|3>|\<partial\>x<rsup|1>>|)>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|3>\<wedge\>\<mathd\>x<rsup|1><new-line>+<around*|(|<frac|\<partial\>a<rsub|2>|\<partial\>x<rsup|3>>-<frac|\<partial\>a<rsub|3>|\<partial\>x<rsup|2>>|)>\<mathd\>x<rsup|4>\<wedge\>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|3>+a<rsub|1><around*|(|<frac|\<partial\>a<rsub|2>|\<partial\>x<rsup|3>>-<frac|\<partial\>a<rsub|3>|\<partial\>x<rsup|2>>|)>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|3>>>|<row|<cell|0>|<cell|=>|<cell|<around*|(|<frac|\<partial\>a<rsub|1>|\<partial\>x<rsup|2>>-<frac|\<partial\>a<rsub|2>|\<partial\>x<rsup|2>>|)>\<mathd\>x<rsup|4>\<wedge\>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2><new-line>-<around*|(|<frac|\<partial\>a<rsub|1>|\<partial\>x<rsup|3>>-<frac|\<partial\>a<rsub|3>|\<partial\>x<rsup|1>>|)>\<mathd\>x<rsup|4>\<wedge\>\<mathd\>x<rsup|3>\<wedge\>\<mathd\>x<rsup|1><new-line>+<around*|(|<frac|\<partial\>a<rsub|2>|\<partial\>x<rsup|3>>-<frac|\<partial\>a<rsub|3>|\<partial\>x<rsup|2>>|)>\<mathd\>x<rsup|4>\<wedge\>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|3><new-line>+<around*|(|a<rsub|1><around*|(|<frac|\<partial\>a<rsub|2>|\<partial\>x<rsup|3>>-<frac|\<partial\>a<rsub|3>|\<partial\>x<rsup|2>>|)>-a<rsub|2><around*|(|<frac|\<partial\>a<rsub|1>|\<partial\>x<rsup|3>>-<frac|\<partial\>a<rsub|3>|\<partial\>x<rsup|1>>|)>+a<rsub|3><around*|(|<frac|\<partial\>a<rsub|1>|\<partial\>x<rsup|2>>-<frac|\<partial\>a<rsub|2>|\<partial\>x<rsup|1>>|)>|)>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|3>>>>>
   </eqnarray*>
+
+  \<#7531\>\<#4E8E\>\<#524D\>\<#4E09\>\<#9879\>\<#7CFB\>\<#6570\>\<#4E3A\>0\<#FF0C\>\<#6700\>\<#540E\>\<#4E00\>\<#9879\>\<#81EA\>\<#7136\>\<#4E3A\>0,\<#6CA1\>\<#6709\>\<#589E\>\<#52A0\>\<#66F4\>\<#591A\>\<#6761\>\<#4EF6\>
 
   \;
 
