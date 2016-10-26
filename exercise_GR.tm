@@ -574,6 +574,104 @@
 
   \;
 
+  <paragraph|7.9>
+
+  there is a curve <math|x<around*|(|\<lambda\>|)>>, satisfie the geodesic
+  equation
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<mathd\><rsup|2>x<rsup|\<alpha\>>|\<mathd\>\<lambda\><rsup|2>>+\<Gamma\><rsup|\<alpha\>><rsub|\<beta\>\<gamma\>><frac|\<mathd\>x<rsup|<with|math-font-shape|normal|<with|math-font-shape|normal|<with|math-font-shape|normal|>>>\<beta\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<gamma\>>|\<mathd\>\<lambda\>>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  and the interval of curve <math|x<around*|(|\<lambda\>|)>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|g<rsub|\<mu\>\<nu\>>\<Delta\>x<rsup|\<mu\>><around*|(|\<lambda\>|)>\<Delta\>x<rsup|\<nu\>><around*|(|\<lambda\>|)>>|<cell|=>|<cell|g<rsub|\<mu\>\<nu\>>\<mathd\>x<rsup|\<mu\>><around*|(|\<lambda\>|)>\<mathd\>x<rsup|\<nu\>><around*|(|\<lambda\>|)>>>|<row|<cell|>|<cell|=>|<cell|g<rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>\<mathd\>\<lambda\><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|g<rsub|\<mu\>\<nu\>>u<rsup|\<mu\>>u<rsup|\<nu\>>\<mathd\>\<lambda\><rsup|2>>>>>
+  </eqnarray*>
+
+  set <math|u<rsup|\<mu\>>=<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>>,then
+  then geodesic equation
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<mathd\>u<rsup|\<mu\>>|\<mathd\>\<lambda\>>+\<Gamma\><rsup|\<mu\>><rsub|\<beta\>\<gamma\>>u<rsup|\<beta\>>u<rsup|\<gamma\>>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  consider
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<mathd\>|\<mathd\>\<lambda\>><around*|(|g<rsub|\<mu\>\<nu\>>u<rsup|\<mu\>>u<rsup|\<nu\>>|)>>|<cell|=>|<cell|g<rsub|\<mu\>\<nu\>><frac|\<mathd\>|\<mathd\>\<lambda\>><around*|(|u<rsup|\<mu\>>u<rsup|\<nu\>>|)>+\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<rho\>>|\<mathd\>\<lambda\>>u<rsup|\<mu\>>u<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|g<rsub|\<mu\>\<nu\>><around*|(|u<rsup|\<nu\>><frac|\<mathd\>u<rsup|\<mu\>>|\<mathd\>\<lambda\>>+u<rsup|\<mu\>><frac|\<mathd\>u<rsup|\<nu\>>|\<mathd\>\<lambda\>>|)>+u<rsup|\<rho\>>u<rsup|\<mu\>>u<rsup|\<nu\>>\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|2g<rsub|\<mu\>\<nu\>>u<rsup|\<nu\>><frac|\<mathd\>u<rsup|\<mu\>>|\<mathd\>\<lambda\>>+u<rsup|\<rho\>>u<rsup|\<mu\>>u<rsup|\<nu\>>\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|-2g<rsub|\<mu\>\<nu\>>u<rsup|\<nu\>>\<Gamma\><rsup|\<mu\>><rsub|\<beta\>\<gamma\>>u<rsup|\<beta\>>u<rsup|\<gamma\>>+u<rsup|\<rho\>>u<rsup|\<mu\>>u<rsup|\<nu\>>\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|-2g<rsub|\<mu\>\<nu\>>\<Gamma\><rsup|\<mu\>><rsub|\<beta\>\<gamma\>>u<rsup|\<nu\>>u<rsup|\<beta\>>u<rsup|\<gamma\>>+u<rsup|\<rho\>>u<rsup|\<mu\>>u<rsup|\<nu\>>\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|-2g<rsub|\<mu\>\<nu\>><around*|(|<frac|1|2>g<rsup|\<mu\>\<sigma\>><around*|(|\<partial\><rsub|\<beta\>>g<rsub|\<gamma\>\<sigma\>>+\<partial\><rsub|\<gamma\>>g<rsub|\<beta\>\<sigma\>>-\<partial\><rsub|\<sigma\>>g<rsub|\<beta\>\<gamma\>>|)>|)>u<rsup|\<nu\>>u<rsup|\<beta\>>u<rsup|\<gamma\>>+u<rsup|\<rho\>>u<rsup|\<mu\>>u<rsup|\<nu\>>\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|-\<delta\><rsup|\<sigma\>><rsub|\<nu\>><around*|(|\<partial\><rsub|\<beta\>>g<rsub|\<gamma\>\<sigma\>>+\<partial\><rsub|\<gamma\>>g<rsub|\<beta\>\<sigma\>>-\<partial\><rsub|\<sigma\>>g<rsub|\<beta\>\<gamma\>>|)>u<rsup|\<nu\>>u<rsup|\<beta\>>u<rsup|\<gamma\>>+u<rsup|\<rho\>>u<rsup|\<mu\>>u<rsup|\<nu\>>\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|\<partial\><rsub|\<beta\>>g<rsub|\<gamma\>\<sigma\>>+\<partial\><rsub|\<gamma\>>g<rsub|\<beta\>\<sigma\>>-\<partial\><rsub|\<sigma\>>g<rsub|\<beta\>\<gamma\>>|)>u<rsup|\<sigma\>>u<rsup|\<beta\>>u<rsup|\<gamma\>>+u<rsup|\<rho\>>u<rsup|\<mu\>>u<rsup|\<nu\>>\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|-u<rsup|\<sigma\>>u<rsup|\<beta\>>u<rsup|\<gamma\>>\<partial\><rsub|\<beta\>>g<rsub|\<gamma\>\<sigma\>>+u<rsup|\<rho\>>u<rsup|\<mu\>>u<rsup|\<nu\>>\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  here I see, the interval will remain, as particle move along the geodesic
+  by the paramater <math|\<lambda\>>.if it's timelike paticle, it always is.
+
+  \;
+
+  \;
+
+  I need start from some simple example: consider the flat metric
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|-\<mathd\>t<rsup|2>+\<mathd\>r<rsup|2>>>>>
+  </eqnarray*>
+
+  then the geodesic equation
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<mathd\><rsup|2>x<rsup|\<mu\>>|\<mathd\>\<tau\><rsup|2>>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  then
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|x<rsup|\<mu\>>>|<cell|=>|<cell|C<rsub|0><rsup|\<mu\>>+C<rsub|1><rsup|\<mu\>>\<tau\>>>>>
+  </eqnarray*>
+
+  we could bring it into our metric to chech what kind of geodesic it is
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|-\<mathd\>t<rsup|2>+\<mathd\>r<rsup|2>>|<cell|=>|<cell|-<around*|(|\<mathd\><around*|(|C<rsup|0><rsub|0>+C<rsup|0><rsub|1>\<tau\>|)>|)><rsup|2>+<around*|(|\<mathd\><around*|(|C<rsup|1><rsub|0>+C<rsup|1><rsub|1>\<tau\><rsub|>|)>|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|C<rsup|0><rsub|1>|)><rsup|2>\<mathd\>\<tau\><rsup|2>+<around*|(|C<rsup|1><rsub|1>|)><rsup|2>\<mathd\>\<tau\><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<around*|(|C<rsup|1><rsub|1>|)><rsup|2>-<around*|(|C<rsup|0><rsub|1>|)><rsup|2>|)>\<mathd\>\<tau\><rsup|2>>>>>
+  </eqnarray*>
+
+  it could show the answer I need. but how do I gain the conclusion without
+  solve the equations?
+
+  set <math|t=\<alpha\><around*|(|\<tau\>|)>,x=\<beta\><around*|(|\<tau\>|)>>
+  then
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|-\<mathd\>t<rsup|2>+\<mathd\>r<rsup|2>>|<cell|=>|<cell|<around*|(|-<around*|(|\<alpha\><rprime|'>|)><rsup|2>+<around*|(|\<beta\><rprime|'>|)><rsup|2>|)>\<mathd\>\<tau\><rsup|2>>>>>
+  </eqnarray*>
+
+  something useless,but important
+
+  <paragraph|7.11>
+
+  for the geodesic equation, let's transform it by
+  <math|\<lambda\>=\<lambda\><around*|(|\<alpha\>|)>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<mathd\><rsup|2>x<rsup|\<mu\>>|\<mathd\>\<lambda\><rsup|2>>+\<Gamma\><rsup|\<mu\>><rsub|\<sigma\>\<rho\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<rho\>>|\<mathd\>\<lambda\>>>|<cell|=>|<cell|0>>|<row|<cell|\<Rightarrow\><htab|5mm><frac|\<mathd\>|\<mathd\>\<lambda\>><around*|(|<frac|\<mathd\>x<rsup|\<mu\>><around*|(|\<alpha\>|)>|\<mathd\>\<lambda\>>|)>+\<Gamma\><rsup|\<mu\>><rsub|\<sigma\>\<rho\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<alpha\>><frac|\<mathd\>x<rsup|\<rho\>>|\<mathd\>\<alpha\>><around*|(|<frac|\<mathd\>\<alpha\>|\<mathd\>\<lambda\>>|)><rsup|2>>|<cell|=>|<cell|0>>|<row|<cell|\<Rightarrow\><htab|5mm><frac|\<mathd\>|\<mathd\>\<lambda\>><around*|(|<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<alpha\>><frac|\<mathd\>\<alpha\>|\<mathd\>\<lambda\>>|)>+\<Gamma\><rsup|\<mu\>><rsub|\<sigma\>\<rho\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<alpha\>><frac|\<mathd\>x<rsup|\<rho\>>|\<mathd\>\<alpha\>><around*|(|<frac|\<mathd\>\<alpha\>|\<mathd\>\<lambda\>>|)><rsup|2>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>x<rsup|\<mu\>>|\<mathd\>\<lambda\>\<mathd\>\<alpha\>><frac|\<mathd\>\<alpha\>|\<delta\>\<lambda\>>+<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<alpha\>><frac|\<mathd\><rsup|2>\<alpha\>|\<mathd\>\<lambda\><rsup|2>>+\<Gamma\><rsup|\<mu\>><rsub|\<sigma\>\<rho\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<alpha\>><frac|\<mathd\>x<rsup|\<rho\>>|\<mathd\>\<alpha\>><around*|(|<frac|\<mathd\>\<alpha\>|\<mathd\>\<lambda\>>|)><rsup|2>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>x<rsup|\<mu\>>|\<mathd\>\<alpha\><rsup|2>><around*|(|<frac|\<mathd\>\<alpha\>|\<mathd\>\<lambda\>>|)><rsup|2>+<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<alpha\>><frac|\<mathd\><rsup|2>\<alpha\>|\<mathd\>\<lambda\><rsup|2>>+\<Gamma\><rsup|\<mu\>><rsub|\<sigma\>\<rho\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<alpha\>><frac|\<mathd\>x<rsup|\<rho\>>|\<mathd\>\<alpha\>><around*|(|<frac|\<mathd\>\<alpha\>|\<mathd\>\<lambda\>>|)><rsup|2>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>x<rsup|\<mu\>>|\<mathd\>\<alpha\><rsup|2>>+\<Gamma\><rsup|\<mu\>><rsub|\<sigma\>\<rho\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<alpha\>><frac|\<mathd\>x<rsup|\<rho\>>|\<mathd\>\<alpha\>>>|<cell|=>|<cell|-<around*|(|<frac|\<mathd\>\<alpha\>|\<mathd\>\<lambda\>>|)><rsup|-2><frac|\<mathd\><rsup|2>\<alpha\>|\<mathd\>\<lambda\><rsup|2>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<alpha\>>>>>>
+  </eqnarray*>
+
+  if require <math|\<alpha\>> is still affine parameter ,then should
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|-<around*|(|<frac|\<mathd\>\<alpha\>|\<mathd\>\<lambda\>>|)><rsup|-2><frac|\<mathd\><rsup|2>\<alpha\>|\<mathd\>\<lambda\><rsup|2>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<alpha\>>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  as affine parameter are for arbitary geodesic particle,then\ 
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|<frac|\<mathd\>\<alpha\>|\<mathd\>\<lambda\>>|)><rsup|-2><frac|\<mathd\><rsup|2>\<alpha\>|\<mathd\>\<lambda\><rsup|2>>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  if <math|<frac|\<mathd\>\<alpha\>|\<mathd\>\<lambda\>>=0> that's ok ,in
+  this case ,all things are trival
+
+  if <math|<frac|\<mathd\><rsup|2>\<alpha\>|\<mathd\>\<lambda\><rsup|2>>=0\<nospace\>>
+  this means <math|\<alpha\>=C<rsub|1>\<lambda\>+C<rsub|2>> that what we want
+
   <paragraph|8.2>already known
 
   <\eqnarray*>
@@ -738,6 +836,8 @@
     <associate|auto-21|<tuple|21|?>>
     <associate|auto-22|<tuple|22|?>>
     <associate|auto-23|<tuple|23|?>>
+    <associate|auto-24|<tuple|24|?>>
+    <associate|auto-25|<tuple|25|?>>
     <associate|auto-3|<tuple|3|?>>
     <associate|auto-4|<tuple|4|?>>
     <associate|auto-5|<tuple|5|?>>
@@ -796,26 +896,32 @@
       <with|par-left|<quote|4tab>|7.7- <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-15><vspace|0.15fn>>
 
-      <with|par-left|<quote|4tab>|8.2 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|4tab>|7.8- <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-16><vspace|0.15fn>>
 
-      <with|par-left|<quote|4tab>|8.3 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|4tab>|7.9 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-17><vspace|0.15fn>>
 
-      <with|par-left|<quote|4tab>|8.6- <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|4tab>|8.2 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-18><vspace|0.15fn>>
 
-      <with|par-left|<quote|4tab>|8.13 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|4tab>|8.3 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-19><vspace|0.15fn>>
 
-      <with|par-left|<quote|4tab>|8.16 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|4tab>|8.6- <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-20><vspace|0.15fn>>
 
-      <with|par-left|<quote|4tab>|8.17 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|4tab>|8.13 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-21><vspace|0.15fn>>
 
-      <with|par-left|<quote|4tab>|8.19 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|4tab>|8.16 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-22><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|8.17 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-23><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|8.19 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-24><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
