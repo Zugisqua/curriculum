@@ -812,7 +812,25 @@
     <tformat|<table|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<cwith|1|1|1|1|cell-halign|r>|<table|<row|<cell|<around*|(|x\<partial\><rsub|1>-y\<partial\><rsub|2>+z<rsup|a>\<partial\><rsub|3>-1|)>u<rsup|1>>|<cell|=>|<cell|0>>|<row|<cell|<around*|(|x\<partial\><rsub|1>-y\<partial\><rsub|2>+z<rsup|a>\<partial\><rsub|3>-1|)>u<rsup|2>>|<cell|=>|<cell|0>>|<row|<cell|<around*|(|x\<partial\><rsub|1>-y\<partial\><rsub|2>+z<rsup|a>\<partial\><rsub|3>-a\<nospace\>z<rsup|a-1>|)>u<rsup|3>>|<cell|=>|<cell|0>>>>>>>>>
   </eqnarray*>
 
-  \;
+  <paragraph|9.9->
+
+  (a)
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<nabla\><rsub|a>\<nabla\><rsub|b>S>|<cell|=>|<cell|\<partial\><rsub|a><around*|(|\<nabla\><rsub|b>S|)>-\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>b>\<nabla\><rsub|\<lambda\>>S>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|a>\<partial\><rsub|b>S-\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>b>\<nabla\><rsub|\<lambda\>>S>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|b>\<partial\><rsub|a>S-\<Gamma\><rsup|\<lambda\>><rsub|b\<nospace\>a>\<nabla\><rsub|\<lambda\>>S>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|b><around*|(|\<nabla\><rsub|a>S|)>-\<Gamma\><rsup|\<lambda\>><rsub|b\<nospace\>a>\<nabla\><rsub|\<lambda\>>S>>|<row|<cell|>|<cell|=>|<cell|\<nabla\><rsub|b>\<nabla\><rsub|a>S>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<nabla\><rsub|a>\<nabla\><rsub|b>\<nabla\><rsub|c>S>|<cell|=>|<cell|\<partial\><rsub|a><around*|(|\<nabla\><rsub|b>\<nabla\><rsub|c>S|)>-\<Gamma\><rsub|a\<nospace\>b><rsup|\<lambda\>>\<nabla\><rsub|\<lambda\>>\<nabla\><rsub|c>S-\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>c>\<nabla\><rsub|b>\<nabla\><rsub|\<lambda\>>S>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|a><around*|(|\<partial\><rsub|b>\<partial\><rsub|c>S-\<Gamma\><rsup|\<lambda\>><rsub|b\<nospace\>c>\<partial\><rsub|\<lambda\>>S|)>-\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>b><around*|(|\<partial\><rsub|\<lambda\>>\<partial\><rsub|c>S-\<Gamma\><rsup|\<kappa\>><rsub|\<lambda\>c>\<partial\><rsub|\<kappa\>>S|)>-\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>c><around*|(|\<partial\><rsub|b>\<partial\><rsub|\<lambda\>>S-\<Gamma\><rsup|\<kappa\>><rsub|b\<lambda\>>\<partial\><rsub|\<kappa\>>S|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|a>\<partial\><rsub|b>\<partial\><rsub|c>S-\<partial\><rsub|a>\<Gamma\><rsup|\<lambda\>><rsub|b\<nospace\>c>\<partial\><rsub|\<lambda\>>S-\<Gamma\><rsup|\<lambda\>><rsub|b\<nospace\>c>\<partial\><rsub|a>\<partial\><rsub|\<lambda\>>S-\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>b>\<partial\><rsub|\<lambda\>>\<partial\><rsub|c>S+\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>b>\<Gamma\><rsup|\<kappa\>><rsub|\<lambda\>c>\<partial\><rsub|\<kappa\>>S-\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>c>\<partial\><rsub|b>\<partial\><rsub|\<lambda\>>S+\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>c>\<Gamma\><rsup|\<kappa\>><rsub|\<nospace\>b\<lambda\>>\<partial\><rsub|\<kappa\>>S>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|a>\<partial\><rsub|b>\<partial\><rsub|c>S-\<partial\><rsub|a>\<Gamma\><rsup|\<lambda\>><rsub|b\<nospace\>c>\<partial\><rsub|\<lambda\>>S-\<Gamma\><rsup|\<lambda\>><rsub|b\<nospace\>c>\<partial\><rsub|\<lambda\>>\<partial\><rsub|a>S-\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>b>\<partial\><rsub|\<lambda\>>\<partial\><rsub|c>S-\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>c>\<partial\><rsub|\<lambda\>>\<partial\><rsub|b>S+\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>b>\<Gamma\><rsup|\<kappa\>><rsub|\<lambda\>c>\<partial\><rsub|\<kappa\>>S+\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>c>\<Gamma\><rsup|\<kappa\>><rsub|\<lambda\>b>\<partial\><rsub|\<kappa\>>S>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|a>\<partial\><rsub|b>\<partial\><rsub|c>S+<around*|(|\<Gamma\><rsup|\<kappa\>><rsub|a\<nospace\>b>\<Gamma\><rsup|\<lambda\>><rsub|\<kappa\>c>+\<Gamma\><rsup|\<kappa\>><rsub|a\<nospace\>c>\<Gamma\><rsup|\<lambda\>><rsub|\<kappa\>b>-\<partial\><rsub|a>\<Gamma\><rsup|\<lambda\>><rsub|b\<nospace\>c>|)>\<partial\><rsub|\<lambda\>>S-<around*|(|\<Gamma\><rsup|\<lambda\>><rsub|b\<nospace\>c>\<partial\><rsub|a>+\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>b>\<partial\><rsub|c>+\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>c>\<partial\><rsub|b>|)>\<partial\><rsub|\<lambda\>>S>>>>
+  </eqnarray*>
+
+  calculate
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<nabla\><rsub|<around*|\<nobracket\>||(>a>\<nabla\><rsub|b<around*|\<nobracket\>||)>>\<nabla\><rsub|c>S>|<cell|=>|<cell|<frac|1|2><around*|(|2\<partial\><rsub|a>\<partial\><rsub|b>\<partial\><rsub|c>S-\<partial\><rsub|b>\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>c>\<partial\><rsub|\<lambda\>>S-\<partial\><rsub|a>\<Gamma\><rsup|\<lambda\>><rsub|b\<nospace\>c>\<partial\><rsub|\<lambda\>>S-2<around*|(|\<Gamma\><rsup|\<lambda\>><rsub|b\<nospace\>c>\<partial\><rsub|\<lambda\>>\<partial\><rsub|a>S+\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>b>\<partial\><rsub|\<lambda\>>\<partial\><rsub|c>S+\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>c>\<partial\><rsub|\<lambda\>>\<partial\><rsub|b>S|)><new-line>+2\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>b>\<Gamma\><rsup|\<kappa\>><rsub|\<lambda\>c>\<partial\><rsub|\<kappa\>>S+\<Gamma\><rsup|\<lambda\>><rsub|a\<nospace\>c>\<Gamma\><rsup|\<kappa\>><rsub|\<lambda\>b>\<partial\><rsub|\<kappa\>>S+\<Gamma\><rsup|\<lambda\>><rsub|b\<nospace\>c>\<Gamma\><rsup|\<kappa\>><rsub|\<lambda\>a>\<partial\><rsub|\<kappa\>>S|)>>>|<row|<cell|>|<cell|=>|<cell|>>>>
+  </eqnarray*>
+
+  I can't pre-see some meanful result
 </body>
 
 <initial|<\collection>
@@ -838,6 +856,7 @@
     <associate|auto-23|<tuple|23|?>>
     <associate|auto-24|<tuple|24|?>>
     <associate|auto-25|<tuple|25|?>>
+    <associate|auto-26|<tuple|26|?>>
     <associate|auto-3|<tuple|3|?>>
     <associate|auto-4|<tuple|4|?>>
     <associate|auto-5|<tuple|5|?>>
@@ -902,26 +921,29 @@
       <with|par-left|<quote|4tab>|7.9 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-17><vspace|0.15fn>>
 
-      <with|par-left|<quote|4tab>|8.2 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|4tab>|7.11 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-18><vspace|0.15fn>>
 
-      <with|par-left|<quote|4tab>|8.3 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|4tab>|8.2 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-19><vspace|0.15fn>>
 
-      <with|par-left|<quote|4tab>|8.6- <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|4tab>|8.3 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-20><vspace|0.15fn>>
 
-      <with|par-left|<quote|4tab>|8.13 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|4tab>|8.6- <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-21><vspace|0.15fn>>
 
-      <with|par-left|<quote|4tab>|8.16 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|4tab>|8.13 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-22><vspace|0.15fn>>
 
-      <with|par-left|<quote|4tab>|8.17 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|4tab>|8.16 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-23><vspace|0.15fn>>
 
-      <with|par-left|<quote|4tab>|8.19 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|4tab>|8.17 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-24><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|8.19 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-25><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
