@@ -8,7 +8,7 @@
   <paragraph|1. >
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|f<rprime|\<asterisk\>>\<circ\>\<mathd\><around*|(|w|)>>|<cell|=>|<cell|f<rprime|\<asterisk\>>\<circ\>\<mathd\><around*|(|\<alpha\><rsub|I>\<mathd\>x<rsup|I>|)>>>|<row|<cell|>|<cell|=>|<cell|f<rprime|\<asterisk\>><around*|(|\<partial\><rsub|i>\<alpha\><rsub|I>\<mathd\>x<rsup|i>\<wedge\>\<mathd\>x<rsup|I>|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|i>\<alpha\><rsub|I>f<rprime|\<asterisk\>><around*|(|\<mathd\>x<rsup|i>\<wedge\>\<mathd\>x<rsup|I>|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|i>\<alpha\><rsub|I>f<rprime|\<asterisk\>>\<mathd\>x<rsup|i>\<wedge\>f<rprime|\<asterisk\>>\<mathd\>x<rsup|I>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>\<alpha\><rsub|I>|\<partial\>x<rsup|i>><frac|\<partial\>x<rsup|i>|\<partial\>y<rsup|j>>\<mathd\>y<rsup|j>\<wedge\>f<rprime|\<asterisk\>>\<mathd\>x<rsup|I>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>\<alpha\><rsub|I>|\<partial\>y<rsup|j>>\<mathd\>y<rsup|i>\<wedge\>f<rprime|\<asterisk\>>\<mathd\>x<rsup|I>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\><around*|(|\<alpha\><rsub|I>f<rprime|\<asterisk\>>\<mathd\>x<rsup|I>|)>=\<mathd\><around*|(|f<rprime|\<asterisk\>><around*|(|\<alpha\><rsub|I>\<mathd\>x<rsup|I>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>\<circ\>f<rprime|\<asterisk\>><around*|(|w|)>>>>>
+    <tformat|<cwith|1|1|1|1|cell-valign|b>|<table|<row|<cell|f<rprime|\<asterisk\>>\<circ\>\<mathd\><around*|(|w|)>>|<cell|=>|<cell|f<rprime|\<asterisk\>>\<circ\>\<mathd\><around*|(|\<alpha\><rsub|I>\<mathd\>x<rsup|I>|)>>>|<row|<cell|>|<cell|=>|<cell|f<rprime|\<asterisk\>><around*|(|\<partial\><rsub|i>\<alpha\><rsub|I>\<mathd\>x<rsup|i>\<wedge\>\<mathd\>x<rsup|I>|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|i>\<alpha\><rsub|I>f<rprime|\<asterisk\>><around*|(|\<mathd\>x<rsup|i>\<wedge\>\<mathd\>x<rsup|I>|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|i>\<alpha\><rsub|I>f<rprime|\<asterisk\>>\<mathd\>x<rsup|i>\<wedge\>f<rprime|\<asterisk\>>\<mathd\>x<rsup|I>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>\<alpha\><rsub|I>|\<partial\>x<rsup|i>><frac|\<partial\>x<rsup|i>|\<partial\>y<rsup|j>>\<mathd\>y<rsup|j>\<wedge\>f<rprime|\<asterisk\>>\<mathd\>x<rsup|I>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>\<alpha\><rsub|I>|\<partial\>y<rsup|j>>\<mathd\>y<rsup|i>\<wedge\>f<rprime|\<asterisk\>>\<mathd\>x<rsup|I>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\><around*|(|\<alpha\><rsub|I>f<rprime|\<asterisk\>>\<mathd\>x<rsup|I>|)>=\<mathd\><around*|(|f<rprime|\<asterisk\>><around*|(|\<alpha\><rsub|I>\<mathd\>x<rsup|I>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>\<circ\>f<rprime|\<asterisk\>><around*|(|w|)>>>>>
   </eqnarray*>
 
   <paragraph|2. >
@@ -69,7 +69,50 @@
     <tformat|<table|<row|<cell|<around*|[|L<rsub|X>,i<rsub|Y>|]>\<alpha\>>|<cell|=>|<cell|<around*|(|L<rsub|X>i<rsub|Y>-i<rsub|Y>L<rsub|X>|)>\<alpha\><rsub|j<rsub|1>\<ldots\>i<rsub|r>>\<mathd\>x<rsup|j<rsub|1>>\<wedge\>\<cdots\>\<wedge\>\<mathd\>x<rsup|j<rsub|r>>>>|<row|<cell|>|<cell|=>|<cell|L<rsub|X><around*|(|\<alpha\><rsub|j<rsub|1>\<ldots\>i<rsub|r>><big|sum><rsup|r><rsub|k=1><around*|(|-1|)><rsup|k-1><around*|\<langle\>|\<mathd\>x<rsup|j<rsub|k>>,Y|\<rangle\>>\<mathd\>x<rsup|j<rsub|1>>\<wedge\>\<cdots\>\<wedge\><wide|\<mathd\>x|^><rsup|j<rsub|k>>\<wedge\>\<cdots\>\<wedge\>\<mathd\>x<rsup|j<rsub|r>>|)><new-line>-i<rsub|Y><around*|(|L<rsub|X>\<alpha\><rsub|j<rsub|1>\<ldots\>j<rsub|r>>|)>\<mathd\>x<rsup|j<rsub|1>>\<wedge\>\<ldots\>\<wedge\>\<mathd\>x<rsup|j<rsub|r>>-i<rsub|Y><big|sum><rsup|r><rsub|k=1>\<alpha\><rsub|j<rsub|1>\<ldots\>j<rsub|r>>\<mathd\>x<rsup|j<rsub|1>>\<wedge\>\<cdots\>\<wedge\><around*|(|L<rsub|X>\<mathd\>x<rsup|j<rsub|k>>|)>\<wedge\>\<cdots\>\<wedge\>\<mathd\>x<rsup|j<rsub|r>>>>|<row|<cell|>|<cell|=>|<cell|\<alpha\><rsub|j<rsub|1>\<ldots\>i<rsub|r>><big|sum><rsup|r><rsub|k=1><around*|(|-1|)><rsup|k-1><around*|(|L<rsub|X>Y<rsup|j<rsub|k>>|)>\<mathd\>x<rsup|j<rsub|1>>\<wedge\>\<cdots\>\<wedge\><wide|\<mathd\>x|^><rsup|j<rsub|k>>\<wedge\>\<cdots\>\<wedge\>\<mathd\>x<rsup|j<rsub|r>><new-line>+<around*|(|L<rsub|X>\<alpha\><rsub|j<rsub|1>\<ldots\>j<rsub|r>>|)><big|sum><rsup|r><rsub|k=1><around*|(|-1|)><rsup|k-1><around*|\<langle\>|\<mathd\>x<rsup|j<rsub|k>>,Y|\<rangle\>>\<mathd\>x<rsup|j<rsub|1>>\<wedge\>\<cdots\>\<wedge\><wide|\<mathd\>x|^><rsup|j<rsub|k>>\<wedge\>\<cdots\>\<wedge\>\<mathd\>x<rsup|j<rsub|r>><new-line>+\<alpha\><rsub|j<rsub|1>\<ldots\>i<rsub|r>><big|sum><rsup|r><rsub|k=1><around*|(|-1|)><rsup|k-1>Y<rsup|j<rsub|k>><big|sum><rsup|r><rsub|l=1,l\<neq\>k>\<mathd\>x<rsup|j<rsub|1>>\<wedge\>\<cdots\>\<wedge\><around*|(|L<rsub|X>\<mathd\>x<rsup|j<rsub|l>>|)>\<wedge\>\<cdots\>\<wedge\>\<mathd\>x<rsup|j<rsub|r>><new-line>-L<rsub|X>\<alpha\><rsub|j<rsub|1>\<ldots\>j<rsub|r>><big|sum><rsup|r><rsub|k=1><around*|(|-1|)><rsup|k-1><around*|\<langle\>|\<mathd\>x<rsup|j<rsub|k>>,Y|\<rangle\>>\<mathd\>x<rsup|j<rsub|1>>\<wedge\>\<cdots\>\<wedge\><wide|\<mathd\>x|^><rsup|j<rsub|k>>\<wedge\>\<cdots\>\<wedge\>\<mathd\>x<rsup|j<rsub|r>><new-line>-\<alpha\><rsub|j<rsub|1>\<ldots\>j<rsub|r>><big|sum><rsup|r><rsub|k=1>\<partial\><rsub|j<rsub|0>>Y<rsup|j<rsub|k>>i<rsub|X><around*|(|\<mathd\>x<rsup|j<rsub|1>>\<wedge\>\<cdots\>\<wedge\>\<mathd\>x<rsup|j<rsub|0>>\<wedge\>\<mathd\>x<rsup|j<rsub|k+1>>\<wedge\>\<cdots\>\<wedge\>\<mathd\>x<rsup|j<rsub|r>>|)>>>|<row|<cell|>|<cell|=>|<cell|\<alpha\><rsub|j<rsub|1>\<ldots\>i<rsub|r>><big|sum><rsup|r><rsub|k=1><around*|(|-1|)><rsup|k-1>X<rsup|j<rsub|0>>\<partial\><rsub|j<rsub|0>>Y<rsup|j<rsub|k>>\<mathd\>x<rsup|j<rsub|1>>\<wedge\>\<cdots\>\<wedge\><wide|\<mathd\>x|^><rsup|j<rsub|k>>\<wedge\>\<cdots\>\<wedge\>\<mathd\>x<rsup|j<rsub|r>><new-line>+\<alpha\><rsub|j<rsub|1>\<ldots\>i<rsub|r>><big|sum><rsup|r><rsub|k=1><around*|(|-1|)><rsup|k-1>Y<rsup|j<rsub|k>><big|sum><rsup|r><rsub|j<rsub|0>=1,j<rsub|0>\<neq\>k>\<mathd\>x<rsup|j<rsub|1>>\<wedge\>\<cdots\>\<wedge\><around*|(|L<rsub|X>\<mathd\>x<rsup|j<rsub|0>>|)>\<wedge\>\<cdots\>\<wedge\>\<mathd\>x<rsup|j<rsub|r>><new-line>-\<alpha\><rsub|j<rsub|1>\<ldots\>j<rsub|r>><big|sum><rsup|r><rsub|k=1>\<partial\><rsub|j<rsub|0>>Y<rsup|j<rsub|k>><big|sum><rsup|r><rsub|l=1,l\<neq\>k><around*|(|-1|)><rsup|l-1><around*|\<langle\>|\<mathd\>x<rsup|j<rsub|l>>,X|\<rangle\>><around*|(|\<mathd\>x<rsup|j<rsub|1>>\<wedge\>\<cdots\>\<wedge\>\<mathd\>x<rsup|j<rsub|0>>\<wedge\>\<ldots\>\<wedge\><wide|\<mathd\>x|^><rsup|j<rsub|l>>\<wedge\>\<cdots\>\<wedge\>\<mathd\>x<rsup|j<rsub|r>>|)>>>|<row|<cell|>|<cell|=>|<cell|\<alpha\><rsub|j<rsub|1>\<ldots\>i<rsub|r>><big|sum><rsup|r><rsub|k=1><around*|(|-1|)><rsup|k-1>X<rsup|j<rsub|0>>\<partial\><rsub|j<rsub|0>>Y<rsup|j<rsub|k>>\<mathd\>x<rsup|j<rsub|1>>\<wedge\>\<cdots\>\<wedge\><wide|\<mathd\>x|^><rsup|j<rsub|k>>\<wedge\>\<cdots\>\<wedge\>\<mathd\>x<rsup|j<rsub|r>><new-line>+\<alpha\><rsub|j<rsub|1>\<ldots\>i<rsub|r>><big|sum><rsup|r><rsub|k=1><big|sum><rsup|r><rsub|j<rsub|0>=1,j<rsub|0>\<neq\>k><around*|(|-1|)><rsup|k-1>Y<rsup|j<rsub|k>>\<mathd\>x<rsup|j<rsub|1>>\<wedge\>\<cdots\>\<wedge\><around*|(|L<rsub|X>\<mathd\>x<rsup|j<rsub|0>>|)>\<wedge\>\<cdots\>\<wedge\>\<mathd\>x<rsup|j<rsub|r>><new-line>-\<alpha\><rsub|j<rsub|1>\<ldots\>j<rsub|r>><big|sum><rsup|r><rsub|k=1><big|sum><rsup|r><rsub|l=1,l\<neq\>k><around*|(|-1|)><rsup|l-1>X<rsup|j<rsub|l>>\<partial\><rsub|j<rsub|0>>Y<rsup|j<rsub|k>><around*|(|\<mathd\>x<rsup|j<rsub|1>>\<wedge\>\<cdots\>\<wedge\>\<mathd\>x<rsup|j<rsub|0>>\<wedge\>\<ldots\>\<wedge\><wide|\<mathd\>x|^><rsup|j<rsub|l>>\<wedge\>\<cdots\>\<wedge\>\<mathd\>x<rsup|j<rsub|r>>|)>>>|<row|<cell|>|<cell|>|<cell|\<#53EF\>\<#80FD\>\<#6211\>\<#8981\>\<#770B\>\<#770B\>2\<#5F62\>\<#5F0F\>\<#7684\>\<#4EC0\>\<#4E48\>\<#6837\>\<#5B50\>>>>>
   </eqnarray*>
 
+  <paragraph|7.>
+
+  \<#8BC1\>\<#660E\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>w<around*|(|X,Y|)>>|<cell|=>|<cell|L<rsub|X>w<around*|(|Y|)>-L<rsub|Y>w<around*|(|X|)>-w<around*|(|<around*|[|X,Y|]>|)>>>>>
+  </eqnarray*>
+
+  \<#5148\>\<#7528\>\<#7B80\>\<#5355\>\<#7684\>\<#60C5\>\<#51B5\>\<#8BA1\>\<#7B97\>\<#FF0C\>\<#5373\><math|w>\<#662F\>\<#4E00\>\<#4E2A\>1\<#5F62\>\<#5F0F\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>w<around*|(|X,Y|)>>|<cell|=>|<cell|<around*|\<langle\>|\<mathd\>w;X,Y|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<langle\>|\<mathd\><around*|(|w<rsub|i>\<mathd\>x<rsup|i>|)>;X,Y|\<rangle\>>=<around*|\<langle\>|\<partial\><rsub|j>w<rsub|i>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>;X,Y|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|j>w<rsub|i><around*|(|<around*|\<langle\>|\<mathd\>x<rsup|j>,X|\<rangle\>><around*|\<langle\>|\<mathd\>x<rsup|i>,Y|\<rangle\>>-<around*|\<langle\>|\<mathd\>x<rsup|i>,X|\<rangle\>><around*|\<langle\>|\<mathd\>x<rsup|j>,Y|\<rangle\>>|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|j>w<rsub|i><around*|(|X<rsup|j>Y<rsup|i>-X<rsup|i>Y<rsup|j>|)>>>>>
+  </eqnarray*>
+
+  \<#53E6\>\<#4E00\>\<#65B9\>\<#9762\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|L<rsub|X>w<around*|(|Y|)>>|<cell|=>|<cell|L<rsub|X><around*|\<langle\>|w,Y|\<rangle\>>=X<rsub|i>\<partial\><rsup|i><around*|\<langle\>|w,Y|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|X<rsup|i>\<partial\><rsub|i><around*|(|w<rsub|j>Y<rsup|j>|)>>>|<row|<cell|>|<cell|=>|<cell|X<rsup|i>Y<rsup|j>\<partial\><rsub|i>w<rsub|j>+X<rsup|i>w<rsub|j>\<partial\><rsub|i>Y<rsup|j>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|w<around*|(|<around*|[|X,Y|]>|)>>|<cell|=>|<cell|w<around*|(|X\<nospace\>Y-Y\<nospace\>X|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<langle\>|w,X\<nospace\>Y-Y\<nospace\>X|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|w<rsub|i><around*|\<langle\>|\<mathd\>x<rsup|i>,X\<nospace\>Y-Y\<nospace\>X|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|w<rsub|i><around*|(|X<rsup|j>\<partial\><rsub|j>Y<rsup|i>-Y<rsup|j>\<partial\><rsub|j>X<rsup|i>|)>>>>>
+  </eqnarray*>
+
+  \<#7136\>\<#540E\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|L<rsub|X>w<around*|(|Y|)>-L<rsub|Y>w<around*|(|X|)>-w<around*|(|<around*|[|X,Y|]>|)>>|<cell|=>|<cell|X<rsup|i>Y<rsup|j>\<partial\><rsub|i>w<rsub|j>+X<rsup|i>w<rsub|j>\<partial\><rsub|i>Y<rsup|j>-Y<rsup|i>X<rsup|j>\<partial\><rsub|i>w<rsub|j>-Y<rsup|i>w<rsub|j>\<partial\><rsub|i>X<rsup|j><new-line>-w<rsub|i>X<rsup|j>\<partial\><rsub|j>Y<rsup|i>+w<rsub|i>Y<rsup|j>\<partial\><rsub|j>X<rsup|i>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|i>w<rsub|j><around*|(|X<rsup|i>Y<rsup|j>-Y<rsup|i>X<rsup|j>|)>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>w<around*|(|X,Y|)>>>>>
+  </eqnarray*>
+
+  \<#8BC1\>\<#660E\>\<#4E2A\>\<#7B80\>\<#5355\>\<#7684\>\<#90FD\>\<#8FD9\>\<#4E48\>\<#9EBB\>\<#70E6\>\<#FF0C\>\<#5148\>\<#770B\>\<#4E0B\>\<#4E00\>\<#9898\>
+
   \;
+
+  <paragraph|8.>
+
+  \<#8FD8\>\<#662F\>\<#5148\>\<#8BC1\>\<#660E\>\<#4E00\>\<#4E2A\>\<#7B80\>\<#5355\>\<#8BF7\>\<#60C5\>\<#51B5\>
+  <math|k=1>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|L<rsub|W>\<alpha\><around*|(|X|)>>|<cell|=>|<cell|W<rsup|i>\<partial\><rsub|i><around*|(|\<alpha\><rsub|j>X<rsup|j>|)>=W<around*|(|\<alpha\><around*|(|X|)>|)>>>>>
+  </eqnarray*>
+
+  \<#6309\>\<#9053\>\<#7406\>\<#8BF4\>\<#4E0D\>\<#5E94\>\<#8BE5\>\<#8BF4\>\<#8FD9\>\<#6837\>\<#7684\>\<#4E00\>\<#4E2A\>\<#7ED3\>\<#679C\>\<#FF0C\>\<#90A3\>\<#91CC\>\<#6709\>\<#95EE\>\<#9898\>\<#FF0C\>\<#5E94\>\<#8BE5\>\<#662F\>\<#FF1A\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|L<rsub|W>\<alpha\><around*|(|X|)>>|<cell|=>|<cell|W<rsup|i>\<partial\><rsub|i><around*|(|\<alpha\><rsub|j>X<rsup|i>|)>-\<alpha\><rsub|j><around*|(|W<rsup|i>\<partial\><rsub|i>X<rsup|j>-X<rsup|i>\<partial\><rsub|i>W<rsup|j>|)>>>>>
+  </eqnarray*>
 </body>
 
 <initial|<\collection>
@@ -83,6 +126,8 @@
     <associate|auto-4|<tuple|4|?>>
     <associate|auto-5|<tuple|5|?>>
     <associate|auto-6|<tuple|6|?>>
+    <associate|auto-7|<tuple|7|?>>
+    <associate|auto-8|<tuple|8|?>>
   </collection>
 </references>
 
