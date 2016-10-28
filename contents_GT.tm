@@ -1568,7 +1568,9 @@
 
   \;
 
-  <subsection|\<#8868\>\<#793A\>\<#7406\>\<#8BBA\>>
+  <subsection|\<#8868\>\<#793A\>\<#7406\>\<#8BBA\><\footnote>
+    Cornwell
+  </footnote>>
 
   <with|font-series|bold|Schur\<#5F15\>\<#7406\>>
 
@@ -1604,17 +1606,41 @@
     <tformat|<table|<row|<cell|<frac|1|g><big|sum><rsub|T\<in\>G>\<Gamma\><rsup|p><around*|(|T|)><rprime|\<asterisk\>><rsub|j\<nospace\>k>\<Gamma\><rsup|q><around*|(|T|)><rsub|s\<nospace\>t>>|<cell|=>|<cell|<frac|1|d<rsub|p>>\<delta\><rsup|p\<nospace\>q>\<delta\><rsub|j\<nospace\>s>\<delta\><rsub|k\<nospace\>t>>>>>
   </eqnarray*>
 
+  \<#6216\>\<#8868\>\<#8FF0\>\<#4E3A\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|n<rsub|p>|n<rsub|G>><big|sum><rsub|g\<in\>G>D<rprime|\<dag\>><rsub|p><around*|(|g|)><rsup|k><rsub|j>D<rsup|q><around*|(|g|)><rsup|s><rsub|t>>|<cell|=>|<cell|\<delta\><rsup|q><rsub|p>\<delta\><rsup|s><rsub|j>\<delta\><rsup|k><rsub|t>>>|<row|<cell|>|<cell|>|<cell|\<#8FD9\>\<#91CC\>D<rprime|\<dag\>><rsub|p><around*|(|g|)><rsup|j><rsub|k>=<around*|[|D<rsup|p><around*|(|g|)><rsup|k><rsub|j>|]><rprime|\<asterisk\>>>>>>
+  </eqnarray*>
+
+  \<#76EE\>\<#524D\>\<#8FD8\>\<#770B\>\<#51FA\>\<#6765\>\<#54EA\>\<#4E2A\>\<#597D\>
+
   \<#5176\>\<#4E2D\><math|g,d<rsub|p>>\<#5206\>\<#522B\>\<#662F\>\<#7FA4\><math|G>\<#9636\>,<math|\<Gamma\><rsup|p>>\<#7684\>\<#7EF4\>\<#6570\>,<math|p>\<#548C\><math|q>\<#662F\>\<#7528\>\<#6765\>\<#6807\>\<#8BB0\>\<#7684\>\<#4E24\>\<#4E2A\>\<#8868\>\<#793A\>\<#7684\>
 
   \<#5F53\><math|p\<neq\>q>,\<#4E0D\>\<#540C\>\<#8868\>\<#793A\>\<#6CA1\>\<#6709\>\<#8054\>\<#7CFB\><new-line>\<#5F53\><math|p=q,>\<#540C\>\<#4E00\>\<#8868\>\<#793A\>\<#6709\>\<#4E0A\>\<#8FF0\>\<#559C\>\<#95FB\>\<#4E50\>\<#89C1\>,\<#4E0D\>\<#660E\>\<#89C9\>\<#5389\>\<#7684\>\<#5173\>\<#7CFB\>
 
   \;
 
-  <with|font-series|bold|\<#5B9A\>\<#7406\>.5
+  <with|font-series|bold|\<#547D\>\<#9898\>
   >\<#7531\>\<#4E0A\>\<#53EF\>\<#4EE5\>\<#5F97\>\<#5230\><math|\<Gamma\><rsup|p>,\<Gamma\><rsup|q>>\<#8868\>\<#793A\>\<#7A7A\>\<#95F4\>\<#7684\>\<#57FA\>\<#77E2\>\<#4E4B\>\<#95F4\>\<#7684\>\<#5173\>\<#7CFB\>
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|<around*|\<langle\>|\<phi\><rsup|p><rsub|m>\|\<psi\><rsup|q><rsub|n>|\<rangle\>>>|<cell|=>|<cell|<frac|1|d<rsub|p>>\<delta\><rsup|p\<nospace\>q>\<delta\><rsub|m\<nospace\>n><big|sum><rsup|d<rsub|p>><rsub|j=1><around*|\<langle\>|\<phi\><rsup|p><rsub|j>\|\<psi\><rsup|q><rsub|j>|\<rangle\>>>>>>
+  </eqnarray*>
+
+  <with|font-series|bold|\<#5B8C\>\<#5907\>\<#6027\>\<#5B9A\>\<#7406\>>
+
+  <with|font-series|bold|\<#5B9A\>\<#7406\>.6>
+  \<#5BF9\>\<#4E8E\>\<#5217\>\<#7684\>\<#4E0D\>\<#7B49\>\<#4EF7\>\<#3001\>\<#4E0D\>\<#53EF\>\<#7EA6\>\<#8868\>\<#793A\>(\<#7528\><math|p>\<#6807\>\<#8BB0\>)\<#6EE1\>\<#8DB3\>\<#8FD9\>\<#6837\>\<#7684\>\<#5173\>\<#7CFB\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<big|sum><rsub|p,i,\<nospace\>j><frac|d<rsub|p>|g>\<Gamma\><rsup|p><around*|(|g|)><rsup|i><rsub|j>\<Gamma\><rprime|\<dag\>><rsub|p><around*|(|g<rprime|'>|)><rsup|j><rsub|i>>|<cell|=>|<cell|\<delta\><rsub|g\<nospace\>g<rprime|'>>>>>>
+  </eqnarray*>
+
+  <with|font-series|bold|\<#5B9A\>\<#7406\>.7
+  >\<#5E76\>\<#4E14\>\<#FF0C\>\<#5728\>\<#4E0A\>\<#7684\>\<#60C5\>\<#51B5\>\<#4E0B\>\<#6709\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<big|sum><rsub|p>d<rsub|p><rsup|2>>|<cell|=>|<cell|g>>>>
   </eqnarray*>
 
   \;
@@ -1627,8 +1653,6 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|<frac|1|g><big|sum><rsub|T\<in\>G>\<chi\><rsup|p><around*|(|T|)><rprime|\<asterisk\>>\<chi\><rsup|q><around*|(|T|)>>|<cell|=>|<cell|\<delta\><rsup|p\<nospace\>q>>>>>
   </eqnarray*>
-
-  \;
 
   \;
 
@@ -1706,6 +1730,9 @@
     <associate|auto-8|<tuple|1.3.1|?>>
     <associate|auto-9|<tuple|1.3.2|?>>
     <associate|footnote-1|<tuple|1|?>>
+    <associate|footnote-10|<tuple|10|?>>
+    <associate|footnote-11|<tuple|11|?>>
+    <associate|footnote-12|<tuple|12|?>>
     <associate|footnote-2|<tuple|2|?>>
     <associate|footnote-3|<tuple|3|?>>
     <associate|footnote-4|<tuple|4|?>>
@@ -1714,6 +1741,8 @@
     <associate|footnote-7|<tuple|7|?>>
     <associate|footnote-8|<tuple|8|?>>
     <associate|footnote-9|<tuple|9|?>>
+    <associate|footnr-10|<tuple|10|?>>
+    <associate|footnr-12|<tuple|12|?>>
     <associate|footnr-3|<tuple|3|?>>
     <associate|footnr-6|<tuple|6|?>>
     <associate|footnr-9|<tuple|9|?>>
@@ -1728,7 +1757,7 @@
       <no-break><pageref|auto-1><vspace|0.5fn>
 
       <with|par-left|<quote|1tab>|1.1<space|2spc>\<#96C6\>\<#5408\>\<#8BBA\><assign|footnote-nr|1><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%42EF850-39D2B10>|<link|hyperlink|<id|%42EF850-39D2B10>|<url|#footnr-1>>|1>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%39BD040-4418B30>|<link|hyperlink|<id|%39BD040-4418B30>|<url|#footnr-1>>|1>.
         |<hidden|<tuple|footnote-1>><htab|0fn|first>>
           \<#4EE3\>\<#6570\>\<#5B66\>\<#5F15\>\<#8BBA\>\<#4E0A\>\<#518C\>
         </surround>>>
@@ -1753,7 +1782,7 @@
       <no-break><pageref|auto-6>>
 
       <with|par-left|<quote|1tab>|1.3<space|2spc>\<#7EBF\>\<#6027\>\<#4EE3\>\<#6570\><assign|footnote-nr|4><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%42EF850-4DFE570>|<link|hyperlink|<id|%42EF850-4DFE570>|<url|#footnr-4>>|4>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%39BD040-3BAEF60>|<link|hyperlink|<id|%39BD040-3BAEF60>|<url|#footnr-4>>|4>.
         |<hidden|<tuple|footnote-4>><htab|0fn|first>>
           \<#7EBF\>\<#6027\>\<#4EE3\>\<#6570\>\<#5E94\>\<#8BE5\>\<#8FD9\>\<#6837\>\<#5B66\>
         </surround>>>
@@ -1894,7 +1923,7 @@
       <no-break><pageref|auto-41>>
 
       <with|par-left|<quote|4tab>|\<#6B63\>\<#5219\>\<#8868\>\<#793A\>\<#7684\>\<#53E6\>\<#4E00\>\<#79CD\>\<#9648\>\<#8FF0\><assign|footnote-nr|7><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%42EF850-4692390>|<link|hyperlink|<id|%42EF850-4692390>|<url|#footnr-7>>|7>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%39BD040-4383170>|<link|hyperlink|<id|%39BD040-4383170>|<url|#footnr-7>>|7>.
         |<hidden|<tuple|footnote-7>><htab|0fn|first>>
           Wu-Ki.Tung
         </surround>>>
@@ -1921,6 +1950,14 @@
       <with|par-left|<quote|2tab>|3.3.2<space|2spc>\<#5E7A\>\<#6B63\>\<#8868\>\<#793A\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-47>>
+
+      <with|par-left|<quote|1tab>|3.4<space|2spc>\<#8868\>\<#793A\>\<#7406\>\<#8BBA\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-48>>
+
+      <with|par-left|<quote|4tab>|\<#6B63\>\<#4EA4\>\<#5B9A\>\<#7406\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-49><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
