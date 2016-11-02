@@ -156,10 +156,48 @@
   \<#4E00\>\<#822C\>\<#60C5\>\<#51B5\>\<#770B\>\<#4E0A\>\<#53BB\>\<#4E5F\>\<#4E0D\>\<#96BE\><math|\<alpha\>\<in\>\<Lambda\><rsup|k>>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|<around*|[|L<rsub|X>,i<rsub|Y>|]>\<alpha\><around*|(|Z<rsub|1>,\<ldots\>,Z<rsub|k-1>|)>>|<cell|=>|<cell|<around*|(|L<rsub|X>i<rsub|Y>-i<rsub|Y>L<rsub|X>|)>\<alpha\><around*|(|Z<rsub|1>,\<ldots\>,Z<rsub|k-1>|)>>>|<row|<cell|>|<cell|=>|<cell|L<rsub|X><around*|(|\<alpha\><around*|(|Y,Z<rsub|1>,\<ldots\>,Z<rsub|k-1>|)>|)>-L<rsub|X>\<alpha\><around*|(|Y,Z<rsub|1>,\<ldots\>,Z<rsub|k-1>|)>>>|<row|<cell|>|<cell|=>|<cell|L<rsub|X>\<alpha\><around*|(|Y,Z<rsub|1>,\<ldots\>,Z<rsub|k-1>|)>+\<alpha\><around*|(|L<rsub|X>Y,Z<rsub|1>,\<ldots\>,Z<rsub|k-1>|)>+\<alpha\><around*|(|Y,L<rsub|X>Z<rsub|1>,\<ldots\>,Z<rsub|k-1>|)><new-line>+\<cdots\>+\<alpha\><around*|(|Y,Z<rsub|1>,\<ldots\>,L<rsub|X>Z<rsub|k-1>|)>-L<rsub|X>\<alpha\><around*|(|Y,Z<rsub|1>,\<ldots\>,Z<rsub|k-1>|)>>>|<row|<cell|>|<cell|=>|<cell|\<alpha\><around*|(|<around*|[|X,Y|]>,Z<rsub|1>,\<ldots\>,Z<rsub|k-1>|)>+\<alpha\><around*|(|Y,<around*|[|X,Z<rsub|1>|]>,\<ldots\>,Z<rsub|k-1>|)><new-line>+\<cdots\>+\<alpha\><around*|(|Y,Z<rsub|1>,\<ldots\>,<around*|[|X,Z<rsub|k-1>|]>|)>>>|<row|<cell|>|<cell|=>|<cell|\<#600E\>\<#4E48\>\<#591A\>\<#4E86\>\<#4E00\>\<#4E9B\>\<#9879\>>>>>
+    <tformat|<table|<row|<cell|<around*|[|L<rsub|X>,i<rsub|Y>|]>\<alpha\><around*|(|Z<rsub|1>,\<ldots\>,Z<rsub|k-1>|)>>|<cell|=>|<cell|<around*|(|L<rsub|X>i<rsub|Y>-i<rsub|Y>L<rsub|X>|)>\<alpha\><around*|(|Z<rsub|1>,\<ldots\>,Z<rsub|k-1>|)>>>|<row|<cell|>|<cell|=>|<cell|L<rsub|X>i<rsub|Y>\<alpha\><around*|(|Z<rsub|1>,\<ldots\>,Z<rsub|k-1>|)>-i<rsub|Y>L<rsub|X>\<alpha\><around*|(|Z<rsub|1>,\<ldots\>,Z<rsub|k-1>|)>>>|<row|<cell|>|<cell|=>|<cell|L<rsub|X>\<alpha\><around*|(|Y,Z<rsub|1>,\<ldots\>,Z<rsub|k-1>|)><new-line>-i<rsub|Y><around*|(|L<rsub|X><around*|(|\<alpha\><around*|(|Z<rsub|1>,\<ldots\>,Z<rsub|k-1>|)>|)>-<big|sum><rsub|i=1><rsup|k-1>\<alpha\><around*|(|Z<rsub|1>,\<ldots\>,L<rsub|X>Z<rsub|i>,Z<rsub|k-1>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|L<rsub|X><around*|(|\<alpha\><around*|(|Y,Z<rsub|1>,\<ldots\>,Z<rsub|k-1>|)>|)>-\<alpha\><around*|(|L<rsub|X>Y,Z<rsub|1>,\<ldots\>,Z<rsub|k-1>|)><new-line>-<big|sum><rsup|k-1><rsub|i=1>\<alpha\><around*|(|Y,\<ldots\>,L<rsub|X>Z<rsub|i>,\<ldots\>,Z<rsub|k-1>|)>-i<rsub|Y><around*|(|L<rsub|X><around*|(|\<alpha\><around*|(|Z<rsub|1>,\<ldots\>,Z<rsub|k-1>|)>|)>|)><new-line>+<big|sum><rsup|k-1><rsub|i=1>\<alpha\><around*|(|Y,Z<rsub|1>,\<ldots\>,L<rsub|X>Z<rsub|i>,\<ldots\>,Z<rsub|k-1>|)>>>|<row|<cell|>|<cell|=>|<cell|>>>>
   </eqnarray*>
 
+  \;
+
+  <with|color|brown|>
+
   <paragraph|7.>
+
+  <\with|color|brown>
+    <eqnarray*|<tformat|<table|<row|<cell|\<mathd\>w<around*|(|X,Y|)>>|<cell|=>|<cell|X<around*|(|w<around*|(|Y|)>|)>-Y<around*|(|w<around*|(|X|)>|)>-w<around*|(|<around*|[|X,Y|]>|)>>>>>>
+
+    \<#8BBE\> <math|w=g\<mathd\>f,\<mathd\>w=\<mathd\>g\<wedge\>\<mathd\>f>;<space|1em>
+
+    0. <math|\<mathd\>w<around*|(|X,Y|)>=X\<nospace\>g\<nospace\>Y\<nospace\>f-X\<nospace\>f\<nospace\>Y\<nospace\>g>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|1.<htab|5mm><around*|\<langle\>|w,X|\<rangle\>>>|<cell|=>|<cell|<around*|\<langle\>|g\<mathd\>f,X|\<rangle\>>=g<around*|\<langle\>|\<mathd\>f,X|\<rangle\>>=g<around*|(|X\<nospace\>f|)>>>|<row|<cell|2.<htab|5mm>Y<around*|\<langle\>|w,X|\<rangle\>>>|<cell|=>|<cell|Y\<nospace\>g\<cdot\>X\<nospace\>f+g\<nospace\>X\<nospace\><around*|(|Y\<nospace\>f|)>>>>>
+    </eqnarray*>
+
+    \<#7531\>\<#6B64\>jibufen\<#90FD\>\<#8BA1\>\<#7B97\>\<#8FC7\>\<#4E86\>
+  </with>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>w<around*|(|X,Y|)>>|<cell|=>|<cell|<around*|\<langle\>|\<mathd\>g\<wedge\>\<mathd\>f;X,Y|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<langle\>|\<mathd\>g,X|\<rangle\>><around*|\<langle\>|\<mathd\>f,Y|\<rangle\>>-<around*|\<langle\>|\<mathd\>g,Y|\<rangle\>><around*|\<langle\>|\<mathd\>f,X|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|X\<nospace\>g|)><around*|(|Y\<nospace\>f|)>-<around*|(|Y\<nospace\>g|)><around*|(|X\<nospace\>f|)>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|Y<around*|(|w<around*|(|X|)>|)>>|<cell|=>|<cell|Y<around*|\<langle\>|w,X|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|Y<around*|\<langle\>|g\<mathd\>f,X|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|Y<around*|(|g<around*|(|X\<nospace\>f|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|Y\<nospace\>g|)><around*|(|X\<nospace\>f|)>+g\<nospace\>Y\<nospace\>X\<nospace\>f>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|w<around*|(|<around*|[|X,Y|]>|)>>|<cell|=>|<cell|<around*|\<langle\>|g\<mathd\>f,X\<nospace\>Y-Y\<nospace\>X|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|g<around*|(|X\<nospace\>Y\<nospace\>f-Y\<nospace\>X\<nospace\>f|)>>>>>
+  </eqnarray*>
+
+  \<#5219\>\<#6700\>\<#540E\>\<#7EFC\>\<#5408\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|X<around*|(|w<around*|(|Y|)>|)>-Y<around*|(|w<around*|(|X|)>|)>-w<around*|(|<around*|[|X,Y|]>|)>>|<cell|=>|<cell|<around*|(|X\<nospace\>g|)><around*|(|Y\<nospace\>f|)>+g\<nospace\>X\<nospace\>Y\<nospace\>f-<around*|(|Y\<nospace\>g|)><around*|(|X\<nospace\>f|)>-g\<nospace\>Y\<nospace\>X\<nospace\>f-g<around*|(|X\<nospace\>Y\<nospace\>f-Y\<nospace\>X\<nospace\>f|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|X\<nospace\>g|)><around*|(|Y\<nospace\>f|)>-<around*|(|Y\<nospace\>g|)><around*|(|X\<nospace\>f|)>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>w<around*|(|X,Y|)>>>>>
+  </eqnarray*>
+
+  \V\V\V\V\V-
 
   \<#8BC1\>\<#660E\>
 
