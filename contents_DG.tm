@@ -1412,14 +1412,6 @@
 
   <math|2.f<rprime|\<asterisk\>><around*|(|\<alpha\>\<wedge\>\<beta\>|)>=f<rprime|\<asterisk\>>\<alpha\>\<wedge\>f<rprime|\<asterisk\>>\<beta\>>
 
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|f<rprime|\<asterisk\>><around*|(|\<alpha\><rsub|I>\<mathd\>x<rsup|I>\<wedge\>\<beta\><rsub|J>\<mathd\>x<rsup|J>|)>>|<cell|=>|<cell|\<alpha\><rsub|I>\<beta\><rsub|J>f<rprime|\<asterisk\>><around*|(|\<mathd\>x<rsup|I>\<wedge\>\<mathd\>x<rsup|J>|)>>>|<row|<cell|>|<cell|=>|<cell|\<alpha\><rsub|I>\<beta\><rsub|J>f<rprime|\<asterisk\>>\<mathd\>x<rsup|I\<nospace\>J>>>|<row|<cell|>|<cell|=>|<cell|>>>>
-  </eqnarray*>
-
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|f<rprime|\<asterisk\>>\<alpha\>\<wedge\>f<rprime|\<asterisk\>>\<beta\>>|<cell|=>|<cell|f<rprime|\<asterisk\>><around*|(|\<alpha\><rsub|I>\<mathd\>x<rsup|I>|)>\<wedge\>f<rprime|\<asterisk\>><around*|(|\<beta\><rsub|J>\<mathd\>x<rsup|J>|)>>>|<row|<cell|>|<cell|=>|<cell|\<alpha\><rsub|I>\<beta\><rsub|J>f<rprime|\<asterisk\>>\<mathd\>x<rsup|I>\<wedge\>f<rprime|\<asterisk\>>\<mathd\>x<rsup|J>>>|<row|<cell|>|<cell|=>|<cell|\<alpha\><rsub|I>\<delta\><rsup|I><rsub|i<rsub|1>\<ldots\>i<rsub|n>>\<beta\><rsub|J>\<delta\><rsup|J><rsub|j<rsub|1>\<ldots\>j<rsub|m>><around*|(|f<rprime|\<asterisk\>>\<mathd\>x<rsup|i<rsub|1>>\<otimes\>\<ldots\>\<otimes\>\<mathd\>x<rsup|i<rsub|n>>|)>\<wedge\><around*|(|f<rprime|\<asterisk\>>\<mathd\>x<rsup|j<rsub|1>>\<otimes\>\<ldots\>\<otimes\>\<mathd\>x<rsup|j<rsub|m>>|)>>>|<row|<cell|>|<cell|=>|<cell|\<alpha\><rsub|I>\<delta\><rsup|I><rsub|i<rsub|1>\<ldots\>i<rsub|n>>\<beta\><rsub|J>\<delta\><rsup|J><rsub|j<rsub|1>\<ldots\>j<rsub|m>>\<chi\><rsup|i<rsub|1>\<ldots\>j<rsub|1>\<ldots\>><rsub|K><around*|(|f<rprime|\<asterisk\>>\<mathd\>x<rsup|i<rsub|1>>\<otimes\>\<ldots\>\<otimes\>\<mathd\>x<rsup|i<rsub|n>>|)>\<otimes\><around*|(|f<rprime|\<asterisk\>>\<mathd\>x<rsup|j<rsub|1>>\<otimes\>\<ldots\>\<otimes\>\<mathd\>x<rsup|j<rsub|m>>|)>>>|<row|<cell|>|<cell|=>|<cell|\<alpha\><rsub|I>\<delta\><rsup|I><rsub|i<rsub|1>\<ldots\>i<rsub|n>>\<beta\><rsub|J>\<delta\><rsup|J><rsub|j<rsub|1>\<ldots\>j<rsub|m>>\<chi\><rsup|i<rsub|1>\<ldots\>j<rsub|1>\<ldots\>><rsub|K><around*|(|f<rprime|\<asterisk\>>\<mathd\>x<rsup|i<rsub|1>>\<otimes\>\<ldots\>\<otimes\>\<mathd\>x<rsup|i<rsub|n>>\<otimes\>\<mathd\>x<rsup|j<rsub|1>>\<otimes\>\<ldots\>\<otimes\>\<mathd\>x<rsup|j<rsub|m>>|)>>>|<row|<cell|>|<cell|=>|<cell|f<rprime|\<asterisk\>><around*|(|\<alpha\><rsub|I>\<delta\><rsup|I><rsub|i<rsub|1>\<ldots\>i<rsub|n>>\<beta\><rsub|J>\<delta\><rsup|J><rsub|j<rsub|1>\<ldots\>j<rsub|m>><around*|(|\<mathd\>x<rsup|i<rsub|1>>\<otimes\>\<ldots\>\<otimes\>\<mathd\>x<rsup|i<rsub|n>>|)>\<wedge\><around*|(|\<mathd\>x<rsup|j<rsub|1>>\<otimes\>\<ldots\>\<otimes\>\<mathd\>x<rsup|j<rsub|m>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|f<rprime|\<asterisk\>><around*|(|\<alpha\>\<wedge\>\<beta\>|)>>>>>
-  </eqnarray*>
-
   <with|color|brown|\<#8FD9\>\<#91CC\>\<#7528\>\<#5230\><math|<around*|\<langle\>|f<rprime|\<asterisk\>>w,X|\<rangle\>>=<around*|\<langle\>|w,f<rsub|\<ast\>>X|\<rangle\>>>
   \<#548C\>\<#524D\>\<#9762\>\<#7684\>'\<#91CD\>\<#8981\>'>
 
@@ -1444,11 +1436,7 @@
   \<#4E0D\>\<#5F15\>\<#5165\>\<#5750\>\<#6807\>\<#7684\>\<#8BA1\>\<#7B97\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|f<rprime|\<asterisk\>>\<circ\>\<mathd\>w<around*|(|X|)>>|<cell|=>|<cell|<around*|\<langle\>|f<rprime|\<asterisk\>>\<circ\>\<mathd\>w,X|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<langle\>|\<mathd\>w;f<rsub|\<ast\>>X|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|f<rsub|\<ast\>>X<around*|(|w|)>>>|<row|<cell|>|<cell|=>|<cell|X<around*|(|w\<circ\>f|)>?>>>>
-  </eqnarray*>
-
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|\<mathd\>\<circ\>f<rprime|\<asterisk\>>w<around*|(|X|)>>|<cell|=>|<cell|<around*|\<langle\>|\<mathd\><around*|(|f<rprime|\<asterisk\>>w|)>,X|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|X<around*|(|f<rprime|\<asterisk\>>w|)>>>|<row|<cell|>|<cell|=>|<cell|X<around*|(|w\<circ\>f|)>>>>>
+    <tformat|<table|<row|<cell|f<rprime|\<asterisk\>>\<circ\>\<mathd\>w<around*|(|X|)>>|<cell|=>|<cell|<around*|\<langle\>|f<rprime|\<asterisk\>>\<mathd\>w,X|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<langle\>|\<mathd\>w,f<rsub|\<ast\>>X|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|f<rsub|\<ast\>>X<around*|(|w|)>>>|<row|<cell|>|<cell|=>|<cell|X<around*|(|w\<circ\>f|)>>>|<row|<cell|>|<cell|=>|<cell|X<around*|(|f<rprime|\<asterisk\>>w|)>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\><around*|(|f<rprime|\<asterisk\>>w|)><around*|(|X|)>>>>>
   </eqnarray*>
 
   <math|3.\<nospace\>> <math|<around*|(|f\<circ\>g|)><rprime|\<asterisk\>>=g<rprime|\<asterisk\>>\<circ\>f<rprime|\<asterisk\>>>
@@ -1462,10 +1450,6 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|<around*|\<langle\>|<around*|(|f\<circ\>g|)><rprime|\<asterisk\>>w,\<upsilon\>|\<rangle\>>>|<cell|=>|<cell|<around*|\<langle\>|w,<around*|(|f\<circ\>g|)><rsub|\<ast\>>\<upsilon\>|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<langle\>|w,f<rsub|\<ast\>>\<circ\>g<rsub|\<ast\>>\<upsilon\>|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<langle\>|f<rprime|\<asterisk\>>w,g<rsub|\<ast\>>\<upsilon\>|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<langle\>|g<rprime|\<asterisk\>>\<circ\>f<rprime|\<asterisk\>>w,\<upsilon\>|\<rangle\>>>>>>
   </eqnarray*>
-
-  \;
-
-  \;
 
   <subsection|\<#674E\>\<#5BFC\>\<#6570\>>
 
@@ -2455,7 +2439,7 @@
 
     <with|color|black|\<#8FD9\>\<#9700\>\<#8981\>\<#8BF4\>\<#6E05\>\<#695A\>\<#FF1A\><math|L<rsub|g><rprime|\<asterisk\>>w<long-arrow|\<rubber-Rightarrow\>|\<#5199\>\<#51FA\>\<#81EA\>\<#53D8\>\<#91CF\>|><around*|(|L<rsub|g><rprime|\<asterisk\>>w|)><around*|(|x|)>=L<rsub|g><rprime|\<asterisk\>>w<around*|(|g\<nospace\>x\<nospace\>|)>><new-line>\<#8FD9\>\<#6837\>\<#5C31\>\<#548C\>\<#77E2\>\<#91CF\>\<#573A\>\<#533A\>\<#522B\>\<#597D\>\<#5927\>\<#554A\>>
 
-    \<#5219\>\<#7ED9\>\<#51FA\>\<#5B9A\>\<#4E49\>\<#5F0F\>\<#5B50\>
+    \<#5219\>\<#7ED9\>\<#51FA\>\<#5B9A\>\<#4E49\>\<#5F0F\>\<#5B50\>,<with|color|black|\<#8FD9\>\<#91CC\>\<#5B9E\>\<#9645\>\<#4E0A\>\<#662F\>\<#6784\>\<#9020\>\<#4E86\>\<#4E00\>\<#4E2A\>\<#4E0D\>\<#53D8\>\<#5DE6\>\<#5FAE\>\<#5206\>\<#5F62\>\<#5F0F\>>
 
     <\eqnarray*>
       <tformat|<table|<row|<cell|w<around*|(|h|)>>|<cell|=>|<cell|L<rsub|h<rsup|-1>><rprime|\<asterisk\>>w<around*|(|e|)>>>>>
