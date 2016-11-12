@@ -112,6 +112,48 @@
   </eqnarray*>
 
   \<#8FD9\>\<#4E2A\>\<#4E3A\>\<#7A33\>\<#5B9A\>\<#7ED5\>\<#4E2D\>\<#5FC3\>\<#5929\>\<#4F53\>\<#65CB\>\<#8F6C\>\<#6700\>\<#5C0F\>\<#534A\>\<#5F84\>
+
+  <paragraph|161109>
+
+  1. \<#5B9A\>\<#4E49\><math|A<rsub|\<pm\>>=A<rsub|11>\<mp\>i\<nospace\>A<rsub|12>,\<#8BC1\>\<#660E\>\<#5728\>\<#7A7A\>\<#95F4\>\<#65CB\>\<#8F6C\>\<#53D8\>\<#6362\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<matrix|<tformat|<table|<row|<cell|<wide|x|~>>>|<row|<cell|<wide|y|~>>>>>>>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|<around|cos|\<theta\>|>>|<cell|<around|sin|\<theta\>|>>>|<row|<cell|-<around|sin|\<theta\>|>>|<cell|<around|cos|\<theta\>|>>>>>><matrix|<tformat|<table|<row|<cell|x>>|<row|<cell|y>>>>>>>>>
+  </eqnarray*>
+
+  \<#4E0B\>\<#FF0C\>\<#6EE1\>\<#8DB3\>\<#53D8\>\<#6362\>\<#4E3A\><math|<wide|A|~><rsub|\<pm\>>=e<rsup|\<pm\>2i\<theta\>>A<rsub|\<pm\>>>\<#FF0C\>\<#65CB\>\<#8F6C\>\<#5EA6\>\<#4E3A\><math|\<pm\>2>
+
+  \;
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<wide|A|~><rsub|\<pm\>>>|<cell|=>|<cell|<around*|(|1+<around|cos(|2\<theta\>|)>\<pm\>i<around|sin(|2\<theta\>|)>+\<cal-O\>|)>A<rsub|\<pm\>>>>|<row|<cell|\<Rightarrow\><htab|5mm><wide|A|~><rsub|11>\<mp\>i\<nospace\><wide|A|~><rsub|12>>|<cell|=>|<cell|<around*|(|1+<around|cos|<around*|(|2\<theta\>|)>\<pm\>i<around|sin(|2\<theta\>|)>|>|)><around*|(|A<rsub|11>\<mp\>i\<nospace\>A<rsub|12>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1+<around|cos(|2\<theta\>|)>|)>A<rsub|11>-i<rsup|2><around|sin(|2\<theta\>|)>A<rsub|12>+<around*|(|1+<around|cos(|2\<theta\>|)>|)><around*|(|\<mp\>i\<nospace\>A<rsub|12>|)>\<pm\>i<around|sin(|2\<theta\>|)>A<rsub|11>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1+<around|cos|2\<theta\>|>|)>A<rsub|11>+<around|sin(|2\<theta\>|)>A<rsub|12>\<mp\>i<around*|(|<around*|(|1+<around|cos|2\<theta\>|>|)>A<rsub|12>-<around|sin|2\<theta\>|>A<rsub|11>|)>>>|<row|<cell|\<Rightarrow\><htab|5mm><matrix|<tformat|<table|<row|<cell|<wide|A|~><rsub|11>>>|<row|<cell|<wide|A|~><rsub|12>>>>>>>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|1+<around|cos|2\<theta\>|>>|<cell|<around|sin|2\<theta\>|>>>|<row|<cell|-<around|sin|2\<theta\>|>>|<cell|1+<around|cos|2\<theta\>|>>>>>><matrix|<tformat|<table|<row|<cell|A<rsub|11>>>|<row|<cell|A<rsub|12>>>>>>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|1+2<around|cos|<rsup|2>\<theta\>|>-1>|<cell|2<around|sin|\<theta\>|><around|cos|\<theta\>|>>>|<row|<cell|-2<around|sin|\<theta\>|><around|cos|\<theta\>|>>|<cell|1+2<around|cos|<rsup|2>\<theta\>|>-1>>>>><matrix|<tformat|<table|<row|<cell|A<rsub|11>>>|<row|<cell|A<rsub|12>>>>>>>>|<row|<cell|>|<cell|=>|<cell|2<around|cos|\<theta\>|><matrix|<tformat|<table|<row|<cell|<around|cos|\<theta\>|>>|<cell|<around|sin|\<theta\>|>>>|<row|<cell|-<around|sin|\<theta\>|>>|<cell|<around|cos|\<theta\>|>>>>>><matrix|<tformat|<table|<row|<cell|A<rsub|11>>>|<row|<cell|A<rsub|12>>>>>>>>>>
+  </eqnarray*>
+
+  \<#53E6\>\<#5916\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<matrix|<tformat|<table|<row|<cell|<wide|A|~><rsub|11>>|<cell|<wide|A|~><rsub|12>>>|<row|<cell|<wide|A|~><rsub|12>>|<cell|-<wide|A|~><rsub|11>>>>>>>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|<around|cos|\<theta\>|>>|<cell|-<around|sin|\<theta\>|>>>|<row|<cell|<around|sin|\<theta\>|>>|<cell|<around|cos|\<theta\>|>>>>>><matrix|<tformat|<table|<row|<cell|A<rsub|11>>|<cell|A<rsub|12>>>|<row|<cell|A<rsub|12>>|<cell|-A<rsub|11>>>>>><matrix|<tformat|<table|<row|<cell|<around|cos|\<theta\>|>>|<cell|<around|sin|\<theta\>|>>>|<row|<cell|-<around|sin|\<theta\>|>>|<cell|<around|cos|\<theta\>|>>>>>>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|<around|cos|\<theta\>|>A<rsub|11>-<around|sin|\<theta\>|>A<rsub|12>>|<cell|<around|cos|\<theta\>|>A<rsub|12>+<around|cos|\<theta\>|>A<rsub|11>>>|<row|<cell|<around|sin|\<theta\>|>A<rsub|11>+<around|cos|\<theta\>|>A<rsub|12>>|<cell|<around|sin|\<theta\>|>A<rsub|12>-<around|cos|\<theta\>|>A<rsub|11>>>>>><matrix|<tformat|<table|<row|<cell|<around|cos|\<theta\>|>>|<cell|<around|sin|\<theta\>|>>>|<row|<cell|-<around|sin|\<theta\>|>>|<cell|<around|cos|\<theta\>|>>>>>>>>>>
+  </eqnarray*>
+
+  2.
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|\<langle\>|T<rsup|G><rsub|\<mu\>\<nu\>>|\<rangle\>>>|<cell|=>|<cell|<frac|k<rsub|\<mu\>>k<rsub|\<nu\>>|16\<pi\>G><around*|(|A<rsup|\<rho\>\<sigma\>>A<rprime|\<asterisk\>><rsub|\<rho\>\<sigma\>>-<frac|1|2><around*|\||A<rsup|\<lambda\>><rsub|\<lambda\>>|\|><rsup|2>|)>>>>>
+  </eqnarray*>
+
+  \<#8003\>\<#8651\>\<#89C4\>\<#8303\>\<#53D8\>\<#6362\>
+
+  <\equation*>
+    <tformat|<table|<row|<cell|<htab|5mm>A<rsub|\<mu\>\<nu\>>>|<cell|\<rightarrow\>>|<cell|A<rsub|\<mu\>\<nu\>>+k<rsub|\<mu\>>X<rsub|\<nu\>>+k<rsub|\<nu\>>X<rsub|\<mu\>>>>>>
+  </equation*>
+
+  \<#8BA1\>\<#7B97\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|\<langle\>|T<rsup|G><rsub|\<mu\>\<nu\>>|\<rangle\>>>|<cell|=>|<cell|<frac|k<rsub|\<mu\>>k<rsub|\<nu\>>|16\<pi\>G><around*|(|<around*|(|A<rsup|\<sigma\>\<rho\>>+k<rsup|\<sigma\>>X<rsup|\<rho\>>+k<rsup|\<rho\>>X<rsup|\<sigma\>>|)><around*|(|A<rsub|\<sigma\>\<rho\>>+k<rsub|\<sigma\>>X<rsub|\<rho\>>+k<rsub|\<rho\>>X<rsub|\<sigma\>>|)>-<frac|1|2><around*|\||A<rsup|\<sigma\>><rsub|<space|1.5spc>\<sigma\>>+2k<rsup|\<sigma\>>X<rsub|\<sigma\>>|\|><rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|k<rsub|\<mu\>>k<rsub|\<nu\>>|16\<pi\>G><around*|(|<around*|(|A<rsup|\<sigma\>\<rho\>>+2k<rsup|\<sigma\>>X<rsup|\<rho\>>|)><around*|(|A<rsub|\<sigma\>\<rho\>>+2k<rsub|\<sigma\>>X<rsub|\<rho\>>|)><rprime|\<asterisk\>>-<frac|1|2><around*|\||A<rsup|\<sigma\>><rsub|<space|1.5spc>\<sigma\>>+2k<rsup|\<sigma\>>X<rsub|\<sigma\>>|\|><rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|k<rsub|\<mu\>>k<rsub|\<nu\>>|16\<pi\>G><around*|(|A<rsup|\<sigma\>\<rho\>>A<rsub|\<sigma\>\<rho\>><rprime|\<asterisk\>>+2A<rsup|\<sigma\>\<rho\>>k<rsub|\<sigma\>>X<rsub|\<rho\>>+2A<rsub|\<sigma\>\<rho\>><rprime|\<asterisk\>>k<rsup|\<sigma\>>X<rsup|\<rho\>>+4k<rsup|\<sigma\>>k<rsub|\<sigma\>>X<rsup|\<rho\>>X<rsub|\<rho\>><new-line>-<frac|1|2><around*|(|<around*|\||A<rsup|\<sigma\>><rsub|<space|1.5spc>\<sigma\>>|\|><rsup|2>+4k<rsup|\<sigma\>>X<rsub|\<sigma\>>k<rsup|\<rho\>>X<rsub|\<rho\>>+4A<rsup|\<rho\>><rsub|<space|1.5spc>\<rho\>>k<rsup|\<sigma\>>X<rsub|\<sigma\>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|k<rsub|\<mu\>>k<rsub|\<nu\>>|16\<pi\>G><around*|(|A<rsup|\<sigma\>\<rho\>>A<rprime|\<asterisk\>><rsub|\<sigma\>\<rho\>>-<frac|1|2><around*|\||A<rsup|\<sigma\>><rsub|<space|1.5spc>\<sigma\>>|\|><rsup|2>+2A<rsup|\<sigma\>\<rho\>>k<rsub|\<sigma\>>X<rsub|\<rho\>>+2A<rprime|\<asterisk\>><rsub|\<sigma\>\<rho\>>k<rsup|\<sigma\>>X<rsup|\<rho\>>-2A<rsup|\<rho\>><rsub|<space|1.5spc>\<rho\>>k<rsup|\<sigma\>>X<rsub|\<sigma\>>-2k<rsup|\<sigma\>>k<rsup|\<rho\>>X<rsub|\<sigma\>>X<rsub|\<rho\>>|)>>>|<row|<cell|>|<cell|=>|<cell|>>>>
+  </eqnarray*>
+
+  \;
 </body>
 
 <initial|<\collection>
@@ -123,6 +165,7 @@
     <associate|auto-2|<tuple|2|?>>
     <associate|auto-3|<tuple|3|?>>
     <associate|auto-4|<tuple|4|?>>
+    <associate|auto-5|<tuple|5|?>>
   </collection>
 </references>
 
@@ -141,6 +184,9 @@
 
       <with|par-left|<quote|4tab>|3. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-4><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|161109 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-5><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
