@@ -2734,7 +2734,7 @@
   \<#8FD9\>\<#91CC\>\<#8FD9\>\<#4E2A\>\<#8BF4\>\<#6CD5\>\<#5E94\>\<#8BE5\>\<#4ECE\>\<#5B9A\>\<#4E49\>\<#4E0A\>\<#6765\>\<#7406\>\<#89E3\>
 
   <\with|color|brown>
-    <with|font-shape|italic|\<#5B9A\>\<#7406\>\<#FF1A\>><math|f:H\<rightarrow\>G\<#662F\>\<#674E\>\<#7FA4\>\<#7684\>\<#5149\>\<#6ED1\>\<#540C\>\<#6001\>\<#FF0C\>\<#5219\>\<#4EA4\>\<#6362\>\<#56FE\>>
+    <with|font-shape|italic|<with|font-series|bold|\<#5B9A\>\<#7406\>.1>\<#FF1A\>><math|f:H\<rightarrow\>G\<#662F\>\<#674E\>\<#7FA4\>\<#7684\>\<#5149\>\<#6ED1\>\<#540C\>\<#6001\>\<#FF0C\>\<#5219\>\<#4EA4\>\<#6362\>\<#56FE\>>
 
     <\equation*>
       <tabular*|<tformat|<table|<row|<cell|\<cal-H\>>|<cell|<long-arrow|\<rubber-rightarrow\>|f<rsub|\<ast\>>|>>|<cell|\<cal-G\>>>|<row|<cell|\<downarrow\><rsub|exp>>|<cell|>|<cell|\<downarrow\><rsub|exp>>>|<row|<cell|H>|<cell|<long-arrow|\<rubber-rightarrow\>|f|>>|<cell|G>>>>><space|6spc>\<nospace\>f\<circ\>Exp=Exp\<circ\>f<rsub|\<ast\>>
@@ -2764,6 +2764,60 @@
   \<#56E0\>\<#6B64\>\<#8FD9\>\<#91CC\><math|f\<circ\>Exp\<sim\>g<space|1.5spc>\<Rightarrow\><space|1.5spc>f\<circ\>Exp\<sim\>Exp<around*|(|f<rsub|\<ast\>>X|)>\<sim\>Exp\<circ\>f<rsub|\<ast\>>>
 
   \;
+
+  <with|font-shape|italic|<with|font-series|bold|\<#5B9A\>\<#7406\>.2>>
+
+  \<#5BF9\>\<#4E8E\>\<#8FDE\>\<#901A\>\<#674E\>\<#7FA4\><math|G,H>\<#548C\>\<#4ED6\>\<#4EEC\>\<#7684\>\<#674E\>\<#4EE3\>\<#6570\>\<#FF0C\>\<#8FD9\>\<#4E2A\>\<#662F\>\<#4E0A\>\<#9762\>\<#7684\>\<#9006\>\<#5B9A\>\<#7406\>\<#FF1F\>
+
+  <\equation*>
+    <tabular*|<tformat|<table|<row|<cell|\<cal-H\>>|<cell|<long-arrow|\<rubber-rightarrow\>|<wide|f|~>>>|<cell|\<cal-G\>>>|<row|<cell|\<downarrow\><rsub|exp>>|<cell|>|<cell|\<downarrow\><rsub|exp>>>|<row|<cell|H>|<cell|<long-arrow|\<rubber-rightarrow\>|f>>|<cell|G>>>>>
+  </equation*>
+
+  <with|font-series|bold|<with|font-shape|italic|\<#5B9A\>\<#7406\>.3>>
+
+  \<#674E\>\<#7FA4\>\<#4E4B\>\<#95F4\>\<#7684\>\<#540C\>\<#6001\>\<#6620\>\<#5C04\>\<#5F53\>\<#6210\>\<#6D41\>\<#884C\>\<#4E0A\>\<#7684\>\<#5149\>\<#6ED1\>\<#6620\>\<#5C04\>\<#6765\>\<#8003\>\<#8651\>
+
+  <subsubsection|\<#4F34\>\<#968F\>\<#8868\>\<#793A\>>
+
+  \<#5BF9\>\<#4E8E\>\<#81EA\>\<#540C\>\<#6784\>\<#6620\>\<#5C04\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|Ad<around*|(|a|)>:G>|<cell|\<rightarrow\>>|<cell|G>>|<row|<cell|x>|<cell|\<rightarrow\>>|<cell|a\<nospace\>x\<nospace\>a<rsup|-1>,a\<in\>G>>>>
+  </eqnarray*>
+
+  \<#8FD9\>\<#91CC\>\<#53EF\>\<#4EE5\>\<#770B\>\<#5230\><math|Ad<around*|(|a|)>x=R<rsub|a<rsup|-1>>L<rsub|a>x>
+
+  \<#5BF9\>\<#5E94\>\<#53EF\>\<#4EE5\>\<#8BF1\>\<#5BFC\>\<#51FA\>\<#5B83\>\<#7684\>\<#5207\>\<#6620\>\<#5C04\>\<#FF0C\>\<#8BB0\>\<#4E3A\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|Ad<rsub|\<ast\>><around*|(|a|)>>|<cell|\<assign\>>|<cell|ad<around*|(|a|)>>>>>
+  </eqnarray*>
+
+  <\with|font-shape|italic>
+    \<#6027\>\<#8D28\>
+  </with>
+
+  1.
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|a\<nospace\><around*|(|exp<around*|(|t\<nospace\>X|)>|)>a<rsup|-1>>|<cell|=>|<cell|exp<around*|(|t<around*|(|ad<around*|(|a|)>X|)>|)>>>>>
+  </eqnarray*>
+
+  2.
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|Ad<around*|(|X|)>\<cdot\>Y>|<cell|=>|<cell|<around*|[|X,Y|]>>>>>
+  </eqnarray*>
+
+  \<#8FD9\>\<#91CC\>\<#4E00\>\<#70B9\>\<#4E5F\>\<#4E0D\>\<#6E05\>\<#695A\><math|Ad<around*|(|X|)>>\<#662F\>\<#4E00\>\<#4E2A\>\<#4EC0\>\<#4E48\>\<#610F\>\<#601D\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
 
   \;
 </body>
@@ -2803,6 +2857,7 @@
     <associate|auto-34|<tuple|3.5|?>>
     <associate|auto-35|<tuple|3.5.1|?>>
     <associate|auto-36|<tuple|3.5.2|?>>
+    <associate|auto-37|<tuple|3.5.3|?>>
     <associate|auto-4|<tuple|1.1.2|1>>
     <associate|auto-5|<tuple|1.1.3|3>>
     <associate|auto-6|<tuple|1.2|3>>
