@@ -6,7 +6,7 @@
   1.\<#63A8\>\<#5BFC\>\<#5BF9\>\<#6613\>\<#5173\>\<#7CFB\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|<around*|[|A<rsup|j><around*|(|<embold|x>,t|)>,\<pi\><rsup|k><around*|(|<embold|y>,t|)>|]>>|<cell|=>|<cell|-i\<delta\><rsup|j\<nospace\>k>\<delta\><around*|(|<embold|x>-<embold|y>|)>>>|<row|<cell|<around*|[|A<rsup|j><around*|(|x|)>,A<rsup|k><around*|(|y|)>|]>>|<cell|=>|<cell|?>>>>
+    <tformat|<table|<row|<cell|<around*|[|A<rsup|j><around*|(|<embold|x>,t|)>,\<pi\><rsup|k><around*|(|<embold|y>,t|)>|]>>|<cell|=>|<cell|-i\<delta\><rsup|j\<nospace\>k>\<delta\><around*|(|<embold|x>-<embold|y>|)>>>|<row|<cell|<around*|[|A<rsup|\<mu\>><around*|(|x|)>,A<rsup|\<nu\>><around*|(|y|)>|]>>|<cell|=>|<cell|-<around*|(|g<rsup|\<mu\>\<nu\>>+<frac|\<partial\><rsub|\<mu\>>\<partial\><rsub|\<nu\>>|m<rsup|2>>|)>\<Delta\><around*|(|x-y|)>>>>>
   </eqnarray*>
 
   \<#4F5C\>\<#4E3A\>\<#6761\>\<#4EF6\>
