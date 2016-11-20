@@ -164,6 +164,30 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|<around*|\<langle\>|T<rsup|G><rsub|\<mu\>\<nu\>>|\<rangle\>>>|<cell|=>|<cell|<frac|k<rsub|\<mu\>>k<rsub|\<nu\>>|16\<pi\>G><around*|(|A<rsup|\<rho\>\<sigma\>>A<rprime|\<asterisk\>><rsub|\<rho\>\<sigma\>>-<frac|1|2><around*|\||A<rsup|\<lambda\>><rsub|\<lambda\>>|\|><rsup|2>|)>>>|<row|<cell|>|<cell|\<rightarrow\>>|<cell|<frac|k<rsub|\<mu\>>k<rsub|\<nu\>>|16\<pi\>G><around*|(|A<rsup|\<rho\>\<sigma\>>A<rsub|\<rho\>\<sigma\>><rprime|\<asterisk\>>-<frac|1|2><around*|\||A<rsup|\<lambda\>><rsub|\<lambda\>>|\|><rsup|2>+2<around*|\||k<rsub|\<sigma\>>X<rsup|\<sigma\>>|\|><rsup|2>+4k<rsup|\<rho\>>Re<around*|(|A<rsub|\<rho\>><rsup|\<sigma\>>X<rsub|\<sigma\>><rprime|\<asterisk\>>|)>-2<around*|\||k<rsub|\<lambda\>>X<rsup|\<lambda\>>|\|><rsup|2>-2k<rsup|\<omega\>>Re<around*|(|A<rsup|\<lambda\>><rsub|\<lambda\>>X<rsub|\<omega\>><rprime|\<asterisk\>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|k<rsub|\<mu\>>k<rsub|\<nu\>>|16\<pi\>G><around*|(|A<rsup|\<rho\>\<sigma\>>A<rprime|\<asterisk\>><rsub|\<rho\>\<sigma\>>-<frac|1|2><around*|\||A<rsup|\<lambda\>><rsub|\<lambda\>>|\|><rsup|2>+4k<rsup|\<rho\>>Re<around*|(|<around*|(|A<rsup|\<sigma\>><rsub|\<rho\>>-<frac|1|2>A<rsup|\<lambda\>><rsub|\<lambda\>>\<delta\><rsup|\<sigma\>><rsub|\<rho\>>|)>X<rsub|\<sigma\>><rprime|\<asterisk\>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|k<rsub|\<mu\>>k<rsub|\<nu\>>|16\<pi\>G><around*|(|A<rsup|\<rho\>\<sigma\>>A<rprime|\<asterisk\>><rsub|\<rho\>\<sigma\>>-<frac|1|2><around*|\||A<rsup|\<lambda\>><rsub|\<lambda\>>|\|><rsup|2>+4Re<around*|(|k<rsup|\<rho\>><wide|A|\<bar\>><rsup|\<sigma\>><rsub|\<rho\>>X<rsub|\<sigma\>><rprime|\<asterisk\>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|k<rsub|\<mu\>>k<rsub|\<nu\>>|16\<pi\>G><around*|(|A<rsup|\<rho\>\<sigma\>>A<rprime|\<asterisk\>><rsub|\<rho\>\<sigma\>>-<frac|1|2><around*|\||A<rsup|\<lambda\>><rsub|\<lambda\>>|\|><rsup|2>+4Re<around*|(|0\<times\>X<rsub|\<sigma\>><rprime|\<asterisk\>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|k<rsub|\<mu\>>k<rsub|\<nu\>>|16\<pi\>G><around*|(|A<rsup|\<rho\>\<sigma\>>A<rprime|\<asterisk\>><rsub|\<rho\>\<sigma\>>-<frac|1|2><around*|\||A<rsup|\<lambda\>><rsub|\<lambda\>>|\|><rsup|2>|)><htab|5mm>\<box\>>>>>
   </eqnarray*>
+
+  <paragraph|161116>
+
+  1. \<#5728\>\<#7406\>\<#60F3\>\<#6D41\>\<#4F53\>\<#4E2D\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|p>|<cell|=>|<cell|\<rho\>g\<nospace\>h>>|<row|<cell|\<Rightarrow\><htab|5mm><frac|\<Delta\>p|\<Delta\>h>>|<cell|=>|<cell|\<rho\>g>>|<row|<cell|\<Rightarrow\><htab|5mm>p<rprime|'>>|<cell|=>|<cell|-<frac|G\<nospace\>M\<rho\>|r<rsup|2>>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|\<#5176\>\<#4E2D\>\<#FF1A\>M=<big|int><rsub|0><rsup|r>4\<pi\>\<rho\>r<rsup|2>\<mathd\>r>>>>
+  </eqnarray*>
+
+  \<#5BF9\>\<#6BD4\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<htab|5mm>p<rprime|'><rsub|E>>|<cell|=>|<cell|-<around*|(|\<rho\>+p|)><frac|G\<nospace\>M+4\<pi\>G\<nospace\>r<rsup|3>p|r<around*|(|r-2G\<nospace\>M|)>>>>>>
+  </eqnarray*>
+
+  \<#4EE4\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|p<rsub|E><rprime|'>|p<rsub|N><rprime|'>>>|<cell|=>|<cell|<around*|(|\<rho\>+p|)><frac|G\<nospace\>M+4\<pi\>G\<nospace\>r<rsup|3>p|r<around*|(|r-2G\<nospace\>M|)>>\<times\><frac|r<rsup|2>|G\<nospace\>M\<nospace\>\<rho\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<rho\>+p|\<rho\>><frac|G\<nospace\>M\<nospace\>r<rsup|2>+4\<pi\>G\<nospace\>r<rsup|4>p|G\<nospace\>M<around*|(|r-2G\<nospace\>M|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<rho\>+p|\<rho\>>\<times\><frac|\<nospace\>r<rsup|2>-<frac|4\<pi\>|M>\<nospace\>r<rsup|4>p|\<nospace\>r-2G\<nospace\>M>>>>>
+  </eqnarray*>
 </body>
 
 <initial|<\collection>
@@ -176,6 +200,7 @@
     <associate|auto-3|<tuple|3|?>>
     <associate|auto-4|<tuple|4|?>>
     <associate|auto-5|<tuple|5|?>>
+    <associate|auto-6|<tuple|6|?>>
   </collection>
 </references>
 
