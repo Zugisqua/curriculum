@@ -65,6 +65,16 @@
 
   (b)
 
+  \<#8FD9\>\<#91CC\>\<#6709\>\<#4E66\>\<#4E0A\>\<#63D0\>\<#4F9B\>\<#4E00\>\<#79CD\>\<#601D\>\<#8DEF\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|L<rsub|X>\<mathd\>w>|<cell|=>|<cell|lim<rsub|t\<rightarrow\>0><frac|\<varphi\><rprime|\<asterisk\>><rsub|t>\<mathd\>w<around*|(|x|)>-\<mathd\>w<around*|(|x|)>|t>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|t\<rightarrow\>0><frac|\<mathd\><around*|(|\<varphi\><rprime|\<asterisk\>><rsub|t>w<around*|(|x|)>|)>-\<mathd\>w<around*|(|x|)>|t>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\><around*|(|lim<rsub|t\<rightarrow\>0><frac|\<varphi\><rprime|\<asterisk\>><rsub|t>w<around*|(|x|)>-w<around*|(|x|)>|t>|)>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>\<nospace\>\<nospace\>L<rsub|X>w>>>>
+  </eqnarray*>
+
+  \<#8FD9\>\<#91CC\>\<#7528\>\<#5230\>\<#4E86\><math|\<varphi\><rprime|\<asterisk\>>\<circ\>\<mathd\>=\<mathd\>\<circ\>\<varphi\><rprime|\<asterisk\>>>
+
+  \V\V\V\U
+
   <\eqnarray*>
     <tformat|<table|<row|<cell|L<rsub|X>\<mathd\>f>|<cell|=>|<cell|L<rsub|X><around*|(|\<partial\><rsub|i>f\<mathd\>x<rsup|i>|)>>>|<row|<cell|>|<cell|=>|<cell|L<rsub|X><around*|(|\<partial\><rsub|i>f|)>\<mathd\>x<rsup|i>+\<partial\><rsub|i>f\<nospace\><around*|(|L<rsub|X>\<mathd\>x<rsup|i>|)>>>|<row|<cell|>|<cell|=>|<cell|X<rsup|j>\<partial\><rsub|j>\<partial\><rsub|i>f\<mathd\>x<rsup|i>+\<partial\><rsub|i>f\<partial\><rsub|j>X<rsup|i>\<mathd\>x<rsup|j>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|X<rsup|i>\<partial\><rsub|i>\<partial\><rsub|j>f+\<partial\><rsub|i>f\<partial\><rsub|j>X<rsup|i>|)>\<mathd\>x<rsup|j>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<partial\><rsub|j><around*|(|X<rsup|i>\<partial\><rsub|i>f|)>|)>\<mathd\>x<rsup|j>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<partial\><rsub|j><around*|(|X\<nospace\>f|)>|)>\<mathd\>x<rsup|j>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\><around*|(|L<rsub|X>\<nospace\>f|)>\<nospace\>>>>>
   </eqnarray*>
@@ -366,6 +376,9 @@
 
       <with|par-left|<quote|4tab>|8. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-8><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|11 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-9><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
