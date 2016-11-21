@@ -831,6 +831,34 @@
   </eqnarray*>
 
   I can't pre-see some meanful result
+
+  <paragraph|9.10>
+
+  prove
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<nabla\><rsub|\<mu\>>\<nabla\><rsub|\<nu\>>A<rsup|\<mu\>\<nu\>>>|<cell|=>|<cell|\<nabla\><rsub|\<nu\>>\<nabla\><rsub|\<mu\>>A<rsup|\<mu\>\<nu\>>>>>>
+  </eqnarray*>
+
+  calculating: consider the terms
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|[|\<nabla\><rsub|\<mu\>>,\<nabla\><rsub|\<nu\>>|]>A<rsup|\<mu\>\<nu\>>>|<cell|=>|<cell|\<nabla\><rsub|\<mu\>>\<nabla\><rsub|\<nu\>>A<rsup|\<mu\>\<nu\>>-\<nabla\><rsub|\<mu\>>\<nabla\><rsub|\<nu\>>A<rsup|\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|\<nabla\><rsub|\<mu\>>\<nabla\><rsub|\<nu\>><around*|(|A<rsup|\<mu\>\<nu\>>-A<rsup|\<nu\>\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|2\<nabla\><rsub|\<mu\>>\<nabla\><rsub|\<nu\>>A<rsup|<around*|[|\<mu\>\<nu\>|]>>>>|<row|<cell|\<#4E22\>\<#6389\>2>|<cell|\<sim\>>|<cell|\<partial\><rsub|\<mu\>><around*|(|\<nabla\><rsub|\<nu\>>A<rsup|<around*|[|\<mu\>\<nu\>|]>>|)>+\<Gamma\><rsup|\<mu\>><rsub|\<mu\>\<lambda\>><around*|(|\<nabla\><rsub|\<nu\>>A<rsup|<around*|[|\<lambda\>\<nu\>|]>>|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<mu\>><around*|(|\<partial\><rsub|\<nu\>>A<rsup|<around*|[|\<mu\>\<nu\>|]>>+\<Gamma\><rsub|\<nu\>\<lambda\>><rsup|\<mu\>>A<rsup|<around*|[|\<lambda\>\<nu\>|]>>+\<Gamma\><rsup|\<nu\>><rsub|\<nu\>\<lambda\>>A<rsup|<around*|[|\<mu\>\<lambda\>|]>>|)>+\<Gamma\><rsup|\<mu\>><rsub|\<mu\>\<lambda\>><around*|(|\<partial\><rsub|\<nu\>>A<rsup|<around*|[|\<lambda\>\<nu\>|]>>+\<Gamma\><rsup|\<lambda\>><rsub|\<nu\>k>A<rsup|<around*|[|k\<nu\>|]>>+\<Gamma\><rsup|\<nu\>><rsub|\<nu\>k>A<rsup|<around*|[|k\<lambda\>|]>>|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<mu\>><around*|(|\<partial\><rsub|\<nu\>>A<rsup|<around*|[|\<mu\>\<nu\>|]>>+\<Gamma\><rsup|\<nu\>><rsub|\<nu\>\<lambda\>>A<rsup|<around*|[|\<mu\>\<lambda\>|]>>|)>+\<Gamma\><rsup|\<mu\>><rsub|\<mu\>\<lambda\>><around*|(|\<partial\><rsub|\<nu\>>A<rsup|<around*|[|\<lambda\>\<nu\>|]>>+\<Gamma\><rsup|\<nu\>><rsub|\<nu\>k>A<rsup|<around*|[|k\<lambda\>|]>>|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<mu\>><around*|(|\<Gamma\><rsup|\<nu\>><rsub|\<nu\>\<lambda\>>A<rsup|<around*|[|\<mu\>\<lambda\>|]>>|)>+\<Gamma\><rsup|\<mu\>><rsub|\<mu\>\<lambda\>>\<partial\><rsub|\<nu\>>A<rsup|<around*|[|\<lambda\>\<nu\>|]>>+\<Gamma\><rsup|\<nu\>><rsub|\<nu\>k>\<Gamma\><rsup|\<mu\>><rsub|\<mu\>\<lambda\>>A<rsup|<around*|[|k\<lambda\>|]>>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<mu\>>\<Gamma\><rsup|\<nu\>><rsub|\<nu\>\<lambda\>>A<rsup|<around*|[|\<mu\>\<lambda\>|]>>+\<Gamma\><rsup|\<nu\>><rsub|\<nu\>\<lambda\>>\<partial\><rsub|\<mu\>>A<rsup|<around*|[|\<mu\>\<lambda\>|]>>-\<Gamma\><rsup|\<nu\>><rsub|\<nu\>\<lambda\>>\<partial\><rsub|\<mu\>>A<rsup|<around*|[|\<mu\>\<lambda\>|]>>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<mu\>>\<Gamma\><rsup|\<nu\>><rsub|\<nu\>\<lambda\>>A<rsup|<around*|[|\<mu\>\<lambda\>|]>>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<mu\>><around*|(|<frac|1|2>g<rsup|\<nu\>\<sigma\>><around*|(|\<partial\><rsub|\<nu\>>g<rsub|\<lambda\>\<sigma\>>+\<partial\><rsub|\<lambda\>>g<rsub|\<nu\>\<sigma\>>-\<partial\><rsub|\<sigma\>>g<rsub|\<lambda\>\<nu\>>|)>|)>A<rsup|<around*|[|\<mu\>\<lambda\>|]>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<partial\><rsub|\<mu\>><around*|(|g<rsup|\<nu\>\<sigma\>>\<partial\><rsub|\<lambda\>>g<rsub|\<nu\>\<sigma\>>|)>A<rsup|<around*|[|\<mu\>\<lambda\>|]>>>>|<row|<cell|>|<cell|=>|<cell|0<htab|5mm>\<box\>>>>>
+  </eqnarray*>
+
+  <paragraph|9.12->
+
+  (a) can't understand what the problem require
+
+  (b)
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|R<around*|(|A,B|)>C>|<cell|=>|<cell|<around*|(|\<nabla\><rsub|A>\<nabla\><rsub|B>-\<nabla\><rsub|B>\<nabla\><rsub|A>-\<nabla\><rsub|<around*|[|A,B|]>>|)>C>>|<row|<cell|>|<cell|=>|<cell|<around*|(|A<rsup|i>\<nabla\><rsub|i><around*|(|B<rsup|j>\<nabla\><rsub|j>|)>-B<rsup|j>\<nabla\><rsub|j><around*|(|A<rsup|i>\<nabla\><rsub|i>|)>-<around*|[|A<rsup|i>,B<rsup|j>|]>|)>>>>>
+  </eqnarray*>
+
+  there are two indice in covariant derivative?!
+
+  \;
 </body>
 
 <initial|<\collection>
@@ -857,6 +885,8 @@
     <associate|auto-24|<tuple|24|?>>
     <associate|auto-25|<tuple|25|?>>
     <associate|auto-26|<tuple|26|?>>
+    <associate|auto-27|<tuple|27|?>>
+    <associate|auto-28|<tuple|28|?>>
     <associate|auto-3|<tuple|3|?>>
     <associate|auto-4|<tuple|4|?>>
     <associate|auto-5|<tuple|5|?>>
@@ -944,6 +974,9 @@
 
       <with|par-left|<quote|4tab>|8.19 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-25><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|9.9- <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-26><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
