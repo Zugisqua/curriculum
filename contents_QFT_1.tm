@@ -721,7 +721,7 @@
     \<#53CD\>\<#63A8\>\<#4E00\>\<#4E0B\>\<#FF0C\>\<#662F\>\<#4E00\>\<#4E2A\>\<#6052\>\<#7B49\>\<#5F0F\>
 
     <\eqnarray*>
-      <tformat|<table|<row|<cell|<around*|(|E-H<rsub|0>|)><around|\||\<psi\>|\<rangle\>>>|<cell|=>|<cell|<around*|(|E-H<rsub|0>|)><around|\||\<phi\>|\<rangle\>>+V<around|\||\<psi\>|\<rangle\>>>>|<row|<cell|E<around|\||\<psi\>|\<rangle\>>-H<rsub|0><around|\||\<psi\>|\<rangle\>>>|<cell|=>|<cell|E<around|\||\<phi\>|\<rangle\>>-H<rsub|0><around|\||\<phi\>|\<rangle\>>+V<around|\||\<psi\>|\<rangle\>>>>|<row|<cell|H<around|\||\<psi\>|\<rangle\>>>|<cell|=>|<cell|<around*|(|V+H<rsub|0>|)><around|\||\<psi\>|\<rangle\>>>>>>
+      <tformat|<cwith|1|-1|1|-1|color|black>|<table|<row|<cell|<around*|(|E-H<rsub|0>|)><around|\||\<psi\>|\<rangle\>>>|<cell|=>|<cell|<around*|(|E-H<rsub|0>|)><around|\||\<phi\>|\<rangle\>>+V<around|\||\<psi\>|\<rangle\>>>>|<row|<cell|E<around|\||\<psi\>|\<rangle\>>-H<rsub|0><around|\||\<psi\>|\<rangle\>>>|<cell|=>|<cell|E<around|\||\<phi\>|\<rangle\>>-H<rsub|0><around|\||\<phi\>|\<rangle\>>+V<around|\||\<psi\>|\<rangle\>>>>|<row|<cell|<around*|(|H<rsub|0>-E|)><around|\||\<phi\>|\<rangle\>>>|<cell|=>|<cell|<around*|(|H<rsub|0>+V-E|)><around|\||\<psi\>|\<rangle\>>>>|<row|<cell|0>|<cell|=>|<cell|0>>>>
     </eqnarray*>
 
     \<#6784\>\<#9020\>\<#8F6C\>\<#6362\>\<#77E9\>\<#9635\>
@@ -735,6 +735,8 @@
     <\eqnarray*>
       <tformat|<table|<row|<cell|V<around|\||\<psi\>|\<rangle\>>>|<cell|=>|<cell|V<around|\||\<phi\>|\<rangle\>>+<frac|V|E-H<rsub|0>>V<around|\||\<psi\>|\<rangle\>>>>|<row|<cell|T<around|\||\<phi\>|\<rangle\>>>|<cell|=>|<cell|V<around|\||\<phi\>|\<rangle\>>+<frac|V|E-H<rsub|0>>T<around|\||\<phi\>|\<rangle\>>>>>>
     </eqnarray*>
+
+    <with|color|black|\<#8FED\>\<#4EE3\>\<#516C\>\<#5F0F\>>
 
     <\eqnarray*>
       <tformat|<table|<row|<cell|T>|<cell|=>|<cell|V+V<frac|1|E-H<rsub|0>>T>>>>
@@ -2328,7 +2330,7 @@
       <no-break><pageref|auto-25><vspace|0.5fn>
 
       <with|par-left|<quote|1tab>|3.1<space|2spc>Klein-Golden\<#573A\><assign|footnote-nr|1><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%59D2670-4E91090>|<link|hyperlink|<id|%59D2670-4E91090>|<url|#footnr-1>>|1>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%5F98F60-4D960F0>|<link|hyperlink|<id|%5F98F60-4D960F0>|<url|#footnr-1>>|1>.
         |<hidden|<tuple|footnote-1>><htab|0fn|first>>
           Mandl F. ,Shaw G. Quantum field theory
         </surround>>>
