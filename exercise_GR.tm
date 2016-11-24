@@ -924,6 +924,65 @@
   \;
 
   \;
+
+  <paragraph|9.14->
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|-<around*|(|1-<frac|2M|r>|)>\<mathd\>r<rsup|2>+<around*|(|1+<frac|2M|r>|)><around*|(|\<mathd\>x<rsup|2>+\<mathd\>y<rsup|2>+\<mathd\>z<rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|1-<frac|2M|r>|)>\<mathd\>t<rsup|2>+<around*|(|1+<frac|2M|r>|)><around*|(|\<mathd\>r<rsup|2>+r<rsup|2><around*|(|\<mathd\>\<theta\><rsup|2>+<around|sin|<rsup|2>\<theta\>|>\<mathd\>\<phi\><rsup|2>|)>|)>>>>>
+  </eqnarray*>
+
+  a circular quatorial orbit <math|\<theta\>=<frac|\<pi\>|2>,r=r<rsub|0>>,
+  then the metric
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|-<around*|(|1-<frac|2M|r<rsub|0>>|)>\<mathd\>t<rsup|2>+r<rsup|2><rsub|0><around*|(|1+<frac|2M|r<rsub|0>>|)>\<mathd\>\<phi\><rsup|2>>>>>
+  </eqnarray*>
+
+  the convervation of angular momentum
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|L>|<cell|=>|<cell|g<rsub|\<mu\>\<nu\>>K<rsup|\<nu\><around*|(|\<phi\>|)>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>>>>|<row|<cell|>|<cell|=>|<cell|g<rsub|\<phi\>\<phi\>><frac|\<mathd\>\<phi\>|\<mathd\>\<tau\>>>>|<row|<cell|>|<cell|=>|<cell|r<rsub|0><rsup|2><around*|(|1+<frac|2M|r<rsub|0>>|)><frac|\<mathd\>\<phi\>|\<mathd\>\<tau\>>>>>>
+  </eqnarray*>
+
+  then the other equation
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|-1>|<cell|=>|<cell|-<around*|(|1-<frac|2M|r<rsub|0>>|)><around*|(|<frac|\<mathd\>t|\<mathd\>\<tau\>>|)><rsup|2>+r<rsub|0><rsup|2><around*|(|1+<frac|2M|r<rsub|0>>|)><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<tau\>>|)><rsup|2>>>>>
+  </eqnarray*>
+
+  combine the equations.
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|1-<frac|2M|r<rsub|0>>|)><around*|(|<frac|\<mathd\>t|\<mathd\>\<tau\>>|)><rsup|2>>|<cell|=>|<cell|1+r<rsub|0><rsup|2><around*|(|1+<frac|2M|r<rsub|0>>|)><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<tau\>>|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|1+r<rsub|0><rsup|2><around*|(|1+<frac|2M|r<rsub|0>>|)><around*|(|<frac|L|r<rsub|0><rsup|2><around*|(|1+<frac|2M|r<rsub|0>>|)>>|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|1+<frac|L<rsup|2>|r<rsub|0><rsup|2><around*|(|1+<frac|2M|r<rsub|0>>|)>>>>|<row|<cell|<frac|\<mathd\>t|\<mathd\>\<tau\>>>|<cell|=>|<cell|<sqrt|<frac|1|1-<frac|2M|r<rsub|0>>>+<frac|L<rsup|2>|r<rsub|0><rsup|2><around*|(|1+<frac|2M|r<rsub|0>>|)><around*|(|1-<frac|2M|r<rsub|0>>|)>>>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|<frac|1|1-<frac|2M|r<rsub|0>>>+<frac|L<rsup|2>|r<rsub|0><rsup|2><around*|(|1-<frac|4M<rsup|2>|r<rsub|0><rsup|2>>|)>>>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|<frac|1|1-<frac|2M|r<rsub|0>>>+<frac|L<rsup|2>|r<rsub|0><rsup|2>-4M<rsup|2>>>>>>>
+  </eqnarray*>
+
+  then consider the quality
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<mathd\>t|\<mathd\>\<phi\>>>|<cell|=>|<cell|<frac|<sqrt|<frac|1|1-<frac|2M|r<rsub|0>>>+<frac|L<rsup|2>|r<rsub|0><rsup|2>-4M<rsup|2>>>|<frac|r<rsub|0><rsup|2>|L><around*|(|1+<frac|2M|r<rsub|0>>|)>>>>|<row|<cell|<frac|T|2\<pi\>>>|<cell|=>|<cell|<frac|L<sqrt|<frac|1|1-<frac|2M|r<rsub|0>>>+<frac|L<rsup|2>|r<rsub|0><rsup|2>-4M<rsup|2>>>|r<rsub|0><rsup|2><around*|(|1+<frac|2M|r<rsub|0>>|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|2\<pi\>L|r<rsub|0><rsup|2><around*|(|1+<frac|2M|r<rsub|0>>|)>><sqrt|<frac|1|1-<frac|2M|r<rsub|0>>>+<frac|L<rsup|2>|r<rsub|0><rsup|2>-4M<rsup|2>>>>>>>
+  </eqnarray*>
+
+  for the second quation, we have to return to the origin metric
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|-<around*|(|1-<frac|2M|r>|)>\<mathd\>r<rsup|2>+<around*|(|1+<frac|2M|r>|)><around*|(|\<mathd\>x<rsup|2>+\<mathd\>y<rsup|2>+\<mathd\>z<rsup|2>|)>>>>>
+  </eqnarray*>
+
+  then
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|D<rsup|2>\<xi\><rsup|\<rho\>>|\<mathd\>\<tau\><rsup|2>>+R<rsup|\<rho\>><rsub|<space|1.5spc>\<nu\>\<sigma\>\<mu\>><frac|\<mathd\>x<rsup|\<nu\>><rsub|s>|\<mathd\>\<tau\>><frac|\<mathd\>x<rsub|s><rsup|\<mu\>>|\<mathd\>\<tau\>>\<xi\><rsup|\<sigma\>>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  where
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<mathd\><rsup|2>x<rsup|\<mu\>><rsub|s>|\<mathd\>\<tau\><rsup|2>>+\<Gamma\><rsup|\<mu\>><rsub|\<sigma\>\<rho\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<tau\>><frac|\<mathd\>x<rsup|\<rho\>>|\<mathd\>\<tau\>>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  boundry condition\ 
+
+  \;
 </body>
 
 <initial|<\collection>
@@ -954,6 +1013,7 @@
     <associate|auto-28|<tuple|28|?>>
     <associate|auto-29|<tuple|29|?>>
     <associate|auto-3|<tuple|3|?>>
+    <associate|auto-30|<tuple|30|?>>
     <associate|auto-4|<tuple|4|?>>
     <associate|auto-5|<tuple|5|?>>
     <associate|auto-6|<tuple|6|?>>
@@ -1049,6 +1109,9 @@
 
       <with|par-left|<quote|4tab>|9.12- <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-28><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|9.13 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-29><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
