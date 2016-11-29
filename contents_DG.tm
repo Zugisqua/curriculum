@@ -2228,6 +2228,30 @@
 
   \<#8FD9\>\<#91CC\>\<#7684\>\<#786E\>\<#7B97\>\<#4E0D\>\<#901A\>
 
+  \;
+
+  \<#4F8B\>\<#5B50\>.2-1
+
+  \<#8003\>\<#8651\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<theta\>>|<cell|=>|<cell|\<mathd\>y-f<around*|(|x<rsup|1>,x<rsup|2>,x<rsup|3>,y|)>\<mathd\>x<rsup|1>>>>>
+  </eqnarray*>
+
+  \<#5219\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>\<theta\>>|<cell|=>|<cell|-\<partial\><rsub|2>f\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|1>-\<partial\><rsub|3>f\<mathd\>x<rsup|3>\<wedge\>\<mathd\>x<rsup|1>-<frac|\<partial\>f|\<partial\>y><frac|\<partial\>y|\<partial\>x<rsup|j>>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|1>>>|<row|<cell|>|<cell|=>|<cell|-\<partial\><rsub|2>f\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|1>-\<partial\><rsub|3>f\<mathd\>x<rsup|3>\<wedge\>\<mathd\>x<rsup|1>-<frac|\<partial\>f|\<partial\>y><frac|\<partial\>y|\<partial\>x<rsup|2>>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|1>-<frac|\<partial\>f|\<partial\>y><frac|\<partial\>y|\<partial\>x<rsup|3>>\<mathd\>x<rsup|3>\<wedge\>\<mathd\>x<rsup|1>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|<frac|\<partial\>f|\<partial\>x<rsup|2>>+<frac|\<partial\>f|\<partial\>y><frac|\<partial\>y|\<partial\>x<rsup|2>>|)>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|1>-<around*|(|\<partial\><rsub|3>f+<frac|\<partial\>f|\<partial\>y><frac|\<partial\>y|\<partial\>x<rsup|3>>|)>\<mathd\>x<rsup|3>\<wedge\>\<mathd\>x<rsup|1>>>>>
+  </eqnarray*>
+
+  \<#6700\>\<#540E\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<theta\>\<wedge\>\<mathd\>\<theta\>>|<cell|=>|<cell|<around*|(|\<mathd\>y-f\<mathd\>x<rsup|1>|)>\<wedge\><around*|(|-<around*|(|<frac|\<partial\>f|\<partial\>x<rsup|2>>+<frac|\<partial\>f|\<partial\>y><frac|\<partial\>y|\<partial\>x<rsup|2>>|)>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|1>-<around*|(|\<partial\><rsub|3>f+<frac|\<partial\>f|\<partial\>y><frac|\<partial\>y|\<partial\>x<rsup|3>>|)>\<mathd\>x<rsup|3>\<wedge\>\<mathd\>x<rsup|1>|)>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|<frac|\<partial\>f|\<partial\>x<rsup|2>>+<frac|\<partial\>f|\<partial\>y><frac|\<partial\>y|\<partial\>x<rsup|2>>|)>\<mathd\>y\<wedge\>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|1>-<around*|(|\<partial\><rsub|3>f+<frac|\<partial\>f|\<partial\>y><frac|\<partial\>y|\<partial\>x<rsup|3>>|)>\<mathd\>x<rsup|3>\<wedge\>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>y>>|<row|<cell|>|<cell|\<equiv\>>|<cell|>>>>
+  </eqnarray*>
+
+  \;
+
   \<#4F8B\>\<#5B50\>.2a
 
   <\eqnarray*>
