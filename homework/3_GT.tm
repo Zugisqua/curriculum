@@ -41,7 +41,33 @@
 
   3-13
 
+  I\<#7FA4\>\<#7684\>\<#7279\>\<#5F81\>\<#8868\>
+
+  <\equation*>
+    <block*|<tformat|<table|<row|<cell|>|<cell|\<bbb-E\>>|<cell|12C<rsub|5>>|<cell|12C<rsub|5><rsup|2>>|<cell|20C<rsub|3><rprime|'>>|<cell|15C<rprime|'><rsub|2>>>|<row|<cell|A>|<cell|1>|<cell|1>|<cell|1>|<cell|1>|<cell|1>>|<row|<cell|T<rsub|1>>|<cell|3>|<cell|<frac|<sqrt|5>+1|2>>|<cell|-<frac|<sqrt|5>-1|2>>|<cell|0>|<cell|-1>>|<row|<cell|T<rsub|2>>|<cell|3>|<cell|-<frac|<sqrt|5>-1|2>>|<cell|<frac|<sqrt|5>+1|2>>|<cell|0>|<cell|-1>>|<row|<cell|G>|<cell|4>|<cell|-1>|<cell|-1>|<cell|1>|<cell|0>>|<row|<cell|H>|<cell|5>|<cell|0>|<cell|0>|<cell|-1>|<cell|1>>>>>
+  </equation*>
+
   (2)
+
+  \<#8BA1\>\<#7B97\>\<#76F4\>\<#548C\>\<#5206\>\<#89E3\>\<#7684\>\<#91CD\>\<#6570\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|a<rsup|j>>|<cell|=>|<cell|<frac|1|60><big|sum><rsub|S\<in\>G>\<chi\><rsup|j><around*|(|S|)>\<chi\><rsup|G><around*|(|S|)>\<chi\><rsup|H><around*|(|S|)>>>>>
+  </eqnarray*>
+
+  \<#5219\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|a<rsup|A>>|<cell|=>|<cell|<frac|1|60><around*|(|1\<times\>4\<times\>5+1\<times\><around*|(|-1|)>\<times\>0\<times\>12+1\<times\><around*|(|-1|)>\<times\>0\<times\>12+1\<times\>1\<times\><around*|(|-1|)>\<times\>20+1\<times\>0\<times\>1\<times\>15|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|60>*<around*|(|20-20|)>=0>>|<row|<cell|a<rsup|T<rsub|1>>>|<cell|=>|<cell|<frac|1|60><around*|(|3\<times\>4\<times\>5+<frac|<sqrt|5>+1|2>\<times\><around*|(|-1|)>\<times\>0\<times\>12-<frac|<sqrt|5>-1|2>\<times\><around*|(|-1|)>\<times\>0\<times\>12+0\<times\>1\<times\><around*|(|-1|)>\<times\>20+<around*|(|-1|)>\<times\>0\<times\>1\<times\>15|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|60><around*|(|60|)>=1>>|<row|<cell|a<rsup|T<rsub|2>>>|<cell|=>|<cell|<frac|1|60><around*|(|3\<times\>4\<times\>5-<frac|<sqrt|5>-1|2>\<times\><around*|(|-1|)>\<times\>0\<times\>1+<frac|<sqrt|5>+1|2>\<times\><around*|(|-1|)>\<times\>0\<times\>12+0\<times\>1\<times\><around*|(|-1|)>\<times\>20+<around*|(|-1|)>\<times\>0\<times\>1\<times\>15|)>>>|<row|<cell|>|<cell|=>|<cell|1>>|<row|<cell|a<rsup|G>>|<cell|=>|<cell|<frac|1|60>*<around*|(|4\<times\>4\<times\>5+<around*|(|-1|)>\<times\><around*|(|-1|)>\<times\>0\<times\>12+<around*|(|-1|)>\<times\><around*|(|-1|)>\<times\>0\<times\>12+1\<times\>1\<times\><around*|(|-1|)>\<times\>20+0\<times\>0\<times\>1\<times\>15|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|60><around*|(|80-20|)>=-1>>|<row|<cell|a<rsup|H>>|<cell|=>|<cell|<frac|1|60>*<around*|(|5\<times\>4\<times\>5+0\<times\><around*|(|-1|)>\<times\>0\<times\>12+0\<times\><around*|(|-1|)>\<times\>0\<times\>12+<around*|(|-1|)>\<times\>1\<times\><around*|(|-1|)>\<times\>20+1\<times\>0\<times\>1\<times\>15|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|60><around*|(|100+20|)>=2>>>>
+  </eqnarray*>
+
+  \<#5219\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|D<rsup|G\<nospace\>>\<otimes\>G<rsup|H>>|<cell|=>|<cell|D<rsup|T<rsub|1>>\<oplus\>D<rsup|T<rsub|2>>\<oplus\>D<rsup|G>\<oplus\>2D<rsup|H>>>>>
+  </eqnarray*>
+
+  \;
 
   (5)
 
