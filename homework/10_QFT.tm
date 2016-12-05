@@ -23,7 +23,13 @@
   b.
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|T<around*|{|\<phi\><rsub|1>\<phi\><rsub|2>\<phi\><rsub|2>\<phi\><rsub|4>|}>>|<cell|=>|<cell|\<Theta\><around*|(|x<rsub|1>-x<rsub|2>|)>\<Theta\><around*|(|x<rsub|2>-x<rsub|3>|)>\<Theta\><around*|(|x<rsub|3>-x<rsub|4>|)>\<phi\><rsub|1>\<phi\><rsub|2>\<phi\><rsub|3>\<phi\><rsub|4>>>>>
+    <tformat|<table|<row|<cell|T<around*|{|\<phi\><rsub|1>\<phi\><rsub|2>\<phi\><rsub|2>\<phi\><rsub|4>|}>>|<cell|=>|<cell|\<Theta\><around*|(|x<rsub|1>-x<rsub|2>|)>\<Theta\><around*|(|x<rsub|2>-x<rsub|3>|)>\<Theta\><around*|(|x<rsub|3>-x<rsub|4>|)>\<phi\><rsub|1>\<phi\><rsub|2>\<phi\><rsub|3>\<phi\><rsub|4>+\<ldots\>23term>>>>
+  </eqnarray*>
+
+  \<#53D6\><math|x<rsub|1>\<gtr\>x<rsub|2>\<gtr\>x<rsub|3>\<gtr\>x<rsub|4>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<phi\><rsub|1>\<phi\><rsub|2>\<phi\><rsub|3>\<phi\><rsub|4>>|<cell|=>|<cell|<frac|1|<around*|(|2\<pi\>|)><rsup|12>><big|int><frac|\<mathd\><rsup|3>p<rsub|1>\<mathd\><rsup|3>p<rsub|2>\<mathd\><rsup|3>p<rsub|3>\<mathd\><rsup|4>p<rsub|4>|4<sqrt|w<rsub|p<rsub|1>>w<rsub|p<rsub|2>>w<rsub|p<rsub|3>>w<rsub|p<rsub|4>>>><around*|{|<around*|(|a<rsub|<embold|p><rsub|1>>e<rsup|-i\<nospace\>p<rsub|1>x<rsub|1>>+a<rprime|\<dag\>><rsub|<embold|p><rsub|1>>e<rsup|i\<nospace\>p<rsub|1>x<rsub|1>>|)><around*|(|a<rsub|<embold|p><rsub|2>>e<rsup|-i\<nospace\>p\<nospace\><rsub|2>x<rsub|2>>+a<rprime|\<dag\>><rsub|<embold|p><rsub|2>>e<rsup|i\<nospace\>p<rsub|2>x<rsub|2>>|)><new-line>\<times\><around*|(|a<rsub|<embold|p><rsub|3>>e<rsup|-i\<nospace\>p<rsub|3>x<rsub|3>>+a<rsub|<embold|p><rsub|3>><rprime|\<dag\>>e<rsup|i\<nospace\>p<rsub|3>x<rsub|3>>|)><around*|(|a<rsub|<embold|p><rsub|4>>e<rsup|-i\<nospace\>p<rsub|4>x<rsub|4>>+a<rprime|\<dag\>><rsub|<embold|p><rsub|4>>e<rsup|i\<nospace\>p<rsub|4>x<rsub|4>>|)>|}>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<around*|(|2\<pi\>|)><rsup|12>><big|int><frac|\<mathd\><rsup|3>p<rsub|1>\<mathd\><rsup|3>p<rsub|2>\<mathd\><rsup|3>p<rsub|3>\<mathd\><rsup|4>p<rsub|4>|4<sqrt|w<rsub|p<rsub|1>>w<rsub|p<rsub|2>>w<rsub|p<rsub|3>>w<rsub|p<rsub|4>>>><around*|{|a<rsub|<embold|p><rsub|1>>a<rsub|<embold|p><rsub|2>>a<rsub|<embold|p><rsub|3>>a<rsub|<embold|p><rsub|4>>e<rsup|-i\<nospace\>p<rsub|1>x<rsub|1>-i\<nospace\>p<rsub|2>x<rsub|2>-i\<nospace\>p<rsub|3>x<rsub|3>-i\<nospace\>p<rsub|4>x<rsub|4>><new-line>+a<rprime|\<dag\>><rsub|<embold|p><rsub|1>>a<rsub|<embold|p><rsub|2>>a<rsub|<embold|p><rsub|3>>a<rsub|<embold|p><rsub|4>>e<rsup|i\<nospace\>p<rsub|1>x<rsub|1>-i\<nospace\>p<rsub|2>x<rsub|2>-i\<nospace\>p<rsub|3>x<rsub|3>-i\<nospace\>p<rsub|4>x<rsub|4>>+|}>>>>>
   </eqnarray*>
 
   c.
