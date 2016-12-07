@@ -2037,7 +2037,7 @@
   \<#53E6\>\<#5916\>\<#FF0C\>\<#8FD9\>\<#4E2A\>\<#4E58\>\<#79EF\>\<#4E5F\>\<#53EF\>\<#4EE5\>\<#4ECE\>\<#5347\>\<#964D\>\<#7B97\>\<#7B26\>\<#7684\>\<#89D2\>\<#5EA6\>\<#53BB\>\<#8003\>\<#8651\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|:a<rprime|\<dag\>><rsub|b>a<rsub|b>:>|<cell|=>|<cell|a<rsub|b>a<rprime|\<dag\>>\<nospace\>>>|<row|<cell|:b<rsub|f><rprime|\<dag\>>b<rsub|f>:>|<cell|=>|<cell|-b<rsub|f>b<rprime|\<dag\>><rsub|f>>>>>
+    <tformat|<table|<row|<cell|:a<rsub|b>a<rsub|b><rprime|\<dag\>>:>|<cell|=>|<cell|a<rsub|b><rprime|\<dag\>>a<rsub|b>\<nospace\>>>|<row|<cell|:b<rsub|f>b<rsub|f><rprime|\<dag\>>:>|<cell|=>|<cell|-b<rsub|f><rprime|\<dag\>>b<rsub|f>>>>>
   </eqnarray*>
 
   <with|font-shape|italic|\<#65F6\>\<#5E8F\>\<#7B97\>\<#7B26\>\<#FF1A\>>
@@ -2395,7 +2395,7 @@
   <\collection>
     <\associate|toc>
       <with|par-left|<quote|2tab>|1<space|2spc>\<#91CF\>\<#5B50\>Poincare\<#53D8\>\<#6362\><with|color|<quote|black>|\<#4E0E\>\<#79BB\>\<#6563\>\<#5BF9\>\<#79F0\>\<#6027\><assign|footnote-nr|1><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%4B466D0-383A210>|<link|hyperlink|<id|%4B466D0-383A210>|<url|#footnr-1>>|1>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%5BD8F10-4BBE490>|<link|hyperlink|<id|%5BD8F10-4BBE490>|<url|#footnr-1>>|1>.
         |<hidden|<tuple|footnote-1>><htab|0fn|first>>
           Weinberg
         </surround>>>
@@ -2416,7 +2416,7 @@
       <no-break><pageref|auto-4>>
 
       <with|par-left|<quote|2tab>|1.3<space|2spc><with|font-series|<quote|bold>|\<#65E0\>\<#8D28\>\<#91CF\>\<#534F\>\<#53D8\>\<#89C4\>\<#8303\>\<#91CF\>\<#5B50\>\<#5316\>><assign|footnote-nr|4><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%4B466D0-45ADCE0>|<link|hyperlink|<id|%4B466D0-45ADCE0>|<url|#footnr-4>>|4>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%5BD8F10-5228440>|<link|hyperlink|<id|%5BD8F10-5228440>|<url|#footnr-4>>|4>.
         |<hidden|<tuple|footnote-4>><htab|0fn|first>>
           Greiner[1996]
         </surround>>>
