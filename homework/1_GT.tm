@@ -107,6 +107,14 @@
     <tformat|<table|<row|<cell|U>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|<frac|e<rsup|i\<alpha\>>|<sqrt|1+r<rsup|2>>>>|<cell|<frac|-r\<nospace\>e<rsup|i<around*|(|\<delta\>+\<kappa\>|)>>|<sqrt|1+r<rsup|2>>>>>|<row|<cell|<frac|r\<nospace\>e<rsup|i<around*|(|\<alpha\>+\<kappa\>|)>>|<sqrt|1+r<rsup|2>>>>|<cell|<frac|e<rsup|i\<delta\>>|<sqrt|1+r<rsup|2>>>>>>>>>>>>
   </eqnarray*>
 
+  \<#4E0B\>\<#9762\>\<#770B\>\<#770B\>SU(2)
+
+  \<#7EA6\>\<#675F\>\<#4E3A\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|det<around*|(|u|)>=1>|<cell|=>|<cell|<det|<tformat|<table|<row|<cell|<frac|e<rsup|i\<alpha\>>|<sqrt|1+r<rsup|2>>>>|<cell|<frac|-r\<nospace\>e<rsup|i<around*|(|\<delta\>+\<kappa\>|)>>|<sqrt|1+r<rsup|2>>>>>|<row|<cell|<frac|r\<nospace\>e<rsup|i<around*|(|\<alpha\>+\<kappa\>|)>>|<sqrt|1+r<rsup|2>>>>|<cell|<frac|e<rsup|i\<delta\>>|<sqrt|1+r<rsup|2>>>>>>>>>>|<row|<cell|1>|<cell|=>|<cell|<frac|1|1+r<rsup|2>><around*|(|e<rsup|i<around*|(|\<alpha\>+\<delta\>|)>>+r<rsup|2>e<rsup|i<around*|(|\<alpha\>+\<delta\>|)>+2i\<kappa\>>|)>>>|<row|<cell|1>|<cell|=>|<cell|<frac|e<rsup|i<around*|(|\<alpha\>+\<delta\>|)>>|1+r<rsup|2>><around*|(|1+r<rsup|2>e<rsup|2i\<kappa\>>|)>>>>>
+  </eqnarray*>
+
   \<#5982\>\<#679C\>\<#662F\>\<#6B63\>\<#4EA4\>\<#77E9\>\<#9635\>\<#FF0C\>\<#5373\>\<#4E0A\>\<#9762\>\<#7684\>\<#5E7A\>\<#6B63\>\<#77E9\>\<#9635\>\<#7684\>\<#77E9\>\<#9635\>\<#5143\>\<#53EA\>\<#53EF\>\<#80FD\>\<#53D6\>\<#5B9E\>\<#6570\>
 
   \<#8FD9\>\<#91CC\>\<#4E3A\>\<#4E86\>\<#65B9\>\<#9762\>
