@@ -3,8 +3,6 @@
 <style|generic>
 
 <\body>
-  \;
-
   <section|\<#5FAE\>\<#5206\>\<#6D41\>\<#5F62\>\<#548C\>\<#5FAE\>\<#5206\>\<#5F62\>\<#5F0F\>\V\<#6D41\>\<#5F62\>\<#4E0A\>\<#7684\>\<#5206\>\<#6790\>\<#5B66\>\<#7B80\>\<#4ECB\>>
 
   <subsection|\<#5C04\>\<#5F71\>\<#51E0\>\<#4F55\>>
@@ -3795,7 +3793,7 @@
     <with|font-shape|italic|\<#5E73\>\<#884C\>\<#622A\>\<#9762\>>\<#FF1A\>\<#5B50\>\<#6D41\>\<#5F62\>\<#7684\>\<#5206\>\<#5E03\>\<#FF0C\>\<#6EE1\>\<#8DB3\><math|\<nabla\>X=0>
 
     <\eqnarray*>
-      <tformat|<table|<row|<cell|\<nabla\>X>|<cell|=>|<cell|\<mathd\>\<xi\><rsup|a>+\<xi\><rsup|b>\<Gamma\><rsup|a><rsub|b>=0>>>>
+      <tformat|<table|<row|<cell|\<nabla\>X=0>|<cell|\<Rightarrow\>>|<cell|\<mathd\>\<xi\><rsup|a>+\<xi\><rsup|b>\<Gamma\><rsup|a><rsub|b>=0>>>>
     </eqnarray*>
 
     <\eqnarray*>
@@ -3803,6 +3801,34 @@
     </eqnarray*>
 
     <with|color|black|\<#8FD9\>\<#91CC\>\<#662F\><math|\<nabla\>X=0>\<#6709\>\<#89E3\>\<#7684\>\<#6761\>\<#4EF6\>>
+
+    <\with|color|black>
+      \<#5957\>\<#4E00\>\<#4E0B\>Frobenius\<#5B9A\>\<#7406\>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|\<theta\><rsup|a>>|<cell|=>|<cell|\<mathd\>\<xi\><rsup|a>+\<xi\><rsup|b>\<Gamma\><rsup|a><rsub|b>>>>>
+      </eqnarray*>
+
+      \<#8BA1\>\<#7B97\>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|\<mathd\>\<theta\><rsup|a>>|<cell|=>|<cell|\<mathd\>\<xi\><rsup|b>\<wedge\>\<Gamma\><rsup|a><rsub|b>+\<xi\><rsup|b>\<mathd\>\<Gamma\><rsup|a><rsub|b>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<theta\><rsup|b>-\<xi\><rsup|c>\<Gamma\><rsup|b><rsub|c>|)>\<wedge\>\<Gamma\><rsup|a><rsub|b>+\<xi\><rsup|b>\<mathd\>\<Gamma\><rsup|a><rsub|b>>>|<row|<cell|>|<cell|=>|<cell|\<theta\><rsup|b>\<wedge\>\<Gamma\><rsup|a><rsub|b>+\<xi\><rsup|b>\<Omega\><rsup|a><rsub|b>>>>>
+      </eqnarray*>
+
+      \<#6700\>\<#540E\>\<#8BA1\>\<#7B97\>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|\<mathd\>\<theta\><rsup|a><big|wedge><rsub|i>\<theta\><rsup|i>>|<cell|=>|<cell|0>>>>
+      </eqnarray*>
+
+      \<#5982\>\<#679C\><math|i,a=1,2> \<#5219\>\<#8BA1\>\<#7B97\>\<#4E00\>\<#9879\>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|\<mathd\>\<theta\><rsup|1><big|wedge><rsub|i>\<theta\><rsup|i>>|<cell|=>|<cell|\<mathd\>\<theta\><rsup|1>\<wedge\>\<theta\><rsup|1>\<wedge\>\<theta\><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<theta\><rsup|1>\<wedge\>\<Gamma\><rsup|1><rsub|1>+\<theta\><rsup|2>\<wedge\>\<Gamma\><rsup|1><rsub|2>+\<xi\><rsup|1>\<Omega\><rsup|1><rsub|1>+\<xi\><rsup|2>\<Omega\><rsup|1><rsub|2>|)>\<wedge\>\<theta\><rsup|1>\<wedge\>\<theta\><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|\<xi\><rsup|1>\<Omega\><rsup|1><rsub|1>\<wedge\>\<theta\><rsup|1>\<wedge\>\<theta\><rsup|2>+\<xi\><rsup|2>\<Omega\><rsup|1><rsub|2>\<wedge\>\<theta\><rsup|1>\<wedge\>\<theta\><rsup|2>>>>>
+      </eqnarray*>
+
+      \<#8FD8\>\<#662F\>\<#8001\>\<#95EE\>\<#9898\>
+    </with>
 
     <\with|color|black>
       \<#6709\>\<#70B9\>\<#50CF\>\<#FF0C\>\<#4F20\>\<#8BF4\>\<#7684\>geodesic-deviation\<#65B9\>\<#7A0B\>,\<#7B97\>\<#4E86\>\<#4E0B\>\<#6728\>\<#6709\>\<#4EC0\>\<#4E48\>\<#7ED3\>\<#679C\>
