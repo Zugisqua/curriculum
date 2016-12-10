@@ -112,13 +112,13 @@
   \<#8FD8\>\<#6709\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|1-<frac|2G\<nospace\>M|r>>|<cell|=>|<cell|1-<frac|2G\<nospace\>M|\<rho\><around*|(|1+<frac|G\<nospace\>M|2\<rho\>>|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<rho\><around*|(|1+<around*|(|<frac|G\<nospace\>M|2\<rho\>>|)><rsup|2>+<frac|G\<nospace\>M|\<rho\>>|)>-2G\<nospace\>M|\<rho\><around*|(|1+<frac|G\<nospace\>M|2\<rho\>>|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<rho\><around*|(|1+<around*|(|<frac|G\<nospace\>M|\<rho\>>|)><rsup|2>-<frac|G\<nospace\>M|\<rho\>>|)>|\<rho\><around*|(|1+<frac|G\<nospace\>M|2\<rho\>>|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|1-<frac|G\<nospace\>M|2\<rho\>>|1+<frac|G\<nospace\>M|\<rho\>>>|)><rsup|2>>>>>
+    <tformat|<table|<row|<cell|1-<frac|2G\<nospace\>M|r>>|<cell|=>|<cell|1-<frac|2G\<nospace\>M|\<rho\><around*|(|1+<frac|G\<nospace\>M|2\<rho\>>|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<rho\><around*|(|1+<around*|(|<frac|G\<nospace\>M|2\<rho\>>|)><rsup|2>+<frac|G\<nospace\>M|\<rho\>>|)>-2G\<nospace\>M|\<rho\><around*|(|1+<frac|G\<nospace\>M|2\<rho\>>|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<rho\><around*|(|1+<around*|(|<frac|G\<nospace\>M|\<rho\>>|)><rsup|2>-<frac|G\<nospace\>M|\<rho\>>|)>|\<rho\><around*|(|1+<frac|G\<nospace\>M|2\<rho\>>|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|1-<frac|G\<nospace\>M|2\<rho\>>|1+<frac|G\<nospace\>M|2\<rho\>>>|)><rsup|2>>>>>
   </eqnarray*>
 
   \<#6700\>\<#540E\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|-<around*|(|<frac|1-<frac|G\<nospace\>M|2\<rho\>>|1+<frac|G\<nospace\>M|\<rho\>>>|)><rsup|2>\<mathd\>t<rsup|2>+<around*|(|<frac|1+<frac|G\<nospace\>M|2\<rho\>>|1-<frac|G\<nospace\>M|\<rho\>>>|)><rsup|2>\<times\><around*|(|1-<around*|(|<frac|G\<nospace\>M|2\<rho\>>|)><rsup|2>|)>\<mathd\>\<rho\><rsup|2>+\<rho\><rsup|2><around*|(|1+<frac|G\<nospace\>M|2\<rho\>>|)><rsup|4>\<mathd\>\<Omega\><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|<frac|1-<frac|G\<nospace\>M|2\<rho\>>|1+<frac|G\<nospace\>M|\<rho\>>>|)><rsup|2>\<mathd\>t<rsup|2>+<around*|(|1+<frac|G\<nospace\>M|2\<rho\>>|)><rsup|4>\<mathd\>\<rho\><rsup|2>+\<rho\><rsup|2><around*|(|1+<frac|G\<nospace\>M|2\<rho\>>|)><rsup|4>\<mathd\>\<Omega\><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|<frac|1-<frac|G\<nospace\>M|2\<rho\>>|1+<frac|G\<nospace\>M|\<rho\>>>|)><rsup|2>\<mathd\>t<rsup|2>+<around*|(|1+<frac|G\<nospace\>M|2\<rho\>>|)><rsup|4><around*|(|\<mathd\>\<rho\><rsup|2>+\<rho\><rsup|2>\<mathd\>\<Omega\><rsup|2>|)>>>>>
+    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|-<around*|(|<frac|1-<frac|G\<nospace\>M|2\<rho\>>|1+<frac|G\<nospace\>M|2\<rho\>>>|)><rsup|2>\<mathd\>t<rsup|2>+<around*|(|<frac|1+<frac|G\<nospace\>M|2\<rho\>>|1-<frac|G\<nospace\>M|2\<rho\>>>|)><rsup|2>\<times\><around*|(|1-<around*|(|<frac|G\<nospace\>M|2\<rho\>>|)><rsup|2>|)><rsup|2>\<mathd\>\<rho\><rsup|2>+\<rho\><rsup|2><around*|(|1+<frac|G\<nospace\>M|2\<rho\>>|)><rsup|4>\<mathd\>\<Omega\><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|<frac|1-<frac|G\<nospace\>M|2\<rho\>>|1+<frac|G\<nospace\>M|\<rho\>>>|)><rsup|2>\<mathd\>t<rsup|2>+<around*|(|1+<frac|G\<nospace\>M|2\<rho\>>|)><rsup|4>\<mathd\>\<rho\><rsup|2>+\<rho\><rsup|2><around*|(|1+<frac|G\<nospace\>M|2\<rho\>>|)><rsup|4>\<mathd\>\<Omega\><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|<frac|1-<frac|G\<nospace\>M|2\<rho\>>|1+<frac|G\<nospace\>M|2\<rho\>>>|)><rsup|2>\<mathd\>t<rsup|2>+<around*|(|1+<frac|G\<nospace\>M|2\<rho\>>|)><rsup|4><around*|(|\<mathd\>\<rho\><rsup|2>+\<rho\><rsup|2>\<mathd\>\<Omega\><rsup|2>|)>>>>>
   </eqnarray*>
 
   \;
@@ -146,6 +146,12 @@
 
       <with|par-left|<quote|4tab>|1. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|2. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3><vspace|0.15fn>>
+
+      3. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-4><vspace|0.15fn>
     </associate>
   </collection>
 </auxiliary>
