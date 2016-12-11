@@ -2535,7 +2535,7 @@
     Dirac
 
     <\eqnarray*>
-      <tformat|<table|<row|<cell|\<#7C92\>\<#5B50\><htab|5mm>>|<cell|>|<cell|>>|<row|<cell|\<#6D41\>\<#5165\>\<#5916\>\<#7EBF\><htab|5mm><below|\<otimes\>\<longleftarrow\>|\<leftarrow\>p>>|<cell|>|<cell|\<psi\><around|\||<embold|p>,s|\<rangle\>>\<sim\>u<rsup|s><around*|(|<embold|p>|)>>>|<row|<cell|\<#6D41\>\<#51FA\>\<#5916\>\<#7EBF\><htab|5mm><below|\<longleftarrow\>\<otimes\>|\<leftarrow\>p>>|<cell|>|<cell|<around|\<langle\>|<embold|p>,s|\|><wide|\<psi\>|\<bar\>>\<sim\><wide|u|\<bar\>><rsup|s><around*|(|<embold|p>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|\<#53CD\>\<#7C92\>\<#5B50\><htab|5mm>>|<cell|>|<cell|>>|<row|<cell|\<#6D41\>\<#5165\>\<#5916\>\<#7EBF\><htab|5mm><below|\<otimes\>\<longrightarrow\>|\<leftarrow\>k>>|<cell|>|<cell|<wide|\<psi\>|\<bar\>><around|\||<embold|k>,s|\<rangle\>>\<sim\><wide|\<upsilon\>|\<bar\>><rsup|s><around*|(|<embold|k>|)>>>|<row|<cell|\<#6D41\>\<#51FA\>\<#5916\>\<#7EBF\><htab|5mm><below|\<longrightarrow\>\<otimes\>|\<leftarrow\>k>>|<cell|>|<cell|<around|\<langle\>|<embold|k>,s|\|>\<psi\>\<sim\>\<upsilon\><rsup|s><around*|(|<embold|k>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|Yukawa\<#7C92\>\<#5B50\><htab|5mm>\<otimes\>\<ldots\>\<ldots\>>|<cell|>|<cell|\<phi\><around|\||<embold|q>|\<rangle\>>\<sim\>1>>>>
+      <tformat|<table|<row|<cell|\<#7C92\>\<#5B50\><htab|5mm>>|<cell|>|<cell|>>|<row|<cell|\<#6D41\>\<#5165\>\<#5916\>\<#7EBF\><htab|5mm><below|\<otimes\>\<longleftarrow\>|\<leftarrow\>p>>|<cell|>|<cell|\<psi\><rsup|+><around|\||<embold|p>,s|\<rangle\>>\<sim\>u<rsup|s><around*|(|<embold|p>|)>>>|<row|<cell|\<#6D41\>\<#51FA\>\<#5916\>\<#7EBF\><htab|5mm><below|\<longleftarrow\>\<otimes\>|\<leftarrow\>p>>|<cell|>|<cell|<around|\<langle\>|<embold|p>,s|\|><wide|\<psi\>|\<bar\>><rsup|->\<sim\><wide|u|\<bar\>><rsup|s><around*|(|<embold|p>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|\<#53CD\>\<#7C92\>\<#5B50\><htab|5mm>>|<cell|>|<cell|>>|<row|<cell|\<#6D41\>\<#5165\>\<#5916\>\<#7EBF\><htab|5mm><below|\<otimes\>\<longrightarrow\>|\<leftarrow\>k>>|<cell|>|<cell|<wide|\<psi\>|\<bar\>><rsup|+><around|\||<embold|k>,s|\<rangle\>>\<sim\><wide|\<upsilon\>|\<bar\>><rsup|s><around*|(|<embold|k>|)>>>|<row|<cell|\<#6D41\>\<#51FA\>\<#5916\>\<#7EBF\><htab|5mm><below|\<longrightarrow\>\<otimes\>|\<leftarrow\>k>>|<cell|>|<cell|<around|\<langle\>|<embold|k>,s|\|>\<psi\><rsup|->\<sim\>\<upsilon\><rsup|s><around*|(|<embold|k>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|Yukawa\<#7C92\>\<#5B50\><htab|5mm>\<otimes\>\<ldots\>\<ldots\>>|<cell|>|<cell|\<phi\><around|\||<embold|q>|\<rangle\>>\<sim\>1>>>>
     </eqnarray*>
 
     \<#5728\>\<#8D39\>\<#66FC\>\<#56FE\>\<#4E00\>\<#822C\>\<#4E0A\>\<#9762\>\<#7684\>\<#672B\>\<#6001\>\<#FF0C\>\<#4E0B\>\<#9762\>\<#662F\>\<#521D\>\<#6001\>
@@ -2588,7 +2588,7 @@
   <\collection>
     <\associate|toc>
       <with|par-left|<quote|2tab>|1<space|2spc>\<#91CF\>\<#5B50\>Poincare\<#53D8\>\<#6362\><with|color|<quote|black>|\<#4E0E\>\<#79BB\>\<#6563\>\<#5BF9\>\<#79F0\>\<#6027\><assign|footnote-nr|1><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%4BBB4F0-39A4310>|<link|hyperlink|<id|%4BBB4F0-39A4310>|<url|#footnr-1>>|1>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%61E0210-4ED6A30>|<link|hyperlink|<id|%61E0210-4ED6A30>|<url|#footnr-1>>|1>.
         |<hidden|<tuple|footnote-1>><htab|0fn|first>>
           Weinberg
         </surround>>>
@@ -2609,7 +2609,7 @@
       <no-break><pageref|auto-4>>
 
       <with|par-left|<quote|2tab>|1.3<space|2spc><with|font-series|<quote|bold>|\<#65E0\>\<#8D28\>\<#91CF\>\<#534F\>\<#53D8\>\<#89C4\>\<#8303\>\<#91CF\>\<#5B50\>\<#5316\>><assign|footnote-nr|4><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%4BBB4F0-409EA50>|<link|hyperlink|<id|%4BBB4F0-409EA50>|<url|#footnr-4>>|4>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%61E0210-4CA7D30>|<link|hyperlink|<id|%61E0210-4CA7D30>|<url|#footnr-4>>|4>.
         |<hidden|<tuple|footnote-4>><htab|0fn|first>>
           Greiner[1996]
         </surround>>>
