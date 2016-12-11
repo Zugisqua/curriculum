@@ -3536,6 +3536,10 @@
     <tformat|<table|<row|<cell|\<nabla\>X>|<cell|=>|<cell|\<mathd\>\<xi\><rsup|a><around*|(|x|)>e<rsub|a><around*|(|x|)>+\<xi\><rsup|a><around*|(|x|)>\<nabla\>e<rsub|a><around*|(|x|)>>>>>
   </eqnarray*>
 
+  *<math|\<nabla\>e<rsub|a>>\<#5177\>\<#6709\>\<#5C40\>\<#57DF\>\<#6027\><\footnote>
+    \<#9648\>\<#7701\>\<#8EAB\>[2001]P101
+  </footnote>:\<#8FD9\>\<#91CC\>\<#4E0D\>\<#660E\>\<#767D\>\<#8BA8\>\<#8BBA\>\<#5B83\>\<#7684\>\<#5FC5\>\<#8981\>\<#6027\><with|color|blue|{}>
+
   \<#8BA8\>\<#8BBA\>\<#FF1A\>
 
   \<#7531\>\<#4E8E\><math|\<nabla\>X>\<#8FD8\>\<#662F\>\<#5F20\>\<#91CF\>\<#573A\>\<#FF0C\>\<#5219\>\<#53EF\>\<#4EE5\>\<#8981\>\<#6C42\>
@@ -3558,14 +3562,22 @@
     \<#4F8B\>\<#5B50\>\<#FF1A\>
 
     <\eqnarray*>
-      <tformat|<table|<row|<cell|\<nabla\>X>|<cell|=>|<cell|\<nabla\><around*|(|\<xi\><rsup|a>e<rsub|a>|)>>>|<row|<cell|>|<cell|=>|<cell|\<nabla\>\<xi\><rsup|a>\<otimes\>e<rsub|a>+\<xi\><rsup|a>\<nabla\>e<rsub|a>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>\<xi\><rsup|a>\<otimes\>e<rsub|a>+\<xi\><rsup|a>\<Gamma\><rsup|b><rsub|a>e<rsub|b>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|i>\<xi\><rsup|a>\<mathd\>x<rsup|i>\<otimes\>e<rsub|a>+\<xi\><rsup|a>\<Gamma\><rsup|b><rsub|a\<nospace\>i>\<mathd\>x<rsup|i>\<otimes\>e<rsub|b>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<xi\><rsup|a><rsub|,i>+\<xi\><rsup|b>\<Gamma\><rsup|a><rsub|b\<nospace\>i>|)>\<mathd\>x<rsup|i>\<otimes\>e<rsub|a>>>|<row|<cell|>|<cell|\<assign\>>|<cell|\<xi\><rsup|a><rsub|;i>\<mathd\>x<rsup|i>\<otimes\>e<rsub|a>>>>>
+      <tformat|<table|<row|<cell|\<nabla\>X>|<cell|=>|<cell|\<nabla\><around*|(|\<xi\><rsup|a>e<rsub|a>|)>>>|<row|<cell|>|<cell|=>|<cell|\<nabla\>\<xi\><rsup|a>\<otimes\>e<rsub|a>+\<xi\><rsup|a>\<nabla\>e<rsub|a>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>\<xi\><rsup|a>\<otimes\>e<rsub|a>+\<xi\><rsup|a>\<Gamma\><rsup|b><rsub|a>\<otimes\>e<rsub|b>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|i>\<xi\><rsup|a>\<mathd\>x<rsup|i>\<otimes\>e<rsub|a>+\<xi\><rsup|a>\<Gamma\><rsup|b><rsub|a\<nospace\>i>\<mathd\>x<rsup|i>\<otimes\>e<rsub|b>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<xi\><rsup|a><rsub|,i>+\<xi\><rsup|b>\<Gamma\><rsup|a><rsub|b\<nospace\>i>|)>\<mathd\>x<rsup|i>\<otimes\>e<rsub|a>>>|<row|<cell|>|<cell|\<assign\>>|<cell|\<xi\><rsup|a><rsub|;i>\<mathd\>x<rsup|i>\<otimes\>e<rsub|a>>>>>
     </eqnarray*>
   </with>
+
+  \;
 
   \<#901A\>\<#8FC7\>\<#8FD9\>\<#4E2A\>\<#FF0C\>\<#52A0\>\<#4E0A\><math|\<nabla\><around*|\<langle\>|\<theta\><rsup|a>,e<rsub|b>|\<rangle\>>=0>\<#FF0C\>\<#53EF\>\<#4EE5\>\<#5F97\>\<#5230\>
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|\<nabla\>\<theta\><rsup|a>>|<cell|=>|<cell|-\<Gamma\><rsup|a><rsub|b>\<theta\><rsup|b>>>>>
+  </eqnarray*>
+
+  \<#6216\>\<#8005\>\<#8BF4\>\<#7528\>\<#5F15\>\<#51FA\><math|\<nabla\>\<theta\><rsup|a>>\<#901A\>\<#8FC7\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<nabla\><around*|\<langle\>|\<theta\><rsup|a>,e<rsub|b>|\<rangle\>>>|<cell|=>|<cell|<around*|\<langle\>|\<nabla\>\<theta\><rsup|a>,e<rsub|b>|\<rangle\>>+<around*|\<langle\>|\<theta\><rsup|a>,\<nabla\>e<rsub|b>|\<rangle\>>>>>>
   </eqnarray*>
 
   <with|color|red|\<#4F5C\>\<#4E1A\>\<#FF1A\><math|\<#8BA1\>\<#7B97\>\<#4E0A\>\<#9762\>\<#7684\>\<#7ED3\>\<#679C\>>>
@@ -3622,6 +3634,11 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|\<Gamma\><rprime|'><rsup|a><rsub|d>>|<cell|=>|<cell|<around*|(|L<rsup|-1>|)><rsup|a><rsub|b>L<rsup|c><rsub|d>\<Gamma\><rsup|b><rsub|c>+<around*|(|L<rsup|-1>|)><rsup|a><rsub|c>\<mathd\>L<rsup|c><rsub|d>>>>>
   </eqnarray*>
+
+  <with|font-shape|italic|\<#5B9A\>\<#7406\>\<#FF1A\>>\<#8054\>\<#7EDC\>\<#662F\>\<#4E00\>\<#5B9A\>\<#5B58\>\<#5728\>\<#7684\>\<#FF1A\>\<#5B9A\>\<#4E49\>\<#4E00\>\<#4E2A\>\<#8054\>\<#7EDC\>\<#FF0C\>\<#53EA\>\<#9700\>\<#8981\>\<#5728\>\<#5F00\>\<#96C6\>\<#4E2D\>\<#627E\>\<#5230\>\<#4E00\>\<#4E2A\>\<#77E9\>\<#9635\>\<#FF0C\>\<#7528\>\<#5355\>\<#4F4D\>\<#914D\>\<#5206\>\<#63A8\>\<#5E7F\>\<#5230\>\<#5168\>\<#5C40\>
+  \<#6EE1\>\<#8DB3\>\<#4E0A\>\<#9762\>\<#7684\>\<#53D8\>\<#6362\>\<#5173\>\<#7CFB\>\<#FF0C\>\<#5C31\>\<#662F\>\<#6211\>\<#4EEC\>\<#8981\>\<#7684\>\<#8054\>\<#7EDC\>\<#4E86\>
+
+  PS\<#FF1A\>\<#53EF\>\<#4EE5\>\<#8BC1\>\<#660E\><with|color|blue|{}:>\<#901A\>\<#8FC7\>\<#53D8\>\<#6362\>\<#4E00\>\<#5B9A\>\<#5B58\>\<#5728\><math|\<Gamma\><rsup|a><rsub|b>=0>\<#60C5\>\<#51B5\>
 
   <\with|color|brown>
     \<#5750\>\<#6807\>\<#53D8\>\<#6362\><math|<tabular|<tformat|<table|<row|<cell|e<rprime|'><rsub|a>>|<cell|=>|<cell|A<rsup|b><rsub|a>e<rsub|b>>>>>>>
@@ -3858,6 +3875,10 @@
   </with>
 
   \;
+
+  <with|font-shape|italic|\<#4EFF\>\<#5C04\>\<#8054\>\<#7EDC\>>\<#FF1A\>\<#8FD9\>\<#91CC\>\<#7684\>\<#7279\>\<#6027\>\<#5C31\>\<#662F\>\<#533A\><math|e<rsub|a>\<assign\>\<partial\><rsub|a>>
+
+  \;
 </body>
 
 <initial|<\collection>
@@ -3911,7 +3932,9 @@
     <associate|auto-8|<tuple|1.3|3>>
     <associate|auto-9|<tuple|1.3.1|4>>
     <associate|footnote-1|<tuple|1|17>>
+    <associate|footnote-2|<tuple|2|?>>
     <associate|footnr-1|<tuple|1|17>>
+    <associate|footnr-2|<tuple|2|?>>
   </collection>
 </references>
 
