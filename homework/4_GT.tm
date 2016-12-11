@@ -5,17 +5,58 @@
 <\body>
   1
 
-  (2)
+  (2) <math|<around*|(|123|)><around*|(|134|)><around*|(|321|)>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|123|)><around*|(|134|)><around*|(|321|)>>|<cell|=>|<cell|<around*|(|231|)><around*|(|134|)><around*|(|321|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|23|)><around*|(|31|)><around*|(|13|)><around*|(|34|)><around*|(|321|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|23|)><around*|(|34|)><around*|(|321|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|23|)><around*|(|4321|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|23|)><around*|(|3214|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|23|)><around*|(|32|)><around*|(|214|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|214|)>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|123|)><around*|(|134|)><around*|(|321|)>>|<cell|=>|<cell|<around*|(|231|)><around*|(|134|)><around*|(|321|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|23|)><around*|(|31|)><around*|(|13|)><around*|(|34|)><around*|(|321|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|23|)><around*|(|34|)><around*|(|321|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|234|)><around*|(|321|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|423|)><around*|(|321|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|42|)><around*|(|23|)><around*|(|32|)><around*|(|21|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|42|)><around*|(|21|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|421|)>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|123|)><around*|(|134|)><around*|(|321|)>>|<cell|=>|<cell|<around*|(|123|)><around*|(|413|)><around*|(|132|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|123|)><around*|(|41|)><around*|(|13|)><around*|(|13|)><around*|(|32|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|123|)><around*|(|41|)><around*|(|32|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|12|)><around*|(|23|)><around*|(|32|)><around*|(|41|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|12|)><around*|(|41|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|21|)><around*|(|14|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|214|)>>>>>
+  </eqnarray*>
 
   (5)
 
   3
 
-  (2)
+  (2) <math|<tabular*|<tformat|<table|<row|<cell|<block*|<tformat|<table|<row|<cell|1>>>>><block*|<tformat|<table|<row|<cell|2>>>>>>>|<row|<cell|<block*|<tformat|<table|<row|<cell|3>>>>><block*|<tformat|<table|<row|<cell|4>>>>>>>>>>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<cal-Y\>>|<cell|=>|<cell|<around*|{|E+<around*|(|12|)>|}><around*|{|E+<around*|(|34|)>|}><around*|{|E-<around*|(|13|)>|}><around*|{|E-<around*|(|24|)>|}>>>>>
+  </eqnarray*>
+
+  \;
 
   (3)
 
   7
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<#6768\>\<#56FE\><htab|5mm><tabular*|<tformat|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|<block*|<tformat|<table|<row|<cell|<space|1.5spc>>>>>><block*|<tformat|<table|<row|<cell|<space|1.5spc>>>>>><block*|<tformat|<table|<row|<cell|<space|1.5spc>>>>>>>>|<row|<cell|<block*|<tformat|<table|<row|<cell|<space|1.5spc>>>>>>>>>>>>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  \<#8BA1\>\<#7B97\>\<#6B63\>\<#5219\>\<#6768\>\<#8868\>\<#7684\>\<#4E2A\>\<#6570\>
+
+  \<#94A9\>\<#5F62\>\<#6570\>\<#8868\> <math|<tabular*|<tformat|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|<block*|<tformat|<table|<row|<cell|4>>>>><block*|<tformat|<table|<row|<cell|2>>>>><block*|<tformat|<table|<row|<cell|1>>>>>>>|<row|<cell|<block*|<tformat|<table|<row|<cell|1>>>>>>>>>>><space|8em><math|d<rsub|<around*|[|3,1|]>><around*|(|S<rsub|4>|)>=<frac|4!|4\<times\>2\<times\>1\<times\>1>=3>
+
+  \<#6B63\>\<#5219\>\<#6768\>\<#8868\>\<#FF1A\>
+
+  <\equation*>
+    \<cal-Y\><rsub|1><tabular*|<tformat|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|<block*|<tformat|<table|<row|<cell|1>>>>><block*|<tformat|<table|<row|<cell|2>>>>><block*|<tformat|<table|<row|<cell|3>>>>>>>|<row|<cell|<block*|<tformat|<table|<row|<cell|4>>>>>>>>>><space|3spc>\<cal-Y\><rsub|2><tabular*|<tformat|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|<block*|<tformat|<table|<row|<cell|1>|<cell|2>|<cell|4>>>>>>>|<row|<cell|<block*|<tformat|<table|<row|<cell|3>>>>>>>>>><space|3spc>\<cal-Y\><rsub|3><tabular*|<tformat|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|<block*|<tformat|<table|<row|<cell|1>|<cell|3>|<cell|4>>>>>>>|<row|<cell|<block*|<tformat|<table|<row|<cell|2>>>>>>>>>>
+  </equation*>
+
+  \<#7A81\>\<#7136\>\<#53D1\>\<#73B0\>\<#4E0D\>\<#77E5\>\<#9053\>\<#6807\>\<#51C6\>\<#57FA\>\<#662F\>\<#4EC0\>\<#4E48\>\<#9B3C\>
+  P224
+
+  \<#6768\>\<#7B97\>\<#7B26\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<cal-Y\><rsub|1>>|<cell|=>|<cell|<around*|{|E+<around*|(|12|)>+<around*|(|13|)>+<around*|(|23|)>+<around*|(|123|)>+<around*|(|132|)>|}><around*|{|E-<around*|(|14|)>|}>>>|<row|<cell|\<cal-Y\><rsub|2>>|<cell|=>|<cell|<around*|{|E+<around*|(|12|)>+<around*|(|14|)>+<around*|(|24|)>+<around*|(|124|)>+<around*|(|142|)>|}><around*|{|E-<around*|(|13|)>|}>>>|<row|<cell|\<cal-Y\><rsub|3>>|<cell|=>|<cell|<around*|{|E+<around*|(|13|)>+<around*|(|14|)>+<around*|(|34|)>+<around*|(|134|)>+<around*|(|143|)>|}><around*|{|E-<around*|(|12|)>|}>>>>>
+  </eqnarray*>
 
   11
 
