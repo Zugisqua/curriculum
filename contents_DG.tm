@@ -3804,7 +3804,9 @@
     \;
   </with>
 
-  <with|color|brown|<subsection|\<#5E73\>\<#884C\>\<#79FB\>\<#52A8\>>>
+  <\with|color|brown>
+    <subsubsection|\<#5E73\>\<#884C\>\<#79FB\>\<#52A8\>>
+  </with>
 
   <\with|color|brown>
     <with|font-shape|italic|\<#5E73\>\<#884C\>\<#622A\>\<#9762\>>\<#FF1A\>\<#5B50\>\<#6D41\>\<#5F62\>\<#7684\>\<#5206\>\<#5E03\>\<#FF0C\>\<#6EE1\>\<#8DB3\><math|\<nabla\>X=0>
@@ -3879,6 +3881,77 @@
   <with|font-shape|italic|\<#4EFF\>\<#5C04\>\<#8054\>\<#7EDC\>>\<#FF1A\>\<#8FD9\>\<#91CC\>\<#7684\>\<#7279\>\<#6027\>\<#5C31\>\<#662F\>\<#533A\><math|e<rsub|a>\<assign\>\<partial\><rsub|a>>
 
   \;
+
+  \;
+
+  <subsection|\<#6320\>\<#7387\>\<#5F20\>\<#91CF\>\<#573A\>>
+
+  \<#6320\>\<#7387\>\<#7B97\>\<#5B50\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|T<around*|(|X,Y|)>>|<cell|=>|<cell|\<nabla\><rsub|X>Y-\<nabla\><rsub|Y>X-<around*|[|X,Y|]>>>>>
+  </eqnarray*>
+
+  \<#6320\>\<#7387\>\<#7684\>2\<#5F62\>\<#5F0F\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<tau\><rsup|c>>|<cell|=>|<cell|\<mathd\>\<theta\><rsup|c>+\<Gamma\><rsup|c><rsub|b>\<wedge\>\<theta\><rsup|b>>>>>
+  </eqnarray*>
+
+  Bianchi\<#6052\>\<#7B49\>\<#5F0F\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>\<tau\><rsup|c>>|<cell|=>|<cell|\<Omega\><rsup|a><rsub|b>\<wedge\>\<theta\><rsup|b>-\<Gamma\><rsup|a><rsub|b>\<wedge\>\<tau\><rsup|b>>>>>
+  </eqnarray*>
+
+  Ricci identity
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|[|\<nabla\><rsub|i>,\<nabla\><rsub|j>|]>>|<cell|=>|<cell|<around*|[|R<rsup|\<cdummy\>><rsub|\<cdummy\>i\<nospace\>j>,\<cdummy\>|]>+T<rsup|l><rsub|i\<nospace\>j>\<nabla\><rsub|l>>>>>
+  </eqnarray*>
+
+  <subsection|\<#534F\>\<#53D8\>\<#5916\>\<#5FAE\>\<#5206\>\<#7B97\>\<#5B50\>>
+
+  \<#5B9A\>\<#4E49\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|D>|<cell|=>|<cell|\<mathd\>+<around*|[|\<Gamma\>,|]>>>>>
+  </eqnarray*>
+
+  \<#5176\>\<#4E2D\>\<#5BF9\>\<#4E8E\>\<#6709\>
+  \<#5F20\>\<#91CF\>\<#6307\>\<#6807\>\<#7684\><math|k>\<#9636\>\<#5FAE\>\<#5206\>\<#5F62\>\<#5F0F\><math|A<rsup|a><rsub|b>,B<rsup|a>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|[|\<Gamma\>,|]>A<rsup|a><rsub|b>>|<cell|=>|<cell|\<Gamma\><rsup|a><rsub|c>\<wedge\>A<rsup|c><rsub|b>+<around*|(|-1|)><rsup|k+1>A<rsup|a><rsub|c>\<wedge\>\<Gamma\><rsup|c><rsub|b>>>|<row|<cell|<around*|[|\<Gamma\>,|]>B<rsup|a>>|<cell|=>|<cell|\<Gamma\><rsup|a><rsub|c>\<wedge\>B<rsup|c>>>>>
+  </eqnarray*>
+
+  \<#7528\>\<#534F\>\<#53D8\>\<#5FAE\>\<#5206\>\<#7B97\>\<#5B50\>\<#8868\>\<#793A\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|1.<htab|5mm>\<Omega\><rsup|a><rsub|b>>|<cell|=>|<cell|D\<Gamma\><rsup|a><rsub|b>>>|<row|<cell|2.<htab|5mm>\<tau\><rsup|a>>|<cell|=>|<cell|D\<theta\><rsup|a>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|3.<htab|5mm>D\<Omega\><rsup|a><rsub|b>>|<cell|=>|<cell|0>>|<row|<cell|4.<htab|5mm>D\<tau\><rsup|a>>|<cell|=>|<cell|\<Omega\><rsup|a><rsub|b>\<wedge\>\<theta\><rsup|b>>>>>
+  </eqnarray*>
+
+  \;
+
+  <with|font-shape|italic|<math|D<rsup|2>>\<#7B97\>\<#5B50\>\<#FF1A\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|D<rsup|2>>|<cell|=>|<cell|<around*|[|\<Omega\>,\<cdummy\>|]>>>>>
+  </eqnarray*>
+
+  \<#5F20\>\<#91CF\>\<#6307\>\<#6807\>\<#7684\><math|k>\<#9636\>\<#5FAE\>\<#5206\>\<#5F62\>\<#5F0F\><math|A<rsup|a><rsub|b>,B<rsup|a>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|[|\<Omega\>,\<cdummy\>|]>A<rsup|a><rsub|b>>|<cell|=>|<cell|\<Omega\><rsup|a><rsub|c>\<wedge\>A<rsup|c><rsub|b>-A<rsup|a><rsub|c>\<wedge\>\<Omega\><rsup|c><rsub|b>>>|<row|<cell|<around*|[|\<Omega\>,\<cdummy\>|]>B<rsup|a>>|<cell|=>|<cell|\<Omega\><rsup|a><rsub|c>\<wedge\>B<rsup|c>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
 </body>
 
 <initial|<\collection>
@@ -3925,7 +3998,9 @@
     <associate|auto-42|<tuple|4.2|60>>
     <associate|auto-43|<tuple|4.2.1|62>>
     <associate|auto-44|<tuple|4.3|?>>
-    <associate|auto-45|<tuple|4.4|?>>
+    <associate|auto-45|<tuple|4.3.1|?>>
+    <associate|auto-46|<tuple|4.4|?>>
+    <associate|auto-47|<tuple|4.5|?>>
     <associate|auto-5|<tuple|1.1.3|3>>
     <associate|auto-6|<tuple|1.2|3>>
     <associate|auto-7|<tuple|1.2.1|3>>
