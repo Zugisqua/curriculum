@@ -22,20 +22,26 @@
   <paragraph|2. >
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<mathd\>y<rsup|k>>|<cell|=>|<cell|\<psi\><rsup|k><rsub|i>\<mathd\>x<rsup|i>>>|<row|<cell|<with|math-font-shape|normal|\<#8BBE\>><htab|5mm>\<theta\>>|<cell|=>|<cell|\<mathd\>y<rsup|k>-\<psi\><rsup|k><rsub|i>\<mathd\>x<rsup|i>>>>>
+    <tformat|<table|<row|<cell|\<mathd\>y<rsup|k>>|<cell|=>|<cell|\<psi\><rsup|k><rsub|i>\<mathd\>x<rsup|i>>>|<row|<cell|<with|math-font-shape|normal|\<#8BBE\>><htab|5mm>\<theta\><rsup|k>>|<cell|=>|<cell|\<mathd\>y<rsup|k>-\<psi\><rsup|k><rsub|i>\<mathd\>x<rsup|i>>>>>
   </eqnarray*>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<mathd\>\<theta\><rsup|k>>|<cell|=>|<cell|-\<mathd\>\<psi\><rsup|k><rsub|i>\<mathd\>x<rsup|i>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|<frac|\<partial\>\<psi\><rsub|i><rsup|k>|\<partial\>x<rsup|j>>\<mathd\>x<rsup|j>+<frac|\<partial\>\<psi\><rsup|k><rsub|i>|\<partial\>y<rsup|\<beta\>>>\<mathd\>y<rsup|\<beta\>>|)><rsub|>\<wedge\>\<mathd\>x<rsup|i>>>|<row|<cell|>|<cell|=>|<cell|-<frac|\<partial\>\<psi\><rsub|i><rsup|k>|\<partial\>x<rsup|j>>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>-<frac|\<partial\>\<psi\><rsub|i><rsup|k>|\<partial\>y<rsup|\<beta\>>>\<mathd\>y<rsup|\<beta\>>\<wedge\>\<mathd\>x<rsup|i>>>>>
+    <tformat|<table|<row|<cell|\<mathd\>\<theta\><rsup|k>>|<cell|=>|<cell|-\<mathd\>\<psi\><rsup|k><rsub|i>\<mathd\>x<rsup|i>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|<frac|\<partial\>\<psi\><rsub|i><rsup|k>|\<partial\>x<rsup|j>>\<mathd\>x<rsup|j>+<frac|\<partial\>\<psi\><rsup|k><rsub|i>|\<partial\>y<rsup|\<beta\>>>\<mathd\>y<rsup|\<beta\>>|)><rsub|>\<wedge\>\<mathd\>x<rsup|i>>>|<row|<cell|>|<cell|=>|<cell|-<frac|\<partial\>\<psi\><rsub|i><rsup|k>|\<partial\>x<rsup|j>>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>-<frac|\<partial\>\<psi\><rsub|i><rsup|k>|\<partial\>y<rsup|\<beta\>>>\<mathd\>y<rsup|\<beta\>>\<wedge\>\<mathd\>x<rsup|i>>>|<row|<cell|>|<cell|=>|<cell|-<frac|\<partial\>\<psi\><rsub|i><rsup|k>|\<partial\>x<rsup|j>>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>-<frac|\<partial\>\<psi\><rsub|i><rsup|k>|\<partial\>y<rsup|\<beta\>>><around*|(|\<theta\><rsup|\<beta\>>+\<psi\><rsup|\<beta\>><rsub|j>\<mathd\>x<rsup|j>|)>\<wedge\>\<mathd\>x<rsup|i>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|<frac|\<partial\>\<psi\><rsup|k><rsub|i>|\<partial\>x<rsup|j>>+<frac|\<partial\>\<psi\><rsub|i><rsup|k>|\<partial\>y<rsup|\<beta\>>>\<psi\><rsup|\<beta\>><rsub|j>|)>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>-<frac|\<partial\>\<psi\><rsup|k><rsub|i>|\<partial\>y<rsup|\<beta\>>>\<theta\><rsup|\<beta\>>\<wedge\>\<mathd\>x<rsup|i>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|2><around*|(|<frac|\<partial\>\<psi\><rsup|k><rsub|i>|\<partial\>x<rsup|j>>+<frac|\<partial\>\<psi\><rsub|i><rsup|k>|\<partial\>y<rsup|\<beta\>>>\<psi\><rsup|\<beta\>><rsub|j>-<frac|\<partial\>\<psi\><rsup|k><rsub|j>|\<partial\>x<rsup|i>>-<frac|\<partial\>\<psi\><rsub|j><rsup|k>|\<partial\>y<rsup|\<beta\>>>\<psi\><rsup|\<beta\>><rsub|i>|)>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>+<frac|\<partial\>\<psi\><rsub|i><rsup|k>|\<partial\>y<rsup|\<beta\>>>\<mathd\>x<rsup|i>\<wedge\>\<theta\><rsup|\<beta\>>>>>>
   </eqnarray*>
 
-  \<#7136\>\<#540E\>
+  \<#5219\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<theta\><rsup|1>\<wedge\>\<ldots\>\<wedge\>\<theta\><rsup|k>\<wedge\>\<ldots\>\<wedge\>\<theta\><rsup|m>\<wedge\>\<mathd\>\<theta\><rsup|k>>|<cell|=>|<cell|<big|wedge><rsub|\<alpha\>=1><rsup|m><around*|(|\<mathd\>y<rsup|\<alpha\>>-\<psi\><rsup|\<alpha\>><rsub|l>\<mathd\>x<rsup|l>|)>\<wedge\><around*|(|-<frac|\<partial\>\<psi\><rsub|i><rsup|k>|\<partial\>x<rsup|j>>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>-<frac|\<partial\>\<psi\><rsub|i><rsup|k>|\<partial\>y<rsup|\<beta\>>>\<mathd\>y<rsup|\<beta\>>\<wedge\>\<mathd\>x<rsup|i>|)>>>|<row|<cell|>|<cell|=>|<cell|<big|wedge><rsup|m><rsub|\<alpha\>=1><around*|(|-<frac|\<partial\>\<psi\><rsup|k><rsub|i>|\<partial\>x<rsup|j>>\<mathd\>y<rsup|\<alpha\>>\<wedge\>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>+\<psi\><rsup|\<alpha\>><rsub|l><frac|\<partial\>\<psi\><rsup|k><rsub|i>|\<partial\>x<rsup|j>>\<mathd\>x<rsup|l>\<wedge\>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i><new-line>-<frac|\<partial\>\<psi\><rsup|k><rsub|i>|\<partial\>y<rsup|\<beta\>>>\<mathd\>y<rsup|\<alpha\>>\<wedge\>\<mathd\>y<rsup|\<beta\>>\<wedge\>\<mathd\>x<rsup|i>+\<psi\><rsup|\<alpha\>><rsub|l><frac|\<partial\>\<psi\><rsup|k><rsub|i>|\<partial\>y<rsup|\<beta\>>>\<mathd\>x<rsup|l>\<wedge\>\<mathd\>y<rsup|\<beta\>>\<wedge\>\<mathd\>x<rsup|i>|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|\<partial\>\<psi\><rsup|k><rsub|i>|\<partial\>x<rsup|j>><around*|(|<big|wedge><rsup|m><rsub|\<alpha\>=1>\<mathd\>y<rsup|\<alpha\>>|)>\<wedge\>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>+<frac|\<partial\>\<psi\><rsub|i><rsup|k>|\<partial\>y<rsup|\<beta\>>>\<psi\><rsup|\<alpha\>><rsub|l><around*|(|<big|wedge><rsup|m><rsub|<below|\<alpha\>=1|\<alpha\>\<neq\>\<beta\>>>\<mathd\>y<rsup|\<alpha\>>|)>\<wedge\>\<mathd\>x<rsup|l>\<wedge\>\<mathd\>y<rsup|\<beta\>>\<wedge\>\<mathd\>x<rsup|i><new-line>+>>>>
+    <tformat|<table|<row|<cell|\<mathd\>\<theta\><rsup|k>\<wedge\>\<theta\><rsup|1>\<wedge\>\<cdots\>\<wedge\>\<theta\><rsup|n>>|<cell|=>|<cell|-<frac|1|2><around*|(|<frac|\<partial\>\<psi\><rsup|k><rsub|i>|\<partial\>x<rsup|j>>+<frac|\<partial\>\<psi\><rsub|i><rsup|k>|\<partial\>y<rsup|\<beta\>>>\<psi\><rsup|\<beta\>><rsub|j>-<frac|\<partial\>\<psi\><rsup|k><rsub|j>|\<partial\>x<rsup|i>>-<frac|\<partial\>\<psi\><rsub|j><rsup|k>|\<partial\>y<rsup|\<beta\>>>\<psi\><rsup|\<beta\>><rsub|i>|)>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i>\<wedge\>\<theta\><rsup|1>\<wedge\>\<cdots\>\<wedge\>\<theta\><rsup|n>>>>>
   </eqnarray*>
 
-  \<#8FD9\>\<#4E2A\>\<#7EF4\>\<#5EA6\>\<#592A\>\<#591A\>\<#4E86\>\<#FF0C\>\<#7406\>\<#4E0D\>\<#6E05\>\<#695A\>
+  \<#5219\>\<#4E3A\>\<#4E86\>\<#6EE1\>\<#8DB3\>\<#53EF\>\<#79EF\>\<#6761\>\<#4EF6\>\<#FF0C\>\<#8981\>\<#6C42\>\<#662F\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<partial\>\<psi\><rsup|k><rsub|i>|\<partial\>x<rsup|j>>+<frac|\<partial\>\<psi\><rsub|i><rsup|k>|\<partial\>y<rsup|\<beta\>>>\<psi\><rsup|\<beta\>><rsub|j>-<frac|\<partial\>\<psi\><rsup|k><rsub|j>|\<partial\>x<rsup|i>>-<frac|\<partial\>\<psi\><rsub|j><rsup|k>|\<partial\>y<rsup|\<beta\>>>\<psi\><rsup|\<beta\>><rsub|i>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  \;
 
   <paragraph|3.><math|X=\<xi\><rsup|i>\<partial\><rsub|i>,w=w<rsub|i>\<mathd\>x<rsup|i>,f\<in\>\<cal-F\><around*|(|M|)>>
 
@@ -353,6 +359,10 @@
   <math|<with|color|black|L<rsub|X><around*|(|w<around*|(|Y,Z|)>|)>=<around*|(|L<rsub|X>w|)><around*|(|Y,Z|)>+w<around*|(|L<rsub|X>Y,Z|)>+w<around*|(|Y,L<rsub|X>Z|)>>>
   \<#7B49\>\<#63A8\>\<#5E7F\>\<#FF0C\>\<#8FD9\>\<#9898\>\<#8FD8\>\<#662F\>\<#7B80\>\<#5355\>\<#7684\>
 
+  <paragraph|9.>
+
+  \;
+
   \;
 
   <paragraph|11>
@@ -396,6 +406,7 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|?>>
+    <associate|auto-10|<tuple|10|?>>
     <associate|auto-2|<tuple|2|?>>
     <associate|auto-3|<tuple|3|?>>
     <associate|auto-4|<tuple|4|?>>
