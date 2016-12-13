@@ -1895,6 +1895,20 @@
 
   a. \<#95EE\>\<#9898\>\<#7B80\>\<#5316\>
   <math|<wide|p|\<vect\>><rsub|1>+<wide|p|\<vect\>><rsub|2>=0>
+  <math|\<Longleftrightarrow\>> \<#8D28\>\<#5FC3\>\<#53C2\>\<#8003\>\<#7CFB\>\<#9009\>\<#53D6\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|m<rsub|1><wide|r|\<vect\>><rsub|1>+m<rsub|2><wide|r|\<vect\>><rsub|2>|m<rsub|1>+m<rsub|2>>>|<cell|=>|<cell|<wide|r|\<vect\>>>>>>
+  </eqnarray*>
+
+  \<#5982\>\<#679C\>\<#9009\>\<#53D6\>\<#4E00\>\<#4E2A\>\<#53C2\>\<#8003\>\<#7CFB\>\<#FF0C\>\<#4F7F\>\<#5F97\><math|<wide|r|\<vect\>>=constant<space|1.5spc>or<space|1.5spc>0>
+  \<#90A3\>\<#4E48\> \<#4E24\>\<#8FB9\>\<#540C\>\<#65F6\>\<#5BF9\>\<#56FA\>\<#6709\>\<#65F6\>\<#6C42\>\<#5BFC\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|1|m<rsub|1>+m<rsub|2>><around*|(|m<rsub|1><frac|\<mathd\><wide|r|\<vect\>><rsub|1>|\<mathd\>\<tau\>>+m<rsub|2><frac|\<mathd\><wide|r|\<vect\>><rsub|2>|\<mathd\>\<tau\>>|)>>|<cell|=>|<cell|0>>|<row|<cell|\<Rightarrow\><htab|5mm><frac|<wide|p|\<vect\>><rsub|1>+<wide|p|\<vect\>><rsub|2>|m<rsub|1>+m<rsub|2>>>|<cell|=>|<cell|0>>|<row|<cell|\<Rightarrow\><htab|5mm><wide|p|\<vect\>><rsub|1>+<wide|p|\<vect\>><rsub|2>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  \<#8FD9\>\<#91CC\>\<#770B\>\<#6210\>\<#662F\>\<#5750\>\<#6807\>\<#7CFB\>\<#7684\>\<#7684\>\<#89C4\>\<#8303\>\<#597D\>\<#4E86\>
 
   i.
 
@@ -2912,7 +2926,7 @@
   <\collection>
     <\associate|toc>
       <with|par-left|<quote|2tab>|1<space|2spc>\<#91CF\>\<#5B50\>Poincare\<#53D8\>\<#6362\><with|color|<quote|black>|\<#4E0E\>\<#79BB\>\<#6563\>\<#5BF9\>\<#79F0\>\<#6027\><assign|footnote-nr|1><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%68D7E80-54F0BF0>|<link|hyperlink|<id|%68D7E80-54F0BF0>|<url|#footnr-1>>|1>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%5690070-42040D0>|<link|hyperlink|<id|%5690070-42040D0>|<url|#footnr-1>>|1>.
         |<hidden|<tuple|footnote-1>><htab|0fn|first>>
           Weinberg
         </surround>>>
@@ -2933,7 +2947,7 @@
       <no-break><pageref|auto-4>>
 
       <with|par-left|<quote|2tab>|1.3<space|2spc><with|font-series|<quote|bold>|\<#65E0\>\<#8D28\>\<#91CF\>\<#534F\>\<#53D8\>\<#89C4\>\<#8303\>\<#91CF\>\<#5B50\>\<#5316\>><assign|footnote-nr|4><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%68D7E80-5172910>|<link|hyperlink|<id|%68D7E80-5172910>|<url|#footnr-4>>|4>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%5690070-46C9B00>|<link|hyperlink|<id|%5690070-46C9B00>|<url|#footnr-4>>|4>.
         |<hidden|<tuple|footnote-4>><htab|0fn|first>>
           Greiner[1996]
         </surround>>>
