@@ -76,18 +76,6 @@
     <tformat|<cwith|2|2|2|2|cell-halign|c>|<table|<row|<cell|b<rsub|11>=\<cal-Y\><rsub|1><htab|5mm>>|<cell|b<rsub|12>=R<rsub|12>\<cal-Y\><rsub|2>=<around*|(|34|)>\<cal-Y\><rsub|2>>|<cell|<htab|5mm>b<rsub|13>=R<rsub|13>\<cal-Y\><rsub|3>=<around*|(|432|)>\<cal-Y\><rsub|3>>>|<row|<cell|b<rsub|21>=R<rsub|21>\<cal-Y\><rsub|1>=<around*|(|34|)>\<cal-Y\><rsub|1><htab|5mm>>|<cell|b<rsub|22>=\<cal-Y\><rsub|2>>|<cell|<htab|5mm>b<rsub|23>=R<rsub|23>\<cal-Y\><rsub|3>=<around*|(|23|)>\<cal-Y\><rsub|3>>>|<row|<cell|b<rsub|31>=R<rsub|31>\<cal-Y\><rsub|1>=<around*|(|234|)>\<cal-Y\><rsub|1>=<around*|(|42|)>\<cal-Y\><rsub|1><htab|5mm>>|<cell|b<rsub|32>=R<rsub|32>\<cal-Y\><rsub|2>=<around*|(|23|)>\<cal-Y\><rsub|2>>|<cell|<htab|5mm>b<rsub|33>=\<cal-Y\><rsub|3>>>>>
   </eqnarray*>
 
-  \<#5728\><math|b<rsub|\<nu\>1>>\<#5F20\>\<#6210\>\<#7684\>\<#5DE6\>\<#7406\>\<#60F3\><math|\<cal-L\><rsub|1>>\<#4E2D\>\<#7684\>\<#8868\>\<#793A\>
-
-  \<#6768\>\<#7B97\>\<#7B26\>
-
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|\<cal-Y\><rsub|1>>|<cell|=>|<cell|<around*|{|E+<around*|(|12|)>+<around*|(|13|)>+<around*|(|23|)>+<around*|(|123|)>+<around*|(|132|)>|}><around*|{|E-<around*|(|14|)>|}>>>|<row|<cell|>|<cell|=>|<cell|E+<around*|(|12|)>+<around*|(|13|)>+<around*|(|23|)>+<around*|(|123|)>+<around*|(|132|)><new-line>-<around*|(|14|)>-<around*|(|12|)><around*|(|14|)>-<around*|(|13|)><around*|(|14|)>-<around*|(|23|)><around*|(|14|)>-<around*|(|123|)><around*|(|14|)>-<around*|(|132|)><around*|(|14|)>>>|<row|<cell|>|<cell|=>|<cell|E+<around*|(|12|)>+<around*|(|13|)>+<around*|(|23|)>+<around*|(|123|)>+<around*|(|132|)><new-line>-<around*|(|14|)>-<around*|(|24|)>-<around*|(|34|)>-<around*|(|23|)><around*|(|14|)>-<around*|(|231|)><around*|(|14|)>-<around*|(|321|)><around*|(|14|)>>>|<row|<cell|>|<cell|=>|<cell|E+<around*|(|12|)>+<around*|(|13|)>-<around*|(|14|)>+<around*|(|23|)>-<around*|(|24|)>-<around*|(|34|)>+<around*|(|123|)>+<around*|(|321|)>-<around*|(|23|)><around*|(|14|)>-<around*|(|2314|)>-<around*|(|3214|)>>>>>
-  </eqnarray*>
-
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|1.<htab|5mm><around*|(|12|)>b<rsub|11>=<around*|(|12|)>\<cal-Y\><rsub|1>>|<cell|=>|<cell|\<cal-Y\><rsub|1>>>|<row|<cell|2.<htab|5mm><around*|(|12|)>b<rsub|21>=<around*|(|12|)><around*|(|34|)>\<cal-Y\><rsub|1>>|<cell|=>|<cell|<around*|(|34|)><around*|(|12|)>\<cal-Y\><rsub|1>=<around*|(|34|)>\<cal-Y\><rsub|1>=21>>|<row|<cell|3.<htab|5mm><around*|(|12|)>b<rsub|31>=<around*|(|12|)><around*|(|42|)>\<cal-Y\><rsub|1>>|<cell|=>|<cell|<around*|(|124|)>\<cal-Y\><rsub|1>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|41|)>\<cal-Y\><rsub|1>>>>>
-  </eqnarray*>
-
   \;
 
   11
