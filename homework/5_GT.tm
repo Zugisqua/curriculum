@@ -60,7 +60,7 @@
   <paragraph|12.>\<#7701\>\<#7565\>\<#4E0D\>\<#53EF\>\<#7EA6\>\<#8868\>\<#793A\>\<#6307\>\<#6807\><math|l>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|<around*|(|d<around*|(|\<theta\>|)><around*|(|I<rsub|3>|)><rsup|2>d<around*|(|\<theta\>|)><rsup|-1>|)><rsub|m\<nospace\>m>>|<cell|=>|<cell|<around*|(|d<around*|(|\<theta\>|)>I<rsub|3>d<around*|(|\<theta\>|)><rsup|-1>d<around*|(|\<theta\>|)>I<rsub|3>d<around*|(|\<theta\>|)><rsup|-1>|)><rsub|m\<nospace\>m>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|I<rsub|j>D<rsup|ad><rsub|j\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>\<comma\>\<theta\>|)>I<rsub|k>D<rsup|ad><rsub|k\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>|)><rsub|m\<nospace\>m>>>|<row|<cell|>|<cell|=>|<cell|D<rsup|ad><rsub|j\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>D<rsup|ad><rsub|k\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>Tr<around*|(|I<rsub|j>I<rsub|k>|)>>>|<row|<cell|>|<cell|=>|<cell|D<rsup|ad><rsub|j\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>D<rsup|ad><rsub|k\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>Tr<around*|(|<around*|{|I<rsub|j>,I<rsub|k>|}>|)>>>|<row|<cell|>|<cell|=>|<cell|D<rsup|ad><rsub|j\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>D<rsup|ad><rsub|k\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>Tr<around*|(|\<delta\><rsub|j\<nospace\>k>\<bbb-I\>|)>>>|<row|<cell|>|<cell|=>|<cell|3D<rsup|ad><rsub|j\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>D<rsup|ad><rsub|j\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>>>|<row|<cell|>|<cell|=>|<cell|3D<rsup|ad><rsub|3\<nospace\>j><around*|(|<wide|e|\<vect\>><rsub|2>,-\<theta\>|)>D<rsup|ad><rsub|j\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>>>|<row|<cell|>|<cell|=>|<cell|3\<nospace\>\<bbb-I\><rsub|33>>>|<row|<cell|>|<cell|=>|<cell|3>>>>
+    <tformat|<table|<row|<cell|<around*|(|d<around*|(|\<theta\>|)><around*|(|I<rsub|3>|)><rsup|2>d<around*|(|\<theta\>|)><rsup|-1>|)><rsub|m\<nospace\>m>>|<cell|=>|<cell|<around*|(|d<around*|(|\<theta\>|)>I<rsub|3>d<around*|(|\<theta\>|)><rsup|-1>d<around*|(|\<theta\>|)>I<rsub|3>d<around*|(|\<theta\>|)><rsup|-1>|)><rsub|m\<nospace\>m>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|I<rsub|j>D<rsup|ad><rsub|j\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>\<comma\>\<theta\>|)>I<rsub|k>D<rsup|ad><rsub|k\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>|)><rsub|m\<nospace\>m>>>|<row|<cell|>|<cell|=>|<cell|D<rsup|ad><rsub|j\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>D<rsup|ad><rsub|k\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>Tr<around*|(|I<rsub|j>I<rsub|k>|)>>>|<row|<cell|>|<cell|=>|<cell|D<rsup|ad><rsub|3j><around*|(|<wide|e|\<vect\>><rsub|2>,-\<theta\>|)>D<rsup|ad><rsub|k\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>\<delta\><rsub|j\<nospace\>k>T<rsub|2><around*|(|l|)>>>|<row|<cell|>|<cell|=>|<cell|D<rsup|ad><rsub|3\<nospace\>j><around*|(|<wide|e|\<vect\>><rsub|2>,-\<theta\>|)>D<rsup|ad><rsub|j3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>\<times\><frac|l<around*|(|l+1|)><around*|(|2l-1|)>|3>>>|<row|<cell|>|<cell|=>|<cell|<frac|l<around*|(|l+1|)><around*|(|2l-1|)>|3>>>>>
   </eqnarray*>
 </body>
 
@@ -81,8 +81,23 @@
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <with|par-left|<quote|4tab>|9. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|4tab>|7. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|8. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|9. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|10. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-4><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|11. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-5><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|12. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-6><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
