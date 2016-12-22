@@ -5,7 +5,44 @@
 <\body>
   <paragraph|7.>
 
-  <paragraph|8.>
+  \<#5DF2\>\<#77E5\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|1.<htab|5mm>\<psi\><rsup|l><rsub|m><around*|(|x|)>>|<cell|=>|<cell|\<varphi\><rsub|l><around*|(|r|)>Y<rsup|l><rsub|m><around*|(|\<phi\>,\<theta\>|)>>>|<row|<cell|2.<htab|5mm>L<rsub|3>Y<rsup|l><rsub|m><around*|(|\<phi\>,\<theta\>|)>>|<cell|=>|<cell|m\<nospace\>Y<rsup|l><rsub|m><around*|(|\<phi\>,\<theta\>|)>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<#7531\><htab|5mm><wide|m|^>=<matrix|<tformat|<table|<row|<cell|<frac|1|<sqrt|2>>>>|<row|<cell|<frac|1|<sqrt|2>>>>|<row|<cell|0>>>>>>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|<around|cos|\<phi\>|><around|sin|\<theta\>|>>>|<row|<cell|<around|sin|\<phi\>|><around|sin|\<theta\>|>>>|<row|<cell|<around|cos|\<theta\>|>>>>>>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<choice|<tformat|<table|<row|<cell|\<phi\>>|<cell|=>|<cell|<frac|\<pi\>|4>>>|<row|<cell|\<theta\>>|<cell|=>|<cell|<frac|\<pi\>|2>>>>>>>>>>
+  </eqnarray*>
+
+  <math|<wide|m|^>\<#65B9\>\<#5411\>\<#7684\>\<#89D2\>\<#52A8\>\<#91CF\>\<#FF1A\>L=S\<nospace\><around*|(|\<phi\>,\<theta\>|)>L<rsub|3>S<rsup|-1><around*|(|\<phi\>,\<theta\>|)>>
+
+  \<#5219\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|S\<nospace\>L<rsub|3>Y<rsup|l><rsub|m><around*|(|\<phi\>,\<theta\>|)>>|<cell|=>|<cell|S\<nospace\>m\<nospace\>Y<rsup|l><rsub|m><around*|(|\<phi\>,\<theta\>|)>>>|<row|<cell|S\<nospace\>L<rsub|3>S<rsup|-1>S\<nospace\>Y<rsup|l><around*|(|\<phi\>,\<theta\>|)>>|<cell|=>|<cell|m\<nospace\>S\<nospace\>Y<rsup|l><rsub|m><around*|(|\<phi\>,\<theta\>|)>>>|<row|<cell|L<around*|(|S<around*|(|<frac|\<pi\>|4>,<frac|\<pi\>|2>|)>\<nospace\>Y<rsup|l><around*|(|\<phi\>,\<theta\>|)>|)>>|<cell|=>|<cell|m<around*|(|S<around*|(|<frac|\<pi\>|4>,<frac|\<pi\>|2>|)>Y<rsup|l><rsub|m><around*|(|\<phi\>,\<theta\>|)>|)>>>>>
+  </eqnarray*>
+
+  \<#5373\>\<#5F97\>\<#5230\>\<#6EE1\>\<#8DB3\>\<#8981\>\<#6C42\>\<#7684\>\<#672C\>\<#5F81\>\<#51FD\>\<#6570\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|S<around*|(|<frac|\<pi\>|4>,<frac|\<pi\>|2>|)>Y<rsup|l><rsub|m><around*|(|\<phi\>,\<theta\>|)>>|<cell|=>|<cell|R<around*|(|<wide|e|\<vect\>><rsub|3>,<frac|\<pi\>|4>|)>R<around*|(|<wide|e|\<vect\>><rsub|2>,<frac|\<pi\>|2>|)>Y<rsup|l><rsub|m><around*|(|\<phi\>,\<theta\>|)>>>>>
+  </eqnarray*>
+
+  <paragraph|8.>\<#5DF2\>\<#77E5\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|L<rsub|3>\<psi\><rsup|l><rsub|m><around*|(|x|)>>|<cell|=>|<cell|m\<psi\><rsup|l><rsub|m><around*|(|x|)>>>>>
+  </eqnarray*>
+
+  <math|<wide|e|\<vect\>><rsub|2>>\<#65B9\>\<#5411\>\<#7684\>\<#89D2\>\<#52A8\>\<#91CF\>
+  <math|L=S<around*|(|<frac|\<pi\>|2>,<frac|\<pi\>|2>|)>L<rsub|3>S<rsup|-1><around*|(|<frac|\<pi\>|2>,<frac|\<pi\>|2>|)>>\<#FF0C\>\<#7531\>\<#4E0A\>\<#4E00\>\<#9898\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|L<around*|(|S\<nospace\>\<psi\><rsup|l><rsub|m><around*|(|x|)>|)>>|<cell|=>|<cell|m<around*|(|S\<psi\><rsup|l><rsub|m><around*|(|x|)>|)>>>>>
+  </eqnarray*>
+
+  \;
 
   <paragraph|9.>(1)
 
@@ -60,7 +97,7 @@
   <paragraph|12.>\<#7701\>\<#7565\>\<#4E0D\>\<#53EF\>\<#7EA6\>\<#8868\>\<#793A\>\<#6307\>\<#6807\><math|l>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|<around*|(|d<around*|(|\<theta\>|)><around*|(|I<rsub|3>|)><rsup|2>d<around*|(|\<theta\>|)><rsup|-1>|)><rsub|m\<nospace\>m>>|<cell|=>|<cell|<around*|(|d<around*|(|\<theta\>|)>I<rsub|3>d<around*|(|\<theta\>|)><rsup|-1>d<around*|(|\<theta\>|)>I<rsub|3>d<around*|(|\<theta\>|)><rsup|-1>|)><rsub|m\<nospace\>m>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|I<rsub|j>D<rsup|ad><rsub|j\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>\<comma\>\<theta\>|)>I<rsub|k>D<rsup|ad><rsub|k\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>|)><rsub|m\<nospace\>m>>>|<row|<cell|>|<cell|=>|<cell|D<rsup|ad><rsub|j\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>D<rsup|ad><rsub|k\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>Tr<around*|(|I<rsub|j>I<rsub|k>|)>>>|<row|<cell|>|<cell|=>|<cell|D<rsup|ad><rsub|3j><around*|(|<wide|e|\<vect\>><rsub|2>,-\<theta\>|)>D<rsup|ad><rsub|k\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>\<delta\><rsub|j\<nospace\>k>T<rsub|2><around*|(|l|)>>>|<row|<cell|>|<cell|=>|<cell|D<rsup|ad><rsub|3\<nospace\>j><around*|(|<wide|e|\<vect\>><rsub|2>,-\<theta\>|)>D<rsup|ad><rsub|j3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>\<times\><frac|l<around*|(|l+1|)><around*|(|2l-1|)>|3>>>|<row|<cell|>|<cell|=>|<cell|<frac|l<around*|(|l+1|)><around*|(|2l-1|)>|3>>>>>
+    <tformat|<table|<row|<cell|<around*|(|d<around*|(|\<theta\>|)><around*|(|I<rsub|3>|)><rsup|2>d<around*|(|\<theta\>|)><rsup|-1>|)><rsub|m\<nospace\>m>>|<cell|=>|<cell|<around*|(|d<around*|(|\<theta\>|)>I<rsub|3>d<around*|(|\<theta\>|)><rsup|-1>d<around*|(|\<theta\>|)>I<rsub|3>d<around*|(|\<theta\>|)><rsup|-1>|)><rsub|m\<nospace\>m>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|I<rsub|j>D<rsup|ad><rsub|j\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>\<comma\>\<theta\>|)>I<rsub|k>D<rsup|ad><rsub|k\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>|)><rsub|m\<nospace\>m>>>|<row|<cell|>|<cell|=>|<cell|D<rsub|j\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>D<rsub|k\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>Tr<around*|(|I<rsub|j>I<rsub|k>|)>>>|<row|<cell|>|<cell|=>|<cell|D<rsub|3j><around*|(|<wide|e|\<vect\>><rsub|2>,-\<theta\>|)>D<rsub|k\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>\<delta\><rsub|j\<nospace\>k>T<rsub|2><around*|(|l|)>>>|<row|<cell|>|<cell|=>|<cell|D<rsub|3\<nospace\>j><around*|(|<wide|e|\<vect\>><rsub|2>,-\<theta\>|)>D<rsub|j3><around*|(|<wide|e|\<vect\>><rsub|2>,\<theta\>|)>\<times\><frac|l<around*|(|l+1|)><around*|(|2l-1|)>|3>>>|<row|<cell|>|<cell|=>|<cell|D<rsub|3\<nospace\>3><around*|(|<wide|e|\<vect\>><rsub|2>,0|)><frac|l<around*|(|l+1|)><around*|(|2l-1|)>|3>>>|<row|<cell|>|<cell|=>|<cell|<frac|l<around*|(|l+1|)><around*|(|2l-1|)>|3>>>>>
   </eqnarray*>
 </body>
 
