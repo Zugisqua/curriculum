@@ -445,7 +445,7 @@
   <math|1+2\<rightarrow\>A+B>, \<#53D6\>\<#8D28\>\<#5FC3\>\<#53C2\>\<#8003\>\<#7CFB\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|<frac|\<mathd\>\<sigma\>|\<mathd\>\<Omega\><rsub|A>>>|<cell|=>|<cell|<frac|1|64\<pi\><rsup|2>><frac|1|<around*|(|E<rsub|2>+E<rsub|1>|)><rsup|2>><frac|<around*|\||<embold|p><rsub|A>|\|>|<around*|\||<embold|p><rsub|1>|\|>><around*|\||M<rsub|\<beta\>\<alpha\>>|\|><rsup|2>>>|<row|<cell|>|<cell|>|<cell|\<#5176\>\<#4E2D\><space|1.5spc>\<mathd\>\<Omega\><rsub|A>=<around|sin|\<theta\><rsub|A>|>\<mathd\>\<theta\><rsub|A>\<mathd\>\<phi\><rsub|A>=2\<pi\>\<mathd\><around|cos|\<theta\><rsub|A>|>>>>>
+    <tformat|<table|<row|<cell|\<mathd\>\<sigma\>>|<cell|=>|<cell|<frac|<around*|\||M<rsub|\<beta\>\<alpha\>>|\|><rsup|2>|4E<rsub|1>E<rsub|2><around*|\||<wide|\<upsilon\>|\<vect\>><rsub|1>-<wide|\<upsilon\>|\<vect\>><rsub|2>|\|>>\<mathd\>\<Phi\><rsub|2>>>|<row|<cell|>|<cell|=>|<cell|<frac||><frac|<around*|\||M<rsub|\<beta\>\<alpha\>>|\|><rsup|2>|4<around*|\||<embold|p><rsub|1>|\|><around*|(|E<rsub|1>+E<rsub|2>|)>><frac|<around*|\||<embold|p><rsub|A>|\|>|16\<pi\><rsup|2><around*|(|E<rsub|1>+E<rsub|2>|)>>\<mathd\>\<Omega\><rsub|A>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|64\<pi\><rsup|2>><frac|1|<around*|(|E<rsub|2>+E<rsub|1>|)><rsup|2>><frac|<around*|\||<embold|p><rsub|A>|\|>|<around*|\||<embold|p><rsub|1>|\|>><around*|\||M<rsub|\<beta\>\<alpha\>>|\|><rsup|2>\<mathd\>\<Omega\><rsub|A>>>|<row|<cell|>|<cell|>|<cell|\<#5176\>\<#4E2D\><space|1.5spc>\<mathd\>\<Omega\><rsub|A>=<around|sin|\<theta\><rsub|A>|>\<mathd\>\<theta\><rsub|A>\<mathd\>\<phi\><rsub|A>=2\<pi\>\<mathd\><around|cos|\<theta\><rsub|A>|>>>>>
   </eqnarray*>
 
   <subsection|Feynman\<#89C4\>\<#5219\>>
@@ -797,6 +797,30 @@
       <with|par-left|<quote|2tab>|2.<space|1.1fn>\<#4E24\>\<#4F53\>\<#6563\>\<#5C04\>\<#622A\>\<#9762\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-58>>
+
+      <with|par-left|<quote|1tab>|D.<space|1.1fn>Feynman\<#89C4\>\<#5219\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-59>>
+
+      <with|par-left|<quote|2tab>|1.<space|1.1fn>\<#5916\>\<#7EBF\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-60>>
+
+      <with|par-left|<quote|2tab>|2.<space|1.1fn>\<#4F20\>\<#64AD\>\<#5B50\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-61>>
+
+      <with|par-left|<quote|1tab>|E.<space|1.1fn>\<#76F8\>\<#4E92\>\<#4F5C\>\<#7528\>\<#52BF\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-62>>
+
+      <with|par-left|<quote|2tab>|1.<space|1.1fn>Yukawa
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-63>>
+
+      <with|par-left|<quote|2tab>|2.<space|1.1fn>QED
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-64>>
     </associate>
   </collection>
 </auxiliary>
