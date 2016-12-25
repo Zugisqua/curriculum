@@ -406,6 +406,12 @@
   <math|>*\<#5355\>\<#4F4D\>\<#5F20\>\<#91CF\>\<#FF1A\>
   <math|\<delta\><rsup|i<rsub|1>\<ldots\>i<rsub|n>>=<choice|<tformat|<table|<row|<cell|1>|<cell|\<#7F6E\>\<#6362\>>>|<row|<cell|0>|<cell|\<#4E24\>\<#4E2A\>\<#6307\>\<#6807\>\<#76F8\>\<#540C\>>>>>>>
 
+  <subsubsection|\<#975E\>\<#7B97\>\<#7B26\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|:F\<nospace\>G\<nospace\>H:>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
   <subsubsection|\<#73BB\>\<#8272\>\<#5B50\>>
 
   <paragraph|\<#6B63\>\<#5219\>\<#5E8F\>>
@@ -476,11 +482,61 @@
     <tformat|<table|<row|<cell|\<cal-L\><rsub|I>>|<cell|=>|<cell|-e<wide|\<psi\>|\<bar\>>\<gamma\><rsup|\<mu\>>A<rsub|\<mu\>>\<psi\>>>>>
   </eqnarray*>
 
-  \;
+  <section|\<#79BB\>\<#6563\>\<#5BF9\>\<#79F0\>\<#6027\>>
+
+  <subsection|\<#7A7A\>\<#95F4\>\<#53CD\>\<#5C04\>>
+
+  <paragraph|\<#4F5C\>\<#7528\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<cal-P\>\<psi\><around*|(|x|)>\<cal-P\><rsup|-1>>|<cell|=>|<cell|\<gamma\><rsup|0>\<psi\><around*|(|P<rsup|\<mu\>><rsub|\<nu\>>x<rsup|\<nu\>>|)>>>|<row|<cell|\<cal-P\><wide|\<psi\>|\<bar\>><around*|(|x|)>\<cal-P\><rsup|-1>>|<cell|=>|<cell|<wide|\<psi\>|\<bar\>><around*|(|P<rsup|\<mu\>><rsub|\<nu\>>x<rsup|\<nu\>>|)>\<gamma\><rsup|0>>>|<row|<cell|\<cal-P\>a\<cal-P\><rsup|-1>>|<cell|=>|<cell|a>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<#5176\>\<#4E2D\><htab|5mm>P<rsup|\<mu\>><rsub|\<nu\>>>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|1>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|-1>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|-1>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|-1>>>>>>>>>
+  </eqnarray*>
+
+  <subsection|\<#65F6\>\<#95F4\>\<#53CD\>\<#6F14\>>
+
+  <\equation*>
+    T<rprime|\<dag\>>=T<rsup|-1>=T=-T<rprime|\<asterisk\>>
+  </equation*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|T\<gamma\><rsup|\<mu\>><rprime|\<asterisk\>>T<rsup|-1>>|<cell|=>|<cell|<around*|(|-1|)><rsub|\<mu\>>\<gamma\><rsup|\<mu\>>>>>>
+  </eqnarray*>
+
+  <paragraph|\<#4F5C\>\<#7528\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<cal-T\>\<psi\><around*|(|x|)>\<cal-T\><rsup|-1>>|<cell|=>|<cell|T\<psi\><around*|(|T<rsup|\<mu\>><rsub|\<nu\>>x<rsup|\<nu\>>|)>>>|<row|<cell|\<cal-T\><wide|\<psi\>|\<bar\>><around*|(|x|)>\<cal-T\><rsup|-1>>|<cell|=>|<cell|<wide|\<psi\>|\<bar\>><rsub|t><around*|(|T<rsup|\<mu\>><rsub|\<nu\>>x<rsup|\<nu\>>|)>T>>|<row|<cell|\<cal-T\>a\<cal-T\><rsup|-1>>|<cell|=>|<cell|a<rprime|\<asterisk\>>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<#5176\>\<#4E2D\><htab|5mm>T<rsup|\<mu\>><rsub|\<nu\>>>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|-1>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|1>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|1>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|1>>>>>>>|<row|<cell|T>|<cell|=>|<cell|i\<gamma\><rsup|1>\<gamma\><rsup|3>>>>>
+  </eqnarray*>
 
   \;
 
-  \;
+  <subsection|\<#7535\>\<#8377\>\<#5171\>\<#8F6D\>>
+
+  <\equation*>
+    C<rprime|\<dag\>>=C<rsup|-1>=C<rsup|T>=C
+  </equation*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|C\<gamma\><rsup|\<mu\>>C<rsup|-1>>|<cell|=>|<cell|-\<gamma\><rsup|\<mu\>T>>>>>
+  </eqnarray*>
+
+  <paragraph|\<#4F5C\>\<#7528\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<cal-C\>\<psi\>\<cal-C\><rsup|-1>>|<cell|=>|<cell|C<wide|\<psi\>|\<bar\>><rsup|T>>>|<row|<cell|\<cal-C\><wide|\<psi\>|\<bar\>>\<cal-C\><rsup|-1>>|<cell|=>|<cell|-\<psi\><rsup|T>C<rprime|\<dag\>>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<#5176\>\<#4E2D\><htab|5mm>C>|<cell|=>|<cell|i\<gamma\><rsup|2>\<gamma\><rsup|0>>>>>
+  </eqnarray*>
 
   \;
 
@@ -542,22 +598,30 @@
     <associate|auto-49|<tuple|B.|6>>
     <associate|auto-5|<tuple|2.|1>>
     <associate|auto-50|<tuple|1.|6>>
-    <associate|auto-51|<tuple|a.|6>>
-    <associate|auto-52|<tuple|b.|6>>
-    <associate|auto-53|<tuple|2.|6>>
-    <associate|auto-54|<tuple|a.|6>>
-    <associate|auto-55|<tuple|b.|7>>
-    <associate|auto-56|<tuple|C.|7>>
-    <associate|auto-57|<tuple|1.|7>>
-    <associate|auto-58|<tuple|2.|7>>
-    <associate|auto-59|<tuple|D.|?>>
+    <associate|auto-51|<tuple|2.|6>>
+    <associate|auto-52|<tuple|a.|6>>
+    <associate|auto-53|<tuple|b.|6>>
+    <associate|auto-54|<tuple|3.|6>>
+    <associate|auto-55|<tuple|a.|7>>
+    <associate|auto-56|<tuple|b.|7>>
+    <associate|auto-57|<tuple|C.|7>>
+    <associate|auto-58|<tuple|1.|7>>
+    <associate|auto-59|<tuple|2.|?>>
     <associate|auto-6|<tuple|B.|1>>
-    <associate|auto-60|<tuple|1.|?>>
-    <associate|auto-61|<tuple|2.|?>>
-    <associate|auto-62|<tuple|E.|?>>
-    <associate|auto-63|<tuple|1.|?>>
-    <associate|auto-64|<tuple|2.|?>>
+    <associate|auto-60|<tuple|D.|?>>
+    <associate|auto-61|<tuple|1.|?>>
+    <associate|auto-62|<tuple|2.|?>>
+    <associate|auto-63|<tuple|E.|?>>
+    <associate|auto-64|<tuple|1.|?>>
+    <associate|auto-65|<tuple|2.|?>>
+    <associate|auto-66|<tuple|IV.|?>>
+    <associate|auto-67|<tuple|A.|?>>
+    <associate|auto-68|<tuple|a.|?>>
+    <associate|auto-69|<tuple|B.|?>>
     <associate|auto-7|<tuple|II.|2>>
+    <associate|auto-70|<tuple|b.|?>>
+    <associate|auto-71|<tuple|C.|?>>
+    <associate|auto-72|<tuple|c.|?>>
     <associate|auto-8|<tuple|A.|2>>
     <associate|auto-9|<tuple|1.|2>>
   </collection>
