@@ -4499,6 +4499,73 @@
     </eqnarray*>
   </with>
 
+  \V\V\V\U
+
+  \<#6216\>\<#8005\>\<#8003\>\<#8651\>\<#5C06\>\<#6982\>\<#5FF5\>\<#5C01\>\<#88C5\>\<#4E0B\>
+
+  <paragraph|\<#6B63\>\<#5219\>\<#5E8F\>>
+
+  <paragraph|\<#975E\>\<#7B97\>\<#7B26\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|:F\<nospace\>:>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  <paragraph|\<#73BB\>\<#8272\>\<#5B50\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|:\<phi\><rsub|1>\<phi\><rsub|2>\<ldots\>\<phi\><rsub|n>:>|<cell|=>|<cell|<big|sum><rsub|r=0><rsup|n>C<rsub|n><rsup|r><around*|(|\<phi\><rsup|->|)><rsup|r><around*|(|\<phi\><rsup|+>|)><rsup|n-r><space|1.5spc>,<around*|[|C<rsup|r><rsub|n>=<frac|n!|r!<around*|(|r-n|)>!>|]>>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsup|n><rsub|r=0><frac|\<delta\><rsup|i<rsub|1>\<ldots\>i<rsub|n>>|r!<around*|(|r-n|)>!>\<phi\><rsup|-><rsub|i<rsub|1>>\<ldots\>\<phi\><rsup|-><rsub|i<rsub|r>>\<phi\><rsup|+><rsub|i<rsub|r+1>>\<ldots\>\<phi\><rsup|+><rsub|i<rsub|n>>>>>>
+  </eqnarray*>
+
+  <subparagraph|\<#7EBF\>\<#6027\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|:\<phi\><rsub|1>\<phi\><rsub|2>\<ldots\>\<phi\><rsub|r><rsup|\<circ\>>\<ldots\>\<phi\><rsub|k><rsup|\<circ\>>\<ldots\>\<phi\><rsub|n>:>|<cell|=>|<cell|\<phi\><rsub|r><rsup|\<circ\>>\<phi\><rsub|k><rsup|\<circ\>>:\<phi\><rsub|1>\<phi\><rsub|2>\<ldots\><wide|\<phi\>|^><rsub|r>\<ldots\><wide|\<phi\>|^><rsub|k>\<ldots\>\<phi\><rsub|n>:>>|<row|<cell|>|<cell|=>|<cell|<around*|[|\<phi\><rsub|r><rsup|+>,\<phi\><rsub|k><rsup|->|]>:\<phi\><rsub|1>\<phi\><rsub|2>\<ldots\><wide|\<phi\>|^><rsub|r>\<ldots\><wide|\<phi\>|^><rsub|k>\<ldots\>\<phi\><rsub|n>:>>|<row|<cell|>|<cell|>|<cell|where<space|1.5spc>r\<less\>k>>>>
+  </eqnarray*>
+
+  \<#5BF9\>\<#6BD4\> <math|:\<phi\><rsub|1>\<phi\><rsub|2>\<ldots\>\<phi\><rsub|n>:>\<#548C\>
+  <math|:\<phi\><rsub|1>\<phi\><rsub|2>\<ldots\>\<phi\><rsub|r><rsup|\<circ\>>\<ldots\>\<phi\><rsub|k><rsup|\<circ\>>\<ldots\>\<phi\><rsub|n>:>
+  \<#4E24\>\<#8005\>\<#4F3C\>\<#4E4E\>\<#4E0D\>\<#662F\>\<#5F88\>\<#76F4\>\<#63A5\>\<#5730\>\<#901A\>\<#8FC7\>\<#8BA1\>\<#7B97\>\<#5F97\>\<#5230\>\<#7684\>,
+  \<#8981\>\<#7B97\>\<#7684\>\<#8BDD\> \<#8FD8\>\<#5F97\>\<#662F\>\<#6B63\>\<#8D1F\>\<#9891\>\<#90E8\>\<#5206\>\<#5C55\>\<#5F00\>\<#90A3\>\<#4E48\>\<#7B97\>
+
+  <paragraph|\<#8D39\>\<#7C73\>\<#5B50\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|:\<psi\><rsub|1>\<psi\><rsub|2>\<ldots\>\<psi\><rsub|n>:>|<cell|=>|<cell|<big|sum><rsup|n><rsub|r=0><frac|\<epsilon\><rsup|i<rsub|1>\<ldots\>i<rsub|n>>|r!<around*|(|r-n|)>!>\<psi\><rsup|-><rsub|i<rsub|1>>\<ldots\>\<psi\><rsup|-><rsub|i<rsub|r>>\<psi\><rsup|+><rsub|i<rsub|r+1>>\<ldots\>\<psi\><rsup|+><rsub|i<rsub|n>>>>>>
+  </eqnarray*>
+
+  <subparagraph|\<#7EBF\>\<#6027\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<#FF1A\>\<psi\><rsub|1>\<psi\><rsub|2>\<ldots\>\<psi\><rsub|r><rsup|\<circ\>>\<ldots\>\<psi\><rsub|k><rsup|\<circ\>>\<ldots\>\<psi\><rsub|n>:>|<cell|=>|<cell|<around*|(|-1|)><rsup|r+k-3>\<psi\><rsub|r><rsup|\<circ\>>\<psi\><rsub|k><rsup|\<circ\>>:\<psi\><rsub|1>\<psi\><rsub|2>\<ldots\><wide|\<psi\>|^><rsub|r>\<ldots\><wide|\<psi\>|^><rsub|k>\<ldots\>\<psi\><rsub|n>:>>>>
+  </eqnarray*>
+
+  <paragraph|\<#65F6\>\<#95F4\>\<#5E8F\>>
+
+  1.\ 
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|T<around*|(|:\<Phi\><rsub|1>\<Phi\><rsub|2>\<ldots\>\<Phi\><rsub|n>:|)>>|<cell|=>|<cell|:\<Phi\><rsub|1>\<Phi\><rsub|2>\<ldots\>\<Phi\><rsub|n>:>>>>
+  </eqnarray*>
+
+  2.
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|T<around*|(|<around*|[|\<Phi\><rsup|+><around*|(|x|)>,\<Phi\><rsup|-><around*|(|y|)>|]>|)>>|<cell|=>|<cell|G<rsub|F><around*|(|x-y|)>>>>>
+  </eqnarray*>
+
+  3.\ 
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|T<around*|(|:\<Phi\><rsub|1>\<Phi\><rsub|2>\<ldots\>\<Phi\><rsub|r><rsup|\<circ\>>\<ldots\>\<Phi\><rsup|\<circ\>><rsub|k>\<ldots\>\<Phi\><rsub|n>:|)>>|<cell|=>|<cell|G<around*|(|x<rsub|r>-x<rsub|y>|)>:\<Phi\><rsub|1>\<Phi\><rsub|2>\<ldots\><wide|\<Phi\>|^><rsub|r>\<ldots\><wide|\<Phi\>|^><rsub|k>\<ldots\>\<Phi\><rsub|n>:>>>>
+  </eqnarray*>
+
+  \<#76EE\>\<#524D\>\<#8FD9\>\<#4E2A\>\<#53EA\>\<#662F\>\<#731C\>\<#60F3\>,\<#8FD8\>\<#9700\>\<#8981\>\<#8FDB\>\<#4E00\>\<#6B65\>\<#8BC1\>\<#660E\>\<#624D\>\<#597D\>,\<#597D\>\<#50CF\>\<#4E0D\>\<#592A\>\<#5BF9\>-
+  -\<#5982\>\<#679C\>\<#8003\>\<#8651\>\<#6DF7\>\<#5408\>\<#573A\>
+  <math|A<rsub|\<mu\>>,\<psi\>,\<phi\>>\<#4E4B\>\<#7C7B\>
+
+  \;
+
   <\with|color|red>
     \<#4F5C\>\<#4E1A\>\<#FF1A\>
 
@@ -5537,13 +5604,20 @@
     <associate|auto-62|<tuple|5.2.2|?>>
     <associate|auto-63|<tuple|5.3|?>>
     <associate|auto-64|<tuple|5.4|?>>
-    <associate|auto-65|<tuple|5.5|?>>
-    <associate|auto-66|<tuple|5.5.1|?>>
-    <associate|auto-67|<tuple|5.5.2|?>>
-    <associate|auto-68|<tuple|5.5.3|?>>
-    <associate|auto-69|<tuple|5.5.4|?>>
+    <associate|auto-65|<tuple|5.4.0.1|?>>
+    <associate|auto-66|<tuple|5.4.0.2|?>>
+    <associate|auto-67|<tuple|5.4.0.3|?>>
+    <associate|auto-68|<tuple|5.4.0.3.1|?>>
+    <associate|auto-69|<tuple|5.4.0.4|?>>
     <associate|auto-7|<tuple|1.1.4.1|3>>
-    <associate|auto-70|<tuple|5.6|?>>
+    <associate|auto-70|<tuple|5.4.0.4.1|?>>
+    <associate|auto-71|<tuple|5.4.0.5|?>>
+    <associate|auto-72|<tuple|5.5|?>>
+    <associate|auto-73|<tuple|5.5.1|?>>
+    <associate|auto-74|<tuple|5.5.2|?>>
+    <associate|auto-75|<tuple|5.5.3|?>>
+    <associate|auto-76|<tuple|5.5.4|?>>
+    <associate|auto-77|<tuple|5.6|?>>
     <associate|auto-8|<tuple|1.1.5|3>>
     <associate|auto-9|<tuple|1.1.6|6>>
     <associate|footnote-1|<tuple|1|?>>
@@ -5663,7 +5737,7 @@
       <no-break><pageref|auto-24><vspace|0.5fn>
 
       <with|par-left|<quote|1tab>|2.1<space|2spc>Klein-Golden\<#573A\><assign|footnote-nr|1><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%6949A90-54FACF0>|<link|hyperlink|<id|%6949A90-54FACF0>|<url|#footnr-1>>|1>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%6467D40-4EEB9A0>|<link|hyperlink|<id|%6467D40-4EEB9A0>|<url|#footnr-1>>|1>.
         |<hidden|<tuple|footnote-1>><htab|0fn|first>>
           Mandl F. ,Shaw G. Quantum field theory
         </surround>>>
@@ -5730,7 +5804,7 @@
       <no-break><pageref|auto-40>>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>\<#91CF\>\<#5B50\>Poincare\<#53D8\>\<#6362\><with|color|<quote|black>|\<#4E0E\>\<#79BB\>\<#6563\>\<#5BF9\>\<#79F0\>\<#6027\><assign|footnote-nr|5><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%6949A90-545F1A0>|<link|hyperlink|<id|%6949A90-545F1A0>|<url|#footnr-5>>|5>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%6467D40-3BE9A70>|<link|hyperlink|<id|%6467D40-3BE9A70>|<url|#footnr-5>>|5>.
         |<hidden|<tuple|footnote-5>><htab|0fn|first>>
           Weinberg
         </surround>>>
@@ -5773,7 +5847,7 @@
       <no-break><pageref|auto-49>>
 
       <with|par-left|<quote|1tab>|4.2<space|2spc><with|font-series|<quote|bold>|\<#65E0\>\<#8D28\>\<#91CF\>\<#534F\>\<#53D8\>\<#89C4\>\<#8303\>\<#91CF\>\<#5B50\>\<#5316\>><assign|footnote-nr|8><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%6949A90-4DA9760>|<link|hyperlink|<id|%6949A90-4DA9760>|<url|#footnr-8>>|8>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%6467D40-5312AC0>|<link|hyperlink|<id|%6467D40-5312AC0>|<url|#footnr-8>>|8>.
         |<hidden|<tuple|footnote-8>><htab|0fn|first>>
           Greiner[1996]
         </surround>>>
