@@ -4003,6 +4003,13 @@
     <tformat|<table|<row|<cell|\<nabla\>G>|<cell|=>|<cell|\<nabla\><around*|(|g<rsub|\<mu\>\<nu\>>\<mathd\>x<rsup|\<mu\>>\<otimes\>\<mathd\>x<rsup|\<nu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|\<nabla\>g<rsub|\<mu\>\<nu\>>\<mathd\>x<rsup|\<mu\>>\<otimes\>\<mathd\>x<rsup|\<nu\>>+g<rsub|\<mu\>\<nu\>>\<nabla\>\<mathd\>x<rsup|\<mu\>>\<otimes\>\<mathd\>x<rsup|\<nu\>>+g<rsub|\<mu\>\<nu\>>\<mathd\>x<rsup|\<mu\>>\<otimes\>\<nabla\>\<mathd\>x<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>g<rsub|\<mu\>\<nu\>>\<otimes\>\<mathd\>x<rsup|\<mu\>>\<otimes\>\<mathd\>x<rsup|\<nu\>>+g<rsub|\<mu\>\<nu\>><around*|(|-\<Gamma\><rsup|\<mu\>><rsub|\<lambda\>>\<otimes\>\<mathd\>x<rsup|\<lambda\>>\<otimes\>\<mathd\>x<rsup|\<nu\>>|)>+g<rsub|\<mu\>\<nu\>>\<mathd\>x<rsup|\<mu\>>\<otimes\><around*|(|-\<Gamma\><rsup|\<nu\>><rsub|\<lambda\>>\<otimes\>\<mathd\>x<rsup|\<lambda\>>|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>\<mathd\>x<rsup|\<rho\>>\<otimes\>\<mathd\>x<rsup|\<mu\>>\<otimes\>\<mathd\>x<rsup|\<nu\>>-\<Gamma\><rsup|\<mu\>><rsub|\<rho\>\<lambda\>>g<rsub|\<mu\>\<nu\>>\<mathd\>x<rsup|\<rho\>>\<otimes\>\<mathd\>x<rsup|\<lambda\>>\<otimes\>\<mathd\>x<rsup|\<nu\>>-\<Gamma\><rsub|\<rho\>\<lambda\>><rsup|\<nu\>>g<rsub|\<mu\>\<nu\>>\<mathd\>x<rsup|\<mu\>>\<otimes\>\<mathd\>x<rsup|\<rho\>>\<otimes\>\<mathd\>x<rsup|\<lambda\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<rho\>\<mu\>>g<rsub|\<lambda\>\<nu\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<nu\>>g<rsub|\<rho\>\<lambda\>>|)>\<mathd\>x<rsup|\<rho\>>\<otimes\>\<mathd\>x<rsup|\<mu\>>\<otimes\>\<mathd\>x<rsup|\<nu\>>>>>>
   </eqnarray*>
 
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<Rightarrow\><htab|5mm>\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<rho\>\<mu\>>g<rsub|\<lambda\>\<nu\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<nu\>>g<rsub|\<rho\>\<lambda\>>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  \<#7136\>\<#800C\>\<#6B63\>\<#786E\>\<#7684\>\<#7ED3\>\<#679C\>\<#5E94\>\<#8BE5\>\<#662F\><space|1em><math|\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<rho\>\<mu\>>g<rsub|\<lambda\>\<nu\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<rho\>\<nu\>>g<rsub|\<mu\>\<lambda\>>><space|1em>\<#5B8C\>\<#5168\>\<#4E0D\>\<#6E05\>\<#695A\>\<#54EA\>\<#91CC\>\<#51FA\>\<#95EE\>\<#9898\>-
+  -
+
   2.\ 
 
   <\eqnarray*>
