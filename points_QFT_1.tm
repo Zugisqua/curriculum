@@ -367,7 +367,7 @@
   <paragraph|\<#8D39\>\<#66FC\>\<#4F20\>\<#64AD\>\<#5B50\>>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|D<rsup|\<mu\>\<nu\>><rsub|F><around*|(|x-y|)>>|<cell|=>|<cell|\<Theta\><around*|(|x<rsup|0>-y<rsup|0>|)><around|\<langle\>|0|\|>A<rsup|\<mu\>><around*|(|x|)>A<rsup|\<nu\>><around*|(|y|)><around|\||0|\<rangle\>>+\<Theta\><around*|(|y<rsup|0>-x<rsup|0>|)><around|\<langle\>|0|\|>A<rsup|\<nu\>><around*|(|x|)>A<rsup|\<mu\>><around*|(|y|)><around|\||0|\<rangle\>>>>|<row|<cell|>|<cell|\<assign\>>|<cell|<around|\<langle\>|0|\|>T<around*|(|A<rsup|\<mu\>><around*|(|x|)>A<rsup|\<nu\>><around*|(|y|)>|)><around|\||0|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|-g<rsup|\<mu\>\<nu\>>D<rsub|F><around*|(|x-y|)>=<big|int><frac|\<mathd\><rsup|3>k|<around*|(|2\<pi\>|)><rsup|3>><frac|-i\<nospace\>g<rsub|\<mu\>\<nu\>>|k<rsup|2>+i\<epsilon\>>e<rsup|-i\<nospace\>k<around*|(|x-y|)>>>>>>
+    <tformat|<table|<row|<cell|D<rsup|\<mu\>\<nu\>><rsub|F><around*|(|x-y|)>>|<cell|=>|<cell|\<Theta\><around*|(|x<rsup|0>-y<rsup|0>|)><around|\<langle\>|0|\|>A<rsup|\<mu\>><around*|(|x|)>A<rsup|\<nu\>><around*|(|y|)><around|\||0|\<rangle\>>+\<Theta\><around*|(|y<rsup|0>-x<rsup|0>|)><around|\<langle\>|0|\|>A<rsup|\<nu\>><around*|(|x|)>A<rsup|\<mu\>><around*|(|y|)><around|\||0|\<rangle\>>>>|<row|<cell|>|<cell|\<assign\>>|<cell|<around|\<langle\>|0|\|>T<around*|(|A<rsup|\<mu\>><around*|(|x|)>A<rsup|\<nu\>><around*|(|y|)>|)><around|\||0|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|-g<rsup|\<mu\>\<nu\>>D<rsub|F><around*|(|x-y|)>=<big|int><frac|\<mathd\><rsup|4>k|<around*|(|2\<pi\>|)><rsup|4>><frac|-i\<nospace\>g<rsub|\<mu\>\<nu\>>|k<rsup|2>+i\<epsilon\>>e<rsup|-i\<nospace\>k<around*|(|x-y|)>>>>>>
   </eqnarray*>
 
   <section|\<#76F8\>\<#4E92\>\<#4F5C\>\<#7528\>\<#7406\>\<#8BBA\>>
@@ -473,7 +473,7 @@
   <subsubsection|\<#4F20\>\<#64AD\>\<#5B50\>>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|A<rsup|\<circ\>><around*|(|x|)>B<rsup|\<circ\>><around*|(|x|)>>|<cell|=>|<cell|G<around*|(|x-y|)>=<big|int><frac|\<mathd\><rsup|4>p|<around*|(|2\<pi\>|)><rsup|3>><around*|{|G<around*|(|p|)>e<rsup|-i\<nospace\>p<around*|(|x-y|)>>|}>>>>>
+    <tformat|<table|<row|<cell|A<rsup|\<circ\>><around*|(|x|)>B<rsup|\<circ\>><around*|(|x|)>>|<cell|=>|<cell|G<around*|(|x-y|)>=<big|int><frac|\<mathd\><rsup|4>p|<around*|(|2\<pi\>|)><rsup|4>><around*|{|G<around*|(|p|)>e<rsup|-i\<nospace\>p<around*|(|x-y|)>>|}>>>>>
   </eqnarray*>
 
   <subsection|\<#76F8\>\<#4E92\>\<#4F5C\>\<#7528\>\<#52BF\>>
