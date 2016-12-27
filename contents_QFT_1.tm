@@ -5737,7 +5737,7 @@
       <no-break><pageref|auto-24><vspace|0.5fn>
 
       <with|par-left|<quote|1tab>|2.1<space|2spc>Klein-Golden\<#573A\><assign|footnote-nr|1><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%77FB580-5769BB0>|<link|hyperlink|<id|%77FB580-5769BB0>|<url|#footnr-1>>|1>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%6D36CF0-57FBA00>|<link|hyperlink|<id|%6D36CF0-57FBA00>|<url|#footnr-1>>|1>.
         |<hidden|<tuple|footnote-1>><htab|0fn|first>>
           Mandl F. ,Shaw G. Quantum field theory
         </surround>>>
@@ -5804,7 +5804,7 @@
       <no-break><pageref|auto-40>>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>\<#91CF\>\<#5B50\>Poincare\<#53D8\>\<#6362\><with|color|<quote|black>|\<#4E0E\>\<#79BB\>\<#6563\>\<#5BF9\>\<#79F0\>\<#6027\><assign|footnote-nr|5><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%77FB580-64AA100>|<link|hyperlink|<id|%77FB580-64AA100>|<url|#footnr-5>>|5>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%6D36CF0-5290D90>|<link|hyperlink|<id|%6D36CF0-5290D90>|<url|#footnr-5>>|5>.
         |<hidden|<tuple|footnote-5>><htab|0fn|first>>
           Weinberg
         </surround>>>
@@ -5847,7 +5847,7 @@
       <no-break><pageref|auto-49>>
 
       <with|par-left|<quote|1tab>|4.2<space|2spc><with|font-series|<quote|bold>|\<#65E0\>\<#8D28\>\<#91CF\>\<#534F\>\<#53D8\>\<#89C4\>\<#8303\>\<#91CF\>\<#5B50\>\<#5316\>><assign|footnote-nr|8><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%77FB580-5BBADD0>|<link|hyperlink|<id|%77FB580-5BBADD0>|<url|#footnr-8>>|8>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%6D36CF0-50035B0>|<link|hyperlink|<id|%6D36CF0-50035B0>|<url|#footnr-8>>|8>.
         |<hidden|<tuple|footnote-8>><htab|0fn|first>>
           Greiner[1996]
         </surround>>>
