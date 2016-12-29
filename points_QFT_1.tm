@@ -529,7 +529,7 @@
   <subsection|\<#7535\>\<#8377\>\<#5171\>\<#8F6D\>>
 
   <\equation*>
-    C<rprime|\<dag\>>=C<rsup|-1>=C<rsup|T>=C
+    C<rprime|\<dag\>>=C<rsup|-1>=C<rsup|T>=-C
   </equation*>
 
   <\eqnarray*>
