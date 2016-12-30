@@ -26,7 +26,7 @@
   \<#5373\>\<#5F97\>\<#5230\>\<#6EE1\>\<#8DB3\>\<#8981\>\<#6C42\>\<#7684\>\<#672C\>\<#5F81\>\<#51FD\>\<#6570\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|S<around*|(|<frac|\<pi\>|4>,<frac|\<pi\>|2>|)>Y<rsup|l><rsub|m><around*|(|\<phi\>,\<theta\>|)>>|<cell|=>|<cell|R<around*|(|<wide|e|\<vect\>><rsub|3>,<frac|\<pi\>|4>|)>R<around*|(|<wide|e|\<vect\>><rsub|2>,<frac|\<pi\>|2>|)>Y<rsup|l><rsub|m><around*|(|\<phi\>,\<theta\>|)>>>>>
+    <tformat|<table|<row|<cell|S<around*|(|<frac|\<pi\>|4>,<frac|\<pi\>|2>|)>Y<rsup|l><rsub|m><around*|(|\<phi\>,\<theta\>|)>>|<cell|=>|<cell|R<around*|(|<wide|e|\<vect\>><rsub|3>,<frac|\<pi\>|4>|)>R<around*|(|<wide|e|\<vect\>><rsub|2>,<frac|\<pi\>|2>|)>Y<rsup|l><rsub|m><around*|(|\<phi\>,\<theta\>|)>>>|<row|<cell|>|<cell|=>|<cell|R<around*|(|<wide|e|\<vect\>><rsub|3>,<frac|\<pi\>|4>|)>Y<rsup|l><rsub|n><around*|(|\<phi\>,\<theta\>|)>D<rsup|l><rsub|n\<nospace\>m><around*|(|<wide|e|\<vect\>><rsub|2>,<frac|\<pi\>|2>|)>>>|<row|<cell|>|<cell|=>|<cell|Y<rsup|l><rsub|k><around*|(|\<phi\>,\<theta\>|)>D<rsup|l><rsub|k\<nospace\>n><around*|(|<wide|e|\<vect\>><rsub|3>,<frac|\<pi\>|4>|)>d<rsup|l><rsub|n\<nospace\>m><around*|(|<frac|\<pi\>|2>|)>>>|<row|<cell|>|<cell|=>|<cell|Y<rsup|l><rsub|k><around*|(|\<phi\>,\<theta\>|)>e<rsup|-<frac|i\<nospace\>n\<pi\>|4>>\<delta\><rsub|k\<nospace\>n>d<rsub|n\<nospace\>m><rsup|l><around*|(|<frac|\<pi\>|2>|)>>>>>
   </eqnarray*>
 
   <paragraph|8.>\<#5DF2\>\<#77E5\>
@@ -40,6 +40,10 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|L<around*|(|S\<nospace\>\<psi\><rsup|l><rsub|m><around*|(|x|)>|)>>|<cell|=>|<cell|m<around*|(|S\<psi\><rsup|l><rsub|m><around*|(|x|)>|)>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|S<around*|(|<frac|\<pi\>|2>,<frac|\<pi\>|2>|)>\<psi\><rsup|l><rsub|m><around*|(|x|)>>|<cell|=>|<cell|\<psi\><rsup|l><rsub|k><around*|(|x|)>e<rsup|-<frac|i\<nospace\>n\<pi\>|2>>\<delta\><rsub|k\<nospace\>n>d<rsup|l><rsub|n\<nospace\>m><around*|(|<frac|\<pi\>|2>|)>>>|<row|<cell|>|<cell|=>|<cell|\<ldots\>\<#5B9E\>\<#5728\>\<#4E0D\>\<#4F1A\>>>>>
   </eqnarray*>
 
   \;
