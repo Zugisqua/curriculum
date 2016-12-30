@@ -3461,7 +3461,7 @@
       <tformat|<table|<row|<cell|\<pm\>t+C>|<cell|=>|<cell|r+2G\<nospace\>M\<nospace\>ln<around*|\||<frac|r|2G\<nospace\>M>-1|\|>>>>>
     </eqnarray*>
 
-    \<#5F15\>\<#5165\>\<#4E4C\>\<#9F9F\>\<#5750\>\<#6807\><math|r<rprime|\<asterisk\>>\<assign\>r+2G\<nospace\>M<around*|\||<frac|r|2G\<nospace\>M>-1|\|>>\<#FF0C\>\<#5219\>\<#5149\>\<#9525\>\<#7EBF\>\<#65B9\>\<#7A0B\>\<#53D8\>\<#5F97\>\<#597D\>\<#770B\>\<#4E86\>
+    \<#5F15\>\<#5165\>\<#4E4C\>\<#9F9F\>\<#5750\>\<#6807\><math|r<rprime|\<asterisk\>>\<assign\>r+2G\<nospace\>M\<nospace\>ln<around*|\||<frac|r|2G\<nospace\>M>-1|\|>>\<#FF0C\>\<#5219\>\<#5149\>\<#9525\>\<#7EBF\>\<#65B9\>\<#7A0B\>\<#53D8\>\<#5F97\>\<#597D\>\<#770B\>\<#4E86\>
 
     <\eqnarray*>
       <tformat|<table|<row|<cell|r<rprime|\<asterisk\>>\<pm\>t>|<cell|=>|<cell|C>>>>
@@ -4980,7 +4980,7 @@
       <no-break><pageref|auto-31>>
 
       <with|par-left|<quote|2tab>|4.0.3<space|2spc>\<#725B\>\<#987F\>\<#8FD1\>\<#4F3C\><assign|footnote-nr|2><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%55B1550-495F440>|<link|hyperlink|<id|%55B1550-495F440>|<url|#footnr-2>>|2>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%6E87510-62B8430>|<link|hyperlink|<id|%6E87510-62B8430>|<url|#footnr-2>>|2>.
         |<hidden|<tuple|footnote-2>><htab|0fn|first>>
           \<#6881\>\<#707F\>\<#5F6C\>
         </surround>>>
@@ -4997,7 +4997,7 @@
       <no-break><pageref|auto-34>>
 
       <with|par-left|<quote|1tab>|4.2<space|2spc>Schwartzchild\<#65F6\>\<#7A7A\><assign|footnote-nr|5><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%55B1550-4865EF0>|<link|hyperlink|<id|%55B1550-4865EF0>|<url|#footnr-5>>|5>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%6E87510-6179DB0>|<link|hyperlink|<id|%6E87510-6179DB0>|<url|#footnr-5>>|5>.
         |<hidden|<tuple|footnote-5>><htab|0fn|first>>
           \<#6881\>
         </surround>>>
