@@ -67,13 +67,7 @@
     <tformat|<table|<row|<cell|\<cal-Y\><rsub|1>>|<cell|\<cal-Y\><rsub|2>>|<cell|\<cal-Y\><rsub|3>>>|<row|<cell|<around*|(|14|)>\<cal-Y\><rsub|1>>|<cell|<around*|(|13|)>\<cal-Y\><rsub|2>>|<cell|<around*|(|12|)>\<cal-Y\><rsub|3>>>|<row|<cell|<around*|(|24|)>\<cal-Y\><rsub|1>>|<cell|<around*|(|23|)>\<cal-Y\><rsub|2>>|<cell|<around*|(|32|)>\<cal-Y\><rsub|3>>>|<row|<cell|<around*|(|34|)>\<cal-Y\><rsub|1>>|<cell|<around*|(|43|)>\<cal-Y\><rsub|2>>|<cell|<around*|(|42|)>\<cal-Y\><rsub|3>>>>>
   </eqnarray*>
 
-  \<#6392\>\<#9664\>\<#8FD8\>\<#662F\>\<#4E0D\>\<#72EC\>\<#7ACB\>\<#7684\>\<#5143\>\<#7D20\>
-
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|<around*|(|34|)>\<cal-Y\><rsub|1>>|<cell|=>|<cell|\<cal-Y\><rsub|2>>>|<row|<cell|<around*|(|43|)>\<cal-Y\><rsub|2>>|<cell|=>|<cell|\<cal-Y\><rsub|1>>>|<row|<cell|*<around*|(|32|)>\<cal-Y\><rsub|3>>|<cell|=>|<cell|\<cal-Y\><rsub|2>>>>>
-  </eqnarray*>
-
-  \<#56E0\>\<#6B64\>9\<#4E2A\>\<#6807\>\<#51C6\>\<#57FA\>\<#77E2\>\<#5F97\>\<#5230\>\<#4E86\>
+  \<#56E0\>\<#6B64\>\<#968F\>\<#4FBF\>\<#9009\>9\<#4E2A\>\<#6807\>\<#51C6\>\<#57FA\>\<#77E2\>\<#5F97\>\<#5230\>\<#4E86\>
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|\<cal-Y\><rsub|1>>|<cell|\<cal-Y\><rsub|2>>|<cell|\<cal-Y\><rsub|3>>>|<row|<cell|<around*|(|14|)>\<cal-Y\><rsub|1>>|<cell|<around*|(|13|)>\<cal-Y\><rsub|2>>|<cell|<around*|(|12|)>\<cal-Y\><rsub|3>>>|<row|<cell|<around*|(|24|)>\<cal-Y\><rsub|1>>|<cell|<around*|(|23|)>\<cal-Y\><rsub|2>>|<cell|<around*|(|42|)>\<cal-Y\><rsub|3>>>>>
