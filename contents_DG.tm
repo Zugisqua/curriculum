@@ -4931,6 +4931,38 @@
 
   d.\ 
 
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<Gamma\><rsup|1><rsub|22>=<around|cos|\<theta\>|><around|sin|\<theta\>|>>|<cell|>|<cell|\<Gamma\><rsup|2><rsub|21>=<frac|1|<around|tan|\<theta\>|>>>>|<row|<cell|>|<cell|\<#5176\>\<#4ED6\>=0>|<cell|>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<htab|5mm>>|<cell|<choice|<tformat|<cwith|1|1|1|1|cell-halign|r>|<cwith|3|3|1|1|cell-halign|r>|<table|<row|<cell|\<nabla\><rsub|1>K<rsub|1>>|<cell|=>|<cell|0>>|<row|<cell|\<nabla\><rsub|1>K<rsub|2>+\<nabla\><rsub|2>K<rsub|1>>|<cell|=>|<cell|0>>|<row|<cell|\<nabla\><rsub|2>K<rsub|2>>|<cell|=>|<cell|0>>>>>>>|<row|<cell|\<Rightarrow\><htab|5mm>>|<cell|<choice|<tformat|<cwith|1|1|1|1|cell-halign|r>|<cwith|3|3|1|1|cell-halign|r>|<table|<row|<cell|\<partial\><rsub|1>K<rsub|1>-\<Gamma\><rsup|\<lambda\>><rsub|11>K<rsub|\<lambda\>>>|<cell|=>|<cell|0>>|<row|<cell|\<partial\><rsub|1>K<rsub|2>-\<Gamma\><rsup|\<lambda\>><rsub|12>K<rsub|\<lambda\>>+\<partial\><rsub|2>K<rsub|1>-\<Gamma\><rsup|\<lambda\>><rsub|21>K<rsub|\<lambda\>>>|<cell|=>|<cell|0>>|<row|<cell|\<partial\><rsub|2>K<rsub|2>-\<Gamma\><rsup|\<lambda\>><rsub|22>K<rsub|\<lambda\>>>|<cell|=>|<cell|0>>>>>>>|<row|<cell|\<Rightarrow\><htab|5mm>>|<cell|<choice|<tformat|<cwith|1|1|1|1|cell-halign|r>|<cwith|3|3|1|1|cell-halign|r>|<table|<row|<cell|\<partial\><rsub|1>K<rsub|1>>|<cell|=>|<cell|0>>|<row|<cell|\<partial\><rsub|1>K<rsub|2>-\<Gamma\><rsup|2><rsub|21>K<rsub|2>+\<partial\><rsub|2>K<rsub|1>-K<rsup|2><rsub|21>K<rsub|2>>|<cell|=>|<cell|0>>|<row|<cell|\<partial\><rsub|2>K<rsub|2>-\<Gamma\><rsup|1><rsub|22>K<rsub|1>>|<cell|=>|<cell|0>>>>>>>|<row|<cell|\<Rightarrow\><htab|5mm>>|<cell|<choice|<tformat|<cwith|1|1|1|1|cell-halign|r>|<cwith|3|3|1|1|cell-halign|r>|<table|<row|<cell|K<rsub|1>>|<cell|=>|<cell|f<around*|(|\<phi\>|)>>>|<row|<cell|\<partial\><rsub|1>K<rsub|2>>|<cell|=>|<cell|<frac|2|<around|tan|\<theta\>|>>K<rsub|2>-f<rprime|'><around*|(|\<phi\>|)>>>|<row|<cell|\<partial\><rsub|2>K<rsub|2>>|<cell|=>|<cell|<around|cos|\<theta\>|><around|sin|\<theta\>|>f<around*|(|\<phi\>|)>>>>>>>>|<row|<cell|\<Rightarrow\><htab|5mm>>|<cell|<choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<cwith|1|1|1|1|cell-halign|r>|<table|<row|<cell|K<rsub|1>>|<cell|=>|<cell|f<around*|(|\<phi\>|)>>>|<row|<cell|K<rsub|2>>|<cell|=>|<cell|<around|cos|\<theta\>|><around|sin|\<theta\>|><big|int><rsup|\<phi\>><rsub|0>f<around*|(|x|)>\<mathd\>x+C<around*|(|\<theta\>|)>>>>>>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<partial\><rsub|1>K<rsub|2>\<equiv\><around*|(|-<around|sin|<rsup|2>\<theta\>|>+<around|cos|<rsup|2>\<theta\>|>|)><big|int><rsup|\<phi\>><rsub|0>f<around*|(|x|)>\<mathd\>x>|<cell|=>|<cell|<frac|2<around|cos|\<theta\>|>|<around|sin|\<theta\>|>><around*|(|<around|cos|\<theta\>|><around|sin|\<theta\>|><big|int><rsup|\<phi\>><rsub|0>f<around*|(|x|)>\<mathd\>x+C|)>-f<rprime|'><around*|(|\<phi\>|)>>>|<row|<cell|\<Rightarrow\><htab|5mm><around|cos|2\<theta\>|><big|int><rsup|\<phi\>><rsub|0>f<around*|(|x|)>\<mathd\>x>|<cell|=>|<cell|2<around|cos|<rsup|2>\<theta\>|><big|int><rsub|0><rsup|\<phi\>>f<around*|(|x|)>\<mathd\>x+<frac|2C<around|cos|\<theta\>|>|<around|sin|\<theta\>|>>-f<rprime|'><around*|(|\<phi\>|)>>>|<row|<cell|\<Rightarrow\><htab|5mm><around*|(|<around|cos|<rsup|2>\<theta\>|>-<around|sin|<rsup|2>\<theta\>|>-2<around|cos|<rsup|2>\<theta\>|>|)><big|int><rsup|\<phi\>><rsub|0>f<around*|(|x|)>\<mathd\>x>|<cell|=>|<cell|<frac|2C<around|cos|\<theta\>|>|<around|sin|\<theta\>|>>-f<rprime|'><around*|(|\<phi\>|)>>>|<row|<cell|\<Rightarrow\><htab|5mm><big|int><rsub|0><rsup|\<phi\>>f<around*|(|x|)>\<mathd\>x>|<cell|=>|<cell|f<rprime|'><around*|(|\<phi\>|)>-<frac|2C\<nospace\><around|cos|\<theta\>|>|<around|sin|\<theta\>|>>>>>>
+  </eqnarray*>
+
+  \<#56E0\>\<#6B64\> \<#9700\>\<#8981\>\<#8981\>\<#6C42\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|C<around*|(|\<theta\>|)>>|<cell|=>|<cell|<frac|C<rsub|1>|2><around|tan|\<theta\>|>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<Rightarrow\><htab|5mm><htab|5mm><big|int><rsub|0><rsup|\<phi\>>f<around*|(|x|)>\<mathd\>x>|<cell|=>|<cell|f<rprime|'><around*|(|\<phi\>|)>-C<rsub|1>>>|<row|<cell|\<Rightarrow\><htab|5mm>f<around*|(|\<phi\>|)>>|<cell|=>|<cell|f<rprime|''><around*|(|\<phi\>|)>>>|<row|<cell|\<Rightarrow\><htab|5mm>f<around*|(|\<phi\>|)>>|<cell|=>|<cell|C<rsub|2>e<rsup|\<phi\>>+C<rsub|3>e<rsup|-\<phi\>>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<htab|5mm><big|int><rsub|0><rsup|\<phi\>>f<around*|(|x|)>\<mathd\>x>|<cell|=>|<cell|C<rsub|2>e<rsup|\<phi\>>-C<rsub|3>e<rsup|-\<phi\>>-C<rsub|1>>>>>
+  </eqnarray*>
+
+  Killing\<#77E2\>\<#91CF\>\<#89E3\>\<#4E3A\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|K>|<cell|=>|<cell|<around*|(|C<rsub|2>e<rsup|\<phi\>>+C<rsub|3>e<rsup|-\<phi\>>|)>\<partial\><rsub|1>+<around*|(|<around|cos|\<theta\>|><around|sin|\<theta\>|><around*|(|C<rsub|2>e<rsup|\<phi\>>-C<rsub|3>e<rsup|-\<phi\>>-C<rsub|1>|)>+<frac|C<rsub|1><around|tan|\<theta\>|>|2>|)>\<partial\><rsub|2>>>>>
+  </eqnarray*>
+
   \;
 
   <with|font-series|bold|Killing\<#77E2\>\<#91CF\>\<#72EC\>\<#7ACB\>\<#4E2A\>\<#6570\>><math|>
