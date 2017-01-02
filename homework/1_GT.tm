@@ -81,6 +81,9 @@
     <tformat|<table|<row|<cell|X>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|a>|<cell|>|<cell|b>|<cell|>>|<row|<cell|>|<cell|c>|<cell|>|<cell|d>>|<row|<cell|>|<cell|d>|<cell|>|<cell|-c>>|<row|<cell|b>|<cell|>|<cell|-a>|<cell|>>>>>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|<frac|1|<sqrt|2>>>|<cell|>|<cell|<frac|1|<sqrt|2>>>|<cell|>>|<row|<cell|>|<cell|<frac|1|<sqrt|2>>>|<cell|>|<cell|-<frac|1|<sqrt|2>>>>|<row|<cell|>|<cell|-<frac|1|<sqrt|2>>>|<cell|>|<cell|-<frac|1|<sqrt|2>>>>|<row|<cell|<frac|1|<sqrt|2>>>|<cell|>|<cell|-<frac|1|<sqrt|2>>>|<cell|>>>>>>>>>
   </eqnarray*>
 
+  \<#76F8\>\<#6BD4\>\<#6765\>\<#8BF4\>\<#FF0C\>\<#6700\>\<#540E\>\<#9A8C\>\<#8BC1\>\<#FF1A\>\<#8BA1\>\<#7B97\><math|S<rsup|1>X=X\<nospace\>S<rsup|2>>
+  \<#8FD8\>\<#662F\>\<#66F4\>\<#52A0\>\<#9AD8\>\<#6548\>\<#7684\>\<#FF0C\>\<#53C2\>\<#8003\>Ma<overline|>
+
   \;
 
   <paragraph|2.>
