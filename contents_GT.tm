@@ -2694,7 +2694,7 @@
   \<#5F97\>\<#5230\>\<#6B63\>\<#5219\>\<#6768\>\<#8868\><new-line>step.3
   \<#901A\>\<#8FC7\>\<#5B9A\>\<#4E49\>\<#5F0F\>\<#5F97\>\<#5230\>\<#6768\>\<#7B97\>\<#7B26\><new-line>step.4
   \<#5C06\><math|S<rsub|n>>\<#7684\>\<#6240\>\<#6709\>\<#7FA4\>\<#5143\>\<#7D20\>\<#4F5C\>\<#7528\>\<#4E8E\>\<#6768\>\<#7B97\>\<#7B26\>\<#FF0C\>\<#5F97\>\<#51FA\>\<#4E0D\>\<#53EF\>\<#7EA6\>\<#8868\>\<#793A\><new-line><space|3em>PS.1
-  \<#5BF9\>\<#4E8E\>\<#4E00\>\<#4E2A\>\<#4E0D\>\<#53EF\>\<#7EA6\>\<#8868\>\<#793A\>[\<#4E0D\>\<#662F\>\<#4E00\>\<#7EF4\>\<#5EA6\>\<#8868\>\<#793A\>]\<#FF0C\><new-line><space|3em>\<#65E2\>\<#53EF\>\<#4EE5\>\<#7528\>\<#591A\>\<#4E2A\>\<#6768\>\<#7B97\>\<#7B26\>\<#4F5C\>\<#4E3A\>\<#57FA\>\<#77E2\>\<#FF0C\><new-line><space|3em>\<#4E5F\>\<#53EF\>\<#4EE5\>\<#7528\>\<#4E00\>\<#4E2A\>\<#6768\>\<#7B97\>\<#7B26\>\<#53CA\>\<#5176\>\<#7FA4\>\<#5143\>\<#7D20\>\<#4F5C\>\<#7528\>\<#6768\>\<#7B97\>\<#7B26\>\<#751F\>\<#6210\>\<#7684\>\<#72EC\>\<#7ACB\>\<#5143\>\<#7D20\>\<#4F5C\>\<#4E3A\>\<#57FA\>\<#77E2\>
+  \<#5BF9\>\<#4E8E\>\<#4E00\>\<#4E2A\>\<#4E0D\>\<#53EF\>\<#7EA6\>\<#8868\>\<#793A\>[\<#4E0D\>\<#662F\>\<#4E00\>\<#7EF4\>\<#5EA6\>\<#8868\>\<#793A\>]\<#FF0C\><new-line><space|5em>\<#662F\>\<#7528\>\<#4E00\>\<#4E2A\>\<#6768\>\<#7B97\>\<#7B26\><math|<around*|[|\<#4E0D\>\<#662F\>\<#591A\>\<#4E2A\>|]>>\<#53CA\>\<#5176\>\<#7FA4\>\<#5143\>\<#7D20\>\<#4F5C\>\<#7528\>\<#6768\>\<#7B97\>\<#7B26\>\<#751F\>\<#6210\>\<#7684\>\<#72EC\>\<#7ACB\>\<#5143\>\<#7D20\>\<#4F5C\>\<#4E3A\>\<#57FA\>\<#77E2\>
 
   \;
 
@@ -3855,7 +3855,7 @@
       <no-break><pageref|auto-1><vspace|0.5fn>
 
       <with|par-left|<quote|1tab>|1.1<space|2spc>\<#96C6\>\<#5408\>\<#8BBA\><assign|footnote-nr|1><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%5625950-4E620A0>|<link|hyperlink|<id|%5625950-4E620A0>|<url|#footnr-1>>|1>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%6334AB0-59C8470>|<link|hyperlink|<id|%6334AB0-59C8470>|<url|#footnr-1>>|1>.
         |<hidden|<tuple|footnote-1>><htab|0fn|first>>
           \<#4EE3\>\<#6570\>\<#5B66\>\<#5F15\>\<#8BBA\>\<#4E0A\>\<#518C\>
         </surround>>>
@@ -3880,7 +3880,7 @@
       <no-break><pageref|auto-6>>
 
       <with|par-left|<quote|1tab>|1.3<space|2spc>\<#7EBF\>\<#6027\>\<#4EE3\>\<#6570\><assign|footnote-nr|4><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%5625950-44907C0>|<link|hyperlink|<id|%5625950-44907C0>|<url|#footnr-4>>|4>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%6334AB0-51A4D60>|<link|hyperlink|<id|%6334AB0-51A4D60>|<url|#footnr-4>>|4>.
         |<hidden|<tuple|footnote-4>><htab|0fn|first>>
           \<#7EBF\>\<#6027\>\<#4EE3\>\<#6570\>\<#5E94\>\<#8BE5\>\<#8FD9\>\<#6837\>\<#5B66\>
         </surround>>>
@@ -4021,7 +4021,7 @@
       <no-break><pageref|auto-41>>
 
       <with|par-left|<quote|4tab>|\<#6B63\>\<#5219\>\<#8868\>\<#793A\>\<#7684\>\<#53E6\>\<#4E00\>\<#79CD\>\<#9648\>\<#8FF0\><assign|footnote-nr|7><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%5625950-4478470>|<link|hyperlink|<id|%5625950-4478470>|<url|#footnr-7>>|7>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%6334AB0-5183650>|<link|hyperlink|<id|%6334AB0-5183650>|<url|#footnr-7>>|7>.
         |<hidden|<tuple|footnote-7>><htab|0fn|first>>
           Wu-Ki.Tung
         </surround>>>
@@ -4050,7 +4050,7 @@
       <no-break><pageref|auto-47>>
 
       <with|par-left|<quote|1tab>|3.4<space|2spc>\<#8868\>\<#793A\>\<#7406\>\<#8BBA\><assign|footnote-nr|10><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%5625950-4F8CF60>|<link|hyperlink|<id|%5625950-4F8CF60>|<url|#footnr-10>>|10>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%6334AB0-5AF2990>|<link|hyperlink|<id|%6334AB0-5AF2990>|<url|#footnr-10>>|10>.
         |<hidden|<tuple|footnote-10>><htab|0fn|first>>
           Cornwell
         </surround>>>
@@ -4091,7 +4091,7 @@
       <no-break><pageref|auto-56>>
 
       <with|par-left|<quote|2tab>|3.5.4<space|2spc>Wigner-Eckart\<#5B9A\>\<#7406\><assign|footnote-nr|15><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%5625950-4291DB0>|<link|hyperlink|<id|%5625950-4291DB0>|<url|#footnr-15>>|15>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%6334AB0-4FA07A0>|<link|hyperlink|<id|%6334AB0-4FA07A0>|<url|#footnr-15>>|15>.
         |<hidden|<tuple|footnote-15>><htab|0fn|first>>
           Cornwell[1984]-P311
         </surround>>>
@@ -4104,7 +4104,7 @@
       <no-break><pageref|auto-58>>
 
       <with|par-left|<quote|1tab>|3.6<space|2spc>\<#7F6E\>\<#6362\>\<#7FA4\>\<#7684\>\<#4E0D\>\<#53EF\>\<#7EA6\>\<#8868\>\<#793A\><assign|footnote-nr|18><hidden|<tuple>><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%5625950-42CD590>|<link|hyperlink|<id|%5625950-42CD590>|<url|#footnr-18>>|18>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%6334AB0-4FDBF80>|<link|hyperlink|<id|%6334AB0-4FDBF80>|<url|#footnr-18>>|18>.
         |<hidden|<tuple|footnote-18>><htab|0fn|first>>
           Ma-Zhongqi[C6]&Wu-Ki.Tung[AIII]
         </surround>>>
