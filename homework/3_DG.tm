@@ -40,36 +40,18 @@
   <paragraph|3.>\<#5DF2\>\<#77E5\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|A<around*|(|x|)>>|<cell|=>|<cell|A<rsup|a><rsub|\<mu\>><around*|(|x|)><frac|\<sigma\><rsup|a>|2i>\<mathd\>x<rsup|\<mu\>>>>|<row|<cell|F*<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>F<rsup|a><rsub|\<mu\>\<nu\>><around*|(|x|)><frac|\<sigma\><rsup|a>|2i>\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>A+A\<wedge\>A>>>>
-  </eqnarray*>
-
-  \<#8003\>\<#8651\>
-
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|1.<htab|5mm>\<mathd\>A>|<cell|=>|<cell|\<mathd\><around*|(|A<rsup|a><rsub|\<mu\>><around*|(|x|)><frac|\<sigma\><rsup|a>|2i>\<mathd\>x<rsup|\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\><around*|(|A<rsup|a><rsub|\<mu\>><around*|(|x|)><frac|\<sigma\><rsup|a>|2i>|)>\<wedge\>\<mathd\>x<rsup|\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>A<rsup|a><rsub|\<mu\>><around*|(|x|)><frac|\<sigma\><rsup|a>|2i>\<wedge\>\<mathd\>x<rsup|\<mu\>>+A<rsup|a><rsub|\<mu\>><frac|\<mathd\>\<sigma\><rsup|a>|2i>\<wedge\>\<mathd\>x<rsup|\<mu\>>>>|<row|<cell|2.<htab|5mm>A\<wedge\>A>|<cell|=>|<cell|A<rsup|a><rsub|\<mu\>><around*|(|x|)><frac|\<sigma\><rsup|a>|2\<nospace\>i>A<rsup|b><rsub|\<nu\>><around*|(|x|)><frac|\<sigma\><rsup|b>|2\<nospace\>i>\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|A<rsup|a><rsub|\<mu\>>A<rsup|b><rsub|\<nu\>><around*|(|-<frac|\<sigma\><rsup|a>\<sigma\><rsup|b>|4>|)>\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|A<rsup|a><rsub|\<mu\>>A<rsup|b><rsub|\<nu\>><around*|(|-<frac|\<delta\><rsup|a\<nospace\>b>+i\<epsilon\><rsup|a\<nospace\>b\<nospace\>c>\<sigma\><rsup|c>|4>|)>\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|4><around*|(|A<rsup|a><rsub|\<mu\>>A<rsup|a><rsub|\<nu\>>+i\<epsilon\><rsup|a\<nospace\>b\<nospace\>c>A<rsup|a><rsub|\<mu\>>A<rsup|b><rsub|\<nu\>>\<sigma\><rsup|c>|)>\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<nu\>>>>>>
-  </eqnarray*>
-
-  \<#7531\>
-
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|F=<frac|1|2>F<rsup|a><rsub|\<mu\>\<nu\>><frac|\<sigma\><rsup|a>|2i>\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<nu\>>>|<cell|=>|<cell|\<mathd\>A+A\<wedge\>A>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>A<rsup|a><rsub|\<mu\>><around*|(|x|)><frac|\<sigma\><rsup|a>|2i>\<wedge\>\<mathd\>x<rsup|\<mu\>>+A<rsup|a><rsub|\<mu\>><frac|\<mathd\>\<sigma\><rsup|a>|2i>\<wedge\>\<mathd\>x<rsup|\<mu\>>-<frac|1|4><around*|(|A<rsup|a><rsub|\<mu\>>A<rsup|a><rsub|\<nu\>>+i\<epsilon\><rsup|a\<nospace\>b\<nospace\>c>A<rsup|a><rsub|\<mu\>>A<rsup|b><rsub|\<nu\>>\<sigma\><rsup|c>|)>\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<nu\>>>>>>
+    <tformat|<table|<row|<cell|A<around*|(|x|)>>|<cell|=>|<cell|A<rsup|a><rsub|\<mu\>><around*|(|x|)><frac|\<sigma\><rsup|a>|2i>\<mathd\>x<rsup|\<mu\>>\<assign\>A<rsup|a><frac|\<sigma\><rsup|a>|2i>>>|<row|<cell|F*<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>F<rsup|a><rsub|\<mu\>\<nu\>><around*|(|x|)><frac|\<sigma\><rsup|a>|2i>\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<nu\>>\<assign\>F<rsup|a><frac|\<sigma\><rsup|a>|2\<nospace\>i>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>A+A\<wedge\>A>>>>
   </eqnarray*>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<Rightarrow\><htab|5mm>A<rsup|a><rsub|\<mu\>><frac|\<mathd\>\<sigma\><rsup|a>|2i>\<wedge\>\<mathd\>x<rsup|\<mu\>>>|<cell|=>|<cell|<frac|1|4><around*|(|A<rsup|a><rsub|\<mu\>>A<rsup|a><rsub|\<nu\>>+i\<epsilon\><rsup|a\<nospace\>b\<nospace\>c>A<rsup|a><rsub|\<mu\>>A<rsup|b><rsub|\<nu\>>\<sigma\><rsup|c>|)>\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<nu\>>>>|<row|<cell|A<rsup|a><rsub|\<mu\>>\<mathd\>\<sigma\><rsup|a>\<wedge\>\<mathd\>x<rsup|\<mu\>>>|<cell|=>|<cell|<frac|A<rsup|a><rsub|\<mu\>>|2i><around*|(|A<rsup|a><rsub|\<nu\>>+i\<epsilon\><rsup|a\<nospace\>b\<nospace\>c>A<rsup|b><rsub|\<nu\>>\<sigma\><rsup|c>|)>\<mathd\>x<rsup|\<nu\>>\<wedge\>\<mathd\>x<rsup|\<mu\>>>>|<row|<cell|\<Rightarrow\><htab|5mm>\<mathd\>\<sigma\><rsup|a>>|<cell|=>|<cell|<around*|(|A<rsup|a><rsub|\<nu\>>+i\<epsilon\><rsup|a\<nospace\>b\<nospace\>c>A<rsup|b><rsub|\<nu\>>\<sigma\><rsup|c>|)>\<mathd\>x<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|A<rsup|a>+i\<epsilon\><rsup|a\<nospace\>b\<nospace\>c>A<rsup|b>\<sigma\><rsup|c>>>>>
+    <tformat|<table|<row|<cell|A\<wedge\>A\<wedge\>A>|<cell|=>|<cell|A<rsup|a>\<wedge\>A<rsup|b>\<wedge\>A<rsup|c><frac|1|<around*|(|2i|)><rsup|3>>\<sigma\><rsup|a>\<sigma\><rsup|b>\<sigma\><rsup|c>>>|<row|<cell|>|<cell|=>|<cell|A<rsup|a>\<wedge\>A<rsup|b>\<wedge\>A<rsup|c><frac|1|<around*|(|2i|)><rsup|3>2><around*|(|\<sigma\><rsup|a>\<sigma\><rsup|b>-\<sigma\><rsup|b>\<sigma\><rsup|a>|)>\<sigma\><rsup|c>>>|<row|<cell|>|<cell|=>|<cell|A<rsup|a>\<wedge\>A<rsup|b>\<wedge\>A<rsup|c><frac|1|<around*|(|2i|)><rsup|3>2>2i\<epsilon\><rsup|a\<nospace\>b\<nospace\>d>\<sigma\><rsup|d>\<sigma\><rsup|c>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2<around*|(|2i|)><rsup|2>>A<rsup|a>\<wedge\>A<rsup|b>\<wedge\>A<rsup|c>\<epsilon\><rsup|a\<nospace\>b\<nospace\>d><around*|(|\<bbb-I\>\<delta\><rsup|d\<nospace\>c>+i\<epsilon\><rsup|d\<nospace\>c\<nospace\>f>\<sigma\><rsup|f>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2<around*|(|2i|)><rsup|2>>A<rsup|a>\<wedge\>A<rsup|b>\<wedge\>A<rsup|c><around*|(|\<epsilon\><rsup|a\<nospace\>b\<nospace\>c>+i\<epsilon\><rsup|a\<nospace\>b\<nospace\>d>\<epsilon\><rsup|d\<nospace\>c\<nospace\>f>\<sigma\><rsup|f>|)>>>>>
   </eqnarray*>
-
-  \<#6216\>\<#8005\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|<htab|5mm>A<rsup|a><rsub|\<mu\>><frac|\<mathd\>\<sigma\><rsup|a>|2i>\<wedge\>\<mathd\>x<rsup|\<mu\>>>|<cell|=>|<cell|-<frac|1|4>A<rsup|a><rsub|\<mu\>>A<rsup|b><rsub|\<nu\>>\<sigma\><rsup|a>\<sigma\><rsup|b>\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|8>*<around*|(|A<rsup|a><rsub|\<mu\>>A<rsup|b><rsub|\<nu\>>\<sigma\><rsup|a>\<sigma\><rsup|b>+A<rsup|b><rsub|\<mu\>>A<rsup|a><rsub|\<nu\>>\<sigma\><rsup|b>\<sigma\><rsup|a>|)>\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|8><around*|(|A<rsup|a><rsub|\<mu\>>A<rsup|b><rsub|\<nu\>>\<sigma\><rsup|a>\<sigma\><rsup|b>-A<rsup|b><rsub|\<nu\>>A<rsup|a><rsub|\<mu\>>\<sigma\><rsup|b>\<sigma\><rsup|a>|)>\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<nu\>>>>|<row|<cell|A<rsup|a><rsub|\<mu\>>\<mathd\>\<sigma\><rsup|a>\<wedge\>\<mathd\>x<rsup|\<mu\>>>|<cell|=>|<cell|<frac|A<rsup|a><rsub|\<mu\>>|4i><around*|(|A<rsup|b><rsub|\<nu\>>\<sigma\><rsup|a>\<sigma\><rsup|b>-A<rsup|b><rsub|\<nu\>>\<sigma\><rsup|b>\<sigma\><rsup|a>|)>\<mathd\>x<rsup|\<nu\>>\<wedge\>\<mathd\>x<rsup|\<mu\>>>>|<row|<cell|\<mathd\>\<sigma\><rsup|a>>|<cell|=>|<cell|<frac|A<rsup|b>|4i><around*|(|\<sigma\><rsup|a>\<sigma\><rsup|b>-\<sigma\><rsup|b>\<sigma\><rsup|a>|)>>>>>
+    <tformat|<table|<row|<cell|D\<nospace\>F>|<cell|=>|<cell|\<mathd\>F+A\<wedge\>F-F\<wedge\>A>>|<row|<cell|>|<cell|=>|<cell|\<mathd\><around*|(|A\<wedge\>A|)>+A\<wedge\>F-F\<wedge\>A>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>A\<wedge\>A-A\<wedge\>\<mathd\>A+A\<wedge\>F-F\<wedge\>A>>|<row|<cell|>|<cell|=>|<cell|<around*|(|F-A\<wedge\>A|)>\<wedge\>A-A\<wedge\><around*|(|F-A\<wedge\>A|)>+A\<wedge\>F-F\<wedge\>A>>|<row|<cell|>|<cell|=>|<cell|A\<wedge\>A\<wedge\>A-A\<wedge\>A\<wedge\>A>>|<row|<cell|>|<cell|=>|<cell|0>>>>
   </eqnarray*>
 
-  \<#5219\>
-
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|D\<nospace\>F>|<cell|=>|<cell|\<mathd\>F+<around*|[|A,F|]>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\><around*|(|<frac|1|2>F<rsup|a><rsub|\<mu\>\<nu\>><frac|\<sigma\><rsup|a>|2i>|)>\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<nu\>>+<around*|(|A\<nospace\>F-F\<nospace\>A|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<mathd\>F<rsup|a><rsub|\<mu\>\<nu\>><frac|\<sigma\><rsup|a>|2i>\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<nu\>>+<frac|1|2>F<rsup|a><rsub|\<mu\>\<nu\>><frac|\<mathd\>\<sigma\><rsup|a>|2\<nospace\>i>\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<nu\>>+<around*|(|A<rsup|a><rsub|\<mu\>><around*|(|x|)><frac|\<sigma\><rsup|a>|2i>\<mathd\>x<rsup|\<mu\>>|)>\<wedge\><frac|1|2>F<rsup|b><rsub|\<mu\>\<nu\>><around*|(|x|)><frac|\<sigma\><rsup|b>|2i>\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<nu\>>>>>>
-  </eqnarray*>
+  \<#5C31\>\<#8FD9\>\<#6837\>\<#FF1F\>
 </body>
 
 <initial|<\collection>
@@ -88,6 +70,12 @@
     <\associate|toc>
       <with|par-left|<quote|4tab>|1. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|2. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|3. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
