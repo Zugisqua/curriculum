@@ -2250,6 +2250,12 @@
 
   \<#5B8C\>\<#4E86\>\<#FF1F\>
 
+  \<#8FD9\>\<#4E48\>\<#8BF4\>\<#4F30\>\<#8BA1\>\<#4E5F\>\<#53EF\>\<#4EE5\>\<#FF1A\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>\<theta\>\<space\>mod<space|1.5spc>\<theta\>>|<cell|=>|<cell|<around*|(|<frac|\<partial\>f<rsub|i>|\<partial\>y>f<rsub|j>-<frac|\<partial\>f<rsub|i>|\<partial\>x<rsup|j>>|)>\<mathd\>x<rsup|j>\<wedge\>\<mathd\>x<rsup|i><long-arrow|\<rubber-equal\>|require>0>>|<row|<cell|\<mathd\>\<theta\>\<space\>/<space|1.5spc>\<theta\>>|<cell|=>|<cell|<frac|\<partial\>f<rsub|i>|\<partial\>y>\<mathd\>x<rsup|i>>>>>
+  </eqnarray*>
+
   \;
 
   \<#4F8B\>\<#5B50\>.2-1
