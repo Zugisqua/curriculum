@@ -65,6 +65,21 @@
 
 作业：
 1. Schwartz:P27 2.2/2.4/2.6/2.7
+2. Peskin:P34 2.3 考虑 m=0/m!=0
+3. Peskin:2.2
+4. Schwartz:11.1/11.2/11.4
 
-邮箱：jiay@ihep.ac.cn gongming@ihep.ac.cn yurui@ihep.ac.cn
-电话：82233181 88236849
+笔试涉及的知识范围为：
+1. Euler-Lagrange方程; 
+2. Noether定理； 
+3. Dirac场量子化，及Dirac spinor满足的正交性及完备性条件；
+4. Dirac场的C, P, T变换性质；
+5. CPT定理；
+6.自旋-统计定理； 
+7.  Proca (massive spin-1) 场拉氏量及Maxwell拉氏量的推导，及矢量场极化矢量的物理意义； 
+8 Dirac矩阵 (含gamma5)的求迹(trace)运算；
+9. S-算符及S矩阵元在相互作用绘景的推导；
+10.Wick定理(玻色子场及费米子场)；
+11. 利用Wick定理， 从给定相互作用拉氏量推导头几阶的S矩阵元，并画出相应的费曼图；
+12. 对涉及Dirac粒子的过程，能够用Dirac trace技术计算极化求和的矩阵元模平方；
+13. 单圈积分的费曼参数化(Feynman parameterization)及Wick转动，并能计算简单的紫外有限(UV finite)的单圈费曼积分。
