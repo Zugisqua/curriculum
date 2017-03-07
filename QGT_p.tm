@@ -1368,13 +1368,26 @@
 
   \;
 
-  <\folded-env>
+  <\folded>
     \<#4E60\>\<#9898\>: \<#8BC1\>\<#660E\><math|f:S<rsup|1>\<rightarrow\>M>,
     <math|\<#5B83\>\<#53EF\>\<#4E00\>\<#6269\>\<#5F20\>\<#5230\>\<#5176\>\<#5185\>\<#90E8\>>
     \<#FF0C\>\<#5219\><math|f\<simeq\>0>
-  <|folded-env>
-    \;
-  </folded-env>
+  <|folded>
+    \<#6709\>\<#6269\>\<#5F20\>\<#6620\>\<#5C04\>
+    <math|<wide|f|~>:D<rsup|2>\<rightarrow\>M> \<#6709\>
+    <math|<wide|f|~>\|<rsub|S<rsup|1>>=f>
+
+    \<#9009\>\<#53D6\>\<#5173\>\<#4E8E\><math|f>\<#7684\>\<#540C\>\<#4F26\>
+    <math|H<around*|(|x,t|)>=<wide|f|~><around*|(|t\<nospace\>x|)>\<#FF0C\>x\<in\>S<rsup|1>>\<#5219\>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|H<around*|(|x,1|)>>|<cell|=>|<cell|<wide|f|~><around*|(|x|)>=f<around*|(|x|)>>>|<row|<cell|H<around*|(|x,0|)>>|<cell|=>|<cell|<wide|f|~><around*|(|0|)><space|1.5spc>\<#4E00\>\<#4E2A\>\<#5E38\>\<#6570\>>>>>
+    </eqnarray*>
+
+    \<#53EF\>\<#89C1\> <math|f\<simeq\>0>
+  </folded>
+
+  \;
 
   <strong|\<#5F15\>\<#7406\>\<#FF1A\>>\<#5982\>\<#679C\>\<#5BF9\>\<#4E8E\>\<#540C\>\<#6001\>\<#7CFB\>\<#5217\>
 
@@ -1542,8 +1555,8 @@
     <associate|auto-14|<tuple|7|8>>
     <associate|auto-15|<tuple|8|10>>
     <associate|auto-16|<tuple|9|10>>
-    <associate|auto-17|<tuple|2|?>>
-    <associate|auto-18|<tuple|1|?>>
+    <associate|auto-17|<tuple|2|12>>
+    <associate|auto-18|<tuple|1|12>>
     <associate|auto-2|<tuple|1|1>>
     <associate|auto-3|<tuple|2|1>>
     <associate|auto-4|<tuple|3|1>>
@@ -1630,6 +1643,14 @@
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|9<space|2spc>\<#6B63\>\<#5408\>\<#7CFB\>\<#5217\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-16><vspace|0.5fn>
+
+      <vspace*|2fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|font-size|<quote|1.19>|2<space|2spc>\<#540C\>\<#8C03\>\<#8BBA\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-17><vspace|1fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>\<#5355\>\<#7EAF\>\<#540C\>\<#8C03\>\<#8BBA\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-18><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
