@@ -216,50 +216,114 @@
 
   <section|\<#5B87\>\<#5B99\>\<#7684\>\<#5E74\>\<#9F84\>>
 
-  \<#65B9\>\<#7A0B\>s
+  <strong|\<#5F15\>\<#5165\>\<#7269\>\<#6001\>\<#65B9\>\<#7A0B\>>
+
+  \<#7531\>\<#4E8E\>\<#8054\>\<#7CFB\>\<#80FD\>\<#52A8\>\<#91CF\>\<#5B88\>\<#6052\>+\<#7406\>\<#60F3\>\<#6D41\>\<#4F53\>\<#7269\>\<#6001\>\<#65B9\>\<#7A0B\>
+  \<#53EF\>\<#4EE5\>\<#5F97\>\<#5230\>\<#901A\>\<#5F0F\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<rho\>|\<rho\><rsub|0>>>|<cell|=>|<cell|<around*|(|<frac|a|a<rsub|0>>|)><rsup|-3<around*|(|1+w|)>>>>>>
+  </eqnarray*>
+
+  \<#4E8E\>\<#662F\>\<#8BBE\>\<#770B\>\<#8D77\>\<#6765\>\<#6BD4\>\<#8F83\>\<#4E00\>\<#822C\>\<#7684\>\<#7269\>\<#6001\>\<#65B9\>\<#7A0B\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<rho\>>|<cell|=>|<cell|<frac|3H<rsub|0><rsup|2>|8\<pi\>G><around*|(|\<Omega\><rsub|\<Lambda\>>+\<Omega\><rsub|m><around*|(|<frac|a<rsub|0>|a>|)><rsup|3>+\<Omega\><rsub|r><around*|(|<frac|a<rsub|0>|a>|)><rsup|4>|)>>>>>
+  </eqnarray*>
+
+  \<#5F53\>\<#7136\>\<#FF0C\>\<#7528\>\<#53E6\>\<#5916\>\<#4E00\>\<#5957\>\<#5C31\>\<#662F\>
+  <math|\<rho\>=\<rho\><rsub|\<Lambda\>0>+\<rho\><rsub|m0><around*|(|<frac|a<rsub|0>|a>|)><rsup|3>+\<rho\><rsub|r0><around*|(|<frac|a<rsub|0>|a>|)><rsup|4>>
+  \<#8FD9\>\<#4E9B\>\<#80FD\>\<#91CF\>\<#5BC6\>\<#5EA6\>\<#5E38\>\<#6570\>\<#4E0E\>\<#4E0A\>\<#9762\>\<#7684\><math|\<Omega\>>\<#6709\>\<#76F4\>\<#63A5\>\<#7684\>\<#5173\>\<#7CFB\>
+
+  \<#8FD9\>\<#91CC\>\<#7684\><math|\<rho\><rsub|cr>=<frac|3H<rsub|0><rsup|2>|8\<pi\>G>>\<#7684\>\<#88AB\>\<#5B9A\>\<#4E49\>\<#4E3A\>\<#4E34\>\<#754C\>\<#5BC6\>\<#5EA6\>
+
+  \;
+
+  \<#53EF\>\<#4EE5\>\<#770B\>\<#5230\> <math|\<Omega\><rsub|m>>\<#5BF9\>\<#4E8E\>\<#7269\>\<#8D28\>\<#4E3A\>\<#4E3B\>\<#7684\>\<#9879\>
+  <math|w=0> \<#6211\>\<#4EEC\>\<#5DF2\>\<#7ECF\>\<#77E5\>\<#9053\>\<#8FC7\>\<#4E86\>
+
+  \<#540C\>\<#65F6\><math|\<Omega\><rsub|r>>\<#5BF9\>\<#4E8E\>\<#8F90\>\<#5C04\>\<#4E3A\>\<#4E3B\>\<#7684\>\<#9879\>
+  <math|w=<frac|1|3>>
+
+  \;
+
+  <strong|\<#5316\>\<#7B80\>\<#65B9\>\<#7A0B\>\<#FF1A\>>\<#5E26\>\<#5165\>\<#80FD\>\<#91CF\>\<#5BC6\>\<#5EA6\>\<#7684\>\<#8868\>\<#8FBE\>\<#5F0F\>
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|<around*|(|<frac|<wide|a|\<dot\>>|a>|)><rsup|2>>|<cell|=>|<cell|<frac|8\<pi\>G|3>\<rho\>-<frac|K|a<rsup|2>>>>>>
   </eqnarray*>
 
-  \<#4E34\>\<#754C\>\<#5BC6\>\<#5EA6\>
+  detail\<#FF1A\>\<#5047\>\<#88C5\>\<#4E0D\>\<#77E5\>\<#9053\><math|\<rho\>>\<#524D\>\<#9762\>\<#7684\>\<#7CFB\>\<#6570\>\<#8981\>\<#591A\>\<#5C11\>\<#624D\>\<#597D\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<rho\><rsub|c>>|<cell|=>|<cell|<frac|3H<rsup|2>|8\<pi\>G>>>|<row|<cell|\<Omega\><rsub|m>>|<cell|=>|<cell|<frac|\<rho\><rsub|m0>|\<rho\><rsub|c>>>>|<row|<cell|\<Omega\><rsub|k>>|<cell|=>|<cell|-<frac|K|a<rsup|2><rsub|0>H<rsub|0><rsup|2>>>>>>
+    <tformat|<table|<row|<cell|<around*|(|<frac|<wide|a|\<dot\>>|a>|)><rsup|2>>|<cell|=>|<cell|<frac|8\<pi\>G|3>\<times\>\<alpha\><around*|(|\<Omega\><rsub|\<Lambda\>>+\<Omega\><rsub|m><around*|(|<frac|a<rsub|0>|a>|)><rsup|3>+\<Omega\><rsub|r><around*|(|<frac|a<rsub|0>|a>|)><rsup|4>|)>-<frac|K|a<rsup|2>>>>|<row|<cell|H<rsup|2>>|<cell|=>|<cell|<frac|8\<pi\>G\<alpha\>|3><around*|(|\<Omega\><rsub|\<Lambda\>>+\<Omega\><rsub|m><around*|(|<frac|a<rsub|0>|a>|)><rsup|3>+\<Omega\><rsub|r><around*|(|<frac|a<rsub|0>|a>|)><rsup|4>-<frac|3K|8\<pi\>G\<alpha\>a<rsup|2>>|)>>>|<row|<cell|>|<cell|\<assign\>>|<cell|H<rsub|0><rsup|2><around*|(|\<Omega\><rsub|\<Lambda\>>+\<Omega\><rsub|m><around*|(|<frac|a<rsub|0>|a>|)><rsup|3>+\<Omega\><rsub|r><around*|(|<frac|a<rsub|0>|a>|)><rsup|4>-<frac|3K|8\<pi\>G\<alpha\>a<rsup|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|H<rsub|0><rsup|2><around*|(|\<Omega\><rsub|\<Lambda\>>+\<Omega\><rsub|m><around*|(|<frac|a<rsub|0>|a>|)><rsup|3>+\<Omega\><rsub|r><around*|(|<frac|a<rsub|0>|a>|)><rsup|4>-<frac|K|H<rsub|0><rsup|2>a<rsub|0><rsup|2>><around*|(|<frac|a<rsub|0>|a>|)><rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|H<rsub|0><rsup|2><around*|(|\<Omega\><rsub|\<Lambda\>>+\<Omega\><rsub|m><around*|(|<frac|a<rsub|0>|a>|)><rsup|3>+\<Omega\><rsub|r><around*|(|<frac|a<rsub|0>|a>|)><rsup|4>+\<Omega\><rsub|K><around*|(|<frac|a<rsub|0>|a>|)><rsup|2>|)>,\<Omega\><rsub|K>\<assign\>-<frac|K|H<rsub|0><rsup|2>a<rsub|0><rsup|2>>>>>>
   </eqnarray*>
 
   \<#5C06\>\<#65B9\>\<#7A0B\>\<#5316\>\<#4E3A\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|<frac|<wide|a|\<dot\>>|a>=H>|<cell|=>|<cell|H<rsub|0><around*|(|\<Omega\><rsub|matter><around*|(|<frac|a<rsub|0>|a>|)><rsup|3>+\<Omega\><rsub|radiu><around*|(|<frac|a<rsub|0>|a>|)><rsup|4>+\<Omega\><rsub|\<Lambda\>>+\<Omega\><rsub|k><around*|(|<frac|a<rsub|0>|a>|)><rsup|2>|)><rsup|<frac|1|2>>>>>>
+    <tformat|<table|<row|<cell|<frac|<wide|a|\<dot\>>|a>=H>|<cell|=>|<cell|H<rsub|0><around*|(|\<Omega\><rsub|m><around*|(|<frac|a<rsub|0>|a>|)><rsup|3>+\<Omega\><rsub|r><around*|(|<frac|a<rsub|0>|a>|)><rsup|4>+\<Omega\><rsub|\<Lambda\>>+\<Omega\><rsub|k><around*|(|<frac|a<rsub|0>|a>|)><rsup|2>|)><rsup|<frac|1|2>>>>>>
   </eqnarray*>
 
-  <strong|\<#5E74\>\<#9F84\>>
+  \<#5F53\><math|a=a<rsub|0>> \<#65F6\>\<#5019\> \<#8981\>\<#6C42\>\<#6709\>
+  <math|\<Omega\><rsub|m>+\<Omega\><rsub|r>+\<Omega\><rsub|\<Lambda\>>+\<Omega\><rsub|K>=1>
+  \<#8FD9\>\<#91CC\><math|H<rsub|0>>\<#53D6\>\<#7684\><math|<around*|\<nobracket\>|<frac|<wide|a|\<dot\>>|a>|\|><rsub|a=a<rsub|0>>>[\<#4F3C\>\<#4E4E\>\<#6CA1\>\<#6BDB\>\<#75C5\>]
+
+  <strong|\<#65F6\>\<#95F4\>\<#7684\>\<#8BA1\>\<#7B97\>>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|T>|<cell|=>|<cell|<big|int><rsup|T<rsub|0>>\<mathd\>t=<big|int><frac|\<mathd\>a|<wide|a|\<dot\>>>=<big|int><frac|\<mathd\>a|a\<nospace\>H>>>>>
+    <tformat|<table|<row|<cell|T>|<cell|=>|<cell|<big|int>\<mathd\>t=<big|int><frac|\<mathd\>a\<mathd\>t|\<mathd\>a>=<big|int><frac|\<mathd\>a|<wide|a|\<dot\>>>=<big|int><frac|\<mathd\>a|a\<nospace\>H>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsup|a><rsub|0><frac|\<mathd\>a|a\<nospace\>H<rsub|0><sqrt|\<Omega\><rsub|m><around*|(|<frac|a<rsub|0>|a>|)><rsup|3>+\<Omega\><rsub|r><around*|(|<frac|a<rsub|0>|a>|)><rsup|4>+\<Omega\><rsub|\<Lambda\>>+\<Omega\><rsub|k><around*|(|<frac|a<rsub|0>|a>|)><rsup|2>>>>>>>
   </eqnarray*>
 
-  \<#7269\>\<#8D28\>\<#4E3A\>\<#4E3B\>
+  \<#76EE\>\<#524D\>\<#8FD8\>\<#4E0D\>\<#6E05\>\<#695A\>\<#4E3A\>\<#4EC0\>\<#4E48\>\<#53D6\>\<#8FD9\>\<#6837\>\<#7684\>\<#4E0A\>\<#4E0B\>\<#9650\>
+
+  \<#4E5F\>\<#8FD9\>\<#6837\>\<#4F7F\>\<#7528\>
+  <math|<frac|a<rsub|0>|a>\<assign\>1+z> \<#8FD9\>\<#91CC\><math|z>\<#662F\>\<#7EA2\>\<#79FB\>\<#56E0\>\<#5B50\>\<#FF0C\><math|t=0>
+  \<#65F6\>\<#5019\>\<#7269\>\<#7406\>\<#89E3\>\<#91CA\>\<#4E3A\>\<#65E0\>\<#9650\>\<#7EA2\>\<#79FB\><math|z\<rightarrow\>\<infty\>>
+
+  \<#800C\> <math|a<rsub|0>> \<#88AB\>\<#5B9A\>\<#4E49\>\<#4E3A\>\<#76EE\>\<#524D\>\<#5B87\>\<#5B99\>\<#7684\>\<#6807\>\<#5EA6\>\<#56E0\>\<#5B50\>\ 
+
+  <strong|\<#5B87\>\<#5B99\>\<#7684\>\<#5E74\>\<#9F84\>>
+  \<#8FD9\>\<#91CC\>\<#5047\>\<#5B9A\>\<#5B87\>\<#5B99\>\<#51FA\>\<#751F\>\<#7684\>\<#65F6\>\<#5019\>
+  <math|a=0>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|T>|<cell|=>|<cell|<big|int><rsub|T<rsub|EQ>><rsup|T<rsub|1>>\<mathd\>t>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsup|a<rsub|0>><rsub|a<rsub|eq>><frac|\<mathd\>a|a\<nospace\>H<rsub|0><around*|(|\<Omega\><rsub|m><around*|(|<frac|a<rsub|0>|a>|)><rsup|3>|)><rsup|<frac|1|2>>>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<nobracket\>|<frac|2|3><around*|(|<frac|a|a<rsub|0>>|)><rsup|<frac|3|2>><frac|1|\<Omega\><rsup|<frac|1|2>><rsub|m>H<rsub|0>>|\|><rsup|a><rsub|a<rsub|eq>><space|1.5spc>\<#53EA\>\<#4FDD\>\<#7559\>\<#7B2C\>\<#4E00\>\<#9879\>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3><frac|1|\<Omega\><rsub|m><rsup|<frac|1|2>>H<rsub|0>>\<sim\><frac|2|3H<rsub|0>>>>>>
+    <tformat|<table|<row|<cell|T>|<cell|=>|<cell|<big|int><rsup|a<rsub|0>><rsub|0><frac|\<mathd\>a|a\<nospace\>H<rsub|0><sqrt|\<Omega\><rsub|m><around*|(|<frac|a<rsub|0>|a>|)><rsup|3>+\<Omega\><rsub|r><around*|(|<frac|a<rsub|0>|a>|)><rsup|4>+\<Omega\><rsub|\<Lambda\>>+\<Omega\><rsub|k><around*|(|<frac|a<rsub|0>|a>|)><rsup|2>>>>>>>
+  </eqnarray*>
+
+  \;
+
+  \<#7B80\>\<#5355\>\<#4F8B\>\<#5B50\><math|K=0>
+  \<#6CA1\>\<#6709\>\<#5B87\>\<#5B99\>\<#5B66\>\<#5E38\>\<#6570\>\<#3001\>\<#7269\>\<#8D28\>\<#4E3A\>\<#4E3B\>\<#4E0E\>\<#8F90\>\<#5C04\>\<#4E3A\>\<#4E3B\>\<#4E3A\>\<#4E0D\>\<#540C\>\<#9636\>\<#6BB5\>
+
+  \<#7269\>\<#8D28\>\<#4E3A\>\<#4E3B\>\ 
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|T>|<cell|=>|<cell|<big|int><rsub|T<rsub|EQ>><rsup|T<rsub|1>>\<mathd\>t>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsup|a<rsub|0>><rsub|a<rsub|eq>><frac|\<mathd\>a|a\<nospace\>H<rsub|0><around*|(|\<Omega\><rsub|m><around*|(|<frac|a<rsub|0>|a>|)><rsup|3>|)><rsup|<frac|1|2>>>=<frac|1|<sqrt|\<Omega\><rsub|m>H<rsub|0>>>a<rsub|0><rsup|-<frac|3|2>><big|int><rsub|a<rsub|eq>><rsup|a<rsub|0>>a<rsup|<frac|1|2>>\<mathd\>a>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|\<Omega\><rsub|m>>H<rsub|0>>a<rsub|0><rsup|-<frac|3|2>><frac|2|3><around*|(|a<rsub|0><rsup|<frac|3|2>>-a<rsub|eq><rsup|<frac|3|2>>|)><space|1.5spc>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3H<rsub|0>><frac|1|<sqrt|\<Omega\><rsub|m>>><around*|(|1-<around*|(|<frac|a<rsub|0>|a<rsub|eq>>|)><rsup|<frac|3|2>>|)>\<sim\><frac|2|3H<rsub|0>>>>>>
   </eqnarray*>
 
   \<#8F90\>\<#5C04\>\<#4E3A\>\<#4E3B\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|T>|<cell|=>|<cell|<big|int><rsup|T<rsub|eq>><rsub|T<rprime|'>>\<mathd\>t=<big|int><rsup|a<rsub|eq>><rsub|a><frac|\<mathd\>a|a\<nospace\>H<rsub|0><around*|(|\<Omega\><rsub|r><rsup|<frac|1|2>><around*|(|<frac|a<rsub|0>|a>|)><rsup|2>|)>>>>|<row|<cell|>|<cell|=>|<cell|<around*|\<nobracket\>|<frac|1|2H<rsub|0>>\<Omega\><rsup|<frac|1|2>><rsub|r><around*|(|<frac|a|a<rsub|0>>|)><rsup|2>|\|><rsup|a<rsub|eq>><rsub|a>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2H<rsub|0>>\<Omega\><rsub|r><rsup|<frac|1|2>><around*|(|<frac|a<rsub|eq>|a<rsub|0>>|)><space|1.5spc>\<nospace\>\<#4E0B\>\<#7EBF\>\<#4E22\>\<#6389\>\<#4E86\>>>>>
+    <tformat|<table|<row|<cell|T>|<cell|=>|<cell|<big|int><rsup|T<rsub|eq>><rsub|T<rprime|'>>\<mathd\>t=<big|int><rsup|a<rsub|eq>><rsub|0><frac|\<mathd\>a|a\<nospace\>H<rsub|0><around*|(|\<Omega\><rsub|r><rsup|<frac|1|2>><around*|(|<frac|a<rsub|0>|a>|)><rsup|2>|)>>=<frac|1|H<rsub|0><sqrt|\<Omega\><rsub|r>>>a<rsub|0><rsup|-2><big|int><rsup|a<rsub|eq>><rsub|0>a\<mathd\>a>>|<row|<cell|>|<cell|=>|<cell|<frac|1|H<rsub|0><sqrt|\<Omega\><rsub|r>>>\<times\><frac|1|a<rsub|0><rsup|2>>\<times\><frac|1|2><around*|(|a<rsub|eq><rsup|2>-0|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2H<rsub|0><sqrt|\<Omega\><rsub|r>>><around*|(|<frac|a<rsub|eq>|a<rsub|0>>|)><rsup|2>>>>>
   </eqnarray*>
 
-  <math|\<#6362\>\<#7B97\>\<nospace\>\<Omega\><rsub|r>\<#5230\>\<nospace\>a<rsub|eq>\<#7684\>\<#65F6\>\<#523B\>><space|1em>\<#8FB9\>\<#754C\>\<#6761\>\<#4EF6\>
+  \<#8FD9\>\<#91CC\>\<#7684\><math|a<rsub|eq>>\<#662F\>\<#7269\>\<#8D28\>\<#4E0E\>\<#8F90\>\<#5C04\>\<#76F8\>\<#5F53\>\<#7684\>\<#65F6\>\<#5019\>\<#7684\>\<#6807\>\<#5EA6\>\<#56E0\>\<#5B50\>\U\<#56E0\>\<#6B64\>\<#6709\>\<#8FDE\>\<#7EED\>\<#8FB9\>\<#754C\>\<#70B9\>\<#68C0\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<Omega\><rsub|r><around*|(|<frac|a|a<rsub|eq>>|)><rsup|4>>|<cell|=>|<cell|\<Omega\><rsub|m><around*|(|<frac|a|a<rsub|eq>>|)><rsup|3>>>>>
+    <tformat|<table|<row|<cell|\<rho\><rsub|r><around*|(|a<rsub|eq>|)>>|<cell|=>|<cell|\<rho\><rsub|m><around*|(|a<rsub|eq>|)>>>>>
   </eqnarray*>
 
+  <math|\<rho\>=<frac|3H<rsub|0><rsup|2>|8\<pi\>G><around*|(|\<Omega\><rsub|\<Lambda\>>+\<Omega\><rsub|m><around*|(|<frac|a<rsub|0>|a>|)><rsup|3>+\<Omega\><rsub|r><around*|(|<frac|a<rsub|0>|a>|)><rsup|4>|)>=\<rho\><rsub|\<Lambda\>>+\<rho\><rsub|m>+\<rho\><rsub|r>>
+
   <\eqnarray*>
-    <tformat|<table|<row|<cell|T>|<cell|=>|<cell|<frac|1|2H<rsub|0>\<Omega\><rsub|m><rsup|<frac|1|2>>><around*|(|<frac|a<rsub|eq>|a>|)><rsup|<frac|3|2>>\<sim\>10<rsup|-6><frac|1|H<rsub|0>>>>>>
+    <tformat|<table|<row|<cell|\<Rightarrow\><htab|5mm>\<rho\><rsub|r><around*|(|eq|)>=<frac|3H<rsub|0><rsup|2>|8\<pi\>G>\<Omega\><rsub|r><around*|(|<frac|a<rsub|0>|a<rsub|eq>>|)><rsup|4>>|<cell|=>|<cell|<frac|3H<rsub|0><rsup|2>|8\<pi\>G>\<Omega\><rsub|m><around*|(|<frac|a<rsub|0>|a<rsub|eq>>|)><rsup|3>>>|<row|<cell|\<Rightarrow\><htab|5mm>\<Omega\><rsub|r><around*|(|<frac|a<rsub|0>|a<rsub|eq>>|)><rsup|4>>|<cell|=>|<cell|\<Omega\><rsub|m><around*|(|<frac|a<rsub|0>|a<rsub|eq>>|)><rsup|3>>>|<row|<cell|\<Omega\><rsub|r>>|<cell|=>|<cell|\<Omega\><rsub|m><around*|(|<frac|a<rsub|eq>|a<rsub|0>>|)>>>>>
+  </eqnarray*>
+
+  \<#5219\>\<#5C06\><math|\<Omega\><rsub|r>>\<#6362\>\<#7B97\>\<#6210\><math|\<Omega\><rsub|m>>\<#7136\>\<#540E\>\<#6BD4\>\<#8F83\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|T<rsub|r>>|<cell|=>|<cell|<frac|1|2H<rsub|0><sqrt|\<Omega\><rsub|r>>><around*|(|<frac|a<rsub|eq>|a<rsub|0>>|)><rsup|2>=<frac|1|2H<rsub|0><sqrt|\<Omega\><rsub|m>>><around*|(|<frac|a<rsub|eq>|a>|)><rsup|<frac|3|2>>\<sim\>10<rsup|-6><frac|1|H<rsub|0>>>>>>
   </eqnarray*>
 
   \<#6240\>\<#4EE5\>\<#4E3B\>\<#8981\>\<#662F\>\<#7269\>\<#8D28\>\<#4E3A\>\<#4E3B\>\<#8D21\>\<#732E\>\<#5E74\>\<#9F84\>
@@ -275,7 +339,7 @@
 
   \;
 
-  <strong|\<#7C92\>\<#5B50\>shijian\<#FF1A\>>\<#5149\>\<#901F\>\<#7684\>\<#6709\>\<#9650\>+\<#81A8\>\<#80C0\>\<#7684\>\<#65F6\>\<#95F4\>\<#6709\>\<#9650\>
+  <strong|\<#7C92\>\<#5B50\>\<#89C6\>\<#754C\>\<#FF1A\>>\<#5149\>\<#901F\>\<#7684\>\<#6709\>\<#9650\>+\<#81A8\>\<#80C0\>\<#7684\>\<#65F6\>\<#95F4\>\<#6709\>\<#9650\>
 
   <strong|\<#4E8B\>\<#4EF6\>\<#89C6\>\<#754C\>>\<#FF1A\>\<#7279\>\<#6B8A\>\<#7684\>\<#65F6\>\<#7A7A\>\<#7ED3\>\<#6784\>\<#5BFC\>\<#81F4\>\<#FF0C\>\<#6BD4\>\<#5982\>\<#8BF4\>\<#9ED1\>\<#6D1E\>\<#5728\>\<#65E0\>\<#9650\>\<#65F6\>\<#95F4\>\<#4E0B\>\<#53EA\>\<#80FD\>\<#4F20\>\<#64AD\>\<#5230\>\<#6709\>\<#9650\>\<#8DDD\>\<#79BB\>
 
