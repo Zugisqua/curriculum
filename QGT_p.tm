@@ -1331,15 +1331,40 @@
 
   \;
 
-  <strong|\<#6620\>\<#5C04\>\<#5EA6\>\<#FF1A\>>(mappingdegree) of <math|f>
+  <strong|\<#6620\>\<#5C04\>\<#5EA6\>\<#FF1A\>>(mapping-degree) of <math|f>
+
+  <math|w\<in\>\<Lambda\><rsup|n><around*|(|N|)>> ; <math|f:M\<rightarrow\>N>
+  ,<math|f<rprime|\<asterisk\>>w\<leftarrow\>w>
+  <math|deg<around*|(|f|)>=<frac|<big|int>f<rprime|\<asterisk\>>w|<big|int>w>>
 
   in <math|S<rsup|1>,> <math|f:S<rsup|1>\<rightarrow\>S<rsup|1>>,<math|t\<rightarrow\>e<rsup|2i\<nospace\>n\<pi\>t>>,\<#4E00\>\<#4E2A\>\<#6574\>\<#6570\><math|n>\<#5BF9\>\<#5E94\>\<#4E00\>\<#4E2A\>\<#540C\>\<#4F26\>\<#7C7B\>\<#FF0C\>
   <math|degree=n>
 
-  in <math|S<rsup|n>,> <math|w\<in\>\<Lambda\><rsup|n><around*|(|S<rsup|n>|)>>
-  ; <math|f:S<rsup|n>\<rightarrow\>S<rsup|n>>
-  ,<math|f<rprime|\<asterisk\>>w\<leftarrow\>w>
-  <math|degree=<frac|<big|int>f<rprime|\<asterisk\>>w|<big|int>w>>
+  \<#901A\>\<#8FC7\>\<#4E00\>\<#822C\>\<#516C\>\<#5F0F\>\<#8BA1\>\<#7B97\>\ 
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|u=f<around*|(|t|)>>|<cell|=>|<cell|e<rsup|2i\<nospace\>n\<pi\>t>\<in\>N>>>>
+  </eqnarray*>
+
+  \<#53D6\><math|\<mathd\>u\<in\>\<Lambda\><around*|(|N|)>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>u>|<cell|=>|<cell|\<mathd\>f<around*|(|t|)>=f<rprime|'>\<mathd\>t=2\<pi\>n\<nospace\>i\<nospace\>u\<mathd\>t>>>>
+  </eqnarray*>
+
+  \<#5219\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|deg<around*|(|f|)>>|<cell|=>|<cell|<frac|1|<big|int>\<mathd\>u><big|int>2\<pi\>n\<nospace\>i\<nospace\>e<rsup|2i\<nospace\>n\<pi\>t>\<mathd\>t>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2\<pi\>i\<nospace\>n>ln<around*|\||u|\|>>>>>
+  </eqnarray*>
+
+  \<#8003\>\<#8651\>\ 
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<big|int>\<mathd\>u>|<cell|=>|<cell|<big|int>\<mathd\>e<rsup|2i\<nospace\>n\<pi\>t>=<around*|\<nobracket\>|e<rsup|2i\<nospace\>n\<pi\>t>|\|><rsup|t<rsub|1>><rsub|t<rsub|2>>=1>>|<row|<cell|>|<cell|>|<cell|choose<space|1.5spc>t<rsub|1>=0,t<rsub|2>=i\<infty\><space|1.5spc>\<Longleftrightarrow\><space|1.5spc>u<rsub|1>=1,u<rsub|2>=0>>>>
+  </eqnarray*>
+
+  \<#611F\>\<#89C9\>\<#53EF\>\<#4EE5\>\<#7B97\>\<#FF0C\>\<#4F46\>\<#7B97\>\<#8D77\>\<#6765\>\<#53C8\>\<#4E0D\>\<#5BF9\>\<#554A\>
 
   \;
 
@@ -1404,6 +1429,20 @@
   1.\ 
 
   \<#5728\><math|\<pi\><rsub|n><around*|(|A,x<rsub|0>|)>>\<#5904\>\<#7684\>\<#6B63\>\<#5408\>\<#6027\>
+
+  \<#53D6\> <math|\<forall\><around*|[|f|]>\<in\>\<pi\><rsub|n+1><around*|(|X,x<rsub|0>|)>>
+
+  <math|f:<around*|(|S,|)>>
+
+  <math|f:<around*|(|I<rsup|n+1>,S<rsup|n>,p<rsub|0>|)>\<rightarrow\><around*|(|X,A,x<rsub|0>|)>>
+
+  <math|\<partial\>\<circ\>f:<around*|(|S<rsup|n>,S<rsup|n>,p<rsub|0>|)>\<rightarrow\><around*|(|A,A,x<rsub|0>|)><space|1.5spc>\<Longleftrightarrow\><space|1.5spc><around*|(|S<rsup|n>,p<rsub|0>|)>\<rightarrow\><around*|(|A,x<rsub|0>|)>>
+
+  <math|i\<circ\>\<partial\>\<circ\>f:<around*|(|S<rsup|n>,p<rsub|0>|)>\<rightarrow\><around*|(|X,x<rsub|0>|)>>
+
+  \<#611F\>\<#89C9\>\<#8D8A\>\<#6765\>\<#8D8A\>\<#8BF4\>\<#4E0D\>\<#6E05\>\<#695A\>\<#4E86\>
+  1. <math|S<rsup|n>\<rightarrow\>I<rsup|n+1><around*|(|S<rsup|n+1>|)>>\<#7684\>\<#6620\>\<#5C04\>\<#6269\>\<#5145\>\<#662F\>\<#600E\>\<#4E48\>\<#56DE\>\<#4E8B\>
+  2. <math|<around*|(|\<ast\>,\<ast\>,\<ast\>|)>>\<#4E0D\>\<#6B62\>\<#4E00\>\<#4E2A\>\<#6620\>\<#5C04\>\<#554A\>\<#FF0C\>\<#6269\>\<#5145\>\<#7684\>\<#662F\>\<#90A3\>\<#4E2A\>\<#FF1F\>
 
   a.\ 
 
