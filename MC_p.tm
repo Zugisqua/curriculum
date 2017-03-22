@@ -482,7 +482,7 @@
   \<#73BB\>\<#8272\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|n>|<cell|=>|<cell|<frac|g\<nospace\>T<rsup|3>|<around*|(|2\<pi\>|)><rsup|2>><big|int><frac|<around*|(|<around*|(|<frac|E|T>|)><rsup|2>-<frac|m<rsup|2>|T<rsup|2>>|)><rsup|2><frac|E|T>|e<rsup|<frac|E|T>>\<pm\>1>\<mathd\><around*|(|<frac|E|T>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|g\<nospace\>T<rsup|3>|<around*|(|2\<pi\>|)><rsup|2>><big|int><rsub|0><rsup|\<infty\>><frac|x<rsup|2>|e<rsup|x>\<pm\>1>\<mathd\>x>>|<row|<cell|>|<cell|=>|<cell|<frac|g\<nospace\>T<rsup|3>|<around*|(|2\<pi\>|)><rsup|3>>\<xi\><around*|(|3|)>>>>>
+    <tformat|<table|<row|<cell|n>|<cell|=>|<cell|<frac|g\<nospace\>T<rsup|3>|<around*|(|2\<pi\>|)><rsup|2>><big|int><frac|<around*|(|<around*|(|<frac|E|T>|)><rsup|2>-<frac|m<rsup|2>|T<rsup|2>>|)><rsup|2><frac|E|T>|e<rsup|<frac|E|T>>\<pm\>1>\<mathd\><around*|(|<frac|E|T>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|g\<nospace\>T<rsup|3>|<around*|(|2\<pi\>|)><rsup|2>><big|int><rsub|0><rsup|\<infty\>><frac|x<rsup|2>|e<rsup|x>\<pm\>1>\<mathd\>x>>|<row|<cell|>|<cell|=>|<cell|<frac|g\<zeta\><around*|(|3|)>|<around*|(|2\<pi\>|)><rsup|3>>\<nospace\>T<rsup|3>>>>>
   </eqnarray*>
 
   <\eqnarray*>
@@ -947,25 +947,36 @@
 
   \;
 
-  <strong|\<#4F8B\>\<#5B50\>\<#FF1A\>>
+  <\footnote>
+    Kolb(1990)[5.3]
+  </footnote><strong|\<#4F8B\>\<#5B50\>\<#FF1A\>>\<#975E\>\<#5E73\>\<#8861\>\<#6001\>\<#7684\>\<#7C92\>\<#5B50\>\<#8870\>\<#53D8\>
 
-  \<#7C92\>\<#5B50\><math|\<varphi\>:>\<#5B9A\>\<#4E8E\>\<#4E30\>\<#5BCC\>\<#5EA6\><math|Y=<frac|n<rsub|\<varphi\>>|s>>
-  \<#5BFF\>\<#547D\><math|\<tau\>>, \<#8D28\>\<#91CF\><math|m>
+  \<#975E\>\<#76F8\>\<#5BF9\>\<#8BBA\>\<#7C92\>\<#5B50\><math|\<varphi\>:>\<#5B9A\>\<#4E8E\>\<#4E30\>\<#5BCC\>\<#5EA6\><math|Y=<frac|n<rsub|\<varphi\>>|s>>
+  \<#5BFF\>\<#547D\><math|\<tau\>>, \<#8D28\>\<#91CF\><math|m>\<#FF0C\>\<#5047\>\<#5B9A\>\<#8F90\>\<#5C04\>\<#4E3A\>\<#4E3B\>\<#65F6\>\<#671F\><math|H\<sim\><frac|1|t<rsup|2>>>
 
-  <math|H<rsub|0>\<sim\><frac|1|t<rsup|2>>>\<#8870\>\<#53D8\>\<#7684\>\<#65F6\>\<#523B\>
+  <math|\<#975E\>\<#76F8\>\<#5BF9\>\<#8BBA\>\<#7C92\>\<#5B50\>\<#FF1A\>\<rho\><rsub|\<varphi\>>=n\<nospace\><rsub|\<varphi\>>m=s\<nospace\>Y<rsub|\<varphi\>>m>
+
+  \<#71B5\>\<#7684\>\<#4F30\>\<#8BA1\>\<#7B97\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|H<rsub|0><rsup|2>>|<cell|\<approx\>>|<cell|<frac|Y\<nospace\>T<rsub|0><rsup|3>m|m<rsub|p><rsup|2>>\<approx\><frac|1|\<tau\><rsup|2>>>>>>
+    <tformat|<table|<row|<cell|<frac|1|\<tau\><rsup|2>>\<sim\>H<rsub|0><rsup|2>>|<cell|\<sim\>>|<cell|G\<rho\>\<sim\>G\<nospace\>s\<nospace\>Y<rsub|\<varphi\>>m\<sim\><frac|Y\<nospace\><rsub|\<varphi\>>m\<nospace\>s|m<rsub|p><rsup|2>>>>|<row|<cell|>|<cell|>|<cell|as<space|1.5spc>G\<approx\><frac|1|m<rsub|p><rsup|2>>>>>>
   </eqnarray*>
 
-  \<#7531\> <math|reheating>
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<Rightarrow\><htab|5mm>s<rsub|D>>|<cell|\<sim\>>|<cell|<frac|m<rsub|p><rsup|2>|\<tau\><rsup|2>m\<nospace\>Y<rsub|\<varphi\>>>>>>>
+  </eqnarray*>
+
+  \<#8870\>\<#53D8\>\<#5C06\>\<#7C92\>\<#5B50\>\<#53D8\>\<#6210\>\<#76F8\>\<#5BF9\>\<#8BBA\>\<#7C92\>\<#5B50\>
+  <math|\<rho\><rsub|R>\<approx\>g<rsub|\<ast\>>T<rsup|4><rsub|RH>>
+
+  \<#5728\>\<#8FD9\>\<#4E00\>\<#8FDE\>\<#7EED\>\<#7684\>\<#8FC7\>\<#7A0B\>\U\<#8870\>\<#53D8\>\<#524D\>\<#540E\>\<#7684\>\<#80FD\>\<#91CF\>\<#5BC6\>\<#5EA6\>\<#4E00\>\<#6837\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|T<rsup|4><rsub|rh>>|<cell|\<sim\>>|<cell|Y\<nospace\>T<rsub|0><rsup|3>m>>>>
+    <tformat|<table|<row|<cell|\<#7531\><htab|5mm>\<rho\><rsub|R>>|<cell|=>|<cell|\<rho\><rsub|\<varphi\>>>>|<row|<cell|\<Rightarrow\><htab|5mm>T<rsub|RH><rsup|4>>|<cell|=>|<cell|g<rsub|\<ast\>><rsup|-1>s\<nospace\>Y\<nospace\>m\<sim\>=<frac|g<rsub|\<ast\>><rsup|-1>m<rsub|p><rsup|2>|\<tau\><rsup|2>>>>>>
   </eqnarray*>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<Rightarrow\><htab|5mm><frac|s<rsub|reh>|s<rsub|D>>>|<cell|=>|<cell|<frac|T<rsub|reh><rsup|3>|T<rsub|D><rsup|3>>\<sim\><frac|Y\<nospace\>m\<tau\><rsup|<frac|1|2>>|m<rsub|p><rsup|<frac|1|2>>>>>>>
+    <tformat|<table|<row|<cell|\<Rightarrow\><htab|5mm><frac|s<rsub|reh>|s<rsub|D>>>|<cell|=>|<cell|<frac|g<rsub|\<ast\>>T<rsub|RH><rsup|3>|s<rsub|D>>\<sim\><frac|g<rsub|\<ast\>>g<rsub|\<ast\>><rsup|-<frac|3|4>>m<rsub|p><rsup|<frac|3|2>>|<frac|m<rsub|p><rsup|2>\<tau\><rsup|<frac|3|2>>|\<tau\><rsup|2>m\<nospace\>Y<rsub|\<varphi\>>>>=g<rsub|\<ast\>><rsup|<frac|1|4>><frac|Y\<nospace\>m\<tau\><rsup|<frac|1|2>>|m<rsub|p><rsup|<frac|1|2>>>>>>>
   </eqnarray*>
 
   \<#8FD9\>\<#4E2A\>\<#8870\>\<#53D8\>\<#4E0E\>\<#8870\>\<#53D8\>\<#4E4B\>\<#524D\>\<#662F\>\<#71B5\>\<#7684\>\<#6BD4\>\<#503C\>\<#FF0C\>\<#8FD9\>\<#4E00\>\<#8FC7\>\<#7A0B\>\<#5927\>\<#91CF\>\<#589E\>\<#52A0\>\<#71B5\>
@@ -1009,12 +1020,14 @@
     <associate|footnote-4|<tuple|4|5>>
     <associate|footnote-5|<tuple|5|5>>
     <associate|footnote-6|<tuple|6|8>>
+    <associate|footnote-7|<tuple|7|?>>
     <associate|footnr-1|<tuple|1|1>>
     <associate|footnr-2|<tuple|2|3>>
     <associate|footnr-3|<tuple|3|4>>
     <associate|footnr-4|<tuple|4|5>>
     <associate|footnr-5|<tuple|5|5>>
     <associate|footnr-6|<tuple|6|8>>
+    <associate|footnr-7|<tuple|7|?>>
   </collection>
 </references>
 
