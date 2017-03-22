@@ -1343,25 +1343,26 @@
   \<#901A\>\<#8FC7\>\<#4E00\>\<#822C\>\<#516C\>\<#5F0F\>\<#8BA1\>\<#7B97\>\ 
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|u=f<around*|(|t|)>>|<cell|=>|<cell|e<rsup|2i\<nospace\>n\<pi\>t>\<in\>N>>>>
+    <tformat|<table|<row|<cell|u=f<around*|(|t|)>>|<cell|=>|<cell|e<rsup|2i\<nospace\>n\<pi\>t>\<in\>S<rsup|1>>>>>
   </eqnarray*>
 
-  <math|<tabular*|<tformat|<cwith|1|1|1|1|cell-halign|l>|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|t=<frac|k|n>,u=1>>|<row|<cell|t=<frac|2k+1|2n>,u=-1>>>>>k\<in\>\<bbb-Z\>>
-
-  \<#53D6\><math|\<mathd\>u\<in\>\<Lambda\><around*|(|N|)>>
-
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<mathd\>u>|<cell|=>|<cell|\<mathd\>f<around*|(|t|)>=f<rprime|'>\<mathd\>t=2\<pi\>n\<nospace\>i\<nospace\>u\<mathd\>t>>>>
+    <tformat|<table|<row|<cell|f<rprime|\<asterisk\>>\<mathd\>u>|<cell|=>|<cell|n\<nospace\>z<rsup|n-1>\<mathd\>z>>|<row|<cell|>|<cell|=>|<cell|n\<nospace\><around*|\||z|\|><rsup|n-1>e<rsup|2\<pi\>i<around*|(|n-1|)>t><around*|\||z|\|>\<mathd\>e<rsup|2\<pi\>i\<nospace\>t>>>|<row|<cell|>|<cell|=>|<cell|2\<pi\>i\<nospace\>n\<nospace\>e<rsup|2\<pi\>i\<nospace\>n\<nospace\>t>\<mathd\>t>>>>
   </eqnarray*>
 
   \<#5219\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|deg<around*|(|f|)>>|<cell|=>|<cell|<frac|<big|int>f<rprime|\<asterisk\>>\<mathd\>u|<big|int>\<mathd\>u>=<frac|<big|int>|<big|int>\<mathd\>u>>>|<row|<cell|>|<cell|=>|<cell|2\<pi\>i\<nospace\>n\<times\><frac|1|2><big|int><rsup|<frac|k|n>><rsub|<frac|1|2n>+<frac|k|n>>e<rsup|2i\<nospace\>n\<pi\>t>\<mathd\>t>>>>
+    <tformat|<table|<row|<cell|<big|int>f<rprime|\<asterisk\>>\<mathd\>u>|<cell|=>|<cell|2\<pi\>i\<nospace\>n\<nospace\><big|int><rsub|0><rsup|1>e<rsup|2\<pi\>i\<nospace\>n\<nospace\>t>\<mathd\>t>>|<row|<cell|>|<cell|=>|<cell|2\<pi\>i\<nospace\>n\<nospace\><big|int><rsub|0><rsup|1>e<rsup|2\<pi\>i\<nospace\><around*|(|n-1|)>\<nospace\>t>e<rsup|2\<pi\>i\<nospace\>t>\<mathd\>t>>|<row|<cell|>|<cell|=>|<cell|n<big|int><rsub|0><rsup|1>e<rsup|2\<pi\>i<around*|(|n-1|)>t>\<mathd\>e<rsup|2\<pi\>i\<nospace\>t>>>|<row|<cell|>|<cell|=>|<cell|\<nospace\>n<big|oint><rsub|S<rsup|1>>z<rsup|n-1>\<mathd\>z>>|<row|<cell|>|<cell|=>|<cell|<big|oint><rsub|S<rsup|1>>\<mathd\>z<rsup|n>=<big|oint><rsub|S<rsup|1>\<times\>n>\<mathd\>u>>|<row|<cell|>|<cell|=>|<cell|n<big|oint><rsub|S<rsup|1>>\<mathd\>u>>|<row|<cell|<big|int>\<mathd\>u>|<cell|\<equiv\>>|<cell|<big|oint><rsub|S<rsup|1>>\<mathd\>u>>>>
   </eqnarray*>
 
-  \<#600E\>\<#4E48\>\<#90FD\>\<#8BA1\>\<#7B97\>\<#5F97\>1 - -
-  \<#662F\>\<#600E\>\<#4E48\>\<#56DE\>\<#4E8B\>
+  \<#56E0\>\<#6B64\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|deg<around*|(|f|)>>|<cell|=>|<cell|n>>>>
+  </eqnarray*>
+
+  \;
 
   \;
 
@@ -1824,8 +1825,11 @@
   <hlink|Top|#170309>
 </body>
 
-<initial|<\collection>
-</collection>>
+<\initial>
+  <\collection>
+    <associate|page-medium|papyrus>
+  </collection>
+</initial>
 
 <\references>
   <\collection>
