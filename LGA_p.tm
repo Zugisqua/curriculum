@@ -1441,11 +1441,22 @@
 
   <math|USp<around*|(|N|)>>\<#4E0E\>\<#5B9E\><math|Sp<around*|(|N,\<bbb-R\>|)>>\<#90FD\>\<#662F\><math|Sp<around*|(|N,\<bbb-C\>|)>>\<#7684\>\<#590D\>\<#5316\>
 
-  <\folded-env>
+  <\unfolded-env>
     \<#4F5C\>\<#4E1A\>\<#FF1A\><math|<around*|(|-<wide|j|^>|)>h<rsup|T><wide|j|^>=h<rprime|\<dag\>>,h\<in\>\<bbb-H\>>[\<#56DB\>\<#5143\>\<#6570\>],\<#53D6\>\<#6CE1\>\<#5229\>\<#77E9\>\<#9635\>\<#7684\>\<#57FA\>\<#77E2\>
-  <|folded-env>
-    \;
-  </folded-env>
+
+    \<#8BA1\>\<#7B97\>\<#57FA\>\<#77E2\>
+  <|unfolded-env>
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|-<wide|j|^>\<bbb-I\><wide|j|^>>|<cell|=>|<cell|-<around*|(|-i\<sigma\><rsub|2>|)><around*|(|-i\<sigma\><rsub|2>|)>=\<sigma\><rsub|2><rsup|2>=\<bbb-I\>>>|<row|<cell|-<wide|j|^><wide|i|^><rsup|T><wide|j|^>>|<cell|=>|<cell|\<sigma\><rsub|2><around*|(|-i\<sigma\><rsub|1><rsup|T>|)>\<sigma\><rsub|2>=-i\<sigma\><rsub|2>\<sigma\><rsub|1>\<sigma\><rsub|2>=-i\<sigma\><rsub|2>i\<sigma\><rsub|3>>>|<row|<cell|>|<cell|=>|<cell|i\<sigma\><rsub|1>=-<wide|i|^>>>|<row|<cell|-<wide|j|^><wide|j|^><rsup|T><wide|j|^>>|<cell|=>|<cell|\<sigma\><rsub|2><around*|(|-i\<sigma\><rsub|2><rsup|T>|)>\<sigma\><rsub|2>=i\<sigma\><rsub|2>\<sigma\><rsub|2>\<sigma\><rsub|2>=i\<sigma\><rsub|2>>>|<row|<cell|>|<cell|=>|<cell|-<wide|j|^>>>|<row|<cell|-<wide|j|^><wide|k|^><rsup|T><wide|j|^>>|<cell|=>|<cell|\<sigma\><rsub|2><around*|(|-i\<sigma\><rsub|3><rsup|T>|)>\<sigma\><rsub|2>=-i\<sigma\><rsub|2>\<sigma\><rsub|3>\<sigma\><rsub|2>=-i<around*|(|i\<sigma\><rsub|1>|)>\<sigma\><rsub|2>=i\<sigma\><rsub|3>>>|<row|<cell|>|<cell|=>|<cell|-<wide|k|^>>>>>
+    </eqnarray*>
+
+    \<#5BF9\>\<#4E8E\>\<#4EFB\>\<#610F\>\<#56DB\>\<#5143\>\<#6570\>
+    <math|h=a+b<rsub|1><wide|i|^>+b<rsub|2><wide|j|^>+b<rsub|3><wide|k|^>>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|-<wide|j|^>h<rsup|T><wide|j|^>>|<cell|=>|<cell|a<around*|(|-<wide|j|^>\<bbb-I\><wide|j|^>|)>+b<rsub|1><around*|(|-<wide|j|^><wide|i|^><rsup|T><wide|j|^>|)>+b<rsub|2><around*|(|-<wide|j|^><wide|j|^><rsup|T><wide|j|^>|)>+b<rsub|3><around*|(|-<wide|j|^><wide|k|^><rsup|T><wide|j|^>|)>>>|<row|<cell|>|<cell|=>|<cell|a-b<rsub|1><wide|i|^>-b<rsub|2><wide|j|^>-b<rsub|3><wide|k|^><rsub|3>>>|<row|<cell|>|<cell|=>|<cell|h<rprime|\<dag\>>>>>>
+    </eqnarray*>
+  </unfolded-env>
 
   <hlink|Top|#170315>
 
