@@ -1510,6 +1510,156 @@
   \;
 
   <hlink|Top|#170320>
+
+  \;
+
+  2017-03-27<label|170327>
+
+  \;
+
+  \<#89C4\>\<#8303\>\<#573A\>\<#7684\>\<#65E0\>\<#7A77\>\<#5C0F\>\<#89C4\>\<#8303\>\<#53D8\>\<#6362\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|A<rsub|\<mu\>><rsup|a><around*|(|x|)>>|<cell|\<rightarrow\>>|<cell|A<rsub|\<mu\>><rsup|a><around*|(|x|)>+<frac|1|g>\<partial\><rsub|\<mu\>>\<epsilon\><rsup|a><around*|(|x|)>+f<rsup|a\<nospace\>b\<nospace\>c>A<rsub|\<mu\>><rsup|b>\<epsilon\><rsup|c><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|A<rsub|\<mu\>><rsup|a>+<frac|1|g>D<rsub|\<mu\>>\<epsilon\><rsup|a>>>>>
+  </eqnarray*>
+
+  Bianchi\<#6052\>\<#7B49\>\<#5F0F\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|[|D<rsub|\<nu\>>,<around*|[|D<rsub|\<lambda\>>,D<rsub|\<sigma\>>|]>|]>+<around*|[|D<rsub|\<lambda\>>,<around*|[|D<rsub|\<sigma\>>,D<rsub|\<nu\>>|]>|]>+<around*|[|D<rsub|\<sigma\>>,<around*|[|D<rsub|\<nu\>>,D<rsub|\<lambda\>>|]>|]>>|<cell|=>|<cell|0>>|<row|<cell|\<Longleftrightarrow\><htab|5mm>D<rsub|\<nu\>>F<rsub|\<lambda\>\<sigma\>>+D<rsub|\<lambda\>>F<rsub|\<sigma\>\<nu\>>+D<rsub|\<sigma\>>F<rsub|\<nu\>\<lambda\>>>|<cell|=>|<cell|0>>|<row|<cell|\<Longleftrightarrow\><htab|5mm>\<epsilon\><rsup|\<mu\>\<nu\>\<lambda\>\<sigma\>>D<rsub|\<nu\>>F<rsub|\<lambda\>\<sigma\>>>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  Casimir\<#7B97\>\<#5B50\>
+
+  <subsection|<math|SU<around*|(|N|)>>-Yang-Mills\<#7406\>\<#8BBA\>\<#7684\>Feynman\<#89C4\>\<#5219\>>
+
+  <em|\<#62C9\>\<#683C\>\<#6717\>\<#65E5\>\<#91CF\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<cal-L\>>|<cell|=>|<cell|-<frac|1|4>F<rsup|a><rsub|\<mu\>\<nu\>>F<rsup|a\<mu\>\<nu\>>+<wide|\<psi\>|\<bar\>><around*|(|i<neg|D>-m|)>\<psi\>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|2><around*|(|\<partial\><rsub|\<mu\>>A<rsup|a\<nu\>>\<partial\><rsub|\<mu\>>A<rsup|a\<nu\>>-\<partial\><rsub|\<mu\>>A<rsup|a\<nu\>>\<partial\><rsub|\<nu\>>A<rsup|a\<mu\>>|)>+<wide|\<psi\>|\<bar\>><around*|(|i<neg|\<partial\>>-m|)>\<psi\><new-line>+g<wide|\<psi\>|\<bar\>><neg|A>\<psi\><new-line>-g\<nospace\>f<rsup|a\<nospace\>b\<nospace\>c><around*|(|\<partial\><rsub|\<mu\>>A<rsup|a><rsub|\<nu\>>|)>A<rsup|b\<mu\>>A<rsup|c\<nu\>><new-line>-<frac|1|4>g<rsup|2>f<rsup|a\<nospace\>b\<nospace\>c>f<rsup|a\<nospace\>d\<nospace\>e>A<rsub|\<mu\>><rsup|b>A<rsub|\<nu\>><rsup|c>A<rsup|d\<mu\>>A<rsup|e\<nu\>>>>>>
+  </eqnarray*>
+
+  <math|\<#540E\>\<#4E09\>\<#9879\>\<#4E3A\>\<#76F8\>\<#4E92\>\<#4F5C\>\<#7528\>\<#9879\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|g<wide|\<psi\>|\<bar\>><neg|A>\<psi\>>|<cell|>|<cell|\<#9876\>\<#70B9\><space|1.5spc>>>|<row|<cell|g\<nospace\>f<rsup|a\<nospace\>b\<nospace\>c><around*|(|\<partial\><rsub|\<mu\>>A<rsup|a><rsub|\<nu\>>|)>A<rsup|b\<mu\>>A<rsup|c\<nu\>>>|<cell|>|<cell|\<#4E09\>\<#80F6\>\<#5B50\>\<#9876\>\<#70B9\>>>|<row|<cell|<frac|1|4>g<rsup|2>f<rsup|a\<nospace\>b\<nospace\>c>f<rsup|a\<nospace\>d\<nospace\>e>A<rsub|\<mu\>><rsup|b>A<rsub|\<nu\>><rsup|c>A<rsup|d\<mu\>>A<rsup|e\<nu\>>>|<cell|>|<cell|\<#56DB\>\<#80F6\>\<#5B50\>\<#9876\>\<#70B9\>>>>>
+  </eqnarray*>
+
+  \<#800C\>\<#81EA\>\<#7531\>\<#9879\>\<#7ED9\>\<#51FA\>\<#4F20\>\<#64AD\>\<#5B50\>\<#7684\>\<#5F62\>\<#5F0F\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|\<langle\>|0\|T<around*|(|\<psi\><rsub|i\<alpha\>><around*|(|x|)><wide|\<psi\>|\<bar\>><rsub|j\<nospace\>\<beta\>><around*|(|y|)>|)>\|0|\<rangle\>>>|<cell|=>|<cell|<big|int><frac|\<mathd\><rsup|4>k|<around*|(|2\<pi\>|)><rsup|4>><around*|(|<frac|i|<neg|p>-m-i\<epsilon\>>|)><rsub|\<alpha\>\<beta\>>\<delta\><rsub|i\<nospace\>j>e<rsup|-i\<nospace\>k<around*|(|x-y|)>>\<nospace\><htab|5mm>\<longminus\>\<#8D39\>\<#7C73\>\<#4F20\>\<#64AD\>\<#5B50\>>>|<row|<cell|<around*|\<langle\>|0\|T<around*|(|A<rsub|\<mu\>><rsup|a><around*|(|x|)>A<rsub|\<nu\>><rsup|b><around*|(|y|)>|)>\|0|\<rangle\>>>|<cell|=>|<cell|<big|int><frac|\<mathd\><rsup|4>k|<around*|(|2\<pi\>|)><rsup|4>><frac|-i\<nospace\>g<rsub|\<mu\>\<nu\>>|k<rsup|2>+i\<epsilon\>>\<delta\><rsup|a\<nospace\>b>e<rsup|-i\<nospace\>k<around*|(|x-y|)>>\<#FF0C\><space|1.5spc>\<#8FD9\>\<#91CC\>\<#53D6\>\<#7684\>Feynman\<#89C4\>\<#8303\><htab|5mm>\<longminus\>\<#80F6\>\<#5B50\>\<#4F20\>\<#64AD\>\<#5B50\>>>>>
+  </eqnarray*>
+
+  <strong|Feynman\<#89C4\>\<#5219\>>
+
+  1. \<#80F6\>\<#5B50\>\<#52A8\>\<#91CF\>\<#6001\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around|\||<embold|p>a\<lambda\>|\<rangle\>>>|<cell|=>|<cell|a<rsup|a><rsub|\<lambda\><embold|p>><rprime|\<dag\>><around|\||0|\<rangle\>>>>>>
+  </eqnarray*>
+
+  2. \<#89C4\>\<#8303\>\<#573A\>\<#7684\>\<#5E73\>\<#9762\>\<#6CE2\>\<#5C55\>\<#5F00\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|A<rsup|a><rsub|\<mu\>>>|<cell|=>|<cell|<big|sum><rsub|\<lambda\>><big|int><frac|\<mathd\><rsup|3>k|<around*|(|2\<pi\>|)><rsup|3>2E<rsub|k>><around*|{|a<rsup|a><rsub|\<lambda\><embold|k>>\<epsilon\><rsub|\<mu\>><rsup|a\<lambda\>><around*|(|<embold|k>|)>e<rsup|-i\<nospace\>k\<nospace\>x>+a<rsup|a><rsub|\<lambda\><embold|k>><rprime|\<dag\>>\<epsilon\><rsup|a\<lambda\>><rsub|\<mu\>><rprime|\<asterisk\>><around*|(|<embold|k>|)>e<rsup|i\<nospace\>k\<nospace\>x>|}>>>|<row|<cell|\<Rightarrow\><htab|5mm>\<partial\><rsub|\<nu\>>A<rsub|\<mu\>><rsup|a>>|<cell|=>|<cell|<big|sum><rsub|\<lambda\>><big|int><frac|\<mathd\><rsup|3>k|<around*|(|2\<pi\>|)><rsup|3>2E<rsub|k>><around*|(|-i\<nospace\>k<rsub|\<nu\>>|)><around*|{|a<rsup|a><rsub|\<lambda\><embold|k>>\<epsilon\><rsub|\<mu\>><rsup|a\<lambda\>><around*|(|<embold|k>|)>e<rsup|-i\<nospace\>k\<nospace\>x>-a<rsup|a><rsub|\<lambda\><embold|k>><rprime|\<dag\>>\<epsilon\><rsup|a\<lambda\>><rsub|\<mu\>><rprime|\<asterisk\>><around*|(|<embold|k>|)>e<rsup|i\<nospace\>k\<nospace\>x>|}>>>|<row|<cell|\<Rightarrow\><htab|5mm><around*|(|\<partial\><rsub|\<nu\>>A<rsub|\<mu\>><rsup|a>|)><rprime|\<dag\>>>|<cell|=>|<cell|\<partial\><rsub|\<nu\>>A<rsub|\<mu\>><rsup|a>>>>>
+  </eqnarray*>
+
+  3. Feynman\<#89C4\>\<#5219\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<partial\><rsub|\<mu\>>A<rsup|b><rsub|\<nu\>><around|\||<embold|p>a\<lambda\>|\<rangle\>>>|<cell|=>|<cell|<big|sum><rsub|\<eta\>><big|int><frac|\<mathd\><rsup|3>k|<around*|(|2\<pi\>|)><rsup|3>2E<rsub|k>><around*|(|-i\<nospace\>k<rsub|\<mu\>>|)><around*|{|a<rsup|b><rsub|\<eta\><embold|k>>\<epsilon\><rsup|b\<eta\>><rsub|\<nu\>><around*|(|<embold|k>|)>e<rsup|-i\<nospace\>k\<nospace\>x>a<rsup|a><rsub|\<lambda\><embold|p>>|}><around|\||0|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsub|\<eta\>><big|int><frac|\<mathd\><rsup|3>k|<around*|(|2\<pi\>|)><rsup|3>2E<rsub|k>><around*|(|-i\<nospace\>k<rsub|\<mu\>>|)><around*|{|<around*|[|a<rsup|b><rsub|\<eta\><embold|k>>,a<rsup|a><rsub|\<lambda\><embold|p>><rprime|\<dag\>>|]>+a<rsup|a><rsub|\<lambda\><embold|p>><rprime|\<dag\>>a<rsup|b><rsub|\<eta\><embold|k>>|}>\<epsilon\><rsup|b\<eta\>><rsub|\<nu\>><around*|(|<embold|k>|)>e<rsup|-i\<nospace\>k\<nospace\>x><around|\||0|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsub|\<eta\>><big|int><frac|\<mathd\><rsup|3>k|<around*|(|2\<pi\>|)><rsup|3>2E<rsub|k>><around*|(|-i\<nospace\>k<rsub|\<mu\>>|)><around*|{|<around*|(|2\<pi\>|)><rsup|3>2E<rsub|k>\<delta\><rsup|a\<nospace\>b>g<rsub|\<eta\>\<lambda\>>\<delta\><around*|(|<embold|k>-<embold|p>|)>|}>\<epsilon\><rsup|b\<eta\>><rsub|\<nu\>><around*|(|<embold|k>|)>e<rsup|-i\<nospace\>k\<nospace\>x><around|\||0|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<around|\||0|\<rangle\>><around*|(|-i\<nospace\>p<rsub|\<mu\>>\<delta\><rsup|a\<nospace\>b>\<epsilon\><rsup|b><rsub|\<lambda\><embold|p>>e<rsup|-i\<nospace\>k\<nospace\>x>|)>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around|\<langle\>|<embold|p>a\<lambda\>|\|>\<partial\><rsub|\<mu\>>A<rsup|b><rsub|\<nu\>>>|<cell|=>|<cell|i\<nospace\>p<rsub|\<mu\>>\<delta\><rsup|a\<nospace\>b>\<epsilon\><rsup|b><rsub|\<lambda\><embold|p>><rprime|\<asterisk\>>e<rsup|i\<nospace\>k\<nospace\>x><around|\<langle\>|0|\|>>>>>
+  </eqnarray*>
+
+  \<#6BD4\>\<#8F83\>\<#610F\>\<#5916\>\<#7684\>\<#662F\>\<#FF0C\>\<#8FD9\>\<#91CC\><math|a,b>\<#662F\>\<#4E0D\>\<#6C42\>\<#548C\>\<#7684\>
+
+  <subsubsection|\<#4E09\>\<#80F6\>\<#5B50\>\<#9876\>\<#70B9\>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<cal-L\><rsub|I>>|<cell|=>|<cell|-g\<nospace\>f<rsup|a\<nospace\>b\<nospace\>c><around*|(|\<partial\><rsub|\<mu\>>A<rsup|a><rsub|\<nu\>>|)>A<rsup|b\<mu\>>A<rsup|c\<nu\>>>>>>
+  </eqnarray*>
+
+  1. \<#7EA6\>\<#5B9A\>\<#52A8\>\<#91CF\>\<#6D41\>\<#5411\>\<#9876\>\<#70B9\>\<#65B9\>\<#5411\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<cal-H\><rsub|I>>|<cell|=>|<cell|-\<cal-L\><rsub|I>>>>>
+  </eqnarray*>
+
+  \<#8FD9\>\<#91CC\>\<#53EF\>\<#4EE5\>\<#63A8\>\<#5BFC\>
+
+  De:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<pi\><rsub|I>>|<cell|=>|<cell|<frac|\<partial\>\<cal-L\><rsub|I>|\<partial\><around*|(|\<partial\><rsub|0>A<rsup|d><rsub|\<sigma\>>|)>>>>|<row|<cell|>|<cell|=>|<cell|-g\<nospace\>f<rsup|a\<nospace\>b\<nospace\>c>\<delta\><rsub|\<mu\>><rsup|0>\<delta\><rsup|a\<nospace\>d>\<delta\><rsub|\<nu\>><rsup|\<sigma\>>A<rsup|b\<mu\>>A<rsup|c\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|-\<nospace\>g\<nospace\>f<rsup|d\<nospace\>b\<nospace\>c>A<rsup|b\<nospace\>0>A<rsup|c\<sigma\>><rsub|>>>>>
+  </eqnarray*>
+
+  \<#5219\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<cal-H\><rsub|I>>|<cell|=>|<cell|\<pi\><rsub|I>\<partial\><rsub|0>A<rsub|\<sigma\>><rsup|d>-\<cal-L\><rsub|I>>>|<row|<cell|>|<cell|=>|<cell|-g\<nospace\>f<rsup|d\<nospace\>b\<nospace\>c>A<rsup|b\<nospace\>0>A<rsup|c\<nospace\>\<sigma\>>\<partial\><rsub|0>A<rsub|\<sigma\>><rsup|d>-\<cal-L\><rsub|I>>>|<row|<cell|>|<cell|=>|<cell|orz>>>>
+  </eqnarray*>
+
+  \<#7B80\>\<#76F4\>\<#4E86\>
+
+  \U<math|g\<nospace\>f<rsup|a\<nospace\>b\<nospace\>c><around*|(|\<partial\><rsub|\<mu\>>A<rsup|a><rsub|\<nu\>>|)>A<rsup|b\<mu\>>A<rsup|c\<nu\>>>
+
+  \<#8BA1\>\<#7B97\>\ 
+
+  <\eqnarray*>
+    <tformat|<cwith|2|2|2|2|cell-halign|c>|<table|<row|<cell|<rsub|out><around*|\<langle\>|0\|k<rsub|1>k<rsub|2>k<rsub|3>|\<rangle\>><rsub|in>>|<cell|<long-arrow|\<rubber-equal\>|inter>>|<cell|<around|\<langle\>|0|\|>\<nospace\>i<big|int>\<mathd\><rsup|4>x\<nospace\>T<around*|{|\<cal-L\><rsub|I><around*|(|x|)>|}><around|\||k<rsub|1>k<rsub|2>k<rsub|3>|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|-i\<nospace\>g\<nospace\>f<rsup|a\<nospace\>b\<nospace\>c><big|int>\<mathd\><rsup|3>x<around|\<langle\>|0|\|><around*|(|\<partial\><rsub|\<mu\>>A<rsub|\<nu\>><rsup|a>|)><rsup|+>A<rsup|b\<mu\>+>A<rsup|c\<nu\>+><around|\||k<rsub|1>k<rsub|2>k<rsub|3>|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|-i\<nospace\>g\<nospace\>f<rsup|a\<nospace\>b\<nospace\>c><big|int>\<mathd\><rsup|3>x<around|\<langle\>|0|\|><around*|(|\<partial\><rsub|\<mu\>>A<rsub|\<nu\>><rsup|a>|)><rsup|+>A<rsup|b\<mu\>+><around*|(|-i\<nospace\>k<rsub|1>\<delta\><around|\||k<rsub|2>k<rsub|3>|\<rangle\>>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|=>|<cell|<around*|(|2\<pi\>|)><rsup|4>\<delta\><rsup|4><around*|(|k+p+q|)>\<epsilon\><rsub|\<mu\>><rsup|\<lambda\>><around*|(|k|)>\<epsilon\><rsub|\<nu\>><rsup|\<lambda\><rprime|'>>\<epsilon\><rsub|\<rho\>><rsup|\<lambda\><rprime|''>><around*|(|q|)>g\<nospace\>f<rsup|a\<nospace\>b\<nospace\>c><around*|(|g<rsup|\<mu\>\<nu\>><around*|(|k-p|)><rsup|\<rho\>>+g<rsup|\<nu\>\<rho\>><around*|(|p-q|)><rsup|\<mu\>>+g<rsup|\<rho\>\<mu\>><around*|(|q-k|)><rsup|\<nu\>>|)>>>>>
+  </eqnarray*>
+
+  <\folded-env>
+    \<#4F5C\>\<#4E1A\>\<#FF1A\>\<#6807\>\<#91CF\> <math|QED:>
+    <math|\<cal-L\>=-<frac|1|4>F<rsub|\<mu\>\<nu\>>F<rsup|\<mu\>\<nu\>>+<around*|(|D<rsup|\<mu\>>\<phi\>|)><rprime|\<dag\>>D<rsub|\<mu\>>\<phi\>-m<rsup|2>\<phi\><rprime|\<dag\>>\<phi\>>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<phi\><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|\<mathd\><rsup|3>k|<around*|(|2\<pi\>|)><rsup|3>2E<rsub|k>><around*|{|a<rsub|<embold|k>>e<rsup|-i\<nospace\>k\<nospace\>x>+b<rprime|\<dag\>><rsub|<embold|k>>e<rsup|i\<nospace\>k\<nospace\>x>|}>>>|<row|<cell|\<phi\><rprime|\<dag\>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|\<mathd\><rsup|3>k|<around*|(|2\<pi\>|)><rsup|3>2E<rsub|k>><around*|{|b<rsub|<embold|k>>e<rsup|-\<nospace\>i\<nospace\>k\<nospace\>x>+a<rsub|<embold|k>><rprime|\<dag\>>e<rsup|i\<nospace\>k\<nospace\>x>|}>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|D<rsub|\<mu\>>>|<cell|=>|<cell|\<partial\><rsub|\<mu\>>+i\<nospace\>e\<nospace\>A<rsub|\<mu\>>>>>>
+    </eqnarray*>
+
+    \<#8BA1\>\<#7B97\>\<#9876\>\<#70B9\>\<#FF1F\>
+  <|folded-env>
+    \;
+  </folded-env>
+
+  <subsubsection|Fermion-gluon-Fermion\<#9876\>\<#70B9\>>
+
+  \<#8BA1\>\<#7B97\> <math|<rsub|out><around*|\<langle\>|0\|p<rsub|1>k\<nospace\>p<rsub|2>|\<rangle\>><rsub|in>>
+
+  <subsubsection|\<#56DB\>\<#80F6\>\<#5B50\>\<#9876\>\<#70B9\>>
+
+  \<#8BA1\>\<#7B97\> <math|<rsub|out><around*|\<langle\>|0\|p<rsub|1>p<rsub|2>p<rsub|3>p<rsub|4>|\<rangle\>><rsub|in>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|=>|<cell|<around*|(|2\<pi\>|)><rsup|4>\<delta\><rsup|4><around*|(|p<rsub|1>+p<rsub|2>+p<rsub|3>+p<rsub|4>|)>\<epsilon\><rsub|\<mu\>><new-line>\<times\><around*|(|-i\<nospace\>g<rsup|2>|)><around*|(|f<rsup|a\<nospace\>b\<nospace\>e>f<rsup|c\<nospace\>d\<nospace\>e><around*|(|g<rsup|\<mu\>\<rho\>>g<rsup|\<nu\>\<sigma\>>-g<rsup|\<mu\>\<sigma\>>g<rsup|\<nu\>\<rho\>>|)>+f<rsup|a\<nospace\>c\<nospace\>e>f<rsup|b\<nospace\>d\<nospace\>e><around*|(|g<rsup|\<mu\>\<nu\>>g<rsup|\<rho\>\<sigma\>>-g<rsup|\<mu\>\<sigma\>>g<rsup|\<nu\>\<sigma\>>|)>+f<rsup|a\<nospace\>d\<nospace\>e>|)>>>>>
+  </eqnarray*>
+
+  <subsection|\<#4F8B\>\<#5B50\>\<#FF1A\>\<#6B63\>\<#53CD\>\<#8D39\>\<#7C73\>\<#5B50\>\<#6E6E\>\<#706D\>\<#4EA7\>\<#751F\>\<#4E00\>\<#5BF9\>\<#89C4\>\<#8303\>Boson>
+
+  <strong|Ward\<#6052\>\<#7B49\>\<#5F0F\>>
+
+  : \<#5728\>\<#5916\>\<#7EBF\>\<#73BB\>\<#8272\>\<#5B50\>on-shell\<#60C5\>\<#51B5\>\<#4E0B\>\<#FF0C\>\<#5728\>non-Abel\<#89C4\>\<#8303\>\<#7406\>\<#8BBA\>\<#4E5F\>\<#6EE1\>\<#8DB3\>WI
+
+  <space|1em><math|k<rsub|\<mu\>>\<cal-M\><rsup|\<mu\>>=0>
+
+  \<#8FD9\>\<#91CC\>\<#9650\>\<#5236\>\<#4E86\>\<#975E\>\<#7269\>\<#7406\>\<#6781\>\<#5316\>\<#6001\>\<#7684\>\<#4EA7\>\<#751F\>
+
+  \;
+
+  \<#8FD9\>\<#91CC\>\<#4E8E\>\<#662F\>\<#76EE\>\<#524D\>\<#7684\>Feynman\<#89C4\>\<#5219\>\<#662F\>\<#4E0D\>\<#5B8C\>\<#6574\>\<#7684\>-Cutkosty
+  Rule-\<#901A\>\<#8FC7\>Chost\<#6001\>\<#6765\>\<#62B5\>\<#6D88\>\<#6389\>\<#4E0D\>\<#79D1\>\<#5B66\>\<#7684\>\<#9879\>
+
+  \;
+
+  <hlink|Top|#170327>
 </body>
 
 <\initial>
@@ -1524,6 +1674,7 @@
     <associate|170306|<tuple|3.2|8>>
     <associate|170313|<tuple|6|?>>
     <associate|170320|<tuple|1.2.2|?>>
+    <associate|170327|<tuple|1.2.4|?>>
     <associate|2017022019|<tuple|1|1>>
     <associate|auto-1|<tuple|1|1>>
     <associate|auto-10|<tuple|2.2|5>>
@@ -1559,6 +1710,11 @@
     <associate|auto-38|<tuple|1.2.3|?>>
     <associate|auto-39|<tuple|1.2.4|?>>
     <associate|auto-4|<tuple|1.3|2>>
+    <associate|auto-40|<tuple|1.3|?>>
+    <associate|auto-41|<tuple|1.3.1|?>>
+    <associate|auto-42|<tuple|1.3.2|?>>
+    <associate|auto-43|<tuple|1.3.3|?>>
+    <associate|auto-44|<tuple|1.4|?>>
     <associate|auto-5|<tuple|1.3.1|2>>
     <associate|auto-6|<tuple|1.3.2|2>>
     <associate|auto-7|<tuple|1.3.3|2>>
