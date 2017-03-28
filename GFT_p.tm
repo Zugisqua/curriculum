@@ -1529,7 +1529,12 @@
     <tformat|<table|<row|<cell|<around*|[|D<rsub|\<nu\>>,<around*|[|D<rsub|\<lambda\>>,D<rsub|\<sigma\>>|]>|]>+<around*|[|D<rsub|\<lambda\>>,<around*|[|D<rsub|\<sigma\>>,D<rsub|\<nu\>>|]>|]>+<around*|[|D<rsub|\<sigma\>>,<around*|[|D<rsub|\<nu\>>,D<rsub|\<lambda\>>|]>|]>>|<cell|=>|<cell|0>>|<row|<cell|\<Longleftrightarrow\><htab|5mm>D<rsub|\<nu\>>F<rsub|\<lambda\>\<sigma\>>+D<rsub|\<lambda\>>F<rsub|\<sigma\>\<nu\>>+D<rsub|\<sigma\>>F<rsub|\<nu\>\<lambda\>>>|<cell|=>|<cell|0>>|<row|<cell|\<Longleftrightarrow\><htab|5mm>\<epsilon\><rsup|\<mu\>\<nu\>\<lambda\>\<sigma\>>D<rsub|\<nu\>>F<rsub|\<lambda\>\<sigma\>>>|<cell|=>|<cell|0>>>>
   </eqnarray*>
 
-  Casimir\<#7B97\>\<#5B50\>
+  <subsection|Casimir\<#7B97\>\<#5B50\>>
+
+  \<#5B9E\>\<#9645\>\<#4E0A\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#7528\>\<#5230\>Casimir\<#7B97\>\<#5B50\>\<#5728\>\<#8FD9\>\<#91CC\>\<#53EA\>\<#662F\>\<#4E3A\>\<#4E86\>\<#8BA1\>\<#7B97\>
+  <math|f<rsup|a\<nospace\>b\<nospace\>c>f<rsup|a\<nospace\><rprime|'>b\<nospace\>c>=?>
+
+  <subsubsection|\<#7FA4\>\<#8868\>\<#793A\>\<#7684\>>
 
   <section|<math|SU<around*|(|N|)>>-Yang-Mills\<#7406\>\<#8BBA\>\<#7684\>Feynman\<#89C4\>\<#5219\>>
 
@@ -1710,11 +1715,13 @@
     <associate|auto-38|<tuple|1.2.3|?>>
     <associate|auto-39|<tuple|1.2.4|?>>
     <associate|auto-4|<tuple|1.3|2>>
-    <associate|auto-40|<tuple|2|?>>
-    <associate|auto-41|<tuple|2.1|?>>
-    <associate|auto-42|<tuple|2.2|?>>
-    <associate|auto-43|<tuple|2.3|?>>
-    <associate|auto-44|<tuple|2.4|?>>
+    <associate|auto-40|<tuple|1.3|?>>
+    <associate|auto-41|<tuple|1.3.1|?>>
+    <associate|auto-42|<tuple|2|?>>
+    <associate|auto-43|<tuple|2.1|?>>
+    <associate|auto-44|<tuple|2.2|?>>
+    <associate|auto-45|<tuple|2.3|?>>
+    <associate|auto-46|<tuple|2.4|?>>
     <associate|auto-5|<tuple|1.3.1|2>>
     <associate|auto-6|<tuple|1.3.2|2>>
     <associate|auto-7|<tuple|1.3.3|2>>
@@ -1896,23 +1903,23 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-39>>
 
-      <with|par-left|<quote|1tab>|1.3<space|2spc><with|mode|<quote|math>|SU<around*|(|N|)>>-Yang-Mills\<#7406\>\<#8BBA\>\<#7684\>Feynman\<#89C4\>\<#5219\>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc><with|mode|<quote|math>|SU<around*|(|N|)>>-Yang-Mills\<#7406\>\<#8BBA\>\<#7684\>Feynman\<#89C4\>\<#5219\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-40>>
+      <no-break><pageref|auto-40><vspace|0.5fn>
 
-      <with|par-left|<quote|2tab>|1.3.1<space|2spc>\<#4E09\>\<#80F6\>\<#5B50\>\<#9876\>\<#70B9\>
+      <with|par-left|<quote|1tab>|2.1<space|2spc>\<#4E09\>\<#80F6\>\<#5B50\>\<#9876\>\<#70B9\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-41>>
 
-      <with|par-left|<quote|2tab>|1.3.2<space|2spc>Fermion-gluon-Fermion\<#9876\>\<#70B9\>
+      <with|par-left|<quote|1tab>|2.2<space|2spc>Fermion-gluon-Fermion\<#9876\>\<#70B9\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-42>>
 
-      <with|par-left|<quote|2tab>|1.3.3<space|2spc>\<#56DB\>\<#80F6\>\<#5B50\>\<#9876\>\<#70B9\>
+      <with|par-left|<quote|1tab>|2.3<space|2spc>\<#56DB\>\<#80F6\>\<#5B50\>\<#9876\>\<#70B9\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-43>>
 
-      <with|par-left|<quote|1tab>|1.4<space|2spc>\<#4F8B\>\<#5B50\>\<#FF1A\>\<#6B63\>\<#53CD\>\<#8D39\>\<#7C73\>\<#5B50\>\<#6E6E\>\<#706D\>\<#4EA7\>\<#751F\>\<#4E00\>\<#5BF9\>\<#89C4\>\<#8303\>Boson
+      <with|par-left|<quote|1tab>|2.4<space|2spc>\<#4F8B\>\<#5B50\>\<#FF1A\>\<#6B63\>\<#53CD\>\<#8D39\>\<#7C73\>\<#5B50\>\<#6E6E\>\<#706D\>\<#4EA7\>\<#751F\>\<#4E00\>\<#5BF9\>\<#89C4\>\<#8303\>\<#73BB\>\<#8272\>\<#5B50\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-44>>
     </associate>
