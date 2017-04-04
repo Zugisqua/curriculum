@@ -1635,6 +1635,14 @@
     </eqnarray*>
 
     \<#8BA1\>\<#7B97\>feynman\<#89C4\>\<#5219\>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<cal-L\>>|<cell|=>|<cell|-<frac|1|4>F<rsub|\<mu\>\<nu\>>F<rsup|\<mu\>\<nu\>>+<around*|(|\<partial\><rsup|\<mu\>>\<phi\><rprime|\<dag\>>-i\<nospace\>e\<nospace\>A<rsup|\<mu\>>\<phi\><rprime|\<dag\>>|)><around*|(|\<partial\><rsub|\<mu\>>\<phi\>+i\<nospace\>e\<nospace\>A<rsub|\<mu\>>\<phi\>|)>-m<rsup|2>\<phi\><rprime|\<dag\>>\<phi\>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|4>F<rsub|\<mu\>\<nu\>>F<rsup|\<mu\>\<nu\>>+\<partial\><rsup|\<mu\>>\<phi\><rprime|\<dag\>>\<partial\><rsub|\<mu\>>\<phi\>+m<rsup|2>\<phi\><rprime|\<dag\>>\<phi\>+e<rsup|2>A<rsup|\<mu\>>A<rsub|\<mu\>>\<phi\><rprime|\<dag\>>\<phi\>-i\<nospace\>e\<nospace\>A<rsup|\<mu\>>\<phi\><rprime|\<dag\>>\<partial\><rsub|\<mu\>>\<phi\>+i\<nospace\>e\<nospace\>\<partial\><rsup|\<mu\>>\<phi\><rprime|\<dag\>>A<rsub|\<mu\>>\<phi\>>>|<row|<cell|>|<cell|\<assign\>>|<cell|\<cal-L\><rsub|0>+\<cal-L\><rsub|I>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<cal-L\><rsub|I>>|<cell|=>|<cell|e<rsup|2>A<rsup|\<mu\>>A<rsub|\<mu\>>\<phi\><rprime|\<dag\>>\<phi\>-i\<nospace\>e\<nospace\>A<rsup|\<mu\>>\<phi\><rprime|\<dag\>>\<partial\><rsub|\<mu\>>\<phi\>+i\<nospace\>e\<nospace\>\<partial\><rsup|\<mu\>>\<phi\><rprime|\<dag\>>A<rsub|\<mu\>>\<phi\>>>>>
+    </eqnarray*>
   <|folded-env>
     \;
   </folded-env>
@@ -2230,6 +2238,34 @@
       <with|par-left|<quote|2tab>|2.4.1<space|2spc>Fake
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-47>>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>\<#6574\>\<#4F53\>\<#5BF9\>\<#79F0\>\<#6027\>\<#81EA\>\<#53D1\>\<#7834\>\<#7F3A\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-48><vspace|0.5fn>
+
+      <with|par-left|<quote|1tab>|3.1<space|2spc>\<#5B9E\>\<#6807\>\<#91CF\>\<#573A\>\<#4F8B\>\<#5B50\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-49>>
+
+      <with|par-left|<quote|1tab>|3.2<space|2spc><with|mode|<quote|math>|O<around*|(|N|)>>\<#7684\>\<#7EBF\>\<#6027\><with|mode|<quote|math>|\<sigma\>>\<#6A21\>\<#578B\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-50>>
+
+      <with|par-left|<quote|2tab>|3.2.1<space|2spc>\<#5BF9\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-51>>
+
+      <with|par-left|<quote|1tab>|3.3<space|2spc>Goldstone\<#5B9A\>\<#7406\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-52>>
+
+      <with|par-left|<quote|2tab>|3.3.1<space|2spc>\<#7ECF\>\<#5178\>\<#6807\>\<#91CF\>\<#573A\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-53>>
+
+      <with|par-left|<quote|2tab>|3.3.2<space|2spc>\<#91CF\>\<#5B50\>\<#7406\>\<#8BBA\>\<#4E2D\>\<#7684\>Goldstome
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-54>>
     </associate>
   </collection>
 </auxiliary>
