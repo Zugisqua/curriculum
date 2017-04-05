@@ -1378,22 +1378,32 @@
     <tformat|<table|<row|<cell|\<Rightarrow\><htab|5mm>C<rsub|s><rsup|2>>|<cell|=>|<cell|<frac|\<partial\>p|\<partial\>\<rho\>>\<approx\><frac|T<rsub|b>|m<rsub|b>>>>>>
   </eqnarray*>
 
-  [?]\<#8FD9\>\<#4E00\>\<#65F6\>\<#671F\>
+  \<#8FD9\>\<#4E00\>\<#65F6\>\<#671F\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|<frac|T<rsub|b>|T<rsub|rec>>>|<cell|=>|<cell|<frac|a<rsub|rec><rsup|2>|a<rsup|2>>=<frac|T<rsup|2>|T<rsub|rec>>>>>>
+    <tformat|<table|<row|<cell|<frac|T<rsub|b>|T<rsub|rec>>>|<cell|=>|<cell|<frac|a<rsub|rec><rsup|2>|a<rsup|2>>=<frac|T<rsup|2>|T<rsub|rec><rsup|2>>>>>>
   </eqnarray*>
+
+  \<#9ED8\>\<#8BA4\>\<#4E86\>\<#518D\>\<#590D\>\<#5408\>\<#65F6\>\<#671F\>\<#FF0C\>\<#91CD\>\<#5B50\>\<#4E0E\>\<#5149\>\<#5B50\>\<#7684\>\<#6E29\>\<#5EA6\>\<#76F8\>\<#540C\>
+
+  \<#8FD9\>\<#91CC\>\<#7528\>\<#5230\><\footnote>
+    Kolb(1990)[3.4]
+  </footnote>
+
+  1. \<#65E0\>\<#8D28\>\<#91CF\>\<#7684\>\<#7C92\>\<#5B50\>-\<#8FD9\>\<#91CC\>\<#662F\>\<#8F90\>\<#5C04\>\<#7684\>\<#6E29\>\<#5EA6\><math|T\<sim\><frac|1|a>>
+
+  2. \<#6709\>\<#8D28\>\<#91CF\>\<#7684\>\<#7C92\>\<#5B50\>-\<#8FD9\>\<#91CC\>\<#662F\>\<#91CD\>\<#5B50\>\<#7684\>\<#6E29\>\<#5EA6\><math|T<rsub|b>\<sim\><frac|1|a<rsup|2>>>
 
   \<#5219\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|C<rsub|s><rsup|2>>|<cell|=>|<cell|<frac|T<rsup|2>|m<rsub|b>T<rsub|rec>>>>>>
+    <tformat|<table|<row|<cell|C<rsub|s><rsup|2>>|<cell|=>|<cell|<frac|T<rsub|b>|m<rsub|b>>=<frac|T<rsup|2>|m<rsub|b>T<rsub|rec>>>>>>
   </eqnarray*>
 
   \<#6700\>\<#540E\>Jeans\<#8D28\>\<#91CF\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|M<rsub|J\<nospace\>b>>|<cell|=>|<cell|<frac|m<rsub|p><rsup|3>C<rsub|s><rsup|3>|\<rho\><rsub|0><rsup|<frac|1|2>>>\<sim\><frac|m<rsub|p><rsup|3>|\<eta\><rsup|<frac|1|2>>m<rsub|b><rsup|2>><around*|(|<frac|T|T<rsub|rec>>|)><rsup|<frac|3|2>>\<sim\>10<rsup|5>M<rsub|\<odot\>><around*|(|<frac|z|1100>|)><rsup|<frac|3|2>>>>>>
+    <tformat|<table|<row|<cell|M<rsub|J\<nospace\>b>>|<cell|=>|<cell|<frac|m<rsub|p><rsup|3>C<rsub|s><rsup|3>|\<rho\><rsub|0><rsup|<frac|1|2>>>\<sim\><frac|m<rsub|p><rsup|3>|B<rsup|<frac|1|2>>m<rsub|b><rsup|2>><around*|(|<frac|T|T<rsub|rec>>|)><rsup|<frac|3|2>>\<sim\>10<rsup|5>M<rsub|\<odot\>><around*|(|<frac|z|1100>|)><rsup|<frac|3|2>>>>>>
   </eqnarray*>
 
   De:
@@ -1407,8 +1417,10 @@
   Jeans\<#8D28\>\<#91CF\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|M<rsub|J\<nospace\>b>>|<cell|=>|<cell|<frac|4\<pi\>|3>\<rho\><rsub|0><around*|(|<frac|\<pi\>|k<rsub|J\<nospace\>b>>|)><rsup|3>>>|<row|<cell|>|<cell|=>|<cell|<frac|4\<pi\>|3>\<rho\><rsub|0><around*|(|<frac|\<pi\><rsup|2>C<rsub|s><rsup|2>|4\<pi\>G\<rho\><rsub|0>>|)><rsup|<frac|3|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|4\<pi\>|3><around*|(|<frac|\<pi\>m<rsub|p><rsup|2>C<rsub|s><rsup|2>|4\<rho\><rsub|0>>|)><rsup|<frac|3|2>>\<rho\><rsub|0>>>|<row|<cell|>|<cell|=>|<cell|<frac|4\<pi\><rsup|<frac|5|2>>|3\<times\>8><frac|<around*|(|m<rsub|p>C<rsub|s>|)><rsup|3>|<sqrt|\<rho\><rsub|0>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<pi\><rsup|<frac|5|2>>|6><frac|m<rsub|p><rsup|3>|<sqrt|\<rho\><rsub|0>>><frac|T<rsub|b><rsup|3>|m<rsub|b><rsup|3>>>>>>
+    <tformat|<table|<row|<cell|M<rsub|J\<nospace\>b>>|<cell|=>|<cell|<frac|4\<pi\>|3>\<rho\><rsub|0><around*|(|<frac|\<pi\>|k<rsub|J\<nospace\>b>>|)><rsup|3>>>|<row|<cell|>|<cell|=>|<cell|<frac|4\<pi\>|3>\<rho\><rsub|0><around*|(|<frac|\<pi\><rsup|2>C<rsub|s><rsup|2>|4\<pi\>G\<rho\><rsub|0>>|)><rsup|<frac|3|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|4\<pi\>|3><around*|(|<frac|\<pi\>m<rsub|p><rsup|2>C<rsub|s><rsup|2>|4\<rho\><rsub|0>>|)><rsup|<frac|3|2>>\<rho\><rsub|0>>>|<row|<cell|>|<cell|=>|<cell|<frac|4\<pi\><rsup|<frac|5|2>>|3\<times\>8><frac|<around*|(|m<rsub|p>C<rsub|s><rsup|3>|)>|<sqrt|\<rho\><rsub|0>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<pi\><rsup|<frac|5|2>>|6><frac|m<rsub|p><rsup|3>|<sqrt|\<rho\><rsub|0>>><around*|(|<frac|T<rsub|b>|m<rsub|b>>|)><rsup|<frac|3|2>>>>|<row|<cell|>|<cell|\<sim\>>|<cell|<frac|\<pi\><rsup|<frac|5|2>>|6><frac|m<rsub|p><rsup|3>|<sqrt|<frac|8\<pi\><rsup|2>B\<nospace\>m<rsub|b>|45>T<rsup|3>>><around*|(|<frac|T<rsup|2>|T<rsub|rec>m<rsub|b>>|)><rsup|<frac|3|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<pi\><rsup|<frac|5|2>>|6><sqrt|<frac|45|2\<pi\><rsup|2>B>><frac|m<rsub|p><rsup|3>|m<rsub|b><rsup|<frac|1|2>>m<rsub|b><rsup|<frac|3|2>>><around*|(|<frac|T|T<rsub|rec>>|)><rsup|<frac|3|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<pi\><rsup|<frac|5|2>>|6><sqrt|<frac|45|2\<pi\><rsup|2>B>><frac|m<rsub|p><rsup|3>|m<rsup|2><rsub|b>><around*|(|<frac|T|T<rsub|rec>>|)><rsup|<frac|3|2>>>>>>
   </eqnarray*>
+
+  \;
 
   \;
 
@@ -1467,6 +1479,7 @@
     <associate|footnote-6|<tuple|6|8>>
     <associate|footnote-7|<tuple|7|?>>
     <associate|footnote-8|<tuple|8|?>>
+    <associate|footnote-9|<tuple|9|?>>
     <associate|footnr-1|<tuple|1|1>>
     <associate|footnr-2|<tuple|2|3>>
     <associate|footnr-3|<tuple|3|4>>
@@ -1475,6 +1488,7 @@
     <associate|footnr-6|<tuple|6|8>>
     <associate|footnr-7|<tuple|7|?>>
     <associate|footnr-8|<tuple|8|?>>
+    <associate|footnr-9|<tuple|9|?>>
   </collection>
 </references>
 
@@ -1541,17 +1555,25 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-15><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#91CD\>\<#5B50\>\<#7684\>Jeans\<#8D28\>\<#91CF\>>
+      <with|par-left|<quote|1tab>|1.1<space|2spc>\<#7ECF\>\<#5178\>\<#6270\>\<#52A8\>\<#7684\>\<#6F14\>\<#5316\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-16><vspace|0.5fn>
+      <no-break><pageref|auto-16>>
 
-      <with|par-left|<quote|1tab>|2.1<space|2spc>\<#8F90\>\<#5C04\>\<#4E3A\>\<#4E3B\>\<#65F6\>\<#671F\>
+      <with|par-left|<quote|1tab>|1.2<space|2spc>\<#8003\>\<#8651\>\<#5B87\>\<#5B99\>\<#81A8\>\<#80C0\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-17>>
 
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#91CD\>\<#5B50\>\<#7684\>Jeans\<#8D28\>\<#91CF\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-18><vspace|0.5fn>
+
+      <with|par-left|<quote|1tab>|2.1<space|2spc>\<#8F90\>\<#5C04\>\<#4E3A\>\<#4E3B\>\<#65F6\>\<#671F\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-19>>
+
       <with|par-left|<quote|1tab>|2.2<space|2spc>\<#5149\>\<#5B50\>\<#9000\>\<#8026\>\<#65F6\>\<#671F\>\<#FF0C\>\<#7269\>\<#8D28\>\<#4E3A\>\<#4E3B\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-18>>
+      <no-break><pageref|auto-20>>
     </associate>
   </collection>
 </auxiliary>
