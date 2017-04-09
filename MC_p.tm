@@ -1178,7 +1178,7 @@
   </eqnarray*>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<Rightarrow\><htab|5mm><wide|\<delta\>|\<ddot\>><rsub|k>+3<frac|<wide|a|\<dot\>>|a><wide|\<delta\>|\<dot\>><rsub|k>+<around*|(|C<rsub|s><rsup|2><frac|k|a<rsup|2>><rsup|2>-4\<pi\>G\<rho\><rsub|0>|)>\<delta\><rsub|k>>|<cell|=>|<cell|0>>>>
+    <tformat|<table|<row|<cell|\<Rightarrow\><htab|5mm><wide|\<delta\>|\<ddot\>><rsub|k>+2<frac|<wide|a|\<dot\>>|a><wide|\<delta\>|\<dot\>><rsub|k>+<around*|(|C<rsub|s><rsup|2><frac|k|a<rsup|2>><rsup|2>-4\<pi\>G\<rho\><rsub|0>|)>\<delta\><rsub|k>>|<cell|=>|<cell|0>>|<row|<cell|<wide|\<delta\>|\<ddot\>><rsub|k>+3H<wide|\<delta\>|\<dot\>><rsub|k>+<frac|C<rsub|s><rsup|2>|a<rsup|2>><around*|(|k<rsup|2>-k<rsub|J><rsup|2>|)>\<delta\><rsub|k>>|<cell|=>|<cell|0>>>>
   </eqnarray*>
 
   Jeans\<#91CF\>
@@ -1220,7 +1220,7 @@
   2. <math|k\<ll\>k<rsub|J>>\ 
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|<wide|\<delta\>|\<ddot\>><rsub|k>+<frac|2<wide|a|\<dot\>>|a>\<delta\><rsub|k>-4\<pi\>G\<rho\><rsub|0>\<delta\><rsub|k>>|<cell|=>|<cell|0>>>>
+    <tformat|<table|<row|<cell|<wide|\<delta\>|\<ddot\>><rsub|k>+<frac|3<wide|a|\<dot\>>|a>\<delta\><rsub|k>-4\<pi\>G\<rho\><rsub|0>\<delta\><rsub|k>>|<cell|=>|<cell|0>>>>
   </eqnarray*>
 
   a. \<#53D6\>\<#7269\>\<#8D28\>\<#4E3A\>\<#4E3B\>\<#65F6\>\<#671F\>
@@ -1277,10 +1277,11 @@
   \<#5219\>\<#65B9\>\<#7A0B\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<Rightarrow\><htab|5mm><wide|\<delta\>|\<ddot\>><rsub|i>+2<frac|<wide|a|\<dot\>>|a><wide|\<delta\>|\<dot\>><rsub|i>+<frac|C<rsub|s><rsup|2>k<rsup|2>|a<rsup|2>>\<delta\><rsub|i>-4\<pi\>G\<rho\><rsub|0><big|sum><rsub|j>\<epsilon\><rsub|j>\<delta\><rsub|j>>|<cell|=>|<cell|0>>>>
+    <tformat|<table|<row|<cell|\<Rightarrow\><htab|5mm><wide|\<delta\>|\<ddot\>><rsub|i>+3<frac|<wide|a|\<dot\>>|a><wide|\<delta\>|\<dot\>><rsub|i>+<frac|C<rsub|s><rsup|2>k<rsup|2>|a<rsup|2>>\<delta\><rsub|i>-4\<pi\>G\<rho\><rsub|0><big|sum><rsub|j>\<epsilon\><rsub|j>\<delta\><rsub|j>>|<cell|=>|<cell|0>>>>
   </eqnarray*>
 
   \<#8003\>\<#8651\>\<#8F90\>\<#5C04\>\<#4E3A\>\<#4E3B\>\<#7684\>\<#7269\>\<#8D28\>\<#6270\>\<#52A8\>\<#FF1A\>
+  <math|+k\<ll\>k<rsub|J>>
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|<wide|\<delta\>|\<ddot\>><rsub|m>+2<frac|<wide|a|\<dot\>>|a><wide|\<delta\>|\<dot\>><rsub|m>-4\<pi\>\<rho\><rsub|0><big|sum><rsub|j>\<delta\><rsub|j>\<epsilon\><rsub|j>>|<cell|=>|<cell|0>>|<row|<cell|>|<cell|>|<cell|<big|sum><rsub|j>\<delta\><rsub|j>\<epsilon\><rsub|j>=\<delta\><rsub|m>\<epsilon\><rsub|m>+\<delta\><rsub|r>\<epsilon\><rsub|r>=\<delta\><rsub|m>0+0\<epsilon\><rsub|r>=0>>>>
