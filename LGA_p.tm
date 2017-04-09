@@ -1151,7 +1151,8 @@
     \<#5173\>\<#4E8E\><math|R>\<#7684\>\<#4E0D\>\<#53D8\>\<#5B50\>\<#7A7A\>\<#95F4\><math|V>\<#FF1A\><math|R<embold|\<upsilon\>>\<subset\>V>
     \<#5982\>\<#679C\> <math|<embold|\<upsilon\>>\<in\>V>
 
-    <space|1em>\<#8FD9\>\<#91CC\>\<#8FD8\>\<#662F\>\<#6CA1\>\<#91CC\>\<#6E05\>\<#695A\><label|170401>
+    \<#8FD9\>\<#91CC\>\<#53EF\>\<#4EE5\>\<#770B\>\<#5230\>
+    <math|<around*|(|<embold|a>X|)><rsup|1>D<rsup|1><around*|(|R|)>\<in\>V>
   </unfolded-grouped>
 
   \<#4F8B\>\<#5B50\>\<#FF1A\><math|SO<around*|(|3|)>,SU<around*|(|2|)>>
@@ -2557,8 +2558,6 @@
   <math|SO<around*|(|N|)>>
 
   \;
-
-  \<#8FD9\>\<#4E2A\><hlink|\<#4E0D\>\<#53D8\>\<#5B50\>\<#7A7A\>\<#95F4\><math|\<Leftrightarrow\>>\<#53EF\>\<#7EA6\>|#170401>
 </body>
 
 <\initial>
@@ -2866,6 +2865,29 @@
       <with|par-left|<quote|2tab>|2.3.1<space|2spc>\<#534F\>\<#53D8\>\<#5F20\>\<#91CF\>\<#4E0E\>\<#9006\>\<#53D8\>\<#5F20\>\<#91CF\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-55>>
+
+      <with|par-left|<quote|4tab>|2.3.1.1<space|2spc><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#5B9E\>\<#6B63\>\<#4EA4\>\<#7A7A\>\<#95F4\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-56><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|2.3.1.2<space|2spc>\<#5E7A\>\<#6B63\><with|mode|<quote|math>|U<around*|(|N|)>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-57><vspace|0.15fn>>
+
+      2.3.1.2.1<space|2spc>SU(N) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-58><vspace|0.15fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc><with|mode|<quote|math>|SO<around*|(|N|)>>\<#7FA4\>\<#7684\>\<#4E00\>\<#822C\>\<#6027\>\<#8D28\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-59><vspace|0.5fn>
+
+      <with|par-left|<quote|1tab>|3.1<space|2spc><with|mode|<quote|math>|SO<around*|(|N|)>>\<#7684\>\<#674E\>\<#4EE3\>\<#6570\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-60>>
+
+      <with|par-left|<quote|1tab>|3.2<space|2spc><with|font-series|<quote|bold>|math-font-series|<quote|bold>|<with|font-series|<quote|bold>|math-font-series|<quote|bold>|<with|mode|<quote|math>|SO<around*|(|N|)>>\<#7684\>\<#7C7B\>>\<#4E0E\>\<#79E9\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-61>>
     </associate>
   </collection>
 </auxiliary>
