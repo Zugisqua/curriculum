@@ -1676,14 +1676,16 @@
 
   \<#9000\>\<#8026\><math|<around*|[|\<#4EA7\>\<#751F\>|]>>\<#7684\>\<#65F6\>\<#5019\>\<#662F\>\<#76F8\>\<#5BF9\>\<#8BBA\>\<#7C92\>\<#5B50\>
 
+  \<#9000\>\<#8026\>\<#8FD9\>\<#4E00\>\<#65F6\>\<#523B\>\<#524D\>\<#540E\><math|\<#7C92\>\<#5B50\>\<#6570\>\<#5BC6\>\<#5EA6\>\<#5B88\>\<#6052\>>
+
   <\eqnarray*>
-    <tformat|<table|<row|<cell|<around*|\<nobracket\>|<frac|n<rsub|\<nu\>>|s>|\|><rsub|Dec>>|<cell|=>|<cell|<around*|\<nobracket\>|<frac|n<rsub|\<nu\>>|s>|\|><rsub|0>>>|<row|<cell|\<Rightarrow\><htab|5mm>n<rsub|\<nu\>0>>|<cell|=>|<cell|<around*|\<nobracket\>|<frac|n<rsub|\<nu\>>|s>|\|><rsub|D>s<rsub|\<nu\>0>>>>>
+    <tformat|<table|<row|<cell|<around*|\<nobracket\>|<htab|5mm><frac|n<rsub|\<nu\>>|s>|\|><rsub|Dec>>|<cell|=>|<cell|<around*|\<nobracket\>|<frac|n<rsub|\<nu\>>|s>|\|><rsub|0>>>|<row|<cell|\<Rightarrow\><htab|5mm>n<rsub|\<nu\>0>>|<cell|=>|<cell|<around*|\<nobracket\>|<frac|n<rsub|\<nu\>>|s>|\|><rsub|D>s<rsub|\<nu\>0>>>>>
   </eqnarray*>
 
   \<#5219\>\<#8BA1\>\<#7B97\>\<#73B0\>\<#5728\>\<#7684\>\<#5BC6\>\<#5EA6\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<Rightarrow\><htab|5mm>\<Omega\><rsub|\<nu\>0>>|<cell|=>|<cell|<frac|\<rho\><rsub|\<nu\>0>|\<rho\><rsub|0>>>>|<row|<cell|>|<cell|=>|<cell|<frac|n<rsub|\<nu\>0>m|\<rho\><rsub|0>>>>>>
+    <tformat|<table|<row|<cell|\<Rightarrow\><htab|5mm>\<Omega\><rsub|\<nu\>0>>|<cell|=>|<cell|<frac|\<rho\><rsub|\<nu\>0>|\<rho\><rsub|0>>>>|<row|<cell|>|<cell|=>|<cell|<frac|n<rsub|\<nu\>0>m<rsub|\<nu\>>|\<rho\><rsub|0>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<around*|\<nobracket\>|<frac|n<rsub|\<nu\>>|s>|\|><rsub|D><frac|s<rsub|\<nu\>0>|\<rho\><rsub|0>>|)>m<rsub|\<nu\>>>>>>
   </eqnarray*>
 
   \<#7ED3\>\<#679C\>
@@ -1712,11 +1714,19 @@
 
   <math|\<sigma\>:\<#6A21\>\<#578B\>\<#4F9D\>\<#8D56\>>
 
-  <math|<around*|\||\<upsilon\>|\|>:>
+  <math|<around*|\||\<upsilon\>|\|>:> \<#975E\>\<#76F8\>\<#5BF9\>\<#8BBA\>\<#7C92\>\<#5B50\>\<#4E34\>\<#754C\>\<#65F6\>\<#671F\>
+  <math|T\<sim\>m<rsub|X>>
+
+  \<#5BF9\>\<#4E8E\>\<#975E\>\<#76F8\>\<#5BF9\>\<#8BBA\>\<#7C92\>\<#5B50\>
+  <math|\<upsilon\>\<sim\>p\<sim\><frac|1|a>\<sim\>T<rsup|2>>
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|<frac|<around*|\||\<upsilon\><rsub|D>|\|>|1>>|<cell|=>|<cell|<sqrt|<frac|T<rsub|D>|T>>\<sim\><sqrt|<frac|T<rsub|D>|m<rsub|X>>>>>>>
   </eqnarray*>
+
+  :::::
+
+  \;
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|<frac|T<rsub|D>|m<rsub|X>>>|<cell|\<sim\>>|<cell|<frac|1|ln<around*|(|0.04g<rsub|X>g<rsub|\<ast\>><rsup|-<frac|1|2>>m<rsub|p>\<sigma\>m<rsub|X>|)>>>>>>
@@ -1912,8 +1922,8 @@
       streaming] <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-22>>
 
-      <with|par-left|<quote|1tab>|2.2<space|2spc>\<#78B0\>\<#649E\>\<#963B\>\<#5C3C\>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|1tab>|2.2<space|2spc>\<#78B0\>\<#649E\>\<#963B\>\<#5C3C\>[Silk
+      damping] <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-23>>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>\<#5BC6\>\<#5EA6\>\<#6270\>\<#52A8\>\<#6F14\>\<#5316\>\<#7684\>\<#529F\>\<#7387\>\<#8C31\>>
