@@ -2021,13 +2021,40 @@
 
   2017-04-10<label|170410>
 
-  Zuber*
+  Zuber*<\footnote>
+    Zuber(1987)[519-520]
+  </footnote>
 
   \<#5BF9\>\<#79F0\>\<#6027\>\<#7834\>\<#7F3A\>\<#4EE5\>\<#540E\>-\<#4E4B\>\<#524D\>\<#5BF9\>\<#5E94\>\<#7684\>Neother\<#6D41\>\<#5C31\>\<#6CA1\>\<#6709\>\<#4E86\>\<#539F\>\<#6765\>\<#7684\>\<#4EE3\>\<#6570\>\<#6027\>\<#8D28\>
 
   \<#4F53\>\<#73B0\>\<#4E3A\>\<#6709\>\<#4E2A\>\<#522B\><math|Q<rsub|a><around|\||\<Omega\>|\<rangle\>>\<neq\>0>
 
-  \;
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|Q<around*|(|t|)>>|<cell|=>|<cell|<big|int>\<mathd\><rsup|3>x\<nospace\>j<around*|(|<embold|x>,t|)>>>>>
+  </eqnarray*>
+
+  \<#56E0\>\<#6B64\>\<#8FD9\>\<#91CC\>\<#5206\>\<#4E3A\>\<#4E24\>\<#79CD\>\<#60C5\>\<#51B5\>
+
+  a. <math|Q<around|\||0|\<rangle\>>=0> \<#8FD9\>\<#6837\>\<#7684\>\<#5B88\>\<#6052\>\<#8377\><math|Q>\<#610F\>\<#5473\>\<#7740\>\<#4FDD\>\<#7559\>\<#7684\>\<#5BF9\>\<#79F0\>\<#6027\>
+
+  b. <math|Q<around|\||0|\<rangle\>>\<neq\>0>
+  \<#5BF9\>\<#79F0\>\<#6027\>\<#7834\>\<#7F3A\>
+
+  \<#5BF9\>\<#4E8E\>\<#7B97\>\<#7B26\>\<#7684\>\<#5BF9\>\<#79F0\>\<#6027\>\<#53D8\>\<#6362\>
+
+  <\eqnarray*>
+    <tformat|<cwith|2|2|2|2|cell-halign|r>|<table|<row|<cell|e<rsup|i\<nospace\>\<lambda\>Q\<nospace\>>A\<nospace\>e<rsup|-i\<nospace\>\<lambda\>Q>>|<cell|<long-arrow|\<rubber-rightarrow\>|\<#65E0\>\<#7A77\>\<#5C0F\>\<#53D8\>\<#6362\>>>|<cell|<around*|(|\<bbb-I\>+i\<lambda\>Q|)>A<around*|(|\<bbb-I\>-i\<lambda\>Q|)>>>|<row|<cell|>|<cell|=>|<cell|A+i\<lambda\><around*|[|Q,A|]>+\<cal-O\><around*|(|\<lambda\><rsup|2>|)>>>>>
+  </eqnarray*>
+
+  \<#56E0\>\<#6B64\>\<#FF0C\>\<#8003\>\<#8651\>\<#7B97\>\<#7B26\>\<#53D8\>\<#6362\>\<#7684\>\<#5DEE\>\<#5206\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<delta\>a<around*|(|t|)>>|<cell|\<assign\>>|<cell|<around|\<langle\>|0|\|><around*|[|Q,A|]><around|\||0|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<around|\<langle\>|0|\|>Q\<nospace\>A<around|\||0|\<rangle\>>-<around|\<langle\>|0|\|>A\<nospace\>Q<around|\||0|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<big|int>\<mathd\><rsup|3>x<around*|{|<around|\<langle\>|0|\|>j<around*|(|<embold|x>,t|)>A<around|\||0|\<rangle\>>-<around|\<langle\>|0|\|>A\<nospace\>j<around*|(|<embold|x>,t|)><around|\||0|\<rangle\>>|}>>>|<row|<cell|>|<cell|=>|<cell|<big|int>\<mathd\><rsup|3>x<around*|{|<around|\<langle\>|0|\|>e<rsup|i\<nospace\><wide|<embold|p>|^>x>j<around*|(|0,t|)>e<rsup|-i<wide|<embold|p>|^>x>A<around|\||0|\<rangle\>>-<around|\<langle\>|0|\|>A\<nospace\>e<rsup|i\<nospace\><wide|<embold|p>|^>x>j<around*|(|0,t|)>e<rsup|-i<wide|<embold|p>|^>x><around|\||0|\<rangle\>>|}>>>|<row|<cell|>|<cell|=>|<cell|<big|int>\<mathd\><rsup|3>x<around*|{|<around|\<langle\>|0|\|>|}>>>>>
+  </eqnarray*>
+
+  <\footnote>
+    Weinberg(1995)Vol.2[C.19.2]
+  </footnote>
 
   <subsubsection|\<#4F8B\>\<#5B50\>>
 
@@ -2453,6 +2480,8 @@
     <associate|auto-8|<tuple|2|3>>
     <associate|auto-9|<tuple|2.1|3>>
     <associate|footnote-1|<tuple|1|1>>
+    <associate|footnote-10|<tuple|10|?>>
+    <associate|footnote-11|<tuple|11|?>>
     <associate|footnote-2|<tuple|2|1>>
     <associate|footnote-3|<tuple|3|4>>
     <associate|footnote-4|<tuple|4|4>>
@@ -2462,6 +2491,8 @@
     <associate|footnote-8|<tuple|8|24>>
     <associate|footnote-9|<tuple|9|?>>
     <associate|footnr-1|<tuple|1|1>>
+    <associate|footnr-10|<tuple|10|?>>
+    <associate|footnr-11|<tuple|11|?>>
     <associate|footnr-2|<tuple|2|1>>
     <associate|footnr-3|<tuple|3|4>>
     <associate|footnr-4|<tuple|4|4>>
@@ -2714,7 +2745,7 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-59>>
 
-      <with|par-left|<quote|2tab>|3.4.3<space|2spc>Goldstone\<#7C92\>\<#5B50\>
+      <with|par-left|<quote|2tab>|3.4.3<space|2spc>\<#5403\>Goldstone\<#7C92\>\<#5B50\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-60>>
 
