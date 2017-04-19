@@ -2580,7 +2580,9 @@
 
   \;
 
-  <subsubsection|Cutting Rule:>
+  <\footnote>
+    Schwartz[C.24.1.2]
+  </footnote><subsubsection|Cutting Rule:>
 
   <strong|\<#63A8\>\<#5BFC\>\<#FF1A\>>
 
@@ -2593,16 +2595,8 @@
   \<#5219\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|Im<around*|(|<frac|1|p<rsup|2>-m<rsup|2>+i\<epsilon\>>|)>>|<cell|=>|<cell|<frac|-\<epsilon\>|<around*|(|p<rsup|2>-m<rsup|2>|)><rsup|2>+\<epsilon\><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|-\<pi\>\<delta\><around*|(|p<rsup|2>-m<rsup|2>|)>>>>>
+    <tformat|<table|<row|<cell|Im<around*|(|<frac|1|p<rsup|2>-m<rsup|2>+i\<epsilon\>>|)>>|<cell|=>|<cell|<frac|-\<epsilon\>|<around*|(|p<rsup|2>-m<rsup|2>|)><rsup|2>+\<epsilon\><rsup|2>><space|1.5spc>=<space|1.5spc><frac|i|2><around*|(|<frac|1|p<rsub|0>-w<rsub|p>+i\<epsilon\>>-<frac|1|p<rsub|0>-w<rsub|k>-i\<epsilon\>>|)>>>|<row|<cell|>|<cell|=>|<cell|-\<pi\>\<delta\><around*|(|p<rsup|2>-m<rsup|2>|)>>>>>
   </eqnarray*>
-
-  \<#516C\>\<#5F0F\>.2
-
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|<frac|1|k<rsub|0>-w<rsub|k>+i\<epsilon\>>-<frac|1|k<rsub|0>-w<rsub|k>-i\<epsilon\>>>|<cell|=>|<cell|-2\<pi\>i\<delta\><around*|(|k<rsub|0>-w<rsub|k>|)>>>|<row|<cell|>|<cell|>|<cell|w<rsub|k>=<sqrt|<around*|\||<embold|k>|\|><rsup|2>+m<rsup|2>>>>>>
-  </eqnarray*>
-
-  \;
 
   \<#8FD0\>\<#7528\>\<#5230\>\<#4F20\>\<#64AD\>\<#5B50\>
 
@@ -2620,11 +2614,23 @@
 
   \<#5177\>\<#4F53\>\<#770B\>\<#4E66\>{}
 
-  <strong|\<#5B9A\>\<#7406\>>\<#FF1A\>\<#5B83\>\<#63D0\>\<#4F9B\>\<#4E00\>\<#79CD\>\<#8BA1\>\<#7B97\><math|Im\<cal-M\>>\<#7684\>\<#7B80\>\<#4FBF\>\<#65B9\>\<#6CD5\>
+  <strong|\<#5B9A\>\<#7406\>>\<#FF1A\>\<#5B83\>\<#63D0\>\<#4F9B\>\<#4E00\>\<#79CD\>\<#8BA1\>\<#7B97\><math|Im\<cal-M\>>\<#7684\>\<#7B80\>\<#4FBF\>\<#65B9\>\<#6CD5\>,\<#53EA\>\<#8981\>\<#8BA1\>\<#7B97\>\<#6BCF\>\<#4E00\>\<#4E2A\><em|\<#622A\>\<#65AD\>\<#5206\>\<#652F\>>\<#FF0C\>\<#52A0\>\<#4E0A\>\<#4E00\>\<#70B9\><em|\<#5904\>\<#7406\>>\<#5C31\>\<#597D\>\<#4E86\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<#622A\>\<#65AD\>\<#540E\>\<#632F\>\<#5E45\>>|<cell|=>|<cell|2Im\<cal-M\>>>>>
+    <tformat|<table|<row|<cell|\<#5904\>\<#7406\>\<#540E\>\<#7684\>\<#622A\>\<#65AD\>\<#5206\>\<#652F\>>|<cell|=>|<cell|2Im\<cal-M\>>>>>
   </eqnarray*>
+
+  1. <math|2Im\<nospace\>\<cal-M\>>\<#76F8\>\<#5BF9\><math|\<cal-M\>>\<#6765\>\<#8BF4\>\<#5C31\>\<#662F\>\<#5C06\>\<#4F20\>\<#64AD\>\<#5B50\>\<#66FF\>\<#6362\>\<#6210\><math|delta>\<#51FD\>\<#6570\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|1|p<rsup|2>-m<rsup|2>-i\<epsilon\>>>|<cell|\<rightarrow\>>|<cell|-2\<pi\>i\<delta\><around*|(|p<rsup|2>-m<rsup|2>|)>\<Theta\><around*|(|p<rsup|0>|)>>>>>
+  </eqnarray*>
+
+  2. \<#800C\>\<#5BF9\>\<#4E8E\>\<#4ECE\>\<#8BA1\>\<#7B97\>\<#5206\>\<#652F\>\<#8FDB\>\<#884C\>\<#8BA1\>\<#7B97\>\<#6765\>\<#770B\>\<#FF0C\>\<#597D\>\<#50CF\>\<#8BF4\>\<#6CD5\>\<#8FD8\>\<#4E0D\>\<#4E00\>\<#6837\>\<#FF0C\>
+
+  \<#9700\>\<#8981\>\<#62FF\>\<#4E2A\>\<#7B80\>\<#5355\>\<#7684\>\<#4F8B\>\<#5B50\>\<#7B97\>\<#4E0B\>
+
+  \;
 
   \;
 
@@ -2634,7 +2640,7 @@
     <tformat|<table|<row|<cell|\<cal-L\>>|<cell|=>|<cell|-<frac|1|2>\<phi\><around*|(|\<partial\><rsup|2>+M<rsup|2>|)>\<phi\>+<wide|\<psi\>|\<bar\>><around*|(|i<neg|\<partial\>>-m|)>\<psi\>+\<lambda\>\<phi\><wide|\<psi\>|\<bar\>>\<psi\>>>>>
   </eqnarray*>
 
-  \<#9A8C\>\<#8BC1\>Cutting Rule
+  \<#7528\>Cutting Rule\<#8BA1\>\<#7B97\>\<#865A\>\<#90E8\>\<#90E8\>\<#5206\>\<#FF0C\>\<#9A8C\>\<#8BC1\>\<#5149\>\<#5B66\>\<#5B9A\>\<#7406\>
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|\<Gamma\><around*|(|\<varphi\>\<rightarrow\><wide|\<psi\>|\<bar\>>\<psi\>|)>>|<cell|=>|<cell|>>|<row|<cell|>|<cell|=>|<cell|<frac|\<lambda\><rsup|2>|2M><big|int><frac|\<mathd\><rsup|4>q<rsub|1>\<mathd\><rsup|4>q<rsub|2>|<around*|(|2\<pi\>|)><rsup|8>><around*|{|<around*|(|2\<pi\>|)><rsup|4>\<delta\><rsup|4><around*|(|p-q<rsub|1>-q<rsub|2>|)>2\<pi\>\<delta\><around*|(|q<rsup|2><rsub|1>-m<rsup|2>|)>2\<pi\>\<delta\><around*|(|q<rsub|2><rsup|2>-m<rsup|2>|)>Tr<around*|(|<neg|q><rsub|1>-m|)><around*|(|<neg|q><rsub|2>-m|)>|}>>>>>
@@ -2704,7 +2710,11 @@
 
   \;
 
-  \;
+  :
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|U<around*|(|q<rsub|1>,q<rsub|n>,t|)>>|<cell|=>|<cell|<around|\<langle\>|q<rsub|1>|\|>e<rsup|-i\<nospace\>H\<nospace\>t><around|\||q<rsub|n>|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<around|\<langle\>|q<rsub|1>|\|>e<rsup|-i\<nospace\>H\<nospace\>\<epsilon\>>e<rsup|-i\<nospace\>H\<nospace\>\<epsilon\>>\<ldots\>e<rsup|-i\<nospace\>H\<nospace\>\<epsilon\>><around|\||q<rsub|n>|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><around|\<langle\>|q<rsub|1>|\|>e<rsup|-i\<nospace\>H\<epsilon\>><around|\||p<rsub|1>|\<rangle\>><around|\<langle\>|p<rsub|1>|\|>e<rsup|-i\<nospace\>H\<nospace\>\<epsilon\>><around|\||q<rsub|2>|\<rangle\>><around|\<langle\>|q<rsub|2>|\|>\<ldots\><around|\||p<rsub|n-1>|\<rangle\>><around|\<langle\>|p<rsub|n-1>|\|>e<rsup|-i\<nospace\>H\<nospace\>\<epsilon\>><around|\||q<rsub|n>|\<rangle\>>>>|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
 
   \;
 
@@ -2723,7 +2733,6 @@
 
 <\references>
   <\collection>
-    <associate|#170417|<tuple|3.5|?>>
     <associate|170227|<tuple|4|5>>
     <associate|170306|<tuple|3.2|8>>
     <associate|170313|<tuple|6|13>>
@@ -2802,6 +2811,7 @@
     <associate|footnote-1|<tuple|1|1>>
     <associate|footnote-10|<tuple|10|27>>
     <associate|footnote-11|<tuple|11|31>>
+    <associate|footnote-12|<tuple|12|?>>
     <associate|footnote-2|<tuple|2|1>>
     <associate|footnote-3|<tuple|3|4>>
     <associate|footnote-4|<tuple|4|4>>
@@ -2813,6 +2823,7 @@
     <associate|footnr-1|<tuple|1|1>>
     <associate|footnr-10|<tuple|10|27>>
     <associate|footnr-11|<tuple|11|31>>
+    <associate|footnr-12|<tuple|12|?>>
     <associate|footnr-2|<tuple|2|1>>
     <associate|footnr-3|<tuple|3|4>>
     <associate|footnr-4|<tuple|4|4>>
@@ -3080,6 +3091,14 @@
       <with|par-left|<quote|2tab>|3.6.1<space|2spc>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-63>>
+
+      <with|par-left|<quote|2tab>|3.6.2<space|2spc>Cutting Rule:
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-64>>
+
+      <vspace*|2fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|font-size|<quote|1.19>|2<space|2spc>\<#8DEF\>\<#5F84\>\<#79EF\>\<#5206\>\<#91CF\>\<#5B50\>\<#5316\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-65><vspace|1fn>
     </associate>
   </collection>
 </auxiliary>
