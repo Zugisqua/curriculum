@@ -3486,10 +3486,6 @@
   <math|S<rsub|\<beta\>>=<around*|{|<frac|1|2>H<rsub|\<beta\>>,E<rsub|\<pm\>\<beta\>>|}>>
   \<#6709\><math|2j+1>\<#7EF4\>\<#4E0D\>\<#53EF\>\<#7EA6\>\<#8868\>\<#793A\>
 
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|<choice|<tformat|<table|<row|<cell|<htab|5mm>j>|<cell|=>|<cell|<frac|\<alpha\>\<cdot\>\<beta\>|\<beta\><rsup|2>>+p>>|<row|<cell|-j>|<cell|=>|<cell|<frac|\<alpha\>\<cdot\>\<beta\>|\<beta\><rsup|2>>-q>>>>>>|<cell|>|<cell|>>>>
-  </eqnarray*>
-
   \<#7531\>\<#6B64\>\ 
 
   <\equation*>
@@ -4396,7 +4392,7 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-104>>
 
-      <with|par-left|<quote|2tab>|4.2.3<space|2spc>\<#53EF\>\<#80FD\>\<#5B58\>\<#5728\>\<#7684\>\<#9093\>\<#91D1\>\<#56FE\>
+      <with|par-left|<quote|2tab>|4.2.3<space|2spc>\<#9093\>\<#91D1\>\<#56FE\>\<#7684\>\<#7EA6\>\<#675F\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-105>>
 
