@@ -3691,6 +3691,27 @@
 
   \ 4. <math|\<theta\>=<frac|5\<pi\>|5>>
 
+  \;
+
+  \<#8FD9\>\<#91CC\>\<#540C\>\<#6837\>\<#6392\>\<#9664\><math|n<rsub|1>=-4,n<rsub|2>=-1>\<#7684\>\<#60C5\>\<#51B5\>
+
+  \<#5047\>\<#8BBE\>\<#6709\>\<#4E0A\>\<#9762\>\<#7684\>\<#60C5\>\<#51B5\>
+
+  1.\ 
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|n<rsub|1>|n<rsub|2>><space|1.5spc>=<space|1.5spc>4>|<cell|=>|<cell|<frac|\<Gamma\><around*|(|\<alpha\>/\<beta\>|)>|\<Gamma\><around*|(|\<beta\>/\<alpha\>|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<frac|2\<alpha\>\<cdot\>\<beta\>|\<beta\><rsup|2>>|<frac|2\<alpha\>\<cdot\>\<beta\>|\<alpha\><rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<alpha\><rsup|2>|\<beta\><rsup|2>>>>|<row|<cell|\<Rightarrow\><htab|5mm>2<around*|\||\<beta\>|\|>>|<cell|=>|<cell|<around*|\||\<alpha\>|\|>>>>>
+  </eqnarray*>
+
+  2.\ 
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|4<around|cos|<rsup|2>\<theta\>|>>|<cell|=>|<cell|n<rsub|1>n<rsub|2><space|1.5spc>=<space|1.5spc>\<Gamma\><around*|(|\<alpha\>/\<beta\>|)>\<Gamma\><around*|(|\<beta\>/\<alpha\>|)>>>|<row|<cell|4>|<cell|=>|<cell|<frac|4<around*|(|\<alpha\>\<cdot\>\<beta\>|)><rsup|2>|\<alpha\><rsup|2>\<beta\><rsup|2>>>>|<row|<cell|\<alpha\><rsup|2>\<beta\><rsup|2>>|<cell|=>|<cell|<around*|(|\<alpha\>\<cdot\>\<beta\>|)><rsup|2>>>>>
+  </eqnarray*>
+
+  \<#8FD9\>\<#91CC\>\<#7B49\>\<#53F7\>\<#6210\>\<#7ACB\>\<#4EC5\>\<#5F53\>
+  <math|\<alpha\>=\<pm\>C\<beta\>> \<#4E0E\>\<#7D20\>\<#6839\>\<#7EBF\>\<#6027\>\<#72EC\>\<#7ACB\>\<#77DB\>\<#76FE\>
+
   <subsection|\<#9093\>\<#91D1\>\<#56FE\>>
 
   <subsubsection|\<#89C4\>\<#5219\>>
