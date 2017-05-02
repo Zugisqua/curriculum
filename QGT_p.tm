@@ -2666,7 +2666,53 @@
 
   <strong|\<#5B9A\>\<#7406\>\<#FF1A\>>\<#6D41\>\<#5F62\><math|M>\<#6EE1\>\<#8DB3\>\<#53EF\>\<#79EF\>\<#6761\>\<#4EF6\>\<#7684\>\<#8FD1\>\<#590D\>\<#7ED3\>\<#6784\>,\<#5B83\>\<#5373\>\<#662F\>\<#590D\>\<#6D41\>\<#5F62\>
 
-  <section|\<#8FD1\>\<#590D\>\<#6D41\>\<#5F62\>\<#4E0A\>\<#7684\>\<#8054\>\<#7EDC\>\<#4E0E\>\<#6320\>\<#7387\>>
+  <section|\<#8FD1\>\<#590D\>\<#4EFF\>\<#5C04\>\<#8054\>\<#7EDC\>\<#53CA\>\<#5176\>\<#6320\>\<#7387\>>
+
+  <subsection|\<#5F15\>\<#5165\>>
+
+  <strong|\<#8FD1\>\<#590D\>\<#4EFF\>\<#5C04\>\<#8054\>\<#7EDC\>\<#FF1A\>>\<#5BF9\>\<#4E8E\>\<#6D41\>\<#5F62\><math|M>,\<#8FD1\>\<#590D\>\<#653E\>\<#5C04\>\<#8054\>\<#7EDC\><math|\<nabla\>>\<#5B9A\>\<#4E49\>\<#5728\><math|M>\<#4E0A\>\<#4EFB\>\<#610F\>\<#65E0\>\<#6320\>\<#8054\>\<#7EDC\><math|\<nabla\><rprime|'>>\<#57FA\>\<#7840\>\<#4E0A\>,
+  \<#5173\>\<#7CFB\>\<#5982\>\<#4E0B\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<nabla\><rsub|X>Y>|<cell|=>|<cell|\<nabla\><rprime|'><rsub|X>Y-Q<around*|(|X,Y|)>>>>>
+  </eqnarray*>
+
+  \<#6EE1\>\<#8DB3\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<nabla\><rsub|X><around*|(|J\<nospace\>Y|)>>|<cell|=>|<cell|J\<nabla\><rsub|X>Y>>>>
+  </eqnarray*>
+
+  \<#7531\>\<#6B64\>\<#FF0C\>\<#6784\>\<#9020\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|Q<around*|(|X,Y|)>>|<cell|=>|<cell|<frac|1|4><around*|(|<around*|(|\<nabla\><rprime|'><rsub|J\<nospace\>Y>J|)>X+J<around*|(|<around*|(|\<nabla\><rprime|'><rsub|Y>J|)>X|)>+2J<around*|(|<around*|(|\<nabla\><rsub|X><rprime|'>J|)>Y|)>|)>>>>>
+  </eqnarray*>
+
+  <strong|\<#8FD1\>\<#590D\>\<#4EFF\>\<#5C04\>\<#8054\>\<#7EDC\>\<#7684\>\<#6320\>\<#7387\>\<#FF1A\>>\<#8FD9\>\<#91CC\>\<#7528\>\<#7684\>\<#662F\>\<#6320\>\<#7387\>\<#7684\>\<#4E00\>\<#822C\>\<#5B9A\>\<#4E49\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|T<around*|(|X,Y|)>>|<cell|=>|<cell|\<nabla\><rsub|X>Y-\<nabla\><rsub|Y>X-<around*|[|X,Y|]>>>|<row|<cell|>|<cell|>|<cell|\<ldots\>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4><around*|(|<around*|[|J\<nospace\>X,J\<nospace\>Y|]>-<around*|[|X,Y|]>-J<around*|[|J\<nospace\>X,Y|]>-J<around*|[|X,J\<nospace\>Y|]>|)>>>|<row|<cell|>|<cell|\<assign\>>|<cell|<frac|1|4>N<around*|(|X,Y|)>>>>>
+  </eqnarray*>
+
+  \<#53D6\>\<#5C45\>\<#4E8E\>\<#5750\>\<#6807\>\<#7CFB\>
+  <math|X=\<partial\><rsub|i>,Y=\<partial\><rsub|j>>\<#53EF\>\<#4EE5\>\<#5F97\>\<#5230\>\<#5206\>\<#91CF\>\<#5F62\>\<#5F0F\>
+
+  <subsection|\<#8FD1\>\<#590D\>\<#7ED3\>\<#6784\>\<#4E0E\>\<#674E\>\<#5BFC\>\<#6570\>>
+
+  \<#6709\>\<#70B9\>\<#8FF7\>
+
+  <subsection|Nijenhuis\<#6320\>\<#7387\>\<#5F20\>\<#91CF\>>
+
+  \<#5BF9\>\<#4E8E\>\<#5F20\>\<#91CF\> <math|K\<in\>\<cal-T\><rsup|1><rsub|1><around*|(|M|)>>\<#90FD\>\<#6709\>\<#5BF9\>\<#5E94\>\<#7684\>Nijenhuis\<#6320\>\<#7387\>\<#5F20\>\<#91CF\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|N<around*|(|X,Y|)>>|<cell|\<assign\>>|<cell|<around*|[|K\<nospace\>X,K\<nospace\>Y|]>-<around*|[|X,Y|]>-K<around*|[|K\<nospace\>X,Y|]>-K<around*|[|X,K\<nospace\>Y|]>>>>>
+  </eqnarray*>
+
+  <subsection|\<#4E09\>\<#7C7B\>\<#7B49\>\<#4EF7\>\<#53EF\>\<#79EF\>\<#6761\>\<#4EF6\>>
+
+  <strong|\<#7B2C\>\<#4E00\>\<#7C7B\>\<#FF1A\>>\<#8FD1\>\<#590D\>\<#7ED3\>\<#6784\><math|J>\<#7684\>\<#6320\>\<#7387\>\<#5F20\>\<#91CF\><math|N<around*|(|X,Y|)>=0>
 
   \;
 
@@ -2731,10 +2777,14 @@
     <associate|auto-43|<tuple|1.1.1|?>>
     <associate|auto-44|<tuple|1.2|?>>
     <associate|auto-45|<tuple|2|?>>
-    <associate|auto-46|<tuple|3|?>>
-    <associate|auto-47|<tuple|3.1|?>>
-    <associate|auto-48|<tuple|4|?>>
+    <associate|auto-46|<tuple|2.1|?>>
+    <associate|auto-47|<tuple|2.2|?>>
+    <associate|auto-48|<tuple|2.3|?>>
+    <associate|auto-49|<tuple|2.4|?>>
     <associate|auto-5|<tuple|4|2>>
+    <associate|auto-50|<tuple|3|?>>
+    <associate|auto-51|<tuple|3.1|?>>
+    <associate|auto-52|<tuple|4|?>>
     <associate|auto-6|<tuple|5|2>>
     <associate|auto-7|<tuple|6|2>>
     <associate|auto-8|<tuple|6.1|2>>
@@ -2852,7 +2902,7 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-24>>
 
-      <with|par-left|<quote|1tab>|3.4<space|2spc>\<#540C\>\<#8C03\>\<#5E8F\>\<#5217\>
+      <with|par-left|<quote|1tab>|3.4<space|2spc>\<#540C\>\<#8C03\>\<#5E8F\>\<#5217\>[\<#771F\>]
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-25>>
 
@@ -2934,17 +2984,21 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-44>>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#5384\>\<#7C73\>\<#6D41\>\<#5F62\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#8FD1\>\<#590D\>\<#6D41\>\<#5F62\>\<#4E0A\>\<#7684\>\<#8054\>\<#7EDC\>\<#4E0E\>\<#6320\>\<#7387\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-45><vspace|0.5fn>
 
-      <with|par-left|<quote|1tab>|2.1<space|2spc>\<#6D41\>\<#5F62\>\<#4E0A\>\<#7684\>\<#8054\>\<#7EDC\>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>\<#5384\>\<#7C73\>\<#6D41\>\<#5F62\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-46>>
+      <no-break><pageref|auto-46><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>Kahler\<#6D41\>\<#5F62\>>
+      <with|par-left|<quote|1tab>|3.1<space|2spc>\<#6D41\>\<#5F62\>\<#4E0A\>\<#7684\>\<#8054\>\<#7EDC\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-47><vspace|0.5fn>
+      <no-break><pageref|auto-47>>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|4<space|2spc>Kahler\<#6D41\>\<#5F62\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-48><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
