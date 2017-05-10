@@ -5,35 +5,34 @@
 <\body>
   C.7-1
 
-  \<#5BF9\>\<#4E8E\>\<#7D20\>\<#6839\><math|\<gamma\><rsub|1>,\<gamma\><rsub|2>>
+  \<#5BF9\>\<#4E8E\>\<#6839\>\<#94FE\> <math|\<alpha\>-q\<beta\>,\<ldots\>,\<alpha\>+p\<beta\>>
+
+  \<#7531\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<Gamma\><around*|(|\<gamma\><rsub|1>/\<gamma\><rsub|2>|)>\<Gamma\><around*|(|\<gamma\><rsub|2>/\<gamma\><rsub|1>|)>>|<cell|=>|<cell|<frac|\<gamma\><rsub|1>\<cdot\>\<gamma\><rsub|2>|<around*|\||\<gamma\><rsub|2>|\|><rsup|2>><frac|\<gamma\><rsub|1>\<cdot\>\<gamma\><rsub|2>|<around*|\||\<gamma\><rsub|1>|\|><rsup|2>>\<leqslant\>4>>>>
+    <tformat|<table|<row|<cell|\<Gamma\><around*|(|\<alpha\>/\<beta\>|)>\<Gamma\><around*|(|\<alpha\>/\<beta\>|)>>|<cell|=>|<cell|n<rsub|1>n<rsub|2>\<leqslant\>4>>>>
   </eqnarray*>
 
-  \<#7531\>\<#4E8E\><math|\<gamma\><rsub|1>-\<gamma\><rsub|2>>\<#4E0D\>\<#662F\>\<#6839\>\<#FF0C\>\<#5219\><math|\<gamma\><rsub|1>>\<#7684\><math|\<gamma\><rsub|2>>\<#6839\>\<#94FE\>
-  <math|\<gamma\><rsub|1>\<comma\>\<gamma\><rsub|1>+\<gamma\><rsub|2>,\<ldots\>,\<gamma\><rsub|1>+p<rsub|1>\<gamma\><rsub|2>>,
-  <math|q<rsub|1>=0>
+  \<#5F53\> <math|<around*|\||\<beta\>|\|>\<less\>\<nospace\><around*|\||\<alpha\>|\|>>
+  \<#53EA\>\<#53EF\>\<#80FD\> <math|n<rsub|1>=p-q=1>
 
-  \<#540C\>\<#7406\>\<#4E5F\>\<#6709\><math|\<gamma\><rsub|2>>\<#7684\><math|\<gamma\><rsub|1>>\<#6839\>\<#94FE\>
+  \ \<#7531\><math|p\<geqslant\>1,\<#5219\><space|1.5spc>\<alpha\>+\<beta\>>
+  \<#4E00\>\<#5B9A\>\<#662F\>\<#6839\>
 
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|\<Rightarrow\><htab|5mm>\<Gamma\><around*|(|\<gamma\><rsub|1>/\<gamma\><rsub|2>|)>\<Gamma\><around*|(|\<gamma\><rsub|2>/\<gamma\><rsub|1>|)>>|<cell|=>|<cell|p<rsub|1>p<rsub|2>\<leqslant\>4>>>>
-  </eqnarray*>
+  \<#5F53\> <math|<around*|\||\<beta\>|\|>\<gtr\><around*|\||\<alpha\>|\|>>
+  <math|0\<leqslant\>n<rsub|1>=p-q\<leqslant\>3>
 
-  \<#7531\>\<#4E8E\> <math|p<rsub|1>,p<rsub|2>>\<#90FD\>\<#662F\>\<#975E\>\<#8D1F\>\<#6574\>\<#6570\>\<#5219\>
+  \ \<#5F97\>\<#5230\> <math|p\<geqslant\>q>
 
   \;
 
-  \<#8BBE\>\<#4EFB\>\<#610F\>\<#6839\> <math|\<alpha\>=A<rsup|i>\<gamma\><rsub|i>,\<beta\>=B<rsup|i>\<gamma\><rsub|i>>\ 
+  \<#5047\>\<#8BBE\>\<#4E0B\>\<#9762\>3\<#79CD\>\<#60C5\>\<#51B5\>\<#FF0C\>\<#4ED6\>\<#4EEC\>\<#662F\>\<#6839\>\<#94FE\>\<#7684\>\<#4E00\>\<#90E8\>\<#5206\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<Gamma\><around*|(|\<alpha\>/\<beta\>|)>>|<cell|=>|<cell|<frac|\<alpha\>\<cdot\>\<beta\>|\<beta\><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|A<rsup|i>B<rsup|j>\<gamma\><rsub|i>\<cdot\>\<gamma\><rsub|j>|B<rsup|k>B<rsup|l>\<gamma\><rsub|k>\<cdot\>\<gamma\><rsub|l>>>>|<row|<cell|>|<cell|=>|<cell|<frac|A<rsup|i>B<rsup|j>\<gamma\><rsub|i>\<cdot\>\<gamma\><rsub|j>|B<rsup|k>B<rsup|l>\<gamma\><rsub|k>\<cdot\>\<gamma\><rsub|l>>>>|<row|<cell|>|<cell|>|<cell|>>>>
+    <tformat|<table|<row|<cell|1.<htab|5mm>\<alpha\>-2\<beta\>,\<alpha\>-\<beta\>,\<alpha\>,\<alpha\>+\<beta\>>>|<row|<cell|2.<htab|5mm>\<alpha\>-\<beta\>,\<alpha\>,\<alpha\>+\<beta\>,\<alpha\>+2\<beta\>>>|<row|<cell|3.<htab|5mm>\<alpha\>,\<alpha\>+\<beta\>,\<alpha\>+2\<beta\>,\<alpha\>+3\<beta\>>>>>
   </eqnarray*>
 
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|>|<cell|>|<cell|>>>>
-  </eqnarray*>
+  1. \<#5982\>\<#679C\><math|\<alpha\>-2\<beta\>>\<#662F\>\<#6839\>
 </body>
 
 <initial|<\collection>
