@@ -3,38 +3,30 @@
 <style|<tuple|Znoto|chinese>>
 
 <\body>
-  <strong|1.>
+  <strong|1.> \<#8003\>\<#8651\>\<#7D20\>\<#6839\><math|r<rsub|\<mu\>>>\<#7684\><math|r<rsub|\<nu\>>>\<#6839\>\<#94FE\>\ 
 
-  C.7-1
-
-  \<#5BF9\>\<#4E8E\>\<#6839\>\<#94FE\> <math|\<alpha\>-q\<beta\>,\<ldots\>,\<alpha\>+p\<beta\>>
-
-  \<#7531\>
+  \<#7531\> <math|r<rsub|\<mu\>>-r<rsub|\<nu\>>>
+  \<#4E0D\>\<#662F\>\<#6839\>\<#FF0C\>\<#56E0\>\<#6B64\><math|q=0>, \<#5219\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<Gamma\><around*|(|\<alpha\>/\<beta\>|)>\<Gamma\><around*|(|\<alpha\>/\<beta\>|)>>|<cell|=>|<cell|n<rsub|1>n<rsub|2>\<leqslant\>4>>>>
+    <tformat|<table|<row|<cell|p>|<cell|=>|<cell|q-\<Gamma\><around*|(|r<rsub|\<mu\>>/r<rsub|\<nu\>>|)><space|1.5spc>=<space|1.5spc>-\<Gamma\><around*|(|r<rsub|\<mu\>>/r<rsub|\<nu\>>|)><space|1.5spc>\<leqslant\><space|1.5spc>3>>>>
   </eqnarray*>
 
-  \<#5F53\> <math|<around*|\||\<beta\>|\|>\<less\>\<nospace\><around*|\||\<alpha\>|\|>>
-  \<#53EA\>\<#53EF\>\<#80FD\> <math|n<rsub|1>=p-q=1>
-
-  \ \<#7531\><math|p\<geqslant\>1,\<#5219\><space|1.5spc>\<alpha\>+\<beta\>>
-  \<#4E00\>\<#5B9A\>\<#662F\>\<#6839\>
-
-  \<#5F53\> <math|<around*|\||\<beta\>|\|>\<gtr\><around*|\||\<alpha\>|\|>>
-  <math|0\<leqslant\>n<rsub|1>=p-q\<leqslant\>3>
-
-  \ \<#5F97\>\<#5230\> <math|p\<geqslant\>q>
-
-  \;
-
-  \<#5047\>\<#8BBE\>\<#4E0B\>\<#9762\>3\<#79CD\>\<#60C5\>\<#51B5\>\<#FF0C\>\<#4ED6\>\<#4EEC\>\<#662F\>\<#6839\>\<#94FE\>\<#7684\>\<#4E00\>\<#90E8\>\<#5206\>
+  \<#5373\>\<#7531\>\<#7D20\>\<#6839\>\<#6784\>\<#6210\>\<#7684\>\<#6839\>\<#94FE\>\<#957F\>\<#5EA6\><math|p+q+1=p+1\<leqslant\>4>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|1.<htab|5mm>\<alpha\>-2\<beta\>,\<alpha\>-\<beta\>,\<alpha\>,\<alpha\>+\<beta\>>>|<row|<cell|2.<htab|5mm>\<alpha\>-\<beta\>,\<alpha\>,\<alpha\>+\<beta\>,\<alpha\>+2\<beta\>>>|<row|<cell|3.<htab|5mm>\<alpha\>,\<alpha\>+\<beta\>,\<alpha\>+2\<beta\>,\<alpha\>+3\<beta\>>>>>
+    <tformat|<table|<row|<cell|\<alpha\>>|<cell|=>|<cell|a<rsup|\<nu\>>r<rsub|\<nu\>>>>|<row|<cell|\<beta\>>|<cell|=>|<cell|b<rsup|\<nu\>>r<rsub|\<nu\>>>>>>
   </eqnarray*>
 
-  1. \<#5982\>\<#679C\><math|\<alpha\>-2\<beta\>>\<#662F\>\<#6839\>
+  \<#5176\>\<#4E2D\> <math|a<rsup|\<nu\>>,b<rsup|\<nu\>>\<in\>\<bbb-Z\>>
+  \<#5219\> \<#5173\>\<#4E8E\>\<#6839\>\<#94FE\>
+  <math|\<alpha\>-q\<beta\>,\<ldots\>,\<alpha\>+p\<beta\>>
+
+  <math|<around*|(|a<rsup|\<nu\>>-q\<nospace\>b<rsup|\<nu\>>|)>r<rsub|\<nu\>>>\<#4E5F\>\<#662F\>\<#674E\>\<#4EE3\>\<#6570\>\<#7684\>\<#6839\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|\||\<beta\>|\|><rsup|2>>|<cell|=>|<cell|>>>>
+  </eqnarray*>
 
   \;
 
