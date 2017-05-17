@@ -2567,17 +2567,21 @@
   \<#590D\>\<#7ED3\>\<#6784\>\<#53EF\>\<#4EE5\>\<#8BF4\>\<#662F\>\<#4E00\>\<#4E2A\>\<#4ECE\>\<#5168\>\<#7EAF\>\<#6761\>\<#4EF6\>\<#4E2D\>\<#62BD\>\<#79BB\>\<#51FA\>\<#6765\>\<#7684\>\<#6982\>\<#5FF5\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|J<rsup|i><rsub|l>>|<cell|=>|<cell|<frac|\<partial\>u<rsup|i>|\<partial\>x<rsup|k>>J<rsup|k><rsub|j><frac|\<partial\>u<rsup|j>|\<partial\>u<rsup|l>>>>>>
+    <tformat|<table|<row|<cell|J<rsup|i><rsub|l>>|<cell|=>|<cell|<frac|\<partial\>u<rsup|i>|\<partial\>x<rsup|k>>J<rsup|k><rsub|j><frac|\<partial\>x<rsup|j>|\<partial\>u<rsup|l>>>>>>
   </eqnarray*>
 
-  \<#7B49\>\<#4EF7\>\<#4E8E\>\<#5168\>\<#7EAF\>\<#6761\>\<#4EF6\>
+  \<#7B49\>\<#4EF7\>\<#4E8E\>\<#5168\>\<#7EAF\>\<#6761\>\<#4EF6\>:\<#66F4\>\<#663E\>\<#7136\>\<#7684\>\<#662F\>\<#5199\>\<#6210\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<partial\>u<rsup|i>|\<partial\>x<rsup|k>>>|<cell|=>|<cell|-J<rsup|i><rsub|l><frac|\<partial\>u<rsup|l>|\<partial\>x<rsup|j>>J<rsup|j><rsub|k>>>>>
+  </eqnarray*>
 
   \;
 
   <strong|\<#590D\>\<#7ED3\>\<#6784\>\<#FF1A\>>\<#6EE1\>\<#8DB3\>\<#4E0B\>\<#9762\>\<#4E24\>\<#4E2A\>\<#7B49\>\<#5F0F\>\<#7684\>\<#77E9\>\<#9635\>/<math|<around*|(|1,1|)>>\<#5F20\>\<#91CF\><math|J>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|J<rsup|2>>|<cell|=>|<cell|-\<bbb-I\><rsub|2n\<times\>2n>>>|<row|<cell|J>|<cell|=>|<cell|<around*|(|<frac|\<partial\>u<rsup|i>|\<partial\>x<rsup|k>>|)>J<around*|(|<frac|\<partial\>u<rsup|j>|\<partial\>u<rsup|l>>|)>>>>>
+    <tformat|<table|<row|<cell|J<rsup|2>>|<cell|=>|<cell|-\<bbb-I\><rsub|2n\<times\>2n>>>|<row|<cell|J>|<cell|=>|<cell|<around*|(|<frac|\<partial\>u<rsup|i>|\<partial\>x<rsup|k>>|)>J<around*|(|<frac|\<partial\>x<rsup|j>|\<partial\>u<rsup|l>>|)>>>>>
   </eqnarray*>
 
   <em|\<#7ED3\>\<#679C\>>
@@ -2734,7 +2738,7 @@
 
   <subsection|\<#8FD1\>\<#5384\>\<#7C73\>\<#6D41\>\<#5F62\>>
 
-  <strong|\<#5384\>\<#7C73\>\<#5EA6\>\<#89C4\>\<#FF1A\>>\<#5B83\>\<#662F\>\<#4E00\>\<#4E2A\>\<#4E8C\>\<#9636\>\<#534F\>\<#53D8\>\<#5F20\>\<#91CF\>\<#573A\>\<#FF0C\>\<#4FDD\>\<#8FD1\>\<#590D\>\<#7ED3\>\<#6784\>
+  <strong|\<#5384\>\<#7C73\>\<#5EA6\>\<#89C4\>(\<#7ED3\>\<#6784\>)\<#FF1A\>>\<#5B83\>\<#662F\>\<#4E00\>\<#4E2A\>\<#4E8C\>\<#9636\>\<#534F\>\<#53D8\>\<#5F20\>\<#91CF\>\<#573A\>\<#FF0C\>\<#4FDD\>\<#8FD1\>\<#590D\>\<#7ED3\>\<#6784\>
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|H<around*|(|J\<nospace\>X,J\<nospace\>Y|)>>|<cell|=>|<cell|H<around*|(|X,Y|)>>>>>
@@ -2769,7 +2773,7 @@
   \<#901A\>\<#5E38\>\<#5C06\>\<#5176\>\<#62C6\>\<#5206\>\<#6210\>\<#5BF9\>\<#79F0\>\<#90E8\>\<#5206\>\<#548C\>\<#996D\>\<#5BF9\>\<#79F0\>\<#90E8\>\<#5206\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|H>|<cell|\<assign\>>|<cell|\<mathd\>s<rsup|2>-i\<nospace\>w>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>h<rsub|\<alpha\>\<beta\>>\<theta\><rsup|\<alpha\>><wide|\<theta\>|\<bar\>><rsup|\<beta\>>+i<around*|(|<frac|i|2>h<rsub|\<alpha\>\<beta\>>\<theta\><rsup|a>\<wedge\><wide|\<theta\>|\<bar\>><rsup|\<beta\>>|)>>>>>
+    <tformat|<table|<row|<cell|H<around*|(|X,Y|)>>|<cell|\<assign\>>|<cell|F<around*|(|X,Y|)>+i\<nospace\>G<around*|(|X,Y|)>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>s<rsup|2>-i\<nospace\>w>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>h<rsub|\<alpha\>\<beta\>>\<theta\><rsup|\<alpha\>><wide|\<theta\>|\<bar\>><rsup|\<beta\>>+i<around*|(|<frac|i|2>h<rsub|\<alpha\>\<beta\>>\<theta\><rsup|a>\<wedge\><wide|\<theta\>|\<bar\>><rsup|\<beta\>>|)>>>>>
   </eqnarray*>
 
   \;
@@ -2821,6 +2825,14 @@
   <strong|\<#5384\>\<#7C73\>\<#8054\>\<#7EDC\>\<#FF1A\>>
 
   <section|Kahler\<#6D41\>\<#5F62\>>
+
+  <strong|\<#5B9A\>\<#4E49\>\<#FF1A\>>\<#4E00\>\<#4E2A\>\<#5384\>\<#7C73\>\<#6D41\>\<#5F62\>\<#FF0C\>\<#5B83\>\<#7684\>\<#5384\>\<#7C73\>\<#5EA6\>\<#89C4\>\<#865A\>\<#90E8\><math|w>\<#4E3A\>\<#95ED\>\<#5F62\>\<#5F0F\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>w>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
+
+  \<#7531\>\<#6B64\>\<#5BF9\><math|Kahler>\<#6D41\>\<#5F62\>\<#4E0A\>\<#7684\>\<#5384\>\<#7C73\>\<#5EA6\>\<#89C4\>\<#7ED9\>\<#51FA\>\<#4E00\>\<#4E2A\>\<#7EA6\>\<#675F\>
 </body>
 
 <\initial>
