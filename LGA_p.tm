@@ -4467,6 +4467,8 @@
   <math|u=\<lambda\><rsub|1>+\<lambda\><rsub|2>\<sim\><around*|(|1,1|)>>
   8\<#91CD\>\<#6001\>
 
+  \<#8FD9\>\<#4E2A\>\<#63A8\>\<#5230\>\<#4E0D\>\<#5982\>\<#4E0B\>\<#9762\>\<#7684\>\<#65B9\>\<#5757\>\<#6743\>\<#56FE\>\<#65B9\>\<#6CD5\>
+
   <section|\<#8C22\>\<#74E6\>\<#83B1\>\<#57FA\>>
 
   <subsection|\<#5B9A\>\<#4E49\><math|<rsub|7.5.4>>>
@@ -5241,8 +5243,6 @@
     <tformat|<table|<row|<cell|<around|\||<around*|(|1,1|)><around*|(|<wide|1|\<bar\>>,<wide|1|\<bar\>>|)>|\<rangle\>>>|<cell|=>|<cell|F<rsub|1><around|\||<around*|(|1,1|)>,<around*|(|1,<wide|2|\<bar\>>|)>|\<rangle\>>>>|<row|<cell|>|<cell|=>|<cell|<around|\||<around*|(|1,0|)><around*|(|0,<wide|1|\<bar\>>|)>|\<rangle\>><around|\||<around*|(|0,1|)><around*|(|<wide|1|\<bar\>>,0|)>|\<rangle\>>>>>>
   </eqnarray*>
 
-  \V\U
-
   ii)
 
   <\eqnarray*>
@@ -5260,6 +5260,8 @@
   </eqnarray*>
 
   \<#5F52\>\<#4E00\>\<#5316\> <math|c<rsub|1><rsup|2>+c<rsub|2><rsup|2>+c<rsub|3><rsup|2>=1>\ 
+
+  \V
 
   \;
 
